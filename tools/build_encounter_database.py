@@ -56,7 +56,8 @@ def parse(archive):
             matches = [slug for slug,terms in INSTANCE_TERMS.items() if any(norm(term) in key for term in terms)]
             if not matches:
                 if path.startswith("src/server/coa/CoADungeon") or path.endswith(("boss_kits_scripted.sql", "dungeon_boss_fierce_blow.sql", "dungeon_main_kits_precedence.sql")):
-                    global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","evidence":"collected-source-file","live_reborn_verified":False})
+                    global_data=z.read(name).decode("utf-8",errors="replace")
+                    global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","evidence":"collected-source-file","live_reborn_verified":False,"spell_ids_candidate":sorted(set(map(int,SPELL.findall(global_data)))),"npc_ids_candidate":sorted(set(map(int,NPC.findall(global_data)))),"spell_script_names_candidate":sorted(set(SQL_SCRIPT.findall(global_data))) if path.endswith(".sql") else [],"identifiers_candidate":sorted(set(IDENT.findall(global_data)))})
                 continue
             data = z.read(name).decode("utf-8", errors="replace")
             basename = path.rsplit("/",1)[-1].lower()
