@@ -15,7 +15,7 @@ import urllib.request
 import zipfile
 
 API = "https://api.github.com"
-SOURCES = ("Conquest-of-AzerothCore/azerothcore-wotlk-coa", "azerothcore/azerothcore-wotlk", "TrinityCore/TrinityCore", "Zyth45/azerothcore-wotlk-coa", "cmangos/mangos-wotlk", "uncle-bone/CoA-Research")
+SOURCES = ("Conquest-of-AzerothCore/azerothcore-wotlk-coa", "azerothcore/azerothcore-wotlk", "TrinityCore/TrinityCore", "Zyth45/azerothcore-wotlk-coa", "cmangos/mangos-wotlk", "Lennix/scriptdev0", "uncle-bone/CoA-Research")
 REGIONS = ("EasternKingdoms/", "Kalimdor/", "Northrend/", "Outland/")
 SCRIPT_PREFIX = "src/server/scripts/"
 SQL_PREFIX = "data/sql/"
@@ -54,6 +54,7 @@ def main():
                 "notes": ["This is a multi-source reference archive, not a verified Reborn script corpus.",
                           "SQL updates are included whole with --include-sql; database snapshots must be collected separately.",
                           "Multiple implementations of an encounter are alternatives, not merged behavior.",
+                          "Lennix/scriptdev0 contributes historical ScriptDev2 boss references for Wailing Caverns and Sunken Temple; these are public candidates, not Reborn deployments.",
                           "CoA-Research data is included as research evidence, not executable server AI.",
                           "Priority filtering uses filenames and may miss shared scripts; coverage audit required."]}
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
@@ -80,7 +81,7 @@ def main():
                     path = info.filename.split("/", 1)[-1]
                     lower = path.lower()
                     is_script = (
-                        (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower or (lower.startswith("modules/") and "/src/" in lower))
+                        (path.startswith(SCRIPT_PREFIX) or lower.startswith("scripts/") or "/scripts/" in lower or "/scriptdev2/" in lower or (lower.startswith("modules/") and "/src/" in lower))
                         and lower.endswith((".cpp", ".h", ".lua"))
                     )
                     if args.priority_only and is_script:

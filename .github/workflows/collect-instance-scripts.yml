@@ -36,12 +36,17 @@ jobs:
               m=json.loads(z.read('manifest.json'))
               assert m['files'], 'Empty archive'
               assert any(s.get('repository')=='Conquest-of-AzerothCore/azerothcore-wotlk-coa' and s.get('status')=='collected' for s in m['sources']), 'Primary CoA source unavailable'
+          assert any(s.get('repository')=='Lennix/scriptdev0' and s.get('status')=='collected' for s in m['sources']), 'ScriptDev2 supplemental source unavailable'
           d=json.load(open('dbm-priority-encounters.json'))
           assert len(d['instances'])==22, 'Wrong priority scope'
           assert d.get('cross_instance_sources'), 'Missing global CoA boss references'
           kit_rows=[row for source in d['cross_instance_sources'] for row in source.get('boss_kit_rows_candidate',[])]
           assert len(kit_rows)>=64, f'Incomplete global boss-kit extraction: {len(kit_rows)} rows'
           assert all({'target_type','cast_flags','base_points','comment_candidate'} <= row.keys() for row in kit_rows), 'Incomplete boss-kit row fields'
+          mutanus=[f for f in d['instances']['wailing-caverns']['source_files'] if f['repository']=='Lennix/scriptdev0' and 'boss_mutanus_the_devourer' in f['path']]
+          jammalan=[f for f in d['instances']['sunken-temple']['source_files'] if f['repository']=='Lennix/scriptdev0' and 'boss_jammalan_ogom' in f['path']]
+          assert mutanus and 7967 in mutanus[0]['spell_ids_candidate'] and mutanus[0]['timer_expression_candidates'], 'Incomplete Mutanus source extraction'
+          assert jammalan and 12468 in jammalan[0]['spell_ids_candidate'] and jammalan[0]['timer_expression_candidates'], 'Incomplete Jammalan/Ogom source extraction'
           print('Verified archive integrity and',len(m['files']),'source entries across',len(d['instances']),'instances')
           print('Verified',len(kit_rows),'complete global boss-kit candidate rows')
           PY
@@ -66,7 +71,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datasets/instance-scripts/source-inventory.json datasets/instance-scripts/priority
           if ! git diff --cached --quiet; then
-            git commit -m "data: index six-source dungeon and raid script collection"
+            git commit -m "data: index seven-source dungeon and raid script collection"
             git pull --rebase origin main || { git rebase --abort || true; echo 'Concurrent update: archive and artifact publication will continue'; exit 0; }
             git push origin HEAD:main || echo "Concurrent main update: preserving archive and release outputs instead of failing job"
           fi
@@ -74,7 +79,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create coa-priority-encounters-${{ github.run_id }} CoA-All-Instance-Scripts.zip dbm-priority-encounters.json datasets/instance-scripts/priority/coverage-report.json --title "CoA priority dungeons + ZG research" --notes "Updated shared creature AI classification and added global CoA dungeon boss kit/spell handlers previously omitted by path filter; unresolved boss combat AI gaps documented in research/priority-dungeon-source-coverage-gap-analysis-2026-11-02.md. Candidate public-source mechanics only; no live Conquest Reborn verification. Source revisions in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
+          gh release create coa-priority-encounters-${{ github.run_id }} CoA-All-Instance-Scripts.zip dbm-priority-encounters.json datasets/instance-scripts/priority/coverage-report.json --title "CoA priority dungeons + ZG research" --notes "Added complete global CoA dungeon boss-kit rows and supplemental ScriptDev2 boss references for Mutanus, Jammal'an, and Ogom. The remaining unresolved Charlga boss-AI reference and other coverage gaps are documented in research/priority-dungeon-source-coverage-gap-analysis-2026-11-02.md. Candidate public-source mechanics only; no live Conquest Reborn verification. Source revisions in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
       - uses: actions/upload-artifact@v4
         with:
           name: CoA-All-Instance-Scripts

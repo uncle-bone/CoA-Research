@@ -42,6 +42,7 @@ See [BisBeard preservation](research/BISBEARD.md), the [data provenance notes](r
 ### Combat logs, raid encounters, and addon engineering
 
 - Research on 3.3.5a combat events, spell ownership, pets and guardians, damage and healing attribution, encounter identification, and DBM timer evidence.
+- A generated [22-instance encounter database](datasets/instance-scripts/priority/) and [coverage report](datasets/instance-scripts/priority/coverage-report.json), including source-linked boss-kit candidates and supplemental ScriptDev2 references for Mutanus, Jammal'an, and Ogom. These are public-source candidates, not verified Conquest Reborn mechanics; known source gaps are reported explicitly.
 - Details! investigations covering combat-history retention, pet ownership, periodic effects, summons, and accurate DPS/HPS reporting.
 - Public Ascension Logs capabilities and permissible API use, plus references to published CoA raid-log findings. Raw logs and bulk third-party history are not presented as downloadable when they are not public or licensed for redistribution.
 - Compatibility notes for the default UI, DragonUI, ElvUI, and standalone full UI replacements.

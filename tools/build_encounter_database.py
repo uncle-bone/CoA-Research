@@ -26,8 +26,9 @@ CATEGORIES = ("boss", "trash", "instance", "sql", "shared", "other")
 IDENT = re.compile(r"\b(?:NPC|BOSS|SPELL|EVENT|DATA|GO)_[A-Z0-9_]+\b")
 NPC = re.compile(r"\b(?:NPC|BOSS)_[A-Z0-9_]+\s*=\s*(\d{3,9})\b")
 SPELL = re.compile(r"\bSPELL_[A-Z0-9_]+\s*=\s*(\d{3,9})\b")
-CAST = re.compile(r"\b(?:DoCast|CastSpell|CastCustomSpell|DoCastVictim|DoCastAOE|ScheduleEvent|RescheduleEvent|AddEvent|events.ScheduleEvent)\s*\(")
+CAST = re.compile(r"\b(?:DoCast|DoCastSpellIfCan|CastSpell|CastCustomSpell|DoCastVictim|DoCastAOE|ScheduleEvent|RescheduleEvent|AddEvent|events.ScheduleEvent)\s*\(")
 TIMING = re.compile(r"\b(?:Seconds|Milliseconds|MINUTE|SECOND|urand|randtime|EVENT_|TIMER_|PHASE_|SetPhase|GetPhase|HealthBelowPct|HealthAbovePct|HealthPct|HealthPctBelow|HealthPctAbove)\b")
+TIMER_EXPR = re.compile(r"\b(?:urand|irand|randtime|ScheduleEvent|RescheduleEvent|AddEvent|SetTimer|m_\w*Timer|timer_\w*)\b", re.I)
 SQL_ENTRY = re.compile(r"(?:\bentry\b|\`entry\`)\s*=\s*(\d{3,9})", re.I)
 SQL_SCRIPT = re.compile(r"ScriptName.{0,90}?['\"]([a-zA-Z_][a-zA-Z_0-9]+)['\"]", re.I)
 CREATURE_AI = re.compile(r"\b(?:struct|class)\s+(?:npc_|mob_|boss_)[A-Za-z0-9_]+|\b(?:RegisterCreatureAI|GetAI_npc_|GetAI_mob_|CreatureScript\s*\(|ScriptedAI\s*\(|npc_escortAI)\b")
@@ -96,7 +97,7 @@ def parse(archive):
             phase_lines = []
             if category != "sql":
                 for lineno, line in enumerate(data.splitlines(), 1):
-                    if len(timer_lines) < 150 and CAST.search(line):
+                    if len(timer_lines) < 150 and (CAST.search(line) or TIMER_EXPR.search(line)):
                         timer_lines.append({"line":lineno,"expression":line.strip()[:260],"evidence":"source-expression-candidate"})
                     if len(phase_lines) < 100 and TIMING.search(line) and any(
                         token in line for token in ("PHASE_", "SetPhase", "GetPhase", "HealthBelowPct", "HealthAbovePct", "HealthPct")

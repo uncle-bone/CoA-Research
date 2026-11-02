@@ -1,6 +1,6 @@
 # Encounter source coverage gaps: 22 priority instances
 
-Date: 2026-11-02. Evidence: inspected contents of the published six-source ZIP from the successful GitHub Actions collection. **These are public reference implementations, not verified Conquest Reborn runtime scripts.**
+Date: 2026-11-02. The first pass inspected the six-source ZIP; a follow-up located additional historical ScriptDev2 encounter scripts and adds `Lennix/scriptdev0` as a seventh source. **These are public reference implementations, not verified Conquest Reborn runtime scripts.**
 
 ## Why the previous coverage report undercounted
 
@@ -8,13 +8,13 @@ The database classified boss scripts only when the **filename** began with `boss
 
 The updated index records `creature_ai_source_candidate`, `boss_ai_source_candidate`, `nonboss_ai_source_candidate`, and symbol candidates separately. It deliberately does **not** upgrade escort/pet/quest NPC AI to trash combat AI.
 
-## The three boss-AI filename gaps
+## Boss-AI gaps and newly located references
 
 | Instance | Exact source references found in collected archive | Evidence and disposition |
 |---|---|---|
-| Wailing Caverns | `TrinityCore/TrinityCore/src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.cpp`; `cmangos/mangos-wotlk/src/game/AI/ScriptDevAI/scripts/kalimdor/wailing_caverns/wailing_cavernsScripts.cpp` | The TrinityCore file defines `npc_disciple_of_naralex` scripted AI. The CMaNGOS file defines `npc_disciple_of_naralexAI`, summons Mutanus (NPC 3654), and spawns deviate creatures. **Encounter event/support script found; individual Wailing Caverns boss combat AI still not found in these files.** |
-| Razorfen Kraul | `TrinityCore/TrinityCore/src/server/scripts/Kalimdor/RazorfenKraul/razorfen_kraul.cpp`; `cmangos/mangos-wotlk/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_kraul/razorfen_kraul.cpp`; `Conquest-of-AzerothCore/azerothcore-wotlk-coa/modules/mod-manastorm-endless/src/ManastormRazorfenKraulCompat.cpp` | Shared scripts include Snufflenose Gopher pet AI and Willix escort AI; the module is **Manastorm-specific**. **No Charlga or other boss combat AI implementation confirmed** in the collected reference set. |
-| Sunken Temple | `TrinityCore/TrinityCore/src/server/scripts/EasternKingdoms/SunkenTemple/sunken_temple.cpp`; `cmangos/mangos-wotlk/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_templeScripts.cpp`; `Conquest-of-AzerothCore/azerothcore-wotlk-coa/modules/mod-manastorm-endless/src/ManastormSunkenTempleCompat.cpp` | Shared scripts include Atal'ai statue gameobject AI, Malfurion NPC AI, avatar-of-Hakkar event, and associated spell/area-trigger handlers. **Boss combat AI remains unconfirmed** in these reference scripts. |
+| Wailing Caverns | Existing TrinityCore/CMaNGOS event scripts, plus `Lennix/scriptdev0/scripts/kalimdor/wailing_caverns/boss_mutanus_the_devourer.cpp` | ScriptDev2 has individual Mutanus AI (NPC 3654), candidate spells 7967, 8150, 7399, and timer expressions. This closes the public-reference discovery gap for Mutanus; it remains a historical candidate, not confirmed Reborn behavior. |
+| Razorfen Kraul | `TrinityCore/TrinityCore/src/server/scripts/Kalimdor/RazorfenKraul/razorfen_kraul.cpp`; `cmangos/mangos-wotlk/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_kraul/razorfen_kraul.cpp`; `Conquest-of-AzerothCore/azerothcore-wotlk-coa/modules/mod-manastorm-endless/src/ManastormRazorfenKraulCompat.cpp` | Shared scripts include Snufflenose Gopher pet AI and Willix escort AI; the module is **Manastorm-specific**. A separate fork contains a Charlga script candidate, but its provenance and spell/creature references need validation, so it is not counted as a verified upstream reference. Charlga boss AI remains the unresolved public-source gap. |
+| Sunken Temple | Existing TrinityCore/CMaNGOS event scripts, plus `Lennix/scriptdev0/scripts/eastern_kingdoms/sunken_temple/boss_jammalan_ogom.cpp` | ScriptDev2 includes candidate AI for Jammal'an the Prophet and Ogom the Wretched, spell IDs, timers, and instance-state signals. This closes the public-reference discovery gap for those two bosses; runtime behavior remains unverified. |
 
 ## Why trash coverage appeared as 2/22
 
@@ -28,11 +28,11 @@ The public CoA fork contains `src/server/coa/CoADungeonBossKit.cpp`, `src/server
 
 ## Remaining evidence-based gaps
 
-- Three instances still lack independently identified boss combat AI in the inspected six-source collection. This is a **source-coverage gap**, not a claim that live Conquest Reborn lacks those bosses.
+- Razorfen Kraul/Charlga remains without a sufficiently validated public boss-AI reference in the seven-source collection. This is a **source-coverage gap**, not a claim that live Conquest Reborn lacks the boss.
 - A separate SQL SmartAI, EventAI, creature-template, and spell-script mapping pass is needed to attribute hostile trash abilities; filename and class-name heuristics alone are insufficient.
 - Shared source paths, candidate NPC/spell IDs, and script-derived timing expressions do not establish actual deployed live mechanics.
 - Blackrock Caverns five TrinityCore boss reference files are present, but remain unverified against the Conquest Reborn server.
 
 ## Reproduction
 
-Run `tools/collect_coa_instance_scripts.py --priority-only --include-sql`, then `tools/build_encounter_database.py` and `tools/publish_encounter_coverage.py`. Inspect `datasets/instance-scripts/priority/coverage-report.json` for `shared_creature_ai_source_candidates` and `nonboss_ai_source_candidates`. Compare original `by_kind` counts to the new evidence fields. No metric should be treated as a live encounter verification.
+Run `tools/collect_coa_instance_scripts.py --priority-only --include-sql`, then `tools/build_encounter_database.py` and `tools/publish_encounter_coverage.py`. The collector includes the supplemental ScriptDev2 tree for Wailing Caverns and Sunken Temple. Inspect `datasets/instance-scripts/priority/coverage-report.json` for `shared_creature_ai_source_candidates` and `nonboss_ai_source_candidates`. Compare original `by_kind` counts to the new evidence fields. No metric should be treated as a live encounter verification.
