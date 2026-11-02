@@ -1,0 +1,21 @@
+{
+  "schema": "coa-research.import-status.v1",
+  "date": "2026-11-02",
+  "source": "https://github.com/srhinos/coa-datamine",
+  "status": "partial",
+  "verified": {
+    "keystoneFiles": 66,
+    "challengeIndexRecords": 297,
+    "challengeDetailFiles": 8,
+    "challengeAuxiliaryFiles": 3
+  },
+  "paths": [
+    "datasets/upstream/srhinos-coa-datamine/keystones",
+    "datasets/upstream/srhinos-coa-datamine/challenges"
+  ],
+  "limitations": [
+    "Not verified live on Conquest Reborn",
+    "Full challenge detail files remain to be imported",
+    "Large affix shards and other client tables remain outstanding"
+  ]
+}
