@@ -33,7 +33,31 @@ SQL_SCRIPT = re.compile(r"ScriptName.{0,90}?['\"]([a-zA-Z_][a-zA-Z_0-9]+)['\"]",
 CREATURE_AI = re.compile(r"\b(?:struct|class)\s+(?:npc_|mob_|boss_)[A-Za-z0-9_]+|\b(?:RegisterCreatureAI|GetAI_npc_|GetAI_mob_|CreatureScript\s*\(|ScriptedAI\s*\(|npc_escortAI)\b")
 BOSS_AI = re.compile(r"\b(?:BossAI|boss_[A-Za-z0-9_]+AI|GetAI_boss_|RegisterCreatureAI\s*\(\s*boss_)")
 TRASH_AI = re.compile(r"\b(?:struct|class)\s+(?:npc_|mob_)[A-Za-z0-9_]+(?:AI)?\b")
+BOSS_KIT_ROW = re.compile(
+    r"\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)"
+    r"\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)"
+    r"\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(-?\d+)\s*,\s*'((?:''|[^'])*)'\s*\)",
+    re.S,
+)
+AI_IDENTIFIER = re.compile(r"\b(?:npc|mob|boss)_[A-Za-z0-9_]+(?:AI)?\b")
 COA_SQL = re.compile(r"mod-manastorm-endless|mod-coa-raid-difficulty", re.I)
+
+def parse_boss_kit_rows(sql):
+    """Read complete 14-column CoA boss-kit tuples, including SQL-escaped comments."""
+    rows = []
+    for match in BOSS_KIT_ROW.finditer(sql):
+        values = match.groups()
+        nums = list(map(int, values[:13]))
+        rows.append({
+            "npc_id_candidate": nums[0], "kit_id": nums[1], "spell_id_candidate": nums[2],
+            "event_type": nums[3], "difficulty": nums[4],
+            "initial_min_ms": nums[5], "initial_max_ms": nums[6],
+            "repeat_min_ms": nums[7], "repeat_max_ms": nums[8],
+            "health_pct": nums[9], "target_type": nums[10], "cast_flags": nums[11],
+            "base_points": nums[12], "comment_candidate": values[13].replace("''", "'"),
+            "evidence": "source-sql-kit-row", "live_reborn_verified": False,
+        })
+    return rows
 
 def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
@@ -59,9 +83,7 @@ def parse(archive):
                     global_data=z.read(name).decode("utf-8",errors="replace")
                     kit_rows = []
                     if path.endswith("boss_kits_scripted.sql"):
-                        for match in re.finditer(r"\\(\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)",global_data):
-                            npc, kit_id, spell, event, difficulty, initial_min, initial_max, repeat_min, repeat_max, health_pct = map(int,match.groups())
-                            kit_rows.append({"npc_id_candidate":npc,"kit_id":kit_id,"spell_id_candidate":spell,"event_type":event,"difficulty":difficulty,"initial_min_ms":initial_min,"initial_max_ms":initial_max,"repeat_min_ms":repeat_min,"repeat_max_ms":repeat_max,"health_pct":health_pct,"evidence":"source-sql-kit-row","live_reborn_verified":False})
+                        kit_rows = parse_boss_kit_rows(global_data)
                     global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","boss_kit_rows_candidate":kit_rows,"evidence":"collected-source-file","live_reborn_verified":False,"spell_ids_candidate":sorted(set(map(int,SPELL.findall(global_data)))),"npc_ids_candidate":sorted(set(map(int,NPC.findall(global_data)))),"spell_script_names_candidate":sorted(set(SQL_SCRIPT.findall(global_data))) if path.endswith(".sql") else [],"identifiers_candidate":sorted(set(IDENT.findall(global_data)))})
                 continue
             data = z.read(name).decode("utf-8", errors="replace")
@@ -80,7 +102,7 @@ def parse(archive):
                         token in line for token in ("PHASE_", "SetPhase", "GetPhase", "HealthBelowPct", "HealthAbovePct", "HealthPct")
                     ):
                         phase_lines.append({"line":lineno,"expression":line.strip()[:260],"evidence":"source-expression-candidate"})
-            ai_identifiers = sorted(set(re.findall(r"\\b(?:npc|mob|boss)_[A-Za-z0-9_]+(?:AI)?\\b",data))) if category != "sql" else []
+            ai_identifiers = sorted(set(AI_IDENTIFIER.findall(data))) if category != "sql" else []
             creature_ai_evidence = bool(CREATURE_AI.search(data)) if category not in ("sql", "instance") else False
             boss_ai_evidence = bool(BOSS_AI.search(data)) if category not in ("sql", "instance") else False
             nonboss_ai_evidence = bool(TRASH_AI.search(data)) if category not in ("sql", "instance") else False

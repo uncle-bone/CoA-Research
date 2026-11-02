@@ -39,7 +39,11 @@ jobs:
           d=json.load(open('dbm-priority-encounters.json'))
           assert len(d['instances'])==22, 'Wrong priority scope'
           assert d.get('cross_instance_sources'), 'Missing global CoA boss references'
+          kit_rows=[row for source in d['cross_instance_sources'] for row in source.get('boss_kit_rows_candidate',[])]
+          assert len(kit_rows)>=64, f'Incomplete global boss-kit extraction: {len(kit_rows)} rows'
+          assert all({'target_type','cast_flags','base_points','comment_candidate'} <= row.keys() for row in kit_rows), 'Incomplete boss-kit row fields'
           print('Verified archive integrity and',len(m['files']),'source entries across',len(d['instances']),'instances')
+          print('Verified',len(kit_rows),'complete global boss-kit candidate rows')
           PY
       - name: Publish per-instance research and coverage report
         run: python tools/publish_encounter_coverage.py dbm-priority-encounters.json
