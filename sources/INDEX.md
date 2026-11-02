@@ -17,6 +17,8 @@ Last cataloged: 2026-10-29. Dates/counts below describe prior inspections, not a
 | Ascension offline source | https://github.com/Duff-SPP/AcensionOfflineDatabase | db.exil.es offline mirror source referenced by SQL converters |
 | GitHub CoA discovery query | https://github.com/search?q=conquest+of+azeroth&type=repositories | Broader repository discovery; many forks |
 
+| AzerothHub / Bronzebeard Maps | https://azerothhub.com/ | Bronzebeard-specific zone marker counts and map categories; not validated for CoA; [assessment](../research/sources/azerothhub-bronzebeard-source-assessment-2026-11-01.md) |
+
 ## Archived and structured databases
 | Repository | URL | Research use |
 | --- | --- | --- |
