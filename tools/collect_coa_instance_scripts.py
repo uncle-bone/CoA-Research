@@ -13,7 +13,7 @@ import urllib.request
 import zipfile
 
 API = "https://api.github.com"
-SOURCES = ("Conquest-of-AzerothCore/azerothcore-wotlk-coa", "azerothcore/azerothcore-wotlk", "TrinityCore/TrinityCore", "Zyth45/azerothcore-wotlk-coa", "cmangos/mangos-wotlk")
+SOURCES = ("Conquest-of-AzerothCore/azerothcore-wotlk-coa", "azerothcore/azerothcore-wotlk", "TrinityCore/TrinityCore", "Zyth45/azerothcore-wotlk-coa", "cmangos/mangos-wotlk", "uncle-bone/CoA-Research")
 REGIONS = ("EasternKingdoms/", "Kalimdor/", "Northrend/", "Outland/")
 SCRIPT_PREFIX = "src/server/scripts/"
 SQL_PREFIX = "data/sql/"
@@ -41,7 +41,8 @@ def main():
                 "verified_on_conquest_reborn": False, "sources": [], "files": [],
                 "notes": ["This is a multi-source reference archive, not a verified Reborn script corpus.",
                           "SQL updates are included whole with --include-sql; database snapshots must be collected separately.",
-                          "Multiple implementations of an encounter are alternatives, not merged behavior."]}
+                          "Multiple implementations of an encounter are alternatives, not merged behavior.",
+                          "CoA-Research data is included as research evidence, not executable server AI."]}
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for source in args.sources:
             if "/" not in source or source.count("/") != 1:
@@ -60,16 +61,20 @@ def main():
                         (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower)
                         and lower.endswith((".cpp", ".h", ".lua"))
                     )
+                    is_research = source == "uncle-bone/CoA-Research" and (
+                        path.startswith(("datasets/", "research/", "docs/"))
+                        and lower.endswith((".json", ".jsonl", ".csv", ".md", ".txt", ".lua", ".sql"))
+                    )
                     is_sql = args.include_sql and lower.endswith(".sql") and (
                         path.startswith(SQL_PREFIX) or "/sql/" in lower
                     )
-                    if not (is_script or is_sql):
+                    if not (is_script or is_sql or is_research):
                         continue
                     raw = src.read(info)
                     dest = f"source/{source}/{path}"
                     z.writestr(dest, raw)
                     manifest["files"].append({"source": source, "revision": sha, "path": path,
-                                              "bytes": len(raw), "kind": "sql" if is_sql else "script"})
+                                              "bytes": len(raw), "kind": "research" if is_research else ("sql" if is_sql else "script")})
                     count += 1
             manifest["sources"].append({"repository": source, "revision": sha, "file_count": count})
             print(f"{source}: {count} files at {sha}", flush=True)
