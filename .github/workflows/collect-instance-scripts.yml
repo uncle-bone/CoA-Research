@@ -53,13 +53,14 @@ jobs:
           print('Indexed',len(m['files']),'source files')
           PY
       - name: Commit searchable source inventory
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datasets/instance-scripts/source-inventory.json datasets/instance-scripts/priority
           if ! git diff --cached --quiet; then
             git commit -m "data: index six-source dungeon and raid script collection"
-            git pull --rebase origin main
+            git pull --rebase origin main || { git rebase --abort || true; echo 'Concurrent update: archive and artifact publication will continue'; exit 0; }
             git push origin HEAD:main || echo "Concurrent main update: preserving archive and release outputs instead of failing job"
           fi
       - name: Create permanent source archive release
