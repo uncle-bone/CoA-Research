@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "domain": "spells",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 4,
+  "records": [
+    {
+      "spellId": 680388,
+      "name": "Fetid Ward",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ],
+      "recordType": "spell_attribution_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "spellId": 578319,
+      "name": "Disease Cloud",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ],
+      "recordType": "spell_attribution_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "spellId": 805024,
+      "name": "Decaying Poison",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ],
+      "recordType": "spell_attribution_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "spellId": 7947,
+      "name": "Localized Toxin",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ],
+      "recordType": "spell_attribution_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    }
+  ],
+  "limitations": [
+    "Only four user-reported spell investigation candidates; full spell catalog remains in existing compressed source",
+    "Do not treat candidates as confirmed player spells"
+  ]
+}
