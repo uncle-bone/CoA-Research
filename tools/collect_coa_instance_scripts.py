@@ -92,8 +92,8 @@ def main():
             print(f"{source}: {count} files at {sha}", flush=True)
         if not manifest["files"]:
             raise RuntimeError("No matching scripts found")
-        z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\\n")
-        z.writestr("README.txt", "Research reference archive. Scripts are not verified against Conquest Reborn. Each source retains its original copyright and license; consult upstream repositories before redistribution.\\n")
+        z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\n")
+        z.writestr("README.txt", "Research reference archive. Scripts are not verified against Conquest Reborn. Each source retains its original copyright and license; consult upstream repositories before redistribution.\n")
     print(f"Saved {output} with {len(manifest['files'])} files")
 
 if __name__ == "__main__":
