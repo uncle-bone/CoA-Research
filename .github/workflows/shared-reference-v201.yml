@@ -1,0 +1,61 @@
+name: Publish CoA Shared Database v2.0.1 evidence update
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/enrich_shared_reference_v201.py'
+      - 'tools/validate_shared_reference_v201.py'
+      - '.github/workflows/shared-reference-v201.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild base
+        run: |
+          python tools/build_shared_reference_v11.py
+          python tools/build_shared_reference_v12.py
+          python tools/build_shared_reference_v20.py
+          python tools/validate_shared_reference_v20.py
+      - name: Enrich SQL loot and trainer audit
+        run: |
+          python tools/enrich_shared_reference_v201.py
+          python tools/validate_shared_reference_v201.py
+      - name: Package and check hashes
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from zipfile import ZipFile
+          p=Path("datasets/shared-reference/v2.0")
+          files=sorted(f for f in p.rglob("*") if f.is_file() and f.name!="sha256-manifest.json")
+          manifest={f.relative_to(p).as_posix():hashlib.sha256(f.read_bytes()).hexdigest() for f in files}
+          (p/"sha256-manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+          with ZipFile("CoA-Shared-Database-v2.0.1.zip","w") as z:
+              for f in sorted(p.rglob("*")):
+                  if f.is_file():z.write(f,f.as_posix())
+              for f in (Path("site/research-explorer.html"),Path("site/research-explorer.js")):z.write(f,f.as_posix())
+          with ZipFile("CoA-Shared-Database-v2.0.1.zip") as z:
+              assert z.testzip() is None
+              for name,digest in manifest.items():assert hashlib.sha256(z.read((p/name).as_posix())).hexdigest()==digest
+          Path("CoA-Shared-Database-v2.0.1.zip.sha256").write_text(hashlib.sha256(Path("CoA-Shared-Database-v2.0.1.zip").read_bytes()).hexdigest()+"  CoA-Shared-Database-v2.0.1.zip\n")
+          PY
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view shared-database-v2.0.1 >/dev/null 2>&1 || gh release create shared-database-v2.0.1 --title "CoA Shared Database v2.0.1 — SQL Loot Evidence" --notes "Adds 239 source-backed Vaults creature-loot SQL rows, preserving NPC/item IDs and loot metadata; no runtime drops claimed. Trainer audit reports 13,311 rank candidates and zero confirmed trainer assignments. All unresolved ownership, quest, combat, UI and Explorer deployment prerequisites recorded in unresolved-evidence.json."
+          gh release upload shared-database-v2.0.1 CoA-Shared-Database-v2.0.1.zip CoA-Shared-Database-v2.0.1.zip.sha256 datasets/shared-reference/v2.0/coverage-report.json --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CoA-Shared-Database-v2.0.1
+          path: |
+            CoA-Shared-Database-v2.0.1.zip
+            CoA-Shared-Database-v2.0.1.zip.sha256
