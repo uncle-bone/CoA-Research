@@ -1,0 +1,57 @@
+name: Build and release CoA Shared Reference v1.2
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_shared_reference_v12.py'
+      - 'tools/validate_shared_reference_v12.py'
+      - '.github/workflows/shared-reference-v12.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild source-backed v1.1 prerequisite
+        run: python tools/build_shared_reference_v11.py
+      - name: Generate v1.2 data
+        run: python tools/build_shared_reference_v12.py
+      - name: Validate v1.2 cross references
+        run: python tools/validate_shared_reference_v12.py
+      - name: Package, verify integrity and hashes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib,json
+          base=Path("datasets/shared-reference/v1.2")
+          files=sorted(base.glob("*.json"))
+          assert len(files)==9
+          hashes={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in files}
+          (base/"sha256-manifest.json").write_text(json.dumps(hashes,indent=2)+"\n")
+          with ZipFile("CoA-Shared-Database-v1.2.0.zip","w") as z:
+              for f in sorted(base.glob("*.json")): z.write(f,f.as_posix())
+          with ZipFile("CoA-Shared-Database-v1.2.0.zip") as z:
+              assert z.testzip() is None and len(z.namelist())==10
+              for f in files:
+                  assert hashlib.sha256(z.read(f.as_posix())).hexdigest()==hashes[f.name]
+          Path("CoA-Shared-Database-v1.2.0.zip.sha256").write_text(hashlib.sha256(Path("CoA-Shared-Database-v1.2.0.zip").read_bytes()).hexdigest()+"  CoA-Shared-Database-v1.2.0.zip\n")
+          PY
+      - name: Publish versioned GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view shared-database-v1.2.0 >/dev/null 2>&1 || gh release create shared-database-v1.2.0 --title "CoA Shared Database v1.2.0" --notes "Historical/source-candidate research. Adds Questie-X quest, NPC, object and item extracted records without guessing Lua field semantics. Archived spell/talent links retained. No live summon ownership, loot drops, trainer or UI tests verified. See coverage-report.json."
+          gh release upload shared-database-v1.2.0 CoA-Shared-Database-v1.2.0.zip CoA-Shared-Database-v1.2.0.zip.sha256 datasets/shared-reference/v1.2/coverage-report.json --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CoA-Shared-Database-v1.2.0
+          path: |
+            CoA-Shared-Database-v1.2.0.zip
+            CoA-Shared-Database-v1.2.0.zip.sha256
