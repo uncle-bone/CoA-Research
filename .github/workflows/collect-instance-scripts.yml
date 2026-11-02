@@ -19,6 +19,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/collect_coa_instance_scripts.py --include-sql --output CoA-All-Instance-Scripts.zip
+      - name: Index encounter script symbols
+        run: python tools/index_instance_scripts.py CoA-All-Instance-Scripts.zip --output instance-script-symbol-index.json
       - name: Extract source inventory
         run: |
           mkdir -p datasets/instance-scripts
@@ -43,6 +45,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: CoA-All-Instance-Scripts
-          path: CoA-All-Instance-Scripts.zip
+          path: |
+            CoA-All-Instance-Scripts.zip
+            instance-script-symbol-index.json
           retention-days: 30
           compression-level: 0
