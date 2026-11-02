@@ -30,6 +30,9 @@ CAST = re.compile(r"\b(?:DoCast|CastSpell|CastCustomSpell|DoCastVictim|DoCastAOE
 TIMING = re.compile(r"\b(?:Seconds|Milliseconds|MINUTE|SECOND|urand|randtime|EVENT_|TIMER_|PHASE_|SetPhase|GetPhase|HealthBelowPct|HealthAbovePct|HealthPct|HealthPctBelow|HealthPctAbove)\b")
 SQL_ENTRY = re.compile(r"(?:\bentry\b|\`entry\`)\s*=\s*(\d{3,9})", re.I)
 SQL_SCRIPT = re.compile(r"ScriptName.{0,90}?['\"]([a-zA-Z_][a-zA-Z_0-9]+)['\"]", re.I)
+CREATURE_AI = re.compile(r"\\b(?:struct|class)\\s+(?:npc_|mob_|boss_)[A-Za-z0-9_]+|\\b(?:RegisterCreatureAI|GetAI_npc_|GetAI_mob_|CreatureScript\\s*\\(|ScriptedAI\\s*\\(|npc_escortAI)\\b")
+BOSS_AI = re.compile(r"\\b(?:BossAI|boss_[A-Za-z0-9_]+AI|GetAI_boss_|RegisterCreatureAI\\s*\\(\\s*boss_)\\b")
+TRASH_AI = re.compile(r"\\b(?:struct|class)\\s+(?:npc_|mob_)[A-Za-z0-9_]+(?:AI)?\\b")
 COA_SQL = re.compile(r"mod-manastorm-endless|mod-coa-raid-difficulty", re.I)
 
 def norm(s):
@@ -68,8 +71,16 @@ def parse(archive):
                         token in line for token in ("PHASE_", "SetPhase", "GetPhase", "HealthBelowPct", "HealthAbovePct", "HealthPct")
                     ):
                         phase_lines.append({"line":lineno,"expression":line.strip()[:260],"evidence":"source-expression-candidate"})
+            ai_identifiers = sorted(set(re.findall(r"\\b(?:npc|mob|boss)_[A-Za-z0-9_]+(?:AI)?\\b",data))) if category != "sql" else []
+            creature_ai_evidence = bool(CREATURE_AI.search(data)) if category not in ("sql", "instance") else False
+            boss_ai_evidence = bool(BOSS_AI.search(data)) if category not in ("sql", "instance") else False
+            nonboss_ai_evidence = bool(TRASH_AI.search(data)) if category not in ("sql", "instance") else False
             source = {"repository":item["source"],"revision":item["revision"],"path":path,
-                      "kind":category,"bytes":item["bytes"],"evidence":"source-file-read",
+                      "kind":category,"bytes":item["bytes"],"archive_kind":item["kind"],
+                      "creature_ai_source_candidate":creature_ai_evidence,
+                      "boss_ai_source_candidate":boss_ai_evidence,
+                      "nonboss_ai_source_candidate":nonboss_ai_evidence,
+                      "creature_ai_identifiers_candidate":ai_identifiers,"evidence":"source-file-read",
                       "live_reborn_verified":False,
                       "npc_ids_candidate":sorted(set(map(int,NPC.findall(data)))),
                       "spell_ids_candidate":sorted(set(map(int,SPELL.findall(data)))),
@@ -98,8 +109,12 @@ def parse(archive):
           "npc_ids_candidate":len(set(i for f in files for i in f["npc_ids_candidate"])),
           "spell_ids_candidate":len(set(i for f in files for i in f["spell_ids_candidate"])),
           "encounter_filename_candidates":len(entry["encounters"]),
-          "boss_ai_present":counts["boss"]>0,
+          "boss_ai_present":counts["boss"]>0 or any(x["boss_ai_source_candidate"] for x in files),
+          "creature_ai_source_candidates":sum(x["creature_ai_source_candidate"] for x in files),
+          "nonboss_ai_source_candidates":sum(x["nonboss_ai_source_candidate"] for x in files),
+          "shared_creature_ai_source_candidates":sum(x["kind"]=="shared" and x["creature_ai_source_candidate"] for x in files),
           "trash_ai_explicitly_identified":counts["trash"]>0,
+          "trash_coverage_note":"Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
           "script_timers_verified":False,"live_reborn_verified":False,
           "status":"source-candidates-found" if files else "no-matching-source-found"}
     return {"schema":"coa-dbm-encounter-research-v1",
