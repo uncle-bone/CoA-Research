@@ -30,3 +30,12 @@ For each instance, preserve map ID, LFG dungeon ID, difficulty, availability, en
 
 ## Explicit limitation
 No complete proprietary Conquest Reborn server-side boss/trash/instance script corpus has been verified as publicly available. A complete client datamine cannot recover code that only exists on the server.
+
+## Working baseline decision — 2026-11-02
+**Project assumption:** For dungeon and raid research, use the publicly available [Conquest-of-AzerothCore/azerothcore-wotlk-coa](https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa) implementation as the *presumed Conquest Reborn baseline* when an instance and creature can be matched. This is a research assumption requested by the project owner, not a claim of identical live server code.
+
+**Operational labels:** `assumed-coa-core` for matching core scripts; `verified-reborn` only when corroborated by runtime evidence; `core-unmatched` for unavailable or ambiguous scripts; `reborn-override` for proven differences. Record the exact source path and commit before extracting timings or spell IDs.
+
+**Additional sources found:** [Conquest of AzerothCore dungeon issues](https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa/labels/Dungeon) document active dungeon-specific fixes and differences; [mod-dungeon-clear](https://github.com/jrad7/mod-dungeon-clear) documents scripted dungeon interaction sequences (reference only, not server encounter AI); [Corfirean content scaling](https://github.com/Corfirean/mod-coa-content-scaling) documents optional scaling logic, not proof of installation on Conquest Reborn.
+
+**Addon export policy:** Permit provisional DBM encounter definitions from `assumed-coa-core`, with uncertainty recorded in source metadata. Do not auto-enable high-confidence timers, register quarantined summons as bosses, or claim exact difficulty scaling until corroborated. Preserve license and original repository attribution for copied code.
