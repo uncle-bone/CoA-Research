@@ -1,0 +1,48 @@
+name: Build and release CoA Shared Reference v1.1
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_shared_reference_v11.py'
+      - 'tools/validate_shared_reference_v11.py'
+      - '.github/workflows/shared-reference-v11.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build versioned data from committed source graphs
+        run: python tools/build_shared_reference_v11.py
+      - name: Validate provenance, references, duplicates, and counts
+        run: python tools/validate_shared_reference_v11.py
+      - name: Package release archive and integrity test
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          base=Path("datasets/shared-reference/v1.1")
+          files=sorted(base.glob("*.json"))
+          assert len(files)==9, len(files)
+          with ZipFile("CoA-Shared-Database-v1.1.0.zip","w") as z:
+              for f in files: z.write(f,f.as_posix())
+          with ZipFile("CoA-Shared-Database-v1.1.0.zip") as z:
+              assert z.testzip() is None
+              assert len(z.namelist())==9
+          PY
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view shared-database-v1.1.0 >/dev/null 2>&1 || gh release create shared-database-v1.1.0 --title "CoA Shared Database v1.1.0" --notes "Source-backed archival spell/class and talent links. All records unverified for live Conquest Reborn; summon, quest, loot, trainer, combat and UI gaps documented in coverage-report.json."
+          gh release upload shared-database-v1.1.0 CoA-Shared-Database-v1.1.0.zip datasets/shared-reference/v1.1/coverage-report.json --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CoA-Shared-Database-v1.1.0
+          path: CoA-Shared-Database-v1.1.0.zip
