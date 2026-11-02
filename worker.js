@@ -38,7 +38,7 @@ async function latestAddonDownload(repo) {
   const apiUrl = `https://api.github.com/repos/uncle-bone/${repo}/releases/latest`;
   const releaseResponse = await fetch(apiUrl, {
     headers: { Accept: "application/vnd.github+json", "User-Agent": "BoneArchive-addon-downloads" },
-    cf: { cacheEverything: true, cacheTtl: 300 }
+    cf: { cacheEverything: true, cacheTtl: 30 }
   });
 
   if (releaseResponse.status === 404) {
@@ -107,7 +107,7 @@ export default {
     headers.delete("host");
 
     let upstream = await fetch(new Request(target, { method, headers, redirect: "manual" }), {
-      cf: { cacheEverything: true, cacheTtl: 0 }
+      cf: { cacheEverything: true, cacheTtl: 300 }
     });
 
     if (upstream.status === 404 && method === "GET" &&
