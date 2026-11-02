@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "domain": "client_compatibility",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 1,
+  "records": [
+    {
+      "recordType": "client_target",
+      "client": "WoW 3.3.5a",
+      "lua": "5.1",
+      "compatibilityTestStatus": "not_run",
+      "sourcePath": "research/dbm/class-pet-summon-ownership-classification-2026-11-01.md",
+      "sourceExtractionDate": "2026-11-01",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "No live API/UI compatibility test results imported"
+  ]
+}
