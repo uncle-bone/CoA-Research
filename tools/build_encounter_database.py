@@ -20,7 +20,7 @@ INSTANCE_TERMS = {
  "blackrock-depths": ["blackrockdepths"], "lower-blackrock-spire": ["blackrockspire"],
  "upper-blackrock-spire": ["blackrockspire"], "dire-maul": ["diremaul"],
  "scholomance": ["scholomance"], "stratholme": ["stratholme"],
- "blackrock-caverns": ["blackrockcaverns"], "zulgurub": ["zulgurub", "raid-difficulty"]
+ "blackrock-caverns": ["blackrockcaverns"], "zulgurub": ["zulgurub", "raid-difficulty/src/boss_venoxis_coa", "raid-difficulty/src/boss_jeklik_coa", "raid-difficulty/src/boss_marli_coa", "raid-difficulty/src/boss_thekal_coa", "raid-difficulty/src/boss_arlokk_coa", "raid-difficulty/src/boss_mandokir_coa", "raid-difficulty/src/boss_jindo_coa", "raid-difficulty/src/boss_hakkar_coa", "raid-difficulty/src/boss_grilek_coa", "raid-difficulty/data/sql/db-world/base/14_zg"]
 }
 CATEGORIES = ("boss", "trash", "instance", "sql", "shared", "other")
 IDENT = re.compile(r"\b(?:NPC|BOSS|SPELL|EVENT|DATA|GO)_[A-Z0-9_]+\b")
