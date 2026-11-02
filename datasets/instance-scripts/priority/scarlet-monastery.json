@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20260917_41_scarlet_monastery_outside_elites.sql",
       "kind": "sql",
       "bytes": 250,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261019_20_scarlet_monastery_graveyard_rares_normal.sql",
       "kind": "sql",
       "bytes": 6058,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
       "kind": "sql",
       "bytes": 2071,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
       "kind": "sql",
       "bytes": 1663,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -89,10 +109,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
       "kind": "sql",
       "bytes": 2052,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
       "kind": "sql",
       "bytes": 1879,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -131,10 +161,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
       "kind": "sql",
       "bytes": 2322,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -152,10 +187,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
       "kind": "shared",
       "bytes": 4964,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -182,10 +222,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
       "kind": "instance",
       "bytes": 16981,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -278,10 +323,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
       "kind": "shared",
       "bytes": 1076,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -303,6 +353,11 @@
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
       "kind": "instance",
       "bytes": 12540,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -398,6 +453,11 @@
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
       "kind": "shared",
       "bytes": 1076,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -415,10 +475,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/boss_armsmaster_harlan.cpp",
       "kind": "boss",
       "bytes": 9571,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_armsmaster_harlan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -550,10 +617,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/scarlet_halls.cpp",
       "kind": "shared",
       "bytes": 2215,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -579,10 +651,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/scarlet_halls.h",
       "kind": "shared",
       "bytes": 1626,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -612,10 +689,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_arcanist_doan.cpp",
       "kind": "boss",
       "bytes": 3175,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arcanist_doan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -692,10 +776,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_azshir_the_sleepless.cpp",
       "kind": "boss",
       "bytes": 2977,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_azshir_the_sleepless"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -761,10 +852,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_bloodmage_thalnos.cpp",
       "kind": "boss",
       "bytes": 3072,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_bloodmage_thalnos"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -838,10 +936,21 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_headless_horseman.cpp",
       "kind": "boss",
       "bytes": 36576,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_headless_horseman",
+        "npc_flame_bunny",
+        "npc_headless_horseman_head",
+        "npc_pulsing_pumpkin",
+        "npc_sir_thomas"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1111,10 +1220,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_herod.cpp",
       "kind": "boss",
       "bytes": 4043,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_herod",
+        "npc_scarlet_trainee"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1176,10 +1293,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_high_inquisitor_fairbanks.cpp",
       "kind": "boss",
       "bytes": 4717,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_inquisitor_fairbanks"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1258,10 +1382,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_houndmaster_loksey.cpp",
       "kind": "boss",
       "bytes": 1953,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_houndmaster_loksey"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1304,10 +1435,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_interrogator_vishas.cpp",
       "kind": "boss",
       "bytes": 2947,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_interrogator_vishas"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1348,10 +1486,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_mograine_and_whitemane.cpp",
       "kind": "boss",
       "bytes": 12681,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_inquisitor_whitemane",
+        "boss_scarlet_commander_mograine"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1493,10 +1639,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_scorn.cpp",
       "kind": "boss",
       "bytes": 2316,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_scorn"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1570,10 +1723,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
       "kind": "instance",
       "bytes": 6856,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1650,10 +1808,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarlet_monastery.h",
       "kind": "shared",
       "bytes": 2955,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1729,6 +1892,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20260917_41_scarlet_monastery_outside_elites.sql",
       "kind": "sql",
       "bytes": 250,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1750,6 +1918,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261019_20_scarlet_monastery_graveyard_rares_normal.sql",
       "kind": "sql",
       "bytes": 6058,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1771,6 +1944,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
       "kind": "sql",
       "bytes": 2071,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1792,6 +1970,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
       "kind": "sql",
       "bytes": 1663,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1813,6 +1996,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
       "kind": "sql",
       "bytes": 2052,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1834,6 +2022,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
       "kind": "sql",
       "bytes": 1879,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1855,6 +2048,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
       "kind": "sql",
       "bytes": 2322,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1876,6 +2074,11 @@
       "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
       "kind": "shared",
       "bytes": 4964,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1906,6 +2109,11 @@
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
       "kind": "instance",
       "bytes": 16981,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2002,6 +2210,11 @@
       "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
       "kind": "shared",
       "bytes": 1076,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2023,6 +2236,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_arcanist_doan.cpp",
       "kind": "boss",
       "bytes": 4210,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arcanist_doan",
+        "boss_arcanist_doanAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2056,6 +2277,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_headless_horseman.cpp",
       "kind": "boss",
       "bytes": 20020,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_head_of_horseman",
+        "boss_head_of_horsemanAI",
+        "boss_headless_horseman",
+        "boss_headless_horsemanAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2235,6 +2466,17 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_herod.cpp",
       "kind": "boss",
       "bytes": 5183,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_herod",
+        "boss_herodAI",
+        "mob_scarlet_trainee",
+        "mob_scarlet_traineeAI",
+        "npc_escortAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2269,6 +2511,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_mograine_and_whitemane.cpp",
       "kind": "boss",
       "bytes": 18658,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_inquisitor_whitemane",
+        "boss_high_inquisitor_whitemaneAI",
+        "boss_scarlet_commander_mograine",
+        "boss_scarlet_commander_mograineAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2337,6 +2589,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/instance_scarlet_monastery.cpp",
       "kind": "instance",
       "bytes": 8928,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2390,6 +2647,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/scarlet_monastery.h",
       "kind": "shared",
       "bytes": 2622,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2468,10 +2730,995 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/scarlet-monastery.json",
+      "kind": "shared",
+      "bytes": 83710,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_arcanist_doan",
+        "boss_armsmaster_harlan",
+        "boss_azshir_the_sleepless",
+        "boss_bloodmage_thalnos",
+        "boss_headless_horseman",
+        "boss_herod",
+        "boss_high_inquisitor_fairbanks",
+        "boss_houndmaster_loksey",
+        "boss_interrogator_vishas",
+        "boss_mograine_and_whitemane",
+        "boss_scorn",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ARMSMASTER_HARLAN",
+        "BOSS_FLAMEWEAVER_KOEGLER",
+        "BOSS_HOUNDMASTER_BRAUN",
+        "DATA_ARCANIST_DOAN",
+        "DATA_ARMSMASTER_HARLAN",
+        "DATA_AZSHIR",
+        "DATA_BLOODMAGE_THALNOS",
+        "DATA_DOOR_CHAPEL",
+        "DATA_DOOR_WHITEMANE",
+        "DATA_EARTH_BUNNY",
+        "DATA_FLAMEWEAVER_KOEGLER",
+        "DATA_FLAME_BUNNY",
+        "DATA_HEADLESS_HORSEMAN",
+        "DATA_HEROD",
+        "DATA_HIGH_INQUISITORS_DOOR",
+        "DATA_HIGH_INQUISITOR_FAIRBANKS",
+        "DATA_HORSEMAN_EVENT",
+        "DATA_HORSEMAN_EVENT_STATE",
+        "DATA_HORSEMAN_HEAD",
+        "DATA_HOUNDMASTER_BRAUN",
+        "DATA_HOUNDMASTER_LOKSEY",
+        "DATA_INTERROGATOR_VISHAS",
+        "DATA_LOOSELY_TURNED_SOIL",
+        "DATA_MOGRAINE",
+        "DATA_MOGRAINE_AND_WHITE_EVENT",
+        "DATA_PREPARE_RESET",
+        "DATA_PUMPKIN_SHRINE",
+        "DATA_SCORN",
+        "DATA_START_HORSEMAN_EVENT",
+        "DATA_THOMAS",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "DATA_WHITEMANE_FAKE_DEATH",
+        "EVENT_ACTIVE_EARTH_EXPLOSION",
+        "EVENT_ARCANE_BUBBLE",
+        "EVENT_ARCANE_EXPLOSION",
+        "EVENT_BLOODLUST",
+        "EVENT_CALL_OF_GRAVE",
+        "EVENT_CLEAVE",
+        "EVENT_CONFLAGRATE",
+        "EVENT_CRUSADER_STRIKE",
+        "EVENT_CURSE_BLOOD",
+        "EVENT_DESPAWN_OBJECTS",
+        "EVENT_DIPEL_MAGIC",
+        "EVENT_FEAR",
+        "EVENT_FIRE_NOVA",
+        "EVENT_FLAME_SHOCK",
+        "EVENT_FLAME_SPIKE",
+        "EVENT_FROSTBOLT_VOLLEY",
+        "EVENT_FROST_NOVA",
+        "EVENT_HAMMER_OF_JUSTICE",
+        "EVENT_HARLAN_BERSERKER_RAGE",
+        "EVENT_HARLAN_BLADES_OF_LIGHT",
+        "EVENT_HARLAN_CALL_FOR_HELP",
+        "EVENT_HARLAN_CALL_REINFORCEMENT",
+        "EVENT_HARLAN_DRAGONS_REACH",
+        "EVENT_HARLAN_FINISH_BLADES_OF_LIGHT",
+        "EVENT_HARLAN_HEROIC_LEAP",
+        "EVENT_HEAL",
+        "EVENT_HOLY_SMITE",
+        "EVENT_HORSEMAN_CLEAVE",
+        "EVENT_JUMP",
+        "EVENT_LICH_SLAP",
+        "EVENT_MIND_FLAY",
+        "EVENT_POLYMORPH",
+        "EVENT_POWER_WORD_SHIELD",
+        "EVENT_RAIN_OF_TREATS",
+        "EVENT_RANDOM_LAUGH",
+        "EVENT_SHADOW_BOLT",
+        "EVENT_SHADOW_WORD_PAIN",
+        "EVENT_SILENCE",
+        "EVENT_SLEEP",
+        "EVENT_SOUL_SIPHON",
+        "EVENT_SPAWN_HEADLESS_HORSEMAN",
+        "EVENT_START_HEAD_DELAYED",
+        "EVENT_START_NEXT_HEADLESS_PHASE",
+        "EVENT_START_NEXT_PHASE_DELAYED",
+        "EVENT_STOP_HEAD_PHASE",
+        "EVENT_SUMMON_PUMPKIN",
+        "EVENT_TERRIFY",
+        "EVENT_WHIRLWIND",
+        "GO_ACTIVATED",
+        "GO_CHAPEL_DOOR",
+        "GO_FLAG_IN_USE",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_HERODS_DOOR_HARLAN_ENCOUNTER_ENTRANCE",
+        "GO_HEROD_DOOR",
+        "GO_HIGH_INQUISITORS_DOOR",
+        "GO_HIGH_INQUISITOR_DOOR",
+        "GO_LOOSELY_TURNED_SOIL",
+        "GO_PUMPKIN_SHRINE",
+        "GO_STATE_ACTIVE",
+        "GO_WHITEMANE_DOOR",
+        "NPC_ABBOT",
+        "NPC_ANGUISHED_DEAD",
+        "NPC_ARCANIST_DOAN",
+        "NPC_BLOODMAGE_THALNOS",
+        "NPC_CENTURION",
+        "NPC_CHAMPION",
+        "NPC_CHAPLAIN",
+        "NPC_COMMANDER_MOGRAINE",
+        "NPC_DEFENDER",
+        "NPC_DEFIAS_CUTPURSE",
+        "NPC_EARTH_BUNNY",
+        "NPC_FAIRBANKS",
+        "NPC_FALLON_CHAMPION",
+        "NPC_FLAME_BUNNY",
+        "NPC_HAUNTING_PHANTASM",
+        "NPC_HEADLESS_HORSEMAN",
+        "NPC_HEADLESS_HORSEMAN_EARTHQUAKE_BUNNY",
+        "NPC_HEADLESS_HORSEMAN_HEAD",
+        "NPC_HEAD_OF_HORSEMAN",
+        "NPC_HEROD",
+        "NPC_HIGHLORD_MOGRAINE",
+        "NPC_HORSEMAN_WISP_INV",
+        "NPC_HOUNDMASTER_LOKSEY",
+        "NPC_INQUISITOR_WHITEMANE",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_MOGRAINE",
+        "NPC_MONK",
+        "NPC_MYRMIDON",
+        "NPC_PULSING_PUMPKIN",
+        "NPC_PUMPKIN_FIEND",
+        "NPC_RABBIT",
+        "NPC_RAT",
+        "NPC_SCARLET_ABBOT",
+        "NPC_SCARLET_ADEPT",
+        "NPC_SCARLET_BEASTMASTER",
+        "NPC_SCARLET_CENTURION",
+        "NPC_SCARLET_CHAMPION",
+        "NPC_SCARLET_CHAPLAIN",
+        "NPC_SCARLET_CONJUROR",
+        "NPC_SCARLET_DEFENDER",
+        "NPC_SCARLET_DIVINER",
+        "NPC_SCARLET_EVOKER",
+        "NPC_SCARLET_GALLANT",
+        "NPC_SCARLET_GUARDSMAN",
+        "NPC_SCARLET_MONK",
+        "NPC_SCARLET_MYRIDON",
+        "NPC_SCARLET_MYRMIDON",
+        "NPC_SCARLET_PROTECTOR",
+        "NPC_SCARLET_SCRYER",
+        "NPC_SCARLET_SENTRY",
+        "NPC_SCARLET_SOLDIER",
+        "NPC_SCARLET_SORCERER",
+        "NPC_SCARLET_TORTURER",
+        "NPC_SCARLET_TRACKING_HOUND",
+        "NPC_SCARLET_TRAINEE",
+        "NPC_SCARLET_WIZARD",
+        "NPC_SIR_THOMAS",
+        "NPC_SORCERER",
+        "NPC_SUFFERING_VICTIM",
+        "NPC_THE_SCARLET_CHAMPION",
+        "NPC_UNFETTERED_SPIRIT",
+        "NPC_VORREL",
+        "NPC_WHITEMANE",
+        "NPC_WIZARD",
+        "SPELL_AB_EFFECT_000",
+        "SPELL_ARCANE_BUBBLE",
+        "SPELL_ARCANE_EXPLOSION",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_PERIODIC_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL",
+        "SPELL_AURA_SCHOOL_ABSORB",
+        "SPELL_AURA_SPIRIT_OF_REDEMPTION",
+        "SPELL_BLOODLUST",
+        "SPELL_BODY_DEAD",
+        "SPELL_BODY_HEAD_VISUAL",
+        "SPELL_BODY_LEAVE_COMBAT",
+        "SPELL_BODY_REGEN",
+        "SPELL_BODY_REGEN_CONFUSE",
+        "SPELL_BODY_REGEN_PROC",
+        "SPELL_BODY_STAGE_1",
+        "SPELL_BODY_STAGE_2",
+        "SPELL_BODY_STAGE_3",
+        "SPELL_CALL_OF_THE_GRAVE",
+        "SPELL_CLEAVE",
+        "SPELL_COMMAND_HEAD_REPOSITIONS",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_SOUND",
+        "SPELL_CRUSADERSTRIKE",
+        "SPELL_CRUSADER_STRIKE",
+        "SPELL_CURSEOFBLOOD",
+        "SPELL_DEEPSLEEP",
+        "SPELL_DEEP_SLEEP",
+        "SPELL_DETONATION",
+        "SPELL_DISPEL_MAGIC",
+        "SPELL_DIVINESHIELD",
+        "SPELL_DOMINATEMIND",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_EARTH_EXPLOSION",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE_VISUAL",
+        "SPELL_FEAR",
+        "SPELL_FIRENOVA",
+        "SPELL_FLAMESHOCK",
+        "SPELL_FLAMESPIKE",
+        "SPELL_FORGIVENESS",
+        "SPELL_FORGIVENESS_IMPACTKIT",
+        "SPELL_FRENZY",
+        "SPELL_FROSTBOLT_VOLLEY",
+        "SPELL_FROSTNOVA",
+        "SPELL_HAMMEROFJUSTICE",
+        "SPELL_HAMMER_OF_JUSTICE",
+        "SPELL_HARLAN_BERSERKERS_RAGE",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_CAST",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_DAMAGE",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_VEHICLE",
+        "SPELL_HARLAN_CALL_REINFORCEMENT",
+        "SPELL_HARLAN_DRAGONS_REACH",
+        "SPELL_HARLAN_HEROIC_LEAP_JUMP",
+        "SPELL_HARLAN_LEAVE_VEHICLE",
+        "SPELL_HEADLESS_HORSEMAN_BURNING_COSMETIC",
+        "SPELL_HEADLESS_HORSEMAN_BURNING_COSMETIC_BASE",
+        "SPELL_HEADLESS_HORSEMAN_CLEAVE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_DEATH",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_CONFUSE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_IMMUNE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_TRANSFORM",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_1",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_2",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_3",
+        "SPELL_HEADLESS_HORSEMAN_C_COMMAND_HEAD_REPOSITIONS",
+        "SPELL_HEADLESS_HORSEMAN_C_COMMAND_REQUEST_BODY",
+        "SPELL_HEADLESS_HORSEMAN_C_ENRAGED_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_GHOST_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_IS_DEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_PAUSE",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_PERIODIC",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_STUN",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAL_BODY",
+        "SPELL_HEADLESS_HORSEMAN_C_HORSEMANS_WHIRLWIND",
+        "SPELL_HEADLESS_HORSEMAN_C_RETURN_HEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_SEND_HEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_AURA",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_MEDIUM",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_SMALL",
+        "SPELL_HEADLESS_HORSEMAN_FIRE_SIZE_BIG",
+        "SPELL_HEADLESS_HORSEMAN_MANIACAL_LAUGH",
+        "SPELL_HEADLESS_HORSEMAN_ONKILL_PROC",
+        "SPELL_HEADLESS_HORSEMAN_PUMPKIN_AURA",
+        "SPELL_HEADLESS_HORSEMAN_SPEAKS",
+        "SPELL_HEADLESS_HORSEMAN_WISP_FLIGHT_MISSILE",
+        "SPELL_HEADLESS_HORSEMAN_WISP_FLIGHT_PORT",
+        "SPELL_HEADLESS_HORSEMAN_WISP_INVIS",
+        "SPELL_HEADLESS_HORSEMAN_YELL_TIMER",
+        "SPELL_HEADS_BREATH",
+        "SPELL_HEAD_INVISIBLE",
+        "SPELL_HEAD_IS_DEAD",
+        "SPELL_HEAD_PERIODIC",
+        "SPELL_HEAD_REPOSITIONS",
+        "SPELL_HEAD_STUN",
+        "SPELL_HEAD_VISUAL",
+        "SPELL_HEAL",
+        "SPELL_HEAL_BODY",
+        "SPELL_HOLYSMITE",
+        "SPELL_HOLY_SMITE",
+        "SPELL_HORSEMANS_CONFLAGRATION_SOUND",
+        "SPELL_HORSEMANS_CONFLAGRATION_SOUND_THROTTLE",
+        "SPELL_HORSEMAN_CLEAVE",
+        "SPELL_HORSEMAN_HEAD_LANDS",
+        "SPELL_HORSEMAN_SPEAKS",
+        "SPELL_HORSEMAN_SUMMON",
+        "SPELL_JACK_LANTERNED",
+        "SPELL_LAUGH",
+        "SPELL_LAUGH_LOW",
+        "SPELL_LAUGH_MANIACAL",
+        "SPELL_LAYONHANDS",
+        "SPELL_LAY_ONHANDS",
+        "SPELL_LICHSLAP",
+        "SPELL_MANIACAL_LAUGHT_DELAYED_9",
+        "SPELL_MINDFLAY",
+        "SPELL_ON_KILL_PROC",
+        "SPELL_POLYMORPH",
+        "SPELL_POWERWORDSHIELD",
+        "SPELL_POWER_WORD_SHIELD",
+        "SPELL_PUMPKIN_AURA",
+        "SPELL_PUMPKIN_DEATH",
+        "SPELL_PUMPKIN_LIFE_CYCLE",
+        "SPELL_RAIN_OF_TREATS",
+        "SPELL_REQUEST_BODY",
+        "SPELL_RETRIBUTIONAURA",
+        "SPELL_RETRIBUTION_AURA",
+        "SPELL_RHYME_AURA",
+        "SPELL_RHYME_SHAKE_MEDIUM",
+        "SPELL_RHYME_SHAKE_SMALL",
+        "SPELL_RUSHINGCHARGE",
+        "SPELL_SCARLETRESURRECTION",
+        "SPELL_SCARLET_DEFENDER_UNARMORED",
+        "SPELL_SCARLET_RESURRECTION",
+        "SPELL_SEND_HEAD",
+        "SPELL_SHADOWBOLT",
+        "SPELL_SHADOW_WORD_PAIN",
+        "SPELL_SILENCE",
+        "SPELL_SLEEP",
+        "SPELL_SOUL_SIPHON",
+        "SPELL_SPROUTING",
+        "SPELL_SPROUT_BODY",
+        "SPELL_SQUASH_SOUL",
+        "SPELL_SUMMON_PUMPKIN",
+        "SPELL_SUMMON_PUMPKIN_BURST_DELAY",
+        "SPELL_SUMMON_SCARLET_HOUND",
+        "SPELL_TERRIFY",
+        "SPELL_TRANSFORM_GHOST",
+        "SPELL_TRANSFORM_IMPACTKIT",
+        "SPELL_WHIRLWIND",
+        "SPELL_WISP_ESCAPE_MISSILE",
+        "SPELL_WISP_FLIGHT_MISSILE",
+        "SPELL_WISP_INVISIBLE",
+        "SPELL_YELL_TIMER"
+      ],
+      "cast_calls": 115,
+      "timing_or_phase_signals": 10,
+      "timer_expression_candidates": [
+        {
+          "line": 467,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 472,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 477,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_HEROIC_LEAP, 41s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 482,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_FINISH_BLADES_OF_LIGHT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 487,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 492,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 19s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 497,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_HEROIC_LEAP, 29s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 502,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HARLAN_DRAGONS_REACH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 507,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 512,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_CALL_REINFORCEMENT, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 517,
+          "expression": "\"expression\": \"DoCast(SPELL_HARLAN_HEROIC_LEAP_JUMP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 522,
+          "expression": "\"expression\": \"DoCast(SPELL_HARLAN_CALL_REINFORCEMENT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 527,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 532,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), SPELL_HARLAN_BLADES_OF_LIGHT_VEHICLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 537,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_HARLAN_BLADES_OF_LIGHT_DAMAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 542,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_SCARLET_DEFENDER_UNARMORED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 648,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SILENCE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 653,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ARCANE_EXPLOSION, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 658,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_POLYMORPH, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 663,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SILENCE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 668,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_ARCANE_EXPLOSION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 673,
+          "expression": "\"expression\": \"DoCast(target, SPELL_POLYMORPH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 678,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_DETONATION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 723,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_OF_GRAVE, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 728,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TERRIFY, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 733,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SOUL_SIPHON);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 738,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SOUL_SIPHON, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 743,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CALL_OF_THE_GRAVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 748,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_TERRIFY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 753,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SOUL_SIPHON);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 795,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_SHOCK, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 800,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_BOLT, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 805,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_SPIKE, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 810,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_NOVA, 40s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 815,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FLAMESHOCK);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 820,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOWBOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 825,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FLAMESPIKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 830,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIRENOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 972,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_START_HEAD_DELAYED, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 977,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_STOP_HEAD_PHASE, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 982,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_STOP_HEAD_PHASE, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 987,
+          "expression": "\"expression\": \"DoCast(target, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_AURA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 992,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RAIN_OF_TREATS, 11s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 997,
+          "expression": "\"expression\": \"DoCast(horseman, SPELL_HEADLESS_HORSEMAN_C_RETURN_HEAD, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1002,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 13s, 0, PHASE_1);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1007,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RANDOM_LAUGH, 30s, 60s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1012,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_START_NEXT_PHASE_DELAYED, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1017,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_START_NEXT_HEADLESS_PHASE, 1ms, 0, nextPhase);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1022,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CONFLAGRATE, 5s, 0, PHASE_2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1027,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 16s, 0, PHASE_2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1032,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SUMMON_PUMPKIN, 1s, 0, PHASE_3);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1037,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 9s, 0, PHASE_3);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1042,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HEADLESS_HORSEMAN_CLEAVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1047,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_HEADLESS_HORSEMAN_C_COMMAND_HEAD_REPOSITIONS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1052,
+          "expression": "\"expression\": \"DoCast(head, SPELL_HEADLESS_HORSEMAN_C_SEND_HEAD, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1057,
+          "expression": "\"expression\": \"DoCast(target, SPELL_CONFLAGRATION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1062,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SQUASH_SOUL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1067,
+          "expression": "\"expression\": \"player->CastSpell(player, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_SMALL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1072,
+          "expression": "\"expression\": \"player->CastSpell(player, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_MEDIUM, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1148,
+          "expression": "\"expression\": \"DoCast(me, SPELL_RUSHINGCHARGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1153,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CLEAVE, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1158,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WHIRLWIND, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1163,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CLEAVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1168,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WHIRLWIND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1215,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_BLOOD, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1220,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DIPEL_MAGIC, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1225,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FEAR, 40s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1230,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SLEEP, 25s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1235,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CURSEOFBLOOD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1240,
+          "expression": "\"expression\": \"DoCast(target, SPELL_DISPEL_MAGIC);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1245,
+          "expression": "\"expression\": \"DoCast(target, SPELL_FEAR);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1250,
+          "expression": "\"expression\": \"DoCast(target, SPELL_SLEEP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1285,
+          "expression": "\"expression\": \"DoCast(SPELL_SUMMON_SCARLET_HOUND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1290,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLOODLUST, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1330,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 5s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1335,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOW_WORD_PAIN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1340,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 5s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1399,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CRUSADER_STRIKE, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1404,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HAMMER_OF_JUSTICE, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1409,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CRUSADER_STRIKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1414,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HAMMER_OF_JUSTICE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1419,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CRUSADER_STRIKE, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1424,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HAMMER_OF_JUSTICE, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1429,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAL, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1434,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_POWER_WORD_SHIELD, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1439,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HOLY_SMITE, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1444,
+          "expression": "\"expression\": \"DoCast(target, SPELL_HEAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1449,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HOLY_SMITE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1454,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_DEEP_SLEEP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1459,
+          "expression": "\"expression\": \"DoCast(mograine, SPELL_SCARLET_RESURRECTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1464,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAL, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1469,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_POWER_WORD_SHIELD, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1474,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HOLY_SMITE, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1527,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LICH_SLAP, 45s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1532,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROSTBOLT_VOLLEY, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1537,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MIND_FLAY, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1542,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1547,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_LICHSLAP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1552,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FROSTBOLT_VOLLEY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1557,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MINDFLAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1562,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FROSTNOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1627,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ACTIVE_EARTH_EXPLOSION, 1s + 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1632,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPAWN_HEADLESS_HORSEMAN, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1637,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_DESPAWN_OBJECTS, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1642,
+          "expression": "\"expression\": \"earthBunny->CastSpell(earthBunny, SPELL_EARTH_EXPLOSION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2183,
+          "expression": "\"expression\": \"pSummoned->CastSpell(pSummoned, SPELL_SPROUTING, TRIGGERED_NONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2188,
+          "expression": "\"expression\": \"pSummoned->CastSpell(pSummoned, SPELL_PUMPKIN_AURA, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2193,
+          "expression": "\"expression\": \"pSummoned->CastSpell(pSummoned, SPELL_PUMPKIN_LIFE_CYCLE, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2198,
+          "expression": "\"expression\": \"bunny->CastSpell(nullptr, SPELL_EARTH_EXPLOSION, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2203,
+          "expression": "\"expression\": \"pInvoker->CastSpell(m_creature, SPELL_SEND_HEAD, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2208,
+          "expression": "\"expression\": \"head->CastSpell(m_creature, SPELL_HEAD_REPOSITIONS, TRIGGERED_OLD_TRIGGERED); // also should use SPELL_COMMAND_HEAD_REPOSITIONS\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2213,
+          "expression": "\"expression\": \"pHorseman->CastSpell(pHorseman, SPELL_BODY_LEAVE_COMBAT, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2218,
+          "expression": "\"expression\": \"pHorseman->CastSpell(pHorseman, SPELL_BODY_DEAD, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2223,
+          "expression": "\"expression\": \"m_creature->CastSpell(nullptr, SPELL_RAIN_OF_TREATS, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2325,
+          "expression": "\"expression\": \"m_creature->CastSpell(nullptr, SPELL_LAYONHANDS, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 685,
+          "expression": "\"expression\": \"if (_healthAbove50Pct && HealthBelowPct(50))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1079,
+          "expression": "\"expression\": \"_events.SetPhase(PHASE_1);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1084,
+          "expression": "\"expression\": \"_events.SetPhase(PHASE_DEAD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1089,
+          "expression": "\"expression\": \"_events.SetPhase(PHASE_1);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1094,
+          "expression": "\"expression\": \"_events.SetPhase(nextPhase);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1099,
+          "expression": "\"expression\": \"if (target->HealthBelowPct(34))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1104,
+          "expression": "\"expression\": \"else if (target->HealthBelowPct(67))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1297,
+          "expression": "\"expression\": \"if (me->HealthBelowPct(60))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1481,
+          "expression": "\"expression\": \"if (HealthBelowPct(75))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1486,
+          "expression": "\"expression\": \"if (mograine->IsAlive() && mograine->HealthBelowPct(75))\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2708-scarlet-monastery-graveyard.json",
       "kind": "shared",
       "bytes": 4279,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2489,10 +3736,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2853-scarlet-monastery-armory.json",
       "kind": "shared",
       "bytes": 4276,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2510,10 +3762,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2854-scarlet-monastery-cathedral.json",
       "kind": "shared",
       "bytes": 4279,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2531,10 +3788,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2855-scarlet-monastery-library.json",
       "kind": "shared",
       "bytes": 4277,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2646,20 +3908,24 @@
     }
   },
   "coverage": {
-    "source_files": 47,
+    "source_files": 48,
     "by_kind": {
       "boss": 15,
       "trash": 0,
       "instance": 5,
       "sql": 14,
-      "shared": 13,
+      "shared": 14,
       "other": 0
     },
     "npc_ids_candidate": 51,
     "spell_ids_candidate": 112,
     "encounter_filename_candidates": 11,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 15,
+    "nonboss_ai_source_candidates": 3,
+    "shared_creature_ai_source_candidates": 0,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

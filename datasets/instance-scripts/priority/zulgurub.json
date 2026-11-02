@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_80_zul_gurub_heart_of_hakkar.sql",
       "kind": "sql",
       "bytes": 1284,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -31,10 +36,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_81_zul_gurub_creature_corrections.sql",
       "kind": "sql",
       "bytes": 846,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -54,10 +64,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_82_zul_gurub_normal_loot.sql",
       "kind": "sql",
       "bytes": 2281,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -77,10 +92,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_83_zul_gurub_access.sql",
       "kind": "sql",
       "bytes": 859,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -98,10 +118,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_84_zul_gurub_difficulty_templates.sql",
       "kind": "sql",
       "bytes": 28691,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -119,10 +144,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_85_zul_gurub_difficulty_loot.sql",
       "kind": "sql",
       "bytes": 69907,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -180,10 +210,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_86_zul_gurub_quests.sql",
       "kind": "sql",
       "bytes": 624,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -201,10 +236,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_87_zul_gurub_rinwosho_vendor.sql",
       "kind": "sql",
       "bytes": 1447,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -224,10 +264,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_88_zul_gurub_trash_kits.sql",
       "kind": "sql",
       "bytes": 28487,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -245,10 +290,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_89_zul_gurub_spell_scripts.sql",
       "kind": "sql",
       "bytes": 1122,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -271,10 +321,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_90_zul_gurub_loa_avatars.sql",
       "kind": "sql",
       "bytes": 3810,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -292,10 +347,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_91_zul_gurub_achievement_difficulty.sql",
       "kind": "sql",
       "bytes": 4012,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -313,10 +373,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_92_zul_gurub_jindo_totems.sql",
       "kind": "sql",
       "bytes": 547,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -338,10 +403,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_93_zul_gurub_zandalar_and_rewards.sql",
       "kind": "sql",
       "bytes": 91331,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -359,10 +429,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261102_93_zul_gurub_berserker_trauma_on_thunderclap.sql",
       "kind": "sql",
       "bytes": 757,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -380,10 +455,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261102_94_zul_gurub_edge_of_madness_grilek.sql",
       "kind": "sql",
       "bytes": 909,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -403,10 +483,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/data/sql/db-world/base/14_zg.sql",
       "kind": "sql",
       "bytes": 3063,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -448,10 +533,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_arlokk_coa.cpp",
       "kind": "boss",
       "bytes": 16396,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -688,10 +780,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_grilek_coa.cpp",
       "kind": "boss",
       "bytes": 5439,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -762,10 +861,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_hakkar_coa.cpp",
       "kind": "boss",
       "bytes": 21899,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar_coa",
+        "npc_heart_of_hakkar_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1026,10 +1133,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_jeklik_coa.cpp",
       "kind": "boss",
       "bytes": 13998,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1244,10 +1358,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_jindo_coa.cpp",
       "kind": "boss",
       "bytes": 14927,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1425,10 +1546,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_mandokir_coa.cpp",
       "kind": "boss",
       "bytes": 20574,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1668,10 +1796,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_marli_coa.cpp",
       "kind": "boss",
       "bytes": 15879,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1940,10 +2075,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_thekal_coa.cpp",
       "kind": "boss",
       "bytes": 13369,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2091,10 +2233,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-coa-raid-difficulty/src/boss_venoxis_coa.cpp",
       "kind": "boss",
       "bytes": 15769,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2345,10 +2494,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/54_manastorm_classic_zulgurub_caches.sql",
       "kind": "sql",
       "bytes": 156605,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2370,10 +2524,20 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
       "kind": "boss",
       "bytes": 16432,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2602,10 +2766,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
       "kind": "boss",
       "bytes": 4615,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gahzranka"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2660,10 +2831,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
       "kind": "boss",
       "bytes": 4827,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek",
+        "boss_grilekAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2764,10 +2943,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
       "kind": "boss",
       "bytes": 14070,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar",
+        "boss_hakkarAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2965,10 +3152,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
       "kind": "boss",
       "bytes": 5736,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hazzarah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3061,10 +3255,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
       "kind": "boss",
       "bytes": 12930,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik",
+        "npc_batrider"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -3188,10 +3390,20 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
       "kind": "boss",
       "bytes": 8389,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo",
+        "npc_brain_wash_totem",
+        "npc_healing_ward",
+        "npc_shade_of_jindo"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3326,10 +3538,22 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
       "kind": "boss",
       "bytes": 27038,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "npc_chained_spirit",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_vilebranch_speaker"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3603,10 +3827,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
       "kind": "boss",
       "bytes": 9927,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli",
+        "npc_spawn_of_marli"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3701,10 +3933,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
       "kind": "boss",
       "bytes": 9554,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_renataki",
+        "boss_renatakiAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3813,10 +4053,19 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
       "kind": "boss",
       "bytes": 15591,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3956,10 +4205,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
       "kind": "boss",
       "bytes": 4788,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -4009,10 +4265,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
       "kind": "boss",
       "bytes": 3369,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_wushoolay",
+        "boss_wushoolayAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4088,10 +4352,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
       "kind": "instance",
       "bytes": 7623,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4149,10 +4418,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.cpp",
       "kind": "shared",
       "bytes": 1801,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4181,10 +4455,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.h",
       "kind": "shared",
       "bytes": 3293,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -4278,6 +4557,16 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
       "kind": "boss",
       "bytes": 15630,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4492,6 +4781,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
       "kind": "boss",
       "bytes": 4615,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gahzranka"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4550,6 +4846,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
       "kind": "boss",
       "bytes": 4827,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek",
+        "boss_grilekAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4654,6 +4958,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
       "kind": "boss",
       "bytes": 14070,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar",
+        "boss_hakkarAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4855,6 +5167,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
       "kind": "boss",
       "bytes": 5736,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hazzarah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4951,6 +5270,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
       "kind": "boss",
       "bytes": 12691,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik",
+        "npc_batrider"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -5071,6 +5398,16 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
       "kind": "boss",
       "bytes": 8389,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo",
+        "npc_brain_wash_totem",
+        "npc_healing_ward",
+        "npc_shade_of_jindo"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5209,6 +5546,18 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
       "kind": "boss",
       "bytes": 26096,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "npc_chained_spirit",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_vilebranch_speaker"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5475,6 +5824,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
       "kind": "boss",
       "bytes": 9703,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli",
+        "npc_spawn_of_marli"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5566,6 +5923,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
       "kind": "boss",
       "bytes": 9554,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_renataki",
+        "boss_renatakiAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5678,6 +6043,15 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
       "kind": "boss",
       "bytes": 14685,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5800,6 +6174,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
       "kind": "boss",
       "bytes": 4788,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -5853,6 +6234,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
       "kind": "boss",
       "bytes": 3369,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_wushoolay",
+        "boss_wushoolayAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5932,6 +6321,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
       "kind": "instance",
       "bytes": 7623,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5993,6 +6387,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.cpp",
       "kind": "shared",
       "bytes": 1801,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6025,6 +6424,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.h",
       "kind": "shared",
       "bytes": 3293,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6114,10 +6518,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
       "kind": "boss",
       "bytes": 1752,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6137,10 +6548,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
       "kind": "boss",
       "bytes": 1762,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hazzarah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6160,10 +6578,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo_the_godbreaker.cpp",
       "kind": "boss",
       "bytes": 2834,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo_the_godbreaker",
+        "boss_jindo_the_godbreakerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6183,10 +6609,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_kilnara.cpp",
       "kind": "boss",
       "bytes": 2093,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_kilnara"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6206,10 +6639,19 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
       "kind": "boss",
       "bytes": 19792,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir",
+        "npc_chained_spirit",
+        "npc_ohgan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6448,10 +6890,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
       "kind": "boss",
       "bytes": 1683,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_renataki"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6471,10 +6920,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
       "kind": "boss",
       "bytes": 2392,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6494,10 +6950,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
       "kind": "boss",
       "bytes": 1669,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_wushoolay"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6517,10 +6980,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_zanzil.cpp",
       "kind": "boss",
       "bytes": 3078,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_zanzil",
+        "boss_zanzilAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6540,10 +7011,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
       "kind": "instance",
       "bytes": 6648,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6587,10 +7063,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.cpp",
       "kind": "shared",
       "bytes": 2112,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6627,10 +7108,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.h",
       "kind": "shared",
       "bytes": 3020,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6701,6 +7187,11 @@
       "path": "modules/mod-coa-raid-difficulty/data/sql/db-world/base/14_zg.sql",
       "kind": "sql",
       "bytes": 3063,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6746,6 +7237,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_arlokk_coa.cpp",
       "kind": "boss",
       "bytes": 14612,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6967,6 +7465,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_grilek_coa.cpp",
       "kind": "boss",
       "bytes": 5374,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -7041,6 +7546,14 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_hakkar_coa.cpp",
       "kind": "boss",
       "bytes": 18683,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar_coa",
+        "npc_heart_of_hakkar_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -7281,6 +7794,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_jeklik_coa.cpp",
       "kind": "boss",
       "bytes": 12875,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -7487,6 +8007,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_jindo_coa.cpp",
       "kind": "boss",
       "bytes": 11345,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -7646,6 +8173,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_mandokir_coa.cpp",
       "kind": "boss",
       "bytes": 16315,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -7848,6 +8382,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_marli_coa.cpp",
       "kind": "boss",
       "bytes": 12655,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -8087,6 +8628,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_thekal_coa.cpp",
       "kind": "boss",
       "bytes": 11976,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -8198,6 +8746,13 @@
       "path": "modules/mod-coa-raid-difficulty/src/boss_venoxis_coa.cpp",
       "kind": "boss",
       "bytes": 14787,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -8440,6 +8995,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/54_manastorm_classic_zulgurub_caches.sql",
       "kind": "sql",
       "bytes": 156605,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -8465,6 +9025,16 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
       "kind": "boss",
       "bytes": 15630,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -8679,6 +9249,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
       "kind": "boss",
       "bytes": 4615,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gahzranka"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -8737,6 +9314,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
       "kind": "boss",
       "bytes": 4827,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grilek",
+        "boss_grilekAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -8841,6 +9426,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
       "kind": "boss",
       "bytes": 14070,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar",
+        "boss_hakkarAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9042,6 +9635,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
       "kind": "boss",
       "bytes": 5736,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hazzarah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9138,6 +9738,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
       "kind": "boss",
       "bytes": 12689,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik",
+        "npc_batrider"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -9258,6 +9866,16 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
       "kind": "boss",
       "bytes": 8389,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo",
+        "npc_brain_wash_totem",
+        "npc_healing_ward",
+        "npc_shade_of_jindo"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9396,6 +10014,18 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
       "kind": "boss",
       "bytes": 26543,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "npc_chained_spirit",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_vilebranch_speaker"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9662,6 +10292,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
       "kind": "boss",
       "bytes": 9703,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli",
+        "npc_spawn_of_marli"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9753,6 +10391,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
       "kind": "boss",
       "bytes": 9554,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_renataki",
+        "boss_renatakiAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9865,6 +10511,15 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
       "kind": "boss",
       "bytes": 14685,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -9987,6 +10642,13 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
       "kind": "boss",
       "bytes": 4788,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -10040,6 +10702,14 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
       "kind": "boss",
       "bytes": 3369,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_wushoolay",
+        "boss_wushoolayAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10119,6 +10789,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
       "kind": "instance",
       "bytes": 7623,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10180,6 +10855,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.cpp",
       "kind": "shared",
       "bytes": 1801,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10212,6 +10892,11 @@
       "path": "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.h",
       "kind": "shared",
       "bytes": 3293,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -10305,6 +10990,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_arlokk.cpp",
       "kind": "boss",
       "bytes": 9385,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10386,6 +11081,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_hakkar.cpp",
       "kind": "boss",
       "bytes": 4156,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar",
+        "boss_hakkarAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10443,6 +11146,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_jeklik.cpp",
       "kind": "boss",
       "bytes": 10523,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_jeklik",
+        "boss_jeklikAI",
+        "npc_gurubashi_bat_rider",
+        "npc_gurubashi_bat_riderAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -10531,6 +11244,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_mandokir.cpp",
       "kind": "boss",
       "bytes": 9546,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "mob_ohgan",
+        "mob_ohganAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -10624,6 +11347,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_marli.cpp",
       "kind": "boss",
       "bytes": 5011,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_marli",
+        "boss_marliAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10675,6 +11406,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_renataki.cpp",
       "kind": "boss",
       "bytes": 4751,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_renataki",
+        "boss_renatakiAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10728,6 +11467,20 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_thekal.cpp",
       "kind": "boss",
       "bytes": 12697,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_thekal",
+        "boss_thekalAI",
+        "boss_thekalBaseAI",
+        "mob_zealot_lorkhan",
+        "mob_zealot_lorkhanAI",
+        "mob_zealot_zath",
+        "mob_zealot_zathAI",
+        "npc_zealot_zath"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10807,6 +11560,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_venoxis.cpp",
       "kind": "boss",
       "bytes": 4143,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_venoxis",
+        "boss_venoxisAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10860,6 +11621,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/zulgurub.cpp",
       "kind": "shared",
       "bytes": 8056,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -10900,6 +11666,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/zulgurub.h",
       "kind": "shared",
       "bytes": 2589,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -10947,6 +11718,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/zulgurubScripts.cpp",
       "kind": "shared",
       "bytes": 6799,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_soulflayer",
+        "npc_soulflayerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -11028,10 +11807,1501 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/zulgurub.json",
+      "kind": "shared",
+      "bytes": 555158,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_arlokk",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek",
+        "boss_grilek_coa",
+        "boss_hakkar",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo",
+        "boss_jindo_coa",
+        "boss_jindo_the_godbreaker",
+        "boss_kilnara",
+        "boss_mandokir",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis",
+        "boss_venoxis_coa",
+        "boss_wushoolay",
+        "boss_zanzil",
+        "npc_heart_of_hakkar_coa",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_VENOXIS",
+        "DATA_ARLOKK",
+        "DATA_EDGE_OF_MADNESS",
+        "DATA_GAHZRANKA",
+        "DATA_GRILEK",
+        "DATA_HAKKAR",
+        "DATA_HAZZARAH",
+        "DATA_JEKLIK",
+        "DATA_JINDO",
+        "DATA_JINDOR_TRIGGER",
+        "DATA_KILNARA",
+        "DATA_LORKHAN",
+        "DATA_MANDOKIR",
+        "DATA_MARLI",
+        "DATA_OHGAN",
+        "DATA_OHGANOT_SO_FAST",
+        "DATA_RENATAKI",
+        "DATA_REVIVE_GUID",
+        "DATA_THEKAL",
+        "DATA_VENOXIS",
+        "DATA_WUSHOOLAY",
+        "DATA_ZANZIL",
+        "DATA_ZATH",
+        "EVENT_ACID_SPIT",
+        "EVENT_AMBUSH",
+        "EVENT_ANIMATE_BONES",
+        "EVENT_ASPECT_OF_ARLOKK",
+        "EVENT_ASPECT_OF_JEKLIK",
+        "EVENT_ASPECT_OF_MARLI",
+        "EVENT_ASPECT_OF_THEKAL",
+        "EVENT_ASPECT_OF_VENOXIS",
+        "EVENT_ATTACK",
+        "EVENT_AVATAR",
+        "EVENT_BATTERING_CHARGE",
+        "EVENT_BAT_RIDER",
+        "EVENT_BERSERK",
+        "EVENT_BLOODLETTING",
+        "EVENT_BLOOD_SCYTHE",
+        "EVENT_BLOOD_SIPHON",
+        "EVENT_BRAIN_WASH",
+        "EVENT_BRAIN_WASH_TOTEM",
+        "EVENT_BURROW",
+        "EVENT_CALL_OF_HIREEK",
+        "EVENT_CAUSE_INSANITY",
+        "EVENT_CHAIN_BURN",
+        "EVENT_CHAIN_LIGHTNING",
+        "EVENT_CHARGE",
+        "EVENT_CHARGE_PLAYER",
+        "EVENT_CHECK_OHGAN",
+        "EVENT_CHECK_SPEAKER",
+        "EVENT_CHECK_START",
+        "EVENT_CLAW_STORM",
+        "EVENT_CLEAVE",
+        "EVENT_CORPSE_EXPLOSION",
+        "EVENT_CORRUPTED_BLOOD",
+        "EVENT_CURSE_OF_BLOOD",
+        "EVENT_DECAPITATE",
+        "EVENT_DELUSIONS",
+        "EVENT_DELUSIONS_GROW",
+        "EVENT_DELUSIONS_OF_JINDO",
+        "EVENT_DEVASTATING_SLAM",
+        "EVENT_DRAIN_LIFE",
+        "EVENT_EARTH_SHOCK",
+        "EVENT_EDGE_OF_MADNESS_GRILEK",
+        "EVENT_EDGE_OF_MADNESS_HAZZARAH",
+        "EVENT_EDGE_OF_MADNESS_RENATAKI",
+        "EVENT_EDGE_OF_MADNESS_WUSHOOLAY",
+        "EVENT_EMERGE",
+        "EVENT_ENRAGE",
+        "EVENT_ENTANGLING_ROOTS",
+        "EVENT_EVOLVE",
+        "EVENT_EXECUTE",
+        "EVENT_FIERCE_BLOW",
+        "EVENT_FORKED_LIGHTNING",
+        "EVENT_GAZE",
+        "EVENT_GAZE_END",
+        "EVENT_GOUGE",
+        "EVENT_GREATER_HEAL",
+        "EVENT_GROUND_SLAM",
+        "EVENT_GROUND_TREMOR",
+        "EVENT_HATCH_EGGS",
+        "EVENT_HEALING_STREAM",
+        "EVENT_HEX",
+        "EVENT_HOLY_FIRE",
+        "EVENT_HOLY_NOVA",
+        "EVENT_HOLY_WRATH",
+        "EVENT_ILLUSIONS",
+        "EVENT_INFEST",
+        "EVENT_KIDNEY_SHOT",
+        "EVENT_LIGHTNING_CLOUD",
+        "EVENT_MARK_CHECK",
+        "EVENT_MARK_OF_ARLOKK",
+        "EVENT_MASS_FEAR",
+        "EVENT_MENACING_GAZE",
+        "EVENT_MIND_FLAY",
+        "EVENT_MORTAL_STRIKE",
+        "EVENT_OVERPOWER",
+        "EVENT_PARASITIC_POISON",
+        "EVENT_POISON_BOLT_VOLLEY",
+        "EVENT_POISON_SHOCK",
+        "EVENT_POWERFULL_HEALING_WARD",
+        "EVENT_PURSUIT",
+        "EVENT_RAVAGE",
+        "EVENT_REANIMATE_OHGAN",
+        "EVENT_REANIMATE_OHGAN_COOLDOWN",
+        "EVENT_RENEW",
+        "EVENT_SCREECH",
+        "EVENT_SHADOWSTEP",
+        "EVENT_SHADOW_WORD_PAIN",
+        "EVENT_SIPHON_END",
+        "EVENT_SIPHON_TICK",
+        "EVENT_SLEEP",
+        "EVENT_SONS",
+        "EVENT_STARTED",
+        "EVENT_START_PURSUIT",
+        "EVENT_STOP_PURSUIT",
+        "EVENT_SUMMON_OHGAN",
+        "EVENT_SUMMON_PROWLERS",
+        "EVENT_SWEEPING_STRIKES",
+        "EVENT_TELEPORT",
+        "EVENT_THOUSAND_BLADES",
+        "EVENT_THRASH",
+        "EVENT_TOXIC_BOMBARDEMENT",
+        "EVENT_TRANSFORM",
+        "EVENT_TRANSFORM_BACK",
+        "EVENT_VANISH",
+        "EVENT_VANISH_2",
+        "EVENT_VENOM_SPIT",
+        "EVENT_VISIBLE",
+        "EVENT_WATCH_PLAYER",
+        "EVENT_WEB_SPRAY",
+        "EVENT_WHIRLWIND",
+        "EVENT_WILL_CONTROL",
+        "EVENT_WILL_OF_HAKKAR",
+        "EVENT_WILL_RELEASE",
+        "GO_ARENA_DOOR_1",
+        "GO_ARENA_DOOR_2",
+        "GO_ARENA_DOOR_3",
+        "GO_ARENA_DOOR_4",
+        "GO_ARENA_DOOR_5",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_FORCEFIELD",
+        "GO_GONG_OF_BETHEKK",
+        "GO_JUST_DEACTIVATED",
+        "GO_SPIDER_EGG",
+        "GO_SPIDER_EGGS",
+        "GO_THE_CACHE_OF_MADNESS_DOOR",
+        "GO_VENOXIS_COIL",
+        "GO_ZANZIL_DOOR",
+        "NPC_ARLOKK",
+        "NPC_AVATAR_OF_BETHEKK",
+        "NPC_AVATAR_OF_HETHISS",
+        "NPC_AVATAR_OF_HIREEK",
+        "NPC_AVATAR_OF_SHADRA",
+        "NPC_AVATAR_OF_SHIRVALLAH",
+        "NPC_BATRIDER",
+        "NPC_BAT_RIDER",
+        "NPC_BLOODLORD_MANDOKIR",
+        "NPC_BLOODSEEKER_BAT",
+        "NPC_BRAIN_WASH_TOTEM",
+        "NPC_CHAINED_SPIRIT",
+        "NPC_FRENZIED_BAT",
+        "NPC_GAHZRANKA",
+        "NPC_GRILEK",
+        "NPC_HAKKAR",
+        "NPC_HAZZARAH",
+        "NPC_HEART_OF_HAKKAR",
+        "NPC_HIGH_PRIEST_THEKAL",
+        "NPC_JINDO",
+        "NPC_JINDO_THE_HEXXER",
+        "NPC_JINDO_TRIGGER",
+        "NPC_KILNARA",
+        "NPC_LORKHAN",
+        "NPC_MANDOKIR",
+        "NPC_MARLI",
+        "NPC_NIGHTMARE_ILLUSION",
+        "NPC_OHGAN",
+        "NPC_PANTHER_TRIGGER",
+        "NPC_PARASITIC_SERPENT",
+        "NPC_POWERFUL_HEALING_WARD",
+        "NPC_PRIESTESS_JEKLIK",
+        "NPC_PRIESTESS_MARLI",
+        "NPC_RAZZASHI_COBRA",
+        "NPC_RENATAKI",
+        "NPC_SACRIFICED_TROLL",
+        "NPC_SHADE_OF_JINDO",
+        "NPC_SHADOW_OF_HAKKAR",
+        "NPC_SON_OF_HAKKAR",
+        "NPC_SPAWN_OF_MARLI",
+        "NPC_SPIRIT_OF_HAKKAR",
+        "NPC_THEKAL",
+        "NPC_VENOXIS",
+        "NPC_VILEBRANCH_SPEAKER",
+        "NPC_WORLD_TRIGGER",
+        "NPC_WUSHOOLAY",
+        "NPC_ZANZIL",
+        "NPC_ZATH",
+        "NPC_ZEALOT_LORKHAN",
+        "NPC_ZEALOT_ZATH",
+        "NPC_ZULGURUB_TIGER",
+        "NPC_ZULIAN_PROWLER",
+        "SPELL_ACID_BURST",
+        "SPELL_ACID_POOL",
+        "SPELL_ACID_SPIT",
+        "SPELL_ACID_SPIT_DOT",
+        "SPELL_AMBUSH",
+        "SPELL_ANEMIA",
+        "SPELL_ANIMATE_BONES",
+        "SPELL_ASPECT_OF_ARLOKK",
+        "SPELL_ASPECT_OF_BETHEKK",
+        "SPELL_ASPECT_OF_HETHISS",
+        "SPELL_ASPECT_OF_HIREEK",
+        "SPELL_ASPECT_OF_JEKLIK",
+        "SPELL_ASPECT_OF_MARLI",
+        "SPELL_ASPECT_OF_SHADRA",
+        "SPELL_ASPECT_OF_SHIRVALLAH",
+        "SPELL_ASPECT_OF_THEKAL",
+        "SPELL_ASPECT_OF_VENOXIS",
+        "SPELL_ATTR0_CU_NO_INITIAL_THREAT",
+        "SPELL_AURA_DAMAGE_SHIELD",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_MOD_INVISIBILITY",
+        "SPELL_AURA_MOD_INVISIBILITY_DETECT",
+        "SPELL_AURA_MOD_STUN",
+        "SPELL_AURA_PERIODIC_DAMAGE",
+        "SPELL_AURA_PERIODIC_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL",
+        "SPELL_AURA_TRANSFORM",
+        "SPELL_AVATAR",
+        "SPELL_AXE_FLURRY",
+        "SPELL_AXE_FLURRY_STUN",
+        "SPELL_BANISH",
+        "SPELL_BATRIDER_BATTLE_COMMAND",
+        "SPELL_BATRIDER_DEMO_SHOUT",
+        "SPELL_BATRIDER_FIERCE_BLOW",
+        "SPELL_BATRIDER_INFECTED_BITE",
+        "SPELL_BATRIDER_PASSIVE_THRASH",
+        "SPELL_BATRIDER_SUMMON_LIQUID_FIRE",
+        "SPELL_BATRIDER_THROW_LIQUID_FIRE",
+        "SPELL_BATRIDER_UNSTABLE_CONCOCTION",
+        "SPELL_BATTERING_CHARGE",
+        "SPELL_BATTERING_IMPACT",
+        "SPELL_BATTERING_STUN",
+        "SPELL_BATTLE_COMMAND",
+        "SPELL_BAT_FORM",
+        "SPELL_BERSERK",
+        "SPELL_BERSERKER_CHARGE",
+        "SPELL_BLIND",
+        "SPELL_BLIND_HIT",
+        "SPELL_BLOODLETTING",
+        "SPELL_BLOODLETTING_DAMAGE",
+        "SPELL_BLOODLETTING_HEAL",
+        "SPELL_BLOODLORDS_PRESENCE",
+        "SPELL_BLOODLORD_AURA",
+        "SPELL_BLOODLUST",
+        "SPELL_BLOOD_LEECH",
+        "SPELL_BLOOD_SCYTHE",
+        "SPELL_BLOOD_SCYTHE_ARMOR",
+        "SPELL_BLOOD_SCYTHE_HIT",
+        "SPELL_BLOOD_SIPHON",
+        "SPELL_BLOOD_SIPHON_DAMAGE",
+        "SPELL_BLOOD_SIPHON_HEAL",
+        "SPELL_BLOOD_SIPHON_HIT",
+        "SPELL_BRAINWASH",
+        "SPELL_BRAIN_WASH_TOTEM",
+        "SPELL_BURROW",
+        "SPELL_CALL_OF_HIREEK",
+        "SPELL_CAST_OK",
+        "SPELL_CAUSE_INSANITY",
+        "SPELL_CHAIN_BURN",
+        "SPELL_CHAIN_LIGHTNING",
+        "SPELL_CHARGE",
+        "SPELL_CHARGE_GAZE",
+        "SPELL_CLAW_STORM",
+        "SPELL_CLEAR_ALL",
+        "SPELL_CLEAVE",
+        "SPELL_CORPSE_EXPLOSION",
+        "SPELL_CORROSION",
+        "SPELL_CORROSIVE_POISON",
+        "SPELL_CORRUPTED_BLOOD",
+        "SPELL_CORRUPTED_BLOOD_HEAL",
+        "SPELL_CURSE_OF_BLOOD",
+        "SPELL_CURSE_OF_BLOOD_HIT",
+        "SPELL_DASH",
+        "SPELL_DECAPITATE",
+        "SPELL_DELUSIONS",
+        "SPELL_DELUSIONS_DOT",
+        "SPELL_DELUSIONS_OF_JINDO",
+        "SPELL_DELUSIONS_VISION",
+        "SPELL_DEMORALIZING_SHOUT",
+        "SPELL_DESPAWN_CHAINED_SPIRITS",
+        "SPELL_DEVASTATING_SLAM",
+        "SPELL_DEVASTATING_SLAM_DAMAGE",
+        "SPELL_DEVASTATING_SLAM_TRIGGER",
+        "SPELL_DIRECT_DAMAGE",
+        "SPELL_DISARM",
+        "SPELL_DISPELL",
+        "SPELL_DISPEL_MAGIC",
+        "SPELL_DISRUPTING_SHOUT",
+        "SPELL_DISRUPTING_SHOUT_HIT",
+        "SPELL_DOUBLE_ATTACK",
+        "SPELL_DRAIN_LIFE",
+        "SPELL_DRAIN_LIFE_HEAL",
+        "SPELL_DRAIN_LIFE_TICK",
+        "SPELL_DRAIN_POWER",
+        "SPELL_EARTH_SHOCK",
+        "SPELL_EFFECT_CHARGE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_FORCE_CAST",
+        "SPELL_EFFECT_KNOCK_BACK",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_EFFECT_SEND_EVENT",
+        "SPELL_EFFECT_TRIGGER_SPELL",
+        "SPELL_ENLARGE",
+        "SPELL_ENRAGE",
+        "SPELL_ENTANGLING_ROOTS",
+        "SPELL_ENVELOPING_WEB",
+        "SPELL_ENVELOPING_WEBS",
+        "SPELL_EVOLVE",
+        "SPELL_EXECUTE",
+        "SPELL_EXECUTE_HIT",
+        "SPELL_FEAR",
+        "SPELL_FIERCE_BLOW",
+        "SPELL_FIRST_BLOOD",
+        "SPELL_FORCEPUNCH",
+        "SPELL_FORCE_PUNCH",
+        "SPELL_FORKED_LIGHTNING",
+        "SPELL_FRENZY",
+        "SPELL_FRIENDS_ON_THE_OTHER_SIDE",
+        "SPELL_FRIGHTENING_SHOUT",
+        "SPELL_FROSTBREATH",
+        "SPELL_FULL_GROWN",
+        "SPELL_FURIOUS_STRIKES",
+        "SPELL_GIFT_OF_THE_BLOOD_GOD",
+        "SPELL_GOUGE",
+        "SPELL_GREATERHEAL",
+        "SPELL_GREATER_HEAL",
+        "SPELL_GREAT_HEAL",
+        "SPELL_GREEN_CHANNELING",
+        "SPELL_GROUND_SLAM",
+        "SPELL_GROUND_SLAM_HIT",
+        "SPELL_GROUND_TREMOR",
+        "SPELL_GROWTH",
+        "SPELL_HAKKAR_POWER",
+        "SPELL_HAKKAR_POWER_DOWN",
+        "SPELL_HATCH_EGGS",
+        "SPELL_HATCH_SPIDER_EGG",
+        "SPELL_HATE_TO_ZERO",
+        "SPELL_HEAL",
+        "SPELL_HEALING_STREAM",
+        "SPELL_HEALING_STREAM_HEAL",
+        "SPELL_HEART_EXPOSED",
+        "SPELL_HEX",
+        "SPELL_HOLY_FIRE",
+        "SPELL_HOLY_FIRE_DOT",
+        "SPELL_HOLY_FIRE_HIT",
+        "SPELL_HOLY_NOVA",
+        "SPELL_HOLY_NOVA_HEAL",
+        "SPELL_HOLY_NOVA_HIT",
+        "SPELL_HOLY_WARD",
+        "SPELL_HOLY_WRATH",
+        "SPELL_HOLY_WRATH_HIT",
+        "SPELL_INFECTED_BITE",
+        "SPELL_INFEST",
+        "SPELL_INTIMIDATING_SHOUT",
+        "SPELL_KICK",
+        "SPELL_KIDNEY_SHOT",
+        "SPELL_KILLING_SPREE",
+        "SPELL_KNOCKDOWN",
+        "SPELL_LEAP",
+        "SPELL_LEGENDARY",
+        "SPELL_LEVEL_UP",
+        "SPELL_LIGHTNING_BREATH",
+        "SPELL_LIGHTNING_CLOUD",
+        "SPELL_LIGHTNING_SHIELD",
+        "SPELL_LIQUID_FIRE",
+        "SPELL_LIST_PHASE_1",
+        "SPELL_LIST_PHASE_2",
+        "SPELL_LIST_PHASE_3",
+        "SPELL_MANDOKIR_CLEAVE",
+        "SPELL_MARK_ARLOKK",
+        "SPELL_MARK_OF_ARLOKK",
+        "SPELL_MARK_OF_ARLOKK_AURA",
+        "SPELL_MARK_OF_ARLOKK_TRIGGER",
+        "SPELL_MASSIVEGEYSER",
+        "SPELL_MASS_FEAR",
+        "SPELL_MASS_FEAR_HIT",
+        "SPELL_MENACING_GAZE",
+        "SPELL_MIND_FLAY",
+        "SPELL_MORTALCLEAVE",
+        "SPELL_MORTAL_CLEAVE",
+        "SPELL_MORTAL_CLEAVE_HIT",
+        "SPELL_MORTAL_STRIKE",
+        "SPELL_MORTAL_STRIKE_HIT",
+        "SPELL_MORTAL_WOUND",
+        "SPELL_MOUNTED",
+        "SPELL_OHGAN_FIERCE_BLOW",
+        "SPELL_OHGAN_HEART_VISUAL",
+        "SPELL_OHGAN_ORDERS",
+        "SPELL_OHGAN_ORDERS_TRIGGER",
+        "SPELL_OVERPOWER",
+        "SPELL_PACIFY_SELF",
+        "SPELL_PANTHER_TRANSFORM",
+        "SPELL_PARASITIC_POISON",
+        "SPELL_PARASITIC_POISON_DOT",
+        "SPELL_PARASITIC_SERPENT",
+        "SPELL_PERMANENT_FEIGN_DEATH",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_POISONED_BLOOD",
+        "SPELL_POISONOUS_BLOOD",
+        "SPELL_POISONOUS_CLOUD",
+        "SPELL_POISONOUS_FANGS",
+        "SPELL_POISON_BOLT_HIT",
+        "SPELL_POISON_BOLT_VOLLEY",
+        "SPELL_POISON_CLOUD",
+        "SPELL_POISON_NOVA",
+        "SPELL_POISON_SHOCK",
+        "SPELL_POISON_SHOCK_HIT",
+        "SPELL_POISON_VOLLEY",
+        "SPELL_POOL_OF_CORRUPTED_BLOOD",
+        "SPELL_POOL_OF_POISONED_BLOOD",
+        "SPELL_POWERFULL_HEALING_WARD",
+        "SPELL_PROWL",
+        "SPELL_PROWLER_FIERCE_BLOW",
+        "SPELL_PSYCHIC_SCREAM",
+        "SPELL_PSYHIC_SCREAM",
+        "SPELL_PURSUIT",
+        "SPELL_RAMPAGE",
+        "SPELL_RANDOM_AGGRO",
+        "SPELL_RAVAGE",
+        "SPELL_RAZOR_CLAWS",
+        "SPELL_REANIMATE_OHGAN",
+        "SPELL_RENDING_SWIPE",
+        "SPELL_RENDING_SWIPE_HIT",
+        "SPELL_RENEW",
+        "SPELL_RESSURECTION_IMPACT_VISUAL",
+        "SPELL_RESURRECT",
+        "SPELL_RESURRECTION",
+        "SPELL_RESURRECTION_IMPACT_VISUAL",
+        "SPELL_REVIVE",
+        "SPELL_RIP",
+        "SPELL_ROOT_SELF",
+        "SPELL_SCHOOL_MASK_NORMAL",
+        "SPELL_SCREECH",
+        "SPELL_SCREECH_HIT",
+        "SPELL_SENTENCED_TO_DIE",
+        "SPELL_SHADE_OF_JINDO_PASSIVE",
+        "SPELL_SHADE_OF_JINDO_VISUAL",
+        "SPELL_SHADOWSTEP",
+        "SPELL_SHADOW_SHOCK",
+        "SPELL_SHADOW_WORD_PAIN",
+        "SPELL_SHADOW_WORD_PAIN_DOT",
+        "SPELL_SHIELD",
+        "SPELL_SHRED",
+        "SPELL_SHREDDING_CLAWS",
+        "SPELL_SHRED_ARMOR",
+        "SPELL_SILENCE",
+        "SPELL_SINISTERSTRIKE",
+        "SPELL_SINISTER_STRIKE",
+        "SPELL_SINISTER_STRIKE_HIT",
+        "SPELL_SLAM",
+        "SPELL_SLEEP",
+        "SPELL_SNAKE_FORM",
+        "SPELL_SNEAK",
+        "SPELL_SNEAK_RANK_1_1",
+        "SPELL_SNEAK_RANK_1_2",
+        "SPELL_SONIC_BURST",
+        "SPELL_SOUL_TAP",
+        "SPELL_SPAWN_FIERCE_BLOW",
+        "SPELL_SPAWN_RED_LIGHTNING",
+        "SPELL_SPEED_SLASH",
+        "SPELL_SPIDER_EGG",
+        "SPELL_SPIDER_EGGS",
+        "SPELL_SPIDER_FORM",
+        "SPELL_SPIRIT_PARTICLES",
+        "SPELL_SPIRIT_VENGEANCE_CANCEL",
+        "SPELL_SPLASH",
+        "SPELL_STORM_SHIELD_AURA",
+        "SPELL_STORM_SHIELD_HIT",
+        "SPELL_SUMMONTIGERS",
+        "SPELL_SUMMON_BLOODLORDS_RAPTOR",
+        "SPELL_SUMMON_BRAIN_WASH",
+        "SPELL_SUMMON_FRENZIED_BATS",
+        "SPELL_SUMMON_HEALING_STREAM",
+        "SPELL_SUMMON_ILLUSION_1",
+        "SPELL_SUMMON_ILLUSION_2",
+        "SPELL_SUMMON_ILLUSION_3",
+        "SPELL_SUMMON_NIGHTMARE_ILLUSION_BACK",
+        "SPELL_SUMMON_NIGHTMARE_ILLUSION_LEFT",
+        "SPELL_SUMMON_NIGHTMARE_ILLUSION_RIGHT",
+        "SPELL_SUMMON_OHGAN",
+        "SPELL_SUMMON_PARASITIC_SERPENT",
+        "SPELL_SUMMON_PLAYER",
+        "SPELL_SUMMON_PROWLER",
+        "SPELL_SUMMON_SHADE_OF_JINDO",
+        "SPELL_SUMMON_TIGERS",
+        "SPELL_SUMMON_ZULIAN_PROWLERS",
+        "SPELL_SUNDERARMOR",
+        "SPELL_SUPER_INVIS",
+        "SPELL_SWEEPINGSTRIKES",
+        "SPELL_SWEEPING_STRIKES",
+        "SPELL_SWOOP",
+        "SPELL_THEKAL_TRIGGER",
+        "SPELL_THOUSAND_BLADES",
+        "SPELL_THRASH",
+        "SPELL_THREATENING_GAZE",
+        "SPELL_TIGER_FORM",
+        "SPELL_TOXIC_BOMBARDEMENT",
+        "SPELL_TRANSFORM_BACK",
+        "SPELL_TRANSFORM_VISUAL",
+        "SPELL_TRASH",
+        "SPELL_TRAUMA",
+        "SPELL_UNSTABLE_CONCOCTION",
+        "SPELL_UNSTOPPABLE",
+        "SPELL_VAMPIRISM",
+        "SPELL_VANISH",
+        "SPELL_VANISH_TELEPORT",
+        "SPELL_VANISH_VISUAL",
+        "SPELL_VENOMSPIT",
+        "SPELL_VENOM_SPIT",
+        "SPELL_VENOM_SPIT_HIT",
+        "SPELL_VENOXIS_TRANSFORM",
+        "SPELL_VIRULENT_POISON",
+        "SPELL_VIRULENT_POISON_PROC",
+        "SPELL_WAR_STOMP",
+        "SPELL_WAR_STOMP_HIT",
+        "SPELL_WATCH",
+        "SPELL_WATCH_CHARGE",
+        "SPELL_WEB_SPRAY",
+        "SPELL_WHIRLWIND",
+        "SPELL_WILL_CONTROL",
+        "SPELL_WILL_OF_HAKKAR",
+        "SPELL_WILL_RELEASED",
+        "SPELL_WILL_SHIELD",
+        "SPELL_WILL_SLIPPING",
+        "SPELL_ZATH_DISARM"
+      ],
+      "cast_calls": 1061,
+      "timing_or_phase_signals": 27,
+      "timer_expression_candidates": [
+        {
+          "line": 524,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_PROWLERS, 6s, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 529,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MARK_OF_ARLOKK, 10s, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 534,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, FIERCE_BLOW_FIRST_MIN, FIERCE_BLOW_FIRST_MAX, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 539,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, swp, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 544,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KIDNEY_SHOT, 15s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 549,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TRANSFORM, 30s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 554,
+          "expression": "\"expression\": \"DoCast(target, SPELL_MARK_OF_ARLOKK, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 559,
+          "expression": "\"expression\": \"DoCast(tank, SPELL_SHADOW_WORD_PAIN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 564,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 20s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 569,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_KIDNEY_SHOT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 574,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KIDNEY_SHOT, 30s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 579,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MARK_CHECK, 2s, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 584,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MARK_CHECK, 2s, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 589,
+          "expression": "\"expression\": \"trigger->CastSpell(trigger, SPELL_SUMMON_PROWLER);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 594,
+          "expression": "\"expression\": \"trigger->CastSpell(trigger, SPELL_SUMMON_PROWLER);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 599,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_PROWLERS, 6s, 0, PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 604,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH, 1s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 609,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH_2, 9s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 614,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VISIBLE, 41s, 47s, 0, PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 619,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CLAW_STORM, 5s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 624,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RAVAGE, 10s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 629,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOWSTEP, 12s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 634,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TRANSFORM_BACK, 30s, 40s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 639,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CLAW_STORM, 55s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 644,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_RAVAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 649,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RAVAGE, 15s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 654,
+          "expression": "\"expression\": \"DoCast(target, SPELL_SHADOWSTEP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 659,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOWSTEP, 15s, 0, PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 664,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIERCE_BLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 724,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PURSUIT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 729,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GROUND_SLAM, 24s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 734,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PURSUIT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 739,
+          "expression": "\"expression\": \"me->CastSpell(p, SPELL_GROUND_SLAM_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 744,
+          "expression": "\"expression\": \"me->CastSpell(p, SPELL_TRAUMA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 749,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PURSUIT, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 754,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GROUND_SLAM, 25s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 873,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLOOD_SCYTHE, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 878,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CORRUPTED_BLOOD, 25s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 883,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILL_OF_HAKKAR, 45s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 888,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SONS, 45s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 893,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLOOD_SIPHON, 59500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 898,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, FIERCE_BLOW_FIRST_MIN, FIERCE_BLOW_FIRST_MAX);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 903,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BERSERK, 10min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 908,
+          "expression": "\"expression\": \"spot->CastSpell(spot, SPELL_POOL_OF_POISONED_BLOOD, true, nullptr, nullptr, me->GetGUID());\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 913,
+          "expression": "\"expression\": \"_clock.ScheduleEvent(EVENT_SIPHON_END, 0ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 918,
+          "expression": "\"expression\": \"_clock.ScheduleEvent(EVENT_SIPHON_TICK, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 923,
+          "expression": "\"expression\": \"_clock.ScheduleEvent(EVENT_SIPHON_END, SIPHON_LENGTH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 928,
+          "expression": "\"expression\": \"me->CastSpell(p, SPELL_BLOOD_SCYTHE_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 933,
+          "expression": "\"expression\": \"me->CastSpell(p, SPELL_BLOOD_SIPHON_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 938,
+          "expression": "\"expression\": \"me->CastCustomSpell(me, SPELL_BLOOD_SIPHON_HEAL, &heal, nullptr, nullptr, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 943,
+          "expression": "\"expression\": \"_clock.ScheduleEvent(EVENT_SIPHON_TICK, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 948,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLOOD_SIPHON, 79500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 953,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CORRUPTED_BLOOD, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 958,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_WILL_SLIPPING, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 963,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILL_CONTROL, 5s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 968,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILL_OF_HAKKAR, 45s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 973,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_WILL_CONTROL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 978,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_WILL_SHIELD, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 983,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILL_RELEASE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 988,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_WILL_RELEASED, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 993,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BLOOD_SCYTHE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 998,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLOOD_SCYTHE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1003,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SONS, 60s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1008,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIERCE_BLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1013,
+          "expression": "\"expression\": \"caster->CastCustomSpell(caster, SPELL_CORRUPTED_BLOOD_HEAL, &heal, nullptr, nullptr, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1018,
+          "expression": "\"expression\": \"spot->CastSpell(spot, SPELL_POOL_OF_CORRUPTED_BLOOD, true, nullptr, nullptr, boss->GetGUID());\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1105,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MIND_FLAY, 4s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1110,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MASS_FEAR, 12s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1115,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 15s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1120,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_OF_BLOOD, 16s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1125,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_OF_HIREEK, 22s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1130,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GREATER_HEAL, 21s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1135,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, FIERCE_BLOW_FIRST_MIN, FIERCE_BLOW_FIRST_MAX);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1140,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BATTERING_CHARGE, 2s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1145,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SCREECH, 4s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1150,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BAT_RIDER, 10s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1155,
+          "expression": "\"expression\": \"me->CastSpell(p, SPELL_MASS_FEAR_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1160,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_CURSE_OF_BLOOD_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1165,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_BATTERING_IMPACT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1170,
+          "expression": "\"expression\": \"DoCast(target, spell);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1175,
+          "expression": "\"expression\": \"me->CastCustomSpell(tank, SPELL_MIND_FLAY, nullptr, &tick, nullptr, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1180,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MIND_FLAY, 14s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1185,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MASS_FEAR, 44s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1190,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 27s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1195,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_OF_BLOOD, 31s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1200,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_OF_HIREEK, 60s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1205,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GREATER_HEAL, 46s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1210,
+          "expression": "\"expression\": \"DoCast(target, SPELL_BATTERING_CHARGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1215,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BATTERING_CHARGE, 20s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1220,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SCREECH, 20s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1225,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BAT_RIDER, 10s, 15s, 0, PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1312,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TELEPORT, 5s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1317,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEX, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1322,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DELUSIONS, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1327,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BRAIN_WASH, 17s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1332,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ANIMATE_BONES, 23s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1337,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALING_STREAM, 202s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1342,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DELUSIONS_GROW, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1347,
+          "expression": "\"expression\": \"summon->CastSpell(target, SPELL_BRAINWASH, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1352,
+          "expression": "\"expression\": \"summon->CastSpell(me, SPELL_HEALING_STREAM, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1357,
+          "expression": "\"expression\": \"me->CastCustomSpell(me, SPELL_FRIENDS_ON_THE_OTHER_SIDE, nullptr, &bonus, nullptr, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1362,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_DELUSIONS_DOT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1367,
+          "expression": "\"expression\": \"target->CastSpell(target, SPELL_SUMMON_SHADE_OF_JINDO, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1372,
+          "expression": "\"expression\": \"DoCast(target, SPELL_DELUSIONS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1377,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DELUSIONS, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1382,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BRAIN_WASH, 60s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1387,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ANIMATE_BONES, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1392,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALING_STREAM, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1397,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HEX, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1402,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEX, 12s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1407,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TELEPORT, 15s, 23s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1412,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DELUSIONS_GROW, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1417,
+          "expression": "\"expression\": \"caster->CastCustomSpell(target, SPELL_HEALING_STREAM_HEAL, &heal, nullptr, nullptr, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1510,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_START, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1515,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_SENTENCED_TO_DIE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1520,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_LEAP, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1525,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_DECAPITATE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1530,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MORTAL_STRIKE, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1535,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHARGE, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1540,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WHIRLWIND, MANDOKIR_WHIRLWIND_FIRST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1545,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GAZE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1550,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_OHGAN, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1555,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, MANDOKIR_FIERCE_BLOW_FIRST_MIN, MANDOKIR_FIERCE_BLOW_FIRST_MAX);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1560,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EXECUTE, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1565,
+          "expression": "\"expression\": \"DoCast(player, SPELL_SUMMON_PLAYER, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1570,
+          "expression": "\"expression\": \"me->CastSpell(tank, SPELL_MORTAL_STRIKE_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1575,
+          "expression": "\"expression\": \"me->CastSpell(tank, SPELL_EXECUTE_HIT, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1580,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STARTED, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1585,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_START, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1590,
+          "expression": "\"expression\": \"DoCast(target, SPELL_BERSERKER_CHARGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1595,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHARGE, 25s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1600,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WHIRLWIND, MANDOKIR_WHIRLWIND_INTERVAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1605,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MORTAL_STRIKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1610,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MORTAL_STRIKE, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1615,
+          "expression": "\"expression\": \"me->CastSpell(player, SPELL_THREATENING_GAZE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1620,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MENACING_GAZE, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1625,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GAZE, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1630,
+          "expression": "\"expression\": \"me->CastSpell(target, SPELL_MENACING_GAZE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1635,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_EXECUTE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1640,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EXECUTE, 7s, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1645,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_OHGAN, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1650,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIERCE_BLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1655,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, MANDOKIR_FIERCE_BLOW_MIN, MANDOKIR_FIERCE_BLOW_MAX);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1660,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(target, SPELL_REVIVE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1756,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_THRASH, 4s, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1761,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DRAIN_LIFE, 6s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1766,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_POISON_BOLT_VOLLEY, 12s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1771,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HATCH_EGGS, 17s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1776,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EVOLVE, 22s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1781,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INFEST, 87s, 0, PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 671,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 676,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 681,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1232,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1237,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1928,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1933,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_SPIDER);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2333,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2338,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_SNAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2590,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2595,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3806,
+          "expression": "\"expression\": \"if (!_enraged && HealthBelowPct(30))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 4476,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 4481,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5667,
+          "expression": "\"expression\": \"if (!_enraged && HealthBelowPct(30))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 6946,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 6951,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 6956,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 7471,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 7476,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_BAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8071,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8076,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_SPIDER);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8424,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TROLL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8429,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_SNAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8663,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 8668,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 9854,
+          "expression": "\"expression\": \"if (!_enraged && HealthBelowPct(30))\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-auxiliary-encounters-and-instance-batch2-2026-10-30.json",
       "kind": "shared",
       "bytes": 56232,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gahzranka",
+        "boss_hazzarah",
+        "boss_renataki",
+        "boss_renatakiAI",
+        "boss_wushoolay",
+        "boss_wushoolayAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -11217,10 +13487,42 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-core-legacy-boss-scripts-batch3-2026-10-30.json",
       "kind": "shared",
       "bytes": 116229,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_grilek",
+        "boss_grilekAI",
+        "boss_hakkar",
+        "boss_hakkarAI",
+        "boss_jeklik",
+        "boss_jindo",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_marli",
+        "boss_thekal",
+        "boss_venoxis",
+        "npc_batrider",
+        "npc_brain_wash_totem",
+        "npc_chained_spirit",
+        "npc_healing_ward",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_shade_of_jindo",
+        "npc_spawn_of_marli",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -11593,10 +13895,26 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-custom-boss-scripts-batch1-2026-10-30.json",
       "kind": "shared",
       "bytes": 131403,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk_coa",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir_coa",
+        "boss_marli_coa",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "npc_heart_of_hakkar_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -12090,10 +14408,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-deep-crosssystem-audit-2026-10-30.json",
       "kind": "shared",
       "bytes": 1226260,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -12111,10 +14434,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-extra-cache-release-encounter-audit-2026-10-30.json",
       "kind": "shared",
       "bytes": 494617,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -12132,10 +14460,17 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-health-spawns-tests-audit-2026-10-30.json",
       "kind": "shared",
       "bytes": 567305,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_jindo_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -12156,10 +14491,19 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-pr9139-all-13-sql-difficulty-loot-trash-2026-10-30.json",
       "kind": "trash",
       "bytes": 146476,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hakkar_coa",
+        "npc_heart_of_hakkar_coa",
+        "npc_vendor"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -12177,10 +14521,33 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-pr9139-core-boss-and-achievement-dependencies-2026-10-30.json",
       "kind": "shared",
       "bytes": 89481,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_jeklik",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_marli",
+        "boss_thekal",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -12457,10 +14824,26 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-zulgurub-pr9139-updated-9-boss-scripts-and-audit-2026-10-30.json",
       "kind": "shared",
       "bytes": 164025,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk_coa",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir_coa",
+        "boss_marli_coa",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "npc_heart_of_hakkar_coa"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -13018,10 +15401,37 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/dbm-coa-vanilla-19-plus-zulgurub-consolidated-source-handoff-2026-10-30.json",
       "kind": "shared",
       "bytes": 4984,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek_coa",
+        "boss_hakkar",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis",
+        "boss_venoxis_coa",
+        "boss_wushoolay"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -13039,10 +15449,50 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-Deep-Audit-Raid-Pack-v4-2026-10-30.json",
       "kind": "shared",
       "bytes": 1373799,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_renatakiAI",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "boss_wushoolay",
+        "boss_wushoolayAI",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_heart_of_hakkar_coa",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vendor",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -13903,10 +16353,50 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-Expanded-Raid-Complete-2026-10-30.json",
       "kind": "shared",
       "bytes": 469073,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_renatakiAI",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "boss_wushoolay",
+        "boss_wushoolayAI",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_heart_of_hakkar_coa",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vendor",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -14765,10 +17255,50 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-Final-Audited-Raid-Pack-2026-10-30.json",
       "kind": "shared",
       "bytes": 964230,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_renatakiAI",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "boss_wushoolay",
+        "boss_wushoolayAI",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_heart_of_hakkar_coa",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vendor",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -15627,10 +18157,44 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-Full-Raid-Source-Pack-2026-10-30.json",
       "kind": "shared",
       "bytes": 400804,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_arlokk_coa",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_heart_of_hakkar_coa",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vendor",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -16361,10 +18925,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-Thorough-Audit-v5-Manifest-2026-10-30.json",
       "kind": "shared",
       "bytes": 1184,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -16382,10 +18951,50 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/transfers/ZulGurub-Conquest-UNIFIED-Complete-Raid-Pack-v5-2026-10-30.json",
       "kind": "shared",
       "bytes": 2600448,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arlokk",
+        "boss_arlokkAI",
+        "boss_arlokk_coa",
+        "boss_gahzranka",
+        "boss_grilek_coa",
+        "boss_hakkar_coa",
+        "boss_hazzarah",
+        "boss_jeklik",
+        "boss_jeklik_coa",
+        "boss_jindo_coa",
+        "boss_mandokir",
+        "boss_mandokirAI",
+        "boss_mandokir_coa",
+        "boss_marli",
+        "boss_marli_coa",
+        "boss_renataki",
+        "boss_renatakiAI",
+        "boss_thekal",
+        "boss_thekal_coa",
+        "boss_venoxis_coa",
+        "boss_wushoolay",
+        "boss_wushoolayAI",
+        "npc_batrider",
+        "npc_chained_spirit",
+        "npc_heart_of_hakkar_coa",
+        "npc_ohgan",
+        "npc_ohganAI",
+        "npc_spawn_of_marli",
+        "npc_vendor",
+        "npc_vilebranch_speaker",
+        "npc_zealot_lorkhan",
+        "npc_zealot_zath",
+        "npc_zulian_prowler",
+        "npc_zulian_prowlerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -17497,20 +20106,24 @@
     }
   },
   "coverage": {
-    "source_files": 125,
+    "source_files": 126,
     "by_kind": {
       "boss": 74,
       "trash": 1,
       "instance": 4,
       "sql": 20,
-      "shared": 26,
+      "shared": 27,
       "other": 0
     },
     "npc_ids_candidate": 55,
     "spell_ids_candidate": 356,
     "encounter_filename_candidates": 25,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 85,
+    "nonboss_ai_source_candidates": 35,
+    "shared_creature_ai_source_candidates": 11,
     "trash_ai_explicitly_identified": true,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

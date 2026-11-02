@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
       "kind": "instance",
       "bytes": 1383,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
       "kind": "boss",
       "bytes": 7366,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_saviana_ragefire",
+        "boss_saviana_ragefireAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -154,6 +167,11 @@
       "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
       "kind": "instance",
       "bytes": 1383,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -175,6 +193,14 @@
       "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
       "kind": "boss",
       "bytes": 7366,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_saviana_ragefire",
+        "boss_saviana_ragefireAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -295,10 +321,19 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_adarogg.cpp",
       "kind": "boss",
       "bytes": 7138,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_adarogg",
+        "npc_corrupted_houndmaster_1",
+        "npc_corrupted_houndmaster_2"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -377,10 +412,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_dark_shaman_koranthal.cpp",
       "kind": "boss",
       "bytes": 3886,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_dark_shaman_koranthal"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -441,10 +483,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_lava_guard_gordoth.cpp",
       "kind": "boss",
       "bytes": 7618,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_lava_guard_gordoth"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -558,10 +607,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_slagmaw.cpp",
       "kind": "boss",
       "bytes": 4726,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_slagmaw"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -634,10 +690,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
       "kind": "instance",
       "bytes": 2144,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -664,10 +725,23 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/ragefire_chasm.cpp",
       "kind": "shared",
       "bytes": 3708,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "npc_adolescent_flame_hound_1",
+        "npc_adolescent_flame_hound_2",
+        "npc_adolescent_flame_hound_3",
+        "npc_adolescent_flame_hound_4",
+        "npc_rescued_cage_1",
+        "npc_rescued_cage_2",
+        "npc_rescued_cage_3"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -687,10 +761,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RagefireChasm/ragefire_chasm.h",
       "kind": "shared",
       "bytes": 1626,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -722,10 +801,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
       "kind": "boss",
       "bytes": 8372,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_saviana_ragefire"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -835,6 +921,11 @@
       "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
       "kind": "instance",
       "bytes": 1383,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -856,6 +947,14 @@
       "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
       "kind": "boss",
       "bytes": 7366,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_saviana_ragefire",
+        "boss_saviana_ragefireAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -976,10 +1075,593 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/ragefire-chasm.json",
+      "kind": "shared",
+      "bytes": 35337,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_adarogg",
+        "boss_ai_present",
+        "boss_dark_shaman_koranthal",
+        "boss_lava_guard_gordoth",
+        "boss_saviana_ragefire",
+        "boss_slagmaw",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ADAROGG",
+        "BOSS_DARK_SHAMAN_KORANTHAL",
+        "BOSS_LAVA_GUARD_GORDOTH",
+        "BOSS_SLAGMAW",
+        "DATA_SAVIANA_RAGEFIRE",
+        "EVENT_AIR_MOVEMENT",
+        "EVENT_BOUNDARY_CHECK",
+        "EVENT_CONFLAGRATION",
+        "EVENT_EMERGE",
+        "EVENT_ENRAGE",
+        "EVENT_FIRE_BREATH",
+        "EVENT_FLAME_BREATH",
+        "EVENT_FLIGHT",
+        "EVENT_GROUND_RUPTURE",
+        "EVENT_GROUP_LAND_PHASE",
+        "EVENT_INFERNO_CHARGE",
+        "EVENT_LAND_BACK",
+        "EVENT_LAND_GROUND",
+        "EVENT_LAVA_SPIT",
+        "EVENT_SEISMIC_SLAM",
+        "EVENT_SHADOW_STORM",
+        "EVENT_TELEPORT",
+        "EVENT_TWISTED_ELEMENTS",
+        "GO_GORDOTH_CAGE",
+        "GO_LAB_VIAL",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_DESTROYED",
+        "NPC_ADAROGG",
+        "NPC_DARK_SHAMAN_KORANTHAL",
+        "NPC_DARK_SHAMAN_RESEARCHER",
+        "NPC_LAVA_GUARD_GORDOTH",
+        "NPC_SLAGMAW",
+        "SPELL_ADJULES_CHOW_TIME",
+        "SPELL_BLOODY_SUICIDE",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_2",
+        "SPELL_CONFLAGRATION_MISSLE",
+        "SPELL_EAT_TROGG",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FIRE_BREATH",
+        "SPELL_FLAME_BEACON",
+        "SPELL_FLAME_BREATH",
+        "SPELL_GROUND_RUPTURE",
+        "SPELL_GROUND_SLAM",
+        "SPELL_INFERNO_CHARGE_CAST",
+        "SPELL_INFERNO_CHARGE_SUMMON",
+        "SPELL_JAIL_BREAK",
+        "SPELL_LAVA_SPIT",
+        "SPELL_MAGNAW_SUBMERGE",
+        "SPELL_MAGNAW_TELEPORT_EAST",
+        "SPELL_MAGNAW_TELEPORT_NORTH",
+        "SPELL_MAGNAW_TELEPORT_SOUTH",
+        "SPELL_MAGNAW_TELEPORT_WEST",
+        "SPELL_MEAT_EXPLOSION_1",
+        "SPELL_MEAT_EXPLOSION_2",
+        "SPELL_MEAT_EXPLOSION_3",
+        "SPELL_SEISMIC_SLAM",
+        "SPELL_SHADOW_STORM",
+        "SPELL_SHADOW_VORTEX",
+        "SPELL_TWISTED_ELEMENTS"
+      ],
+      "cast_calls": 96,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 67,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 72,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 77,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 82,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 87,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 97,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 107,
+          "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 112,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 117,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 127,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 132,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 137,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 142,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 212,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 217,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 222,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 237,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 247,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 252,
+          "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 257,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 262,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 267,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 272,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 277,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 282,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 287,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 329,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INFERNO_CHARGE, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_BREATH, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 339,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 344,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 349,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 354,
+          "expression": "\"expression\": \"DoCast(SPELL_EAT_TROGG);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_SUMMON);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 364,
+          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_CAST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 369,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIRE_BREATH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 408,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TWISTED_ELEMENTS, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 413,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_STORM, 20500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 418,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_TWISTED_ELEMENTS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 423,
+          "expression": "\"expression\": \"DoCast(SPELL_SHADOW_STORM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 428,
+          "expression": "\"expression\": \"events.RescheduleEvent(EVENT_TWISTED_ELEMENTS, 15s + 700ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 433,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), GetEffectValueAsInt(), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 490,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GROUND_RUPTURE, 7300ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 495,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SEISMIC_SLAM, 13300ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 500,
+          "expression": "\"expression\": \"DoCast(SPELL_GROUND_SLAM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 505,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 510,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 515,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 520,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 525,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 530,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 535,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK)); // According to sniff\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 540,
+          "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_BLOODY_SUICIDE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 545,
+          "expression": "\"expression\": \"DoCast(target, SPELL_GROUND_RUPTURE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 550,
+          "expression": "\"expression\": \"DoCast(nullptr, SPELL_SEISMIC_SLAM, CastSpellExtraArgs(TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD)); // cast earlier than category cd\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 596,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 601,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 606,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TELEPORT, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 611,
+          "expression": "\"expression\": \"DoCast(target, SPELL_LAVA_SPIT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 616,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EMERGE, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 621,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 626,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 763,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 20s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 768,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 14s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 773,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 60s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 778,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 783,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 1ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 788,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 1s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 793,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 2s, 4s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 798,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s, EVENT_GROUP_LAND_PHASE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 803,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 1ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 808,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FLAME_BREATH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 813,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 818,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_2, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 823,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValueAsInt()), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 893,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 898,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 903,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 908,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 913,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 918,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 923,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 928,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 933,
+          "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 938,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 943,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 948,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 953,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 958,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 963,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 968,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2694-ragefire-chasm.json",
       "kind": "shared",
       "bytes": 4164,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1042,20 +1724,24 @@
     }
   },
   "coverage": {
-    "source_files": 15,
+    "source_files": 16,
     "by_kind": {
       "boss": 8,
       "trash": 0,
       "instance": 4,
       "sql": 0,
-      "shared": 3,
+      "shared": 4,
       "other": 0
     },
     "npc_ids_candidate": 5,
     "spell_ids_candidate": 28,
     "encounter_filename_candidates": 5,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 8,
+    "nonboss_ai_source_candidates": 0,
+    "shared_creature_ai_source_candidates": 0,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

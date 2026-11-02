@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261009_80_shadowfang_ashcrombe_unattackable.sql",
       "kind": "sql",
       "bytes": 338,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/69_manastorm_shadowfang_keep_rethilgore_route_a.sql",
       "kind": "sql",
       "bytes": 1778,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/70_manastorm_shadowfang_keep_baron_silverlaine.sql",
       "kind": "sql",
       "bytes": 2075,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/71_manastorm_shadowfang_keep_commander_springvale.sql",
       "kind": "sql",
       "bytes": 1948,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -89,10 +109,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/72_manastorm_shadowfang_keep_odo_the_blindwatcher.sql",
       "kind": "sql",
       "bytes": 1905,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/73_manastorm_shadowfang_keep_fenrus_the_devourer.sql",
       "kind": "sql",
       "bytes": 1989,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -131,10 +161,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/74_manastorm_shadowfang_keep_wolf_master_nandos.sql",
       "kind": "sql",
       "bytes": 1971,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -152,10 +187,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/75_manastorm_shadowfang_keep_archmage_arugal.sql",
       "kind": "sql",
       "bytes": 2137,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -173,10 +213,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/src/ManastormShadowfangKeepCompat.cpp",
       "kind": "shared",
       "bytes": 1978,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -199,10 +244,21 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
       "kind": "boss",
       "bytes": 16676,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_apothecary_hummel",
+        "boss_apothecary_hummelAI",
+        "npc_apothecary_baxter",
+        "npc_apothecary_frye",
+        "npc_apothecary_genericAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -331,10 +387,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/instance_shadowfang_keep.cpp",
       "kind": "instance",
       "bytes": 8350,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -390,10 +451,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.h",
       "kind": "shared",
       "bytes": 1720,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -428,6 +494,17 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
       "kind": "boss",
       "bytes": 16676,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_apothecary_hummel",
+        "boss_apothecary_hummelAI",
+        "npc_apothecary_baxter",
+        "npc_apothecary_frye",
+        "npc_apothecary_genericAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -560,6 +637,11 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/instance_shadowfang_keep.cpp",
       "kind": "instance",
       "bytes": 8350,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -619,6 +701,11 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.h",
       "kind": "shared",
       "bytes": 1720,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -649,10 +736,20 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
       "kind": "boss",
       "bytes": 15365,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_apothecary_hummel",
+        "npc_apothecary_baxter",
+        "npc_apothecary_frye",
+        "npc_apothecary_genericAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -850,10 +947,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/instance_shadowfang_keep.cpp",
       "kind": "instance",
       "bytes": 2530,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -889,10 +991,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.cpp",
       "kind": "shared",
       "bytes": 1944,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -918,10 +1025,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.h",
       "kind": "shared",
       "bytes": 2104,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -967,6 +1079,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261009_80_shadowfang_ashcrombe_unattackable.sql",
       "kind": "sql",
       "bytes": 338,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -988,6 +1105,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/69_manastorm_shadowfang_keep_rethilgore_route_a.sql",
       "kind": "sql",
       "bytes": 1778,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1009,6 +1131,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/70_manastorm_shadowfang_keep_baron_silverlaine.sql",
       "kind": "sql",
       "bytes": 2075,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1030,6 +1157,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/71_manastorm_shadowfang_keep_commander_springvale.sql",
       "kind": "sql",
       "bytes": 1948,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1051,6 +1183,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/72_manastorm_shadowfang_keep_odo_the_blindwatcher.sql",
       "kind": "sql",
       "bytes": 1905,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1072,6 +1209,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/73_manastorm_shadowfang_keep_fenrus_the_devourer.sql",
       "kind": "sql",
       "bytes": 1989,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1093,6 +1235,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/74_manastorm_shadowfang_keep_wolf_master_nandos.sql",
       "kind": "sql",
       "bytes": 1971,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1114,6 +1261,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/75_manastorm_shadowfang_keep_archmage_arugal.sql",
       "kind": "sql",
       "bytes": 2137,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1135,6 +1287,17 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
       "kind": "boss",
       "bytes": 16676,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_apothecary_hummel",
+        "boss_apothecary_hummelAI",
+        "npc_apothecary_baxter",
+        "npc_apothecary_frye",
+        "npc_apothecary_genericAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1267,6 +1430,11 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/instance_shadowfang_keep.cpp",
       "kind": "instance",
       "bytes": 8350,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1326,6 +1494,11 @@
       "path": "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.h",
       "kind": "shared",
       "bytes": 1720,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1360,6 +1533,17 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/shadowfang_keep/boss_hummel.cpp",
       "kind": "boss",
       "bytes": 14470,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_apothecary_hummel",
+        "boss_apothecary_hummelAI",
+        "boss_hummel",
+        "npc_valentine_boss_manager",
+        "npc_valentine_boss_managerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1447,6 +1631,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/shadowfang_keep/instance_shadowfang_keep.cpp",
       "kind": "instance",
       "bytes": 16282,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1498,6 +1687,21 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/shadowfang_keep/shadowfang_keep.cpp",
       "kind": "shared",
       "bytes": 22057,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_arugal",
+        "boss_arugalAI",
+        "mob_arugal_voidwalker",
+        "mob_arugal_voidwalkerAI",
+        "npc_deathstalker_vincent",
+        "npc_deathstalker_vincentAI",
+        "npc_escortAI",
+        "npc_shadowfang_prisoner",
+        "npc_shadowfang_prisonerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1550,6 +1754,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/shadowfang_keep/shadowfang_keep.h",
       "kind": "shared",
       "bytes": 4753,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1620,10 +1829,577 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/shadowfang-keep.json",
+      "kind": "shared",
+      "bytes": 55402,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_apothecary_hummel",
+        "boss_hummel",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_APOTHECARY_HUMMEL",
+        "BOSS_BARON_ASHBURY",
+        "BOSS_BARON_SILVERLAINE",
+        "BOSS_COMMANDER_SPRINGVALE",
+        "BOSS_LORD_GODFREY",
+        "BOSS_LORD_WALDEN",
+        "DATA_APOTHECARY_HUMMEL",
+        "DATA_ARUGAL_DOOR",
+        "DATA_COURTYARD_DOOR",
+        "DATA_SORCERER_GATE",
+        "DATA_SPAWN_VALENTINE_ADDS",
+        "EVENT_CALL_BAXTER",
+        "EVENT_CALL_FRYE",
+        "EVENT_CHAIN_REACTION",
+        "EVENT_COLOGNE_SPRAY",
+        "EVENT_HUMMEL_SAY_0",
+        "EVENT_HUMMEL_SAY_1",
+        "EVENT_HUMMEL_SAY_2",
+        "EVENT_PERFUME_SPRAY",
+        "EVENT_START_FIGHT",
+        "GO_APOTHECARE_VIALS",
+        "GO_ARUGALS_LAIR",
+        "GO_ARUGAL_DOOR",
+        "GO_ARUGAL_FOCUS",
+        "GO_CHEMISTRY_SET",
+        "GO_COURTYARD_DOOR",
+        "GO_SORCERERS_DOOR",
+        "GO_SORCERER_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_ADA",
+        "NPC_APOTHECARY_BAXTER",
+        "NPC_APOTHECARY_FRYE",
+        "NPC_APOTHECARY_GENERATOR",
+        "NPC_APOTHECARY_HUMMEL",
+        "NPC_ARCHMAGE_ARUGAL",
+        "NPC_ARUGAL",
+        "NPC_ASH",
+        "NPC_BARON_ASHBURY",
+        "NPC_BARON_SILVERLAINE",
+        "NPC_BAXTER",
+        "NPC_BLEAK_WORG",
+        "NPC_COMMANDER_SPRINGVALE",
+        "NPC_CRAZED_APOTHECARY",
+        "NPC_CROWN_APOTHECARY",
+        "NPC_DND_CRAZED_APOTHECARY_GENERATOR",
+        "NPC_FENRUS",
+        "NPC_FRYE",
+        "NPC_HUMMEL",
+        "NPC_LORD_GODFREY",
+        "NPC_LORD_WALDEN",
+        "NPC_LUPINE_HORROR",
+        "NPC_MASTER_NANDOS",
+        "NPC_SLAVERING_WORG",
+        "NPC_VALENTINE_BOSS_MGR",
+        "NPC_VALENTINE_VIAL_BUNNY",
+        "NPC_VIAL_BUNNY",
+        "NPC_VINCENT",
+        "NPC_VOIDWALKER",
+        "NPC_WOLFGUARD_WORG",
+        "SPELL_ALLURING_PERFUME",
+        "SPELL_ALLURING_PERFUME_SPRAY",
+        "SPELL_ARUGALS_CURSE",
+        "SPELL_ARUGAL_TELEPORT",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_MOD_CHARM",
+        "SPELL_AURA_PERIODIC_DUMMY",
+        "SPELL_BUNNY_LOCKDOWN",
+        "SPELL_CHAIN_REACTION",
+        "SPELL_COLOGNE_SPILL",
+        "SPELL_COLOGNE_SPILL_DAMAGE",
+        "SPELL_COLOGNE_SPRAY",
+        "SPELL_DARK_OFFERING",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_FIRE",
+        "SPELL_FORSAKEN_SKILL_SHADOW",
+        "SPELL_FORSAKEN_SKILL_SWORD",
+        "SPELL_PERFUME_SPILL",
+        "SPELL_PERFUME_SPILL_DAMAGE",
+        "SPELL_PERFUME_SPRAY",
+        "SPELL_PERMANENT_FEIGN_DEATH",
+        "SPELL_QUIET_SUICIDE",
+        "SPELL_SHADOW_PORT_SPAWN_LEDGE",
+        "SPELL_SHADOW_PORT_STAIRS",
+        "SPELL_SHADOW_PORT_UPPER_LEDGE",
+        "SPELL_SPAWN",
+        "SPELL_SUMMON_TABLE",
+        "SPELL_SUMMON_VALENTINE_ADD",
+        "SPELL_THROW_COLOGNE",
+        "SPELL_THROW_PERFUME",
+        "SPELL_THUNDERSHOCK",
+        "SPELL_UNLOCK",
+        "SPELL_VALIDATE_AREA",
+        "SPELL_VOID_BOLT"
+      ],
+      "cast_calls": 85,
+      "timing_or_phase_signals": 8,
+      "timer_expression_candidates": [
+        {
+          "line": 263,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 268,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 273,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 278,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 283,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 288,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 293,
+          "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 298,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 303,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 308,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 313,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 318,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 323,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 367,
+          "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 372,
+          "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 377,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 382,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 488,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 493,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 498,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 503,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 508,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 513,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 518,
+          "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 523,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 528,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 533,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 538,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 543,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 548,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 592,
+          "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 597,
+          "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 602,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 607,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 721,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_0, Milliseconds(1));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 726,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_1, Seconds(4));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 731,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_2, Seconds(4));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 736,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_START_FIGHT, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 741,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_BAXTER, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 746,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_FRYE, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 751,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PERFUME_SPRAY, Milliseconds(3640));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 756,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHAIN_REACTION, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 761,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 766,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 771,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 776,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_COLOGNE_SPRAY, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 781,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CHAIN_REACTION, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 786,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 791,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 796,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 801,
+          "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 806,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 811,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 816,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 821,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 826,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 831,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 910,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(nullptr, aurEff->GetAmountAsInt(), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1195,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1200,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1205,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1210,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1215,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1220,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1225,
+          "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1230,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1235,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1240,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1245,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1250,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1255,
+          "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1299,
+          "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1304,
+          "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1309,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1314,
+          "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1395,
+          "expression": "\"expression\": \"generator->CastSpell(generator, SPELL_SUMMON_VALENTINE_ADD, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1400,
+          "expression": "\"expression\": \"caster->CastSpell(target, 68799, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1405,
+          "expression": "\"expression\": \"caster->CastSpell(nullptr, 68644, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1410,
+          "expression": "\"expression\": \"caster->CastSpell(nullptr, 69039, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1415,
+          "expression": "\"expression\": \"caster->CastSpell(target, urand(0, 1) ? 68841 : 68799, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1420,
+          "expression": "\"expression\": \"caster->CastSpell(nullptr, 68798, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1425,
+          "expression": "\"expression\": \"caster->CastSpell(nullptr, 68614, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1430,
+          "expression": "\"expression\": \"caster->CastSpell(target, 68927, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1435,
+          "expression": "\"expression\": \"caster->CastSpell(target, 68934, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1538,
+          "expression": "\"expression\": \"aura->GetTarget()->CastSpell(nullptr, forsakenSpells[urand(0, 14)], TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 838,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 843,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3320-shadowfang-keep-halls-of-the-damned.json",
       "kind": "shared",
       "bytes": 8279,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1641,10 +2417,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3321-shadowfang-keep-arugal-s-rise.json",
       "kind": "shared",
       "bytes": 4181,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1683,20 +2464,24 @@
     }
   },
   "coverage": {
-    "source_files": 36,
+    "source_files": 37,
     "by_kind": {
       "boss": 5,
       "trash": 0,
       "instance": 5,
       "sql": 16,
-      "shared": 10,
+      "shared": 11,
       "other": 0
     },
     "npc_ids_candidate": 25,
     "spell_ids_candidate": 28,
     "encounter_filename_candidates": 2,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 6,
+    "nonboss_ai_source_candidates": 6,
+    "shared_creature_ai_source_candidates": 1,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

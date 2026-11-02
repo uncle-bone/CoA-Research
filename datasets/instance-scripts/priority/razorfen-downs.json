@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
       "kind": "sql",
       "bytes": 1899,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
       "kind": "sql",
       "bytes": 2446,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
       "kind": "sql",
       "bytes": 2348,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
       "kind": "sql",
       "bytes": 2117,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -89,10 +109,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
       "kind": "sql",
       "bytes": 1928,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
       "kind": "sql",
       "bytes": 2408,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -131,10 +161,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
       "kind": "instance",
       "bytes": 2957,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -159,10 +194,20 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
       "kind": "shared",
       "bytes": 12139,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_idol_room_spawner",
+        "npc_idol_room_spawnerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -293,10 +338,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
       "kind": "shared",
       "bytes": 1626,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -335,6 +385,11 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
       "kind": "instance",
       "bytes": 2957,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -363,6 +418,16 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
       "kind": "shared",
       "bytes": 12139,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_idol_room_spawner",
+        "npc_idol_room_spawnerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -497,6 +562,11 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
       "kind": "shared",
       "bytes": 1626,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -531,10 +601,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp",
       "kind": "boss",
       "bytes": 5166,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_amnennar_the_coldbringer"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -612,10 +689,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_glutton.cpp",
       "kind": "boss",
       "bytes": 3317,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_glutton"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -657,10 +741,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_mordresh_fire_eye.cpp",
       "kind": "boss",
       "bytes": 3593,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_mordresh_fire_eye"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -732,10 +823,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_tuten_kash.cpp",
       "kind": "boss",
       "bytes": 2539,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_tuten_kash"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -777,10 +875,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
       "kind": "instance",
       "bytes": 6777,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -814,10 +917,23 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
       "kind": "shared",
       "bytes": 14185,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_henry_stern",
+        "npc_idol_room_spawner",
+        "npc_idol_room_spawnerAI",
+        "npc_tomb_creature",
+        "npc_tomb_creatureAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -970,10 +1086,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
       "kind": "shared",
       "bytes": 2593,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1025,6 +1146,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
       "kind": "sql",
       "bytes": 1899,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1046,6 +1172,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
       "kind": "sql",
       "bytes": 2446,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1067,6 +1198,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
       "kind": "sql",
       "bytes": 2348,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1088,6 +1224,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
       "kind": "sql",
       "bytes": 2117,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1109,6 +1250,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
       "kind": "sql",
       "bytes": 1928,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1130,6 +1276,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
       "kind": "sql",
       "bytes": 2408,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1151,6 +1302,11 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
       "kind": "instance",
       "bytes": 2957,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1179,6 +1335,16 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
       "kind": "shared",
       "bytes": 12139,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_idol_room_spawner",
+        "npc_idol_room_spawnerAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1313,6 +1479,11 @@
       "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
       "kind": "shared",
       "bytes": 1626,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1351,6 +1522,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/instance_razorfen_downs.cpp",
       "kind": "instance",
       "bytes": 6152,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1378,6 +1554,15 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.cpp",
       "kind": "shared",
       "bytes": 10556,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_escortAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1433,6 +1618,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.h",
       "kind": "shared",
       "bytes": 1853,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1459,10 +1649,572 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/razorfen-downs.json",
+      "kind": "shared",
+      "bytes": 48972,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_amnennar_the_coldbringer",
+        "boss_glutton",
+        "boss_mordresh_fire_eye",
+        "boss_tuten_kash",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_AMNENNAR_THE_COLD_BRINGER",
+        "DATA_EXTINGUISHING_THE_IDOL",
+        "DATA_GLUTTON",
+        "DATA_GONG",
+        "DATA_MORDRESH_FIRE_EYE",
+        "DATA_TUTEN_KASH",
+        "DATA_WAVE",
+        "EVENT_AMNENNARS_WRATH",
+        "EVENT_CHANNEL",
+        "EVENT_COMPLETE",
+        "EVENT_CURSE_OF_TUTENKASH",
+        "EVENT_FIREBALL",
+        "EVENT_FIRE_NOVA",
+        "EVENT_FROSTBOLT",
+        "EVENT_FROST_NOVA",
+        "EVENT_HEALTH_15",
+        "EVENT_HEALTH_30",
+        "EVENT_HEALTH_50",
+        "EVENT_HEALTH_60",
+        "EVENT_HEALTH_75",
+        "EVENT_IDOL_ROOM_SPAWNER",
+        "EVENT_OOC_1",
+        "EVENT_OOC_2",
+        "EVENT_OOC_3",
+        "EVENT_OOC_4",
+        "EVENT_PROGRESS",
+        "EVENT_WEB",
+        "EVENT_WEB_SPRAY",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_BELNISTRASZ_BRAZIER",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_FLAG_NO_INTERACT",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "GO_JUST_DEACTIVATED",
+        "GO_SUMMON_TIMED_DESPAWN",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTEN_KASH",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_AMNENNARS_WRATH",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_BANISH_FROST_SPECTRES",
+        "SPELL_CURSE_OF_TUTENKASH",
+        "SPELL_DISEASE_CLOUD",
+        "SPELL_FIREBALL",
+        "SPELL_FIRE_NOVA",
+        "SPELL_FRENZY",
+        "SPELL_FROSTBOLT",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_ROOM_SHAKE",
+        "SPELL_IDOL_SHUTDOWN",
+        "SPELL_IDOL_SHUTDOWN_VISUAL",
+        "SPELL_IDOM_ROOM_CAMERA_SHAKE",
+        "SPELL_POISON_PROC",
+        "SPELL_SUMMON_1",
+        "SPELL_SUMMON_2",
+        "SPELL_SUMMON_3",
+        "SPELL_SUMMON_FROST_SPECTRES",
+        "SPELL_THRASH",
+        "SPELL_THRASH_15",
+        "SPELL_THRASH_35",
+        "SPELL_VIRULENT_POISON",
+        "SPELL_VIRULENT_POISON_PROC",
+        "SPELL_WEB",
+        "SPELL_WEB_SPRAY"
+      ],
+      "cast_calls": 90,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 205,
+          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 210,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 215,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 225,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 230,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 245,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 250,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 255,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 260,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 265,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 270,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 275,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 280,
+          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 285,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 405,
+          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 410,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 415,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 420,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 425,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 430,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 435,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 440,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 445,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 450,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 455,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 460,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 465,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 470,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 475,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 480,
+          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 485,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 569,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AMNENNARS_WRATH, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 574,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROSTBOLT, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 579,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 584,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_75, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 589,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_60, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 594,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_30, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 599,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_AMNENNARS_WRATH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 604,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FROSTBOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 644,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_50, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 649,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_15, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 689,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 694,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 699,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 704,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_2, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 709,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_3, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 714,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_4, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 719,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 724,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 764,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB_SPRAY, 10s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 769,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_OF_TUTENKASH, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 872,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 877,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 882,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 887,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 892,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 897,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 902,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 907,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 912,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 917,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 922,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 927,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 932,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 937,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 942,
+          "expression": "\"expression\": \"DoCast(me, SPELL_POISON_PROC);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 947,
+          "expression": "\"expression\": \"DoCast(me, SPELL_VIRULENT_POISON_PROC);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 952,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 5s, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 957,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WEB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 962,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 7s, 16s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1221,
+          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1226,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1231,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1236,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1241,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1246,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1251,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1256,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1261,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1266,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1271,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1276,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1281,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1286,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1291,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1296,
+          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1301,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2710-razorfen-downs.json",
       "kind": "shared",
       "bytes": 4164,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1514,20 +2266,24 @@
     }
   },
   "coverage": {
-    "source_files": 32,
+    "source_files": 33,
     "by_kind": {
       "boss": 4,
       "trash": 0,
       "instance": 5,
       "sql": 12,
-      "shared": 11,
+      "shared": 12,
       "other": 0
     },
     "npc_ids_candidate": 8,
     "spell_ids_candidate": 24,
     "encounter_filename_candidates": 4,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 9,
+    "nonboss_ai_source_candidates": 5,
+    "shared_creature_ai_source_candidates": 5,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

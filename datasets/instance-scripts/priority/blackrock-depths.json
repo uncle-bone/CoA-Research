@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/142_manastorm_blackrock_depths_high_interrogator_gerstahn.sql",
       "kind": "sql",
       "bytes": 2492,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/143_manastorm_blackrock_depths_baelgar.sql",
       "kind": "sql",
       "bytes": 2515,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/144_manastorm_blackrock_depths_houndmaster_grebmar.sql",
       "kind": "sql",
       "bytes": 2016,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/145_manastorm_blackrock_depths_pyromancer_loregrain.sql",
       "kind": "sql",
       "bytes": 2071,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -89,10 +109,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/146_manastorm_blackrock_depths_general_angerforge.sql",
       "kind": "sql",
       "bytes": 2505,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/147_manastorm_blackrock_depths_golem_lord_argelmach.sql",
       "kind": "sql",
       "bytes": 2227,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -131,10 +161,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/148_manastorm_blackrock_depths_lord_incendius.sql",
       "kind": "sql",
       "bytes": 2514,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -152,10 +187,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/149_manastorm_blackrock_depths_ambassador_flamelash.sql",
       "kind": "sql",
       "bytes": 2593,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -173,10 +213,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/150_manastorm_blackrock_depths_magmus.sql",
       "kind": "sql",
       "bytes": 2578,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -194,10 +239,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/151_manastorm_blackrock_depths_emperor_dagran_thaurissan.sql",
       "kind": "sql",
       "bytes": 2517,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -215,10 +265,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/152_manastorm_blackrock_depths_lord_roccor.sql",
       "kind": "sql",
       "bytes": 2130,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -236,10 +291,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/153_manastorm_blackrock_depths_warder_stilgiss.sql",
       "kind": "sql",
       "bytes": 2160,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -257,10 +317,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/154_manastorm_blackrock_depths_fineous_darkvire.sql",
       "kind": "sql",
       "bytes": 2189,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -278,10 +343,20 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.cpp",
       "kind": "shared",
       "bytes": 18142,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_escortAI",
+        "npc_grimstone",
+        "npc_phalanx",
+        "npc_rocknot"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -383,10 +458,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.h",
       "kind": "shared",
       "bytes": 4258,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -516,10 +596,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
       "kind": "boss",
       "bytes": 7205,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_ambassador_flamelash",
+        "npc_burning_spirit"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -588,10 +676,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
       "kind": "boss",
       "bytes": 3803,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_anubshiah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -698,10 +793,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
       "kind": "boss",
       "bytes": 3509,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_emperor_dagran_thaurissan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -759,10 +861,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
       "kind": "boss",
       "bytes": 3004,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_eviscerator"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -836,10 +945,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
       "kind": "boss",
       "bytes": 3441,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_general_angerforge"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -892,10 +1008,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
       "kind": "boss",
       "bytes": 3091,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gorosh_the_dervish"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -963,10 +1086,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
       "kind": "boss",
       "bytes": 2733,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grizzle"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1017,10 +1147,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
       "kind": "boss",
       "bytes": 2727,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hedrum"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1093,10 +1230,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
       "kind": "boss",
       "bytes": 2868,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_interrogator_gerstahn"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1145,10 +1289,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
       "kind": "boss",
       "bytes": 2273,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_magmus"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1203,10 +1354,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
       "kind": "boss",
       "bytes": 5023,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_priestess_thaurissan",
+        "boss_moira_bronzebeard"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1326,10 +1485,17 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
       "kind": "boss",
       "bytes": 3672,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_okthor"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1419,10 +1585,18 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
       "kind": "boss",
       "bytes": 6220,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_doomrel",
+        "boss_gloomrel"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1552,10 +1726,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/instance_blackrock_depths.cpp",
       "kind": "instance",
       "bytes": 28489,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1651,6 +1830,17 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.cpp",
       "kind": "shared",
       "bytes": 49311,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_escortAI",
+        "npc_grimstone",
+        "npc_mistress_nagmara",
+        "npc_phalanx",
+        "npc_rocknot"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1878,6 +2068,11 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.h",
       "kind": "shared",
       "bytes": 4353,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2015,6 +2210,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
       "kind": "boss",
       "bytes": 7205,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_ambassador_flamelash",
+        "npc_burning_spirit"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -2087,6 +2290,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
       "kind": "boss",
       "bytes": 3803,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_anubshiah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2197,6 +2407,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
       "kind": "boss",
       "bytes": 3509,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_emperor_dagran_thaurissan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2258,6 +2475,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
       "kind": "boss",
       "bytes": 3004,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_eviscerator"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2335,6 +2559,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
       "kind": "boss",
       "bytes": 3441,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_general_angerforge"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2391,6 +2622,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
       "kind": "boss",
       "bytes": 3091,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gorosh_the_dervish"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2462,6 +2700,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
       "kind": "boss",
       "bytes": 2733,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grizzle"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2516,6 +2761,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
       "kind": "boss",
       "bytes": 2727,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hedrum"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2592,6 +2844,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
       "kind": "boss",
       "bytes": 2868,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_interrogator_gerstahn"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2644,6 +2903,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
       "kind": "boss",
       "bytes": 2273,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_magmus"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2702,6 +2968,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
       "kind": "boss",
       "bytes": 5023,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_priestess_thaurissan",
+        "boss_moira_bronzebeard"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2825,6 +3099,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
       "kind": "boss",
       "bytes": 3672,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_okthor"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -2918,6 +3199,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
       "kind": "boss",
       "bytes": 6220,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_doomrel",
+        "boss_gloomrel"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3051,6 +3340,11 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/instance_blackrock_depths.cpp",
       "kind": "instance",
       "bytes": 37687,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -3170,10 +3464,24 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.cpp",
       "kind": "shared",
       "bytes": 21011,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_grimstone",
+        "npc_grimstoneAI",
+        "npc_lokhtos_darkbargainer",
+        "npc_lokhtos_darkbargainerAI",
+        "npc_phalanx",
+        "npc_phalanxAI",
+        "npc_rocknot",
+        "npc_rocknotAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -3246,10 +3554,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.h",
       "kind": "shared",
       "bytes": 2836,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3306,10 +3619,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
       "kind": "boss",
       "bytes": 3089,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ambassador_flamelash",
+        "boss_ambassador_flamelashAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3360,10 +3681,20 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_coren_direbrew.cpp",
       "kind": "boss",
       "bytes": 17847,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_coren_direbrew",
+        "npc_coren_direbrew_sisters",
+        "npc_direbrew_antagonist",
+        "npc_direbrew_minion"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -3565,10 +3896,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
       "kind": "boss",
       "bytes": 3934,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_draganthaurissanAI",
+        "boss_emperor_dagran_thaurissan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3627,10 +3966,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
       "kind": "boss",
       "bytes": 5061,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_general_angerforge",
+        "boss_general_angerforgeAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3734,10 +4081,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
       "kind": "boss",
       "bytes": 3950,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_interrogator_gerstahn",
+        "boss_high_interrogator_gerstahnAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3831,10 +4186,20 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
       "kind": "boss",
       "bytes": 4935,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_magmus",
+        "boss_magmusAI",
+        "npc_ironhand_guardian",
+        "npc_ironhand_guardianAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -3917,10 +4282,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
       "kind": "boss",
       "bytes": 3695,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_moira_bronzebeard",
+        "boss_moira_bronzebeardAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4007,10 +4380,20 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
       "kind": "boss",
       "bytes": 10615,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_doomrel",
+        "boss_doomrelAI",
+        "boss_gloomrel",
+        "boss_gloomrelAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4130,10 +4513,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/instance_blackrock_depths.cpp",
       "kind": "instance",
       "bytes": 17451,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -4262,6 +4650,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/142_manastorm_blackrock_depths_high_interrogator_gerstahn.sql",
       "kind": "sql",
       "bytes": 2492,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4283,6 +4676,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/143_manastorm_blackrock_depths_baelgar.sql",
       "kind": "sql",
       "bytes": 2515,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4304,6 +4702,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/144_manastorm_blackrock_depths_houndmaster_grebmar.sql",
       "kind": "sql",
       "bytes": 2016,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4325,6 +4728,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/145_manastorm_blackrock_depths_pyromancer_loregrain.sql",
       "kind": "sql",
       "bytes": 2071,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4346,6 +4754,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/146_manastorm_blackrock_depths_general_angerforge.sql",
       "kind": "sql",
       "bytes": 2505,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4367,6 +4780,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/147_manastorm_blackrock_depths_golem_lord_argelmach.sql",
       "kind": "sql",
       "bytes": 2227,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4388,6 +4806,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/148_manastorm_blackrock_depths_lord_incendius.sql",
       "kind": "sql",
       "bytes": 2514,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4409,6 +4832,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/149_manastorm_blackrock_depths_ambassador_flamelash.sql",
       "kind": "sql",
       "bytes": 2593,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4430,6 +4858,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/150_manastorm_blackrock_depths_magmus.sql",
       "kind": "sql",
       "bytes": 2578,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4451,6 +4884,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/151_manastorm_blackrock_depths_emperor_dagran_thaurissan.sql",
       "kind": "sql",
       "bytes": 2517,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4472,6 +4910,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/152_manastorm_blackrock_depths_lord_roccor.sql",
       "kind": "sql",
       "bytes": 2130,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4493,6 +4936,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/153_manastorm_blackrock_depths_warder_stilgiss.sql",
       "kind": "sql",
       "bytes": 2160,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4514,6 +4962,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/154_manastorm_blackrock_depths_fineous_darkvire.sql",
       "kind": "sql",
       "bytes": 2189,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4535,6 +4988,16 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.cpp",
       "kind": "shared",
       "bytes": 18142,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_escortAI",
+        "npc_grimstone",
+        "npc_phalanx",
+        "npc_rocknot"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4640,6 +5103,11 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.h",
       "kind": "shared",
       "bytes": 4258,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -4773,6 +5241,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
       "kind": "boss",
       "bytes": 7205,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_ambassador_flamelash",
+        "npc_burning_spirit"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -4845,6 +5321,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
       "kind": "boss",
       "bytes": 3803,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_anubshiah"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -4955,6 +5438,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
       "kind": "boss",
       "bytes": 3509,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_emperor_dagran_thaurissan"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5016,6 +5506,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
       "kind": "boss",
       "bytes": 3004,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_eviscerator"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5093,6 +5590,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
       "kind": "boss",
       "bytes": 3441,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_general_angerforge"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5149,6 +5653,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
       "kind": "boss",
       "bytes": 3091,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gorosh_the_dervish"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5220,6 +5731,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
       "kind": "boss",
       "bytes": 2733,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_grizzle"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5274,6 +5792,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
       "kind": "boss",
       "bytes": 2727,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_hedrum"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5350,6 +5875,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
       "kind": "boss",
       "bytes": 2868,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_interrogator_gerstahn"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5402,6 +5934,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
       "kind": "boss",
       "bytes": 2273,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_magmus"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5460,6 +5999,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
       "kind": "boss",
       "bytes": 5023,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_priestess_thaurissan",
+        "boss_moira_bronzebeard"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5583,6 +6130,13 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
       "kind": "boss",
       "bytes": 3672,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_okthor"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5676,6 +6230,14 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
       "kind": "boss",
       "bytes": 6220,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_doomrel",
+        "boss_gloomrel"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5809,6 +6371,11 @@
       "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/instance_blackrock_depths.cpp",
       "kind": "instance",
       "bytes": 28489,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -5904,6 +6471,33 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/blackrock_depths.cpp",
       "kind": "shared",
       "bytes": 69806,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_doomrel",
+        "boss_plugger_spazzring",
+        "boss_plugger_spazzringAI",
+        "npc_dughal_stormwing",
+        "npc_escortAI",
+        "npc_grimstone",
+        "npc_grimstoneAI",
+        "npc_hurley_blackbreath",
+        "npc_hurley_blackbreathAI",
+        "npc_ironhand_guardian",
+        "npc_ironhand_guardianAI",
+        "npc_kharan_mighthammer",
+        "npc_marshal_windsor",
+        "npc_marshal_windsorAI",
+        "npc_mistress_nagmara",
+        "npc_mistress_nagmaraAI",
+        "npc_phalanx",
+        "npc_phalanxAI",
+        "npc_rocknot",
+        "npc_rocknotAI",
+        "npc_tobias_seecher"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6036,6 +6630,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/blackrock_depths.h",
       "kind": "shared",
       "bytes": 10029,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6219,6 +6818,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_ambassador_flamelash.cpp",
       "kind": "boss",
       "bytes": 5036,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ambassador_flamelash",
+        "boss_ambassador_flamelashAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6257,6 +6864,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_coren_direbrew.cpp",
       "kind": "boss",
       "bytes": 10171,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_coren_direbrew",
+        "boss_coren_direbrewAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6348,6 +6963,16 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_emperor_dagran_thaurissan.cpp",
       "kind": "boss",
       "bytes": 7431,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_emperor_dagran_thaurissan",
+        "boss_emperor_dagran_thaurissanAI",
+        "boss_moira_bronzebeard",
+        "boss_moira_bronzebeardAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6393,6 +7018,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_general_angerforge.cpp",
       "kind": "boss",
       "bytes": 3930,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_general_angerforge",
+        "boss_general_angerforgeAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -6429,6 +7062,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_high_interrogator_gerstahn.cpp",
       "kind": "boss",
       "bytes": 3651,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_high_interrogator_gerstahn",
+        "boss_high_interrogator_gerstahnAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6460,6 +7101,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/instance_blackrock_depths.cpp",
       "kind": "instance",
       "bytes": 31042,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6564,10 +7210,1363 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/blackrock-depths.json",
+      "kind": "shared",
+      "bytes": 217233,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_ambassador_flamelash",
+        "boss_anubshiah",
+        "boss_coren_direbrew",
+        "boss_emperor_dagran_thaurissan",
+        "boss_eviscerator",
+        "boss_general_angerforge",
+        "boss_gorosh_the_dervish",
+        "boss_grizzle",
+        "boss_hedrum",
+        "boss_high_interrogator_gerstahn",
+        "boss_magmus",
+        "boss_moira_bronzebeard",
+        "boss_okthor",
+        "boss_tomb_of_seven",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_AMBASSADOR_FLAMELASH",
+        "BOSS_BAELGAR",
+        "BOSS_EMPEROR_DAGRAN_THAURISSAN",
+        "BOSS_FINEOUS_DARKVIRE",
+        "BOSS_GENERAL_ANGERFORGE",
+        "BOSS_GOLEM_LORD_ARGELMACH",
+        "BOSS_HIGH_INTERROGATOR_GERSTAHN",
+        "BOSS_HOUNDMASTER_GREBMAR",
+        "BOSS_HURLEY_BLACKBREATH",
+        "BOSS_LORD_INCENDIUS",
+        "BOSS_LORD_ROCCOR",
+        "BOSS_MAGMUS",
+        "BOSS_PHALANX",
+        "BOSS_PLUGGER_SPAZZRING",
+        "BOSS_PYROMANCER_LOREGRAIN",
+        "BOSS_RIBBLY_SCREWSPIGOT",
+        "BOSS_RING_OF_LAW",
+        "BOSS_THE_SEVEN",
+        "BOSS_WARDER_STILGISS",
+        "DATA_AMBIENT_ORDER",
+        "DATA_ANUBSHIAH",
+        "DATA_ARENA1",
+        "DATA_ARENA2",
+        "DATA_ARENA3",
+        "DATA_ARENA4",
+        "DATA_ARENA_BOSS",
+        "DATA_ARENA_MOBS",
+        "DATA_BANNER_BEFORE_EVENT",
+        "DATA_CAN_START_LOVE_POTION",
+        "DATA_COREN",
+        "DATA_DARK_IRON_ALE",
+        "DATA_DARK_IRON_ALE_DISBAND",
+        "DATA_DARK_IRON_ALE_DRINK",
+        "DATA_DARK_IRON_ALE_EMOTE",
+        "DATA_DARK_IRON_ALE_HOME",
+        "DATA_DARK_IRON_ALE_REFORM",
+        "DATA_EMPEROR",
+        "DATA_EVENSTARTER",
+        "DATA_EVISCERATOR",
+        "DATA_GHOSTKILL",
+        "DATA_GOLEM_DOOR_N",
+        "DATA_GOLEM_DOOR_S",
+        "DATA_GOLEM_LORD_ARGELMACH_ADDS",
+        "DATA_GOLEM_LORD_ARGELMACH_INIT",
+        "DATA_GOROSH",
+        "DATA_GO_BAR_DOOR",
+        "DATA_GO_BAR_KEG",
+        "DATA_GO_BAR_KEG_TRAP",
+        "DATA_GO_CHALICE",
+        "DATA_GRIZZLE",
+        "DATA_HEDRUM",
+        "DATA_LOVE_POTION_ACTIVE",
+        "DATA_LOVE_POTION_EVENT",
+        "DATA_MAGMUS",
+        "DATA_MOIRA",
+        "DATA_OKTHOR",
+        "DATA_OPEN_COFFER_DOORS",
+        "DATA_PERCENT_DEAD_SENATORS",
+        "DATA_PHALANX",
+        "DATA_PHALANX_ACTIVATED",
+        "DATA_PRIESTESS",
+        "DATA_SF_BRAZIER_N",
+        "DATA_SF_BRAZIER_S",
+        "DATA_SKILLPOINT_MIN",
+        "DATA_TARGET_GUID",
+        "DATA_THRONE_DOOR",
+        "DATA_TIME_RING_FAIL",
+        "EVENT_ADDS",
+        "EVENT_AVATAROFFLAME",
+        "EVENT_CLEAVE",
+        "EVENT_CURSE_OF_WEAKNESS",
+        "EVENT_DEMONARMOR",
+        "EVENT_DIREBREW_DISARM",
+        "EVENT_FIERY_BURST",
+        "EVENT_FIREBLAST",
+        "EVENT_GOUTOFFLAME",
+        "EVENT_HAMSTRING",
+        "EVENT_HANDOFTHAURISSAN",
+        "EVENT_HEAL",
+        "EVENT_IMMOLATE",
+        "EVENT_INTRO_1",
+        "EVENT_INTRO_2",
+        "EVENT_INTRO_3",
+        "EVENT_KILL_SPIRIT",
+        "EVENT_MANABURN",
+        "EVENT_MEDIC",
+        "EVENT_MIGHTYBLOW",
+        "EVENT_MINDBLAST",
+        "EVENT_PHALANX_FINISH_MOVEMENT",
+        "EVENT_PHALANX_FIREBALL_VOLLEY",
+        "EVENT_PHALANX_MIGHTY_BLOW",
+        "EVENT_PHALANX_THUNDERCLAP",
+        "EVENT_PHALANX_YELL",
+        "EVENT_PSYCHIC_SCREAM",
+        "EVENT_RESPAWN_ILSA",
+        "EVENT_RESPAWN_URSULA",
+        "EVENT_ROCKNOT_ALE",
+        "EVENT_ROCKNOT_BAR_REACTION",
+        "EVENT_ROCKNOT_BREAK_KEG",
+        "EVENT_ROCKNOT_FINAL_KEG",
+        "EVENT_ROCKNOT_MORE_ALE",
+        "EVENT_ROCKNOT_PUNCH",
+        "EVENT_ROCKNOT_RECOVER",
+        "EVENT_ROCKNOT_SECOND_KEG",
+        "EVENT_SHADOWSHIELD",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SHADOW_WORD_PAIN",
+        "EVENT_SMITE",
+        "EVENT_SPELL_CURSEOFWEAKNESS",
+        "EVENT_SPELL_DEMONARMOR",
+        "EVENT_SPELL_FIREBLAST",
+        "EVENT_SPELL_IMMOLATE",
+        "EVENT_SPELL_SHADOWBOLTVOLLEY",
+        "EVENT_SPELL_SUMMON_VOIDWALKERS",
+        "EVENT_SUMMON_MOLE_MACHINE",
+        "EVENT_SUMMON_SPIRITS",
+        "EVENT_SUMMON_VOIDWALKERS",
+        "EVENT_WARSTOMP",
+        "GO_ACTIVATED",
+        "GO_ARENA1",
+        "GO_ARENA2",
+        "GO_ARENA3",
+        "GO_ARENA4",
+        "GO_ARENA_1",
+        "GO_ARENA_2",
+        "GO_ARENA_3",
+        "GO_ARENA_4",
+        "GO_ARENA_SPOILS",
+        "GO_BANNER_OF_PROVOCATION",
+        "GO_BAR_DOOR",
+        "GO_BAR_KEG_SHOT",
+        "GO_BAR_KEG_TRAP",
+        "GO_CHEST_SEVEN",
+        "GO_DARK_IRON_ALE_MUG",
+        "GO_DWARFRUNE_A01",
+        "GO_DWARFRUNE_B01",
+        "GO_DWARFRUNE_C01",
+        "GO_DWARFRUNE_D01",
+        "GO_DWARFRUNE_E01",
+        "GO_DWARFRUNE_F01",
+        "GO_DWARFRUNE_G01",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_FLAG_NO_INTERACT",
+        "GO_GOLEM_ROOM_N",
+        "GO_GOLEM_ROOM_S",
+        "GO_JAIL_DOOR_SUPPLY",
+        "GO_JAIL_SUPPLY_CRATE",
+        "GO_LYCEUM",
+        "GO_MOLE_MACHINE_TRAP",
+        "GO_READY",
+        "GO_SECRET_DOOR",
+        "GO_SECRET_SAFE",
+        "GO_SF_N",
+        "GO_SF_S",
+        "GO_SHADOW_DUMMY",
+        "GO_SHADOW_GIANT_DOOR",
+        "GO_SHADOW_LOCK",
+        "GO_SHADOW_MECHANISM",
+        "GO_SPECTRAL_CHALICE",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_ACTIVE_ALTERNATIVE",
+        "GO_STATE_READY",
+        "GO_THRONE_ROOM",
+        "GO_TOMB_ENTER",
+        "GO_TOMB_EXIT",
+        "NPC_ANGERREL",
+        "NPC_ANTAGONIST",
+        "NPC_ANUBSHIAH",
+        "NPC_ANVILRAGE_GUARDMAN",
+        "NPC_ANVILRAGE_MEDIC",
+        "NPC_ANVILRAGE_OFFICER",
+        "NPC_ANVILRAGE_RESERVIST",
+        "NPC_ANVILRAGE_SOLDIER",
+        "NPC_ARENA_SPECTATOR",
+        "NPC_BAELGAR",
+        "NPC_BEETLE",
+        "NPC_BLACKBREATH_CRONY",
+        "NPC_BORER_BEETLE",
+        "NPC_BURNING_SPIRIT",
+        "NPC_CAVE_CREEPER",
+        "NPC_COREN",
+        "NPC_COREN_DIREBREW",
+        "NPC_CREEPER",
+        "NPC_CREST",
+        "NPC_DARK_IRON_ANTAGONIST",
+        "NPC_DARK_SCREECHER",
+        "NPC_DEEP_STINGER",
+        "NPC_DIREBREW_MINION",
+        "NPC_DOOMFORGE_ARCANASMITH",
+        "NPC_DOOMREL",
+        "NPC_DOPEREL",
+        "NPC_DREDGE_WORM",
+        "NPC_DUGHAL",
+        "NPC_ELITE_AMOUNT",
+        "NPC_EMPEROR",
+        "NPC_EVISCERATOR",
+        "NPC_FINEOUS_DARKVIRE",
+        "NPC_FIREGUARD_DESTROYER",
+        "NPC_FIRE_SPIRIT",
+        "NPC_GLOOMREL",
+        "NPC_GOLEM_LORD_ARGELMACH",
+        "NPC_GOROSH",
+        "NPC_GRIMSTONE",
+        "NPC_GRIM_PATRON",
+        "NPC_GRIZZLE",
+        "NPC_GUZZLING_PATRON",
+        "NPC_HAMMERED_PATRON",
+        "NPC_HATEREL",
+        "NPC_HEDRUM",
+        "NPC_HOUNDMASTER_GREBMAR",
+        "NPC_HURLEY_BLACKBREATH",
+        "NPC_ILSA_DIREBREW",
+        "NPC_IRONHAND_GUARDIAN",
+        "NPC_JAZ",
+        "NPC_KORV",
+        "NPC_LEFTY",
+        "NPC_LORD_INCENDIUS",
+        "NPC_LORD_ROCCOR",
+        "NPC_LOREGRAIN",
+        "NPC_MAGMUS",
+        "NPC_MALGEN",
+        "NPC_MISTRESS_NAGMARA",
+        "NPC_MOIRA",
+        "NPC_NORMAL_AMOUNT",
+        "NPC_OGRABISI",
+        "NPC_OKTHOR",
+        "NPC_PHALANX",
+        "NPC_PLUGGER_SPAZZRING",
+        "NPC_PRIESTESS",
+        "NPC_PRINCESS",
+        "NPC_PRIVATE_ROCKNOT",
+        "NPC_PYROMANCER_LOREGRAIN",
+        "NPC_RAGEREAVER_GOLEM",
+        "NPC_REGINALD_WINDSOR",
+        "NPC_REZZNIK",
+        "NPC_RIBBLY_CRONY",
+        "NPC_RIBBLY_SCREWSPIGGOT",
+        "NPC_RIBBLY_SCREWSPIGOT",
+        "NPC_ROTFANG",
+        "NPC_SCREECHER",
+        "NPC_SEETHREL",
+        "NPC_SHADOWFORCE_CITIZEN",
+        "NPC_SHADOWFORGE_CITIZEN",
+        "NPC_SHADOWFORGE_PEASANT",
+        "NPC_SHADOWFORGE_SENATOR",
+        "NPC_SHILL",
+        "NPC_SNOKH",
+        "NPC_STINGER",
+        "NPC_THELDREN",
+        "NPC_THELDREN_QUEST_CREDIT",
+        "NPC_THUNDERSNOUT",
+        "NPC_TOBIAS",
+        "NPC_URSULA_DIREBREW",
+        "NPC_VAJASHNI",
+        "NPC_VILEREL",
+        "NPC_VOLIDA",
+        "NPC_WARBRINGER_CONST",
+        "NPC_WARBRINGER_CONSTRUCT",
+        "NPC_WARDER_STILGISS",
+        "NPC_WATCHER_DOOMGRIP",
+        "NPC_WATCHMAN_DOOMGRIP",
+        "NPC_WEAPON_TECHNICIAN",
+        "NPC_WORM",
+        "NPC_WRATH_HAMMER_CONSTRUCT",
+        "SPELL_ARCANE_BOLT",
+        "SPELL_ARCANE_EXPLOSION",
+        "SPELL_ARENA_FLASH_A",
+        "SPELL_ARENA_FLASH_B",
+        "SPELL_ARENA_FLASH_C",
+        "SPELL_ARENA_FLASH_D",
+        "SPELL_ASHCROMBES_TELEPORT_A",
+        "SPELL_ASHCROMBES_TELEPORT_B",
+        "SPELL_AURA_PERIODIC_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL",
+        "SPELL_AVATAROFFLAME",
+        "SPELL_BANEFUL",
+        "SPELL_BANISH",
+        "SPELL_BARRELED",
+        "SPELL_BARRELED_AURA",
+        "SPELL_BARRELED_CONTROL_AURA",
+        "SPELL_BLOODLUST",
+        "SPELL_BREWMAIDEN_DESPAWN_AURA",
+        "SPELL_BURNING_SPIRIT",
+        "SPELL_CAST_OK",
+        "SPELL_CHUCK_MUG",
+        "SPELL_CLEAVE",
+        "SPELL_CREATE_THORIUM_BROTHERHOOD_CONTRACT_DND",
+        "SPELL_CURSEOFWEAKNESS",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_CURSE_TONGUES",
+        "SPELL_CURSE_WEAKNESS",
+        "SPELL_DEMONARMOR",
+        "SPELL_DEMON_ARMOR",
+        "SPELL_DIREBREWS_DISARM_GROW",
+        "SPELL_DIREBREWS_DISARM_PRECAST",
+        "SPELL_DIREBREW_CHARGE",
+        "SPELL_DIREBREW_DISARM",
+        "SPELL_DIREBREW_DISARM_GROW",
+        "SPELL_DIREBREW_DISARM_PRE_CAST",
+        "SPELL_DIREBREW_MINION_KNOCKBACK",
+        "SPELL_DRUNKEN_RAGE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_ENVELOPING_WEB",
+        "SPELL_FIERYBURST",
+        "SPELL_FIREBALLVOLLEY",
+        "SPELL_FIREBALL_VOLLEY",
+        "SPELL_FIREBLAST",
+        "SPELL_FLAME_BREATH",
+        "SPELL_FLURRY",
+        "SPELL_FRENZY",
+        "SPELL_GOUTOFFLAME",
+        "SPELL_GOUT_OF_FLAME",
+        "SPELL_GOUT_OF_FLAMES",
+        "SPELL_GROUNDTREMOR",
+        "SPELL_HAMSTRING",
+        "SPELL_HANDOFTHAURISSAN",
+        "SPELL_HAS_BREW",
+        "SPELL_HAS_DARK_BREWMAIDENS_BREW",
+        "SPELL_HEAL",
+        "SPELL_IMMOLATE",
+        "SPELL_LEARN_SMELT",
+        "SPELL_MANABURN",
+        "SPELL_MIGHTYBLOW",
+        "SPELL_MIGHTY_BLOW",
+        "SPELL_MINDBLAST",
+        "SPELL_MOLE_MACHINE_EMERGE",
+        "SPELL_MOLE_MACHINE_MINION_SUMMONER",
+        "SPELL_MOLE_MACHINE_TARGET_PICKER",
+        "SPELL_MORTALSTRIKE",
+        "SPELL_NAGMARA_ROCKNOT",
+        "SPELL_NAGMARA_VANISH",
+        "SPELL_OPEN_PORTAL",
+        "SPELL_PARALYZING",
+        "SPELL_PICKPOCKET",
+        "SPELL_POLYMORPH",
+        "SPELL_PORT_TO_COREN",
+        "SPELL_POTION_LOVE",
+        "SPELL_PSYCHICSCREAM",
+        "SPELL_REND",
+        "SPELL_RENEW",
+        "SPELL_REQUEST_SECOND_MUG",
+        "SPELL_SCHOOL_MASK_MAGIC",
+        "SPELL_SEND_FIRST_MUG",
+        "SPELL_SEND_MUG_CONTROL_AURA",
+        "SPELL_SEND_MUG_TARGET_PICKER",
+        "SPELL_SEND_SECOND_MUG",
+        "SPELL_SHADOWBOLT",
+        "SPELL_SHADOWBOLTVOLLEY",
+        "SPELL_SHADOWBOLT_VOLLEY",
+        "SPELL_SHADOWSHIELD",
+        "SPELL_SHADOWWORDPAIN",
+        "SPELL_SHADOW_BOLT",
+        "SPELL_SHIELD",
+        "SPELL_SLOW",
+        "SPELL_SMELT_DARK_IRON",
+        "SPELL_SMITE",
+        "SPELL_STONED",
+        "SPELL_STONED_VISUAL",
+        "SPELL_SUMMON_DIREBREW_MINION",
+        "SPELL_SUMMON_MOLE_MACHINE",
+        "SPELL_SUMMON_MOLE_MACHINE_MINION_SUMMONER",
+        "SPELL_SUMMON_THELRIN_DND",
+        "SPELL_SUMMON_VOIDWALKERS",
+        "SPELL_SUNDER_ARMOR",
+        "SPELL_THUNDERCLAP",
+        "SPELL_WARSTOMP",
+        "SPELL_WEB_EXPLOSION",
+        "SPELL_WHIRLWIND",
+        "SPELL_WINDSORS_FRENZY",
+        "SPELL_WORDPAIN"
+      ],
+      "cast_calls": 488,
+      "timing_or_phase_signals": 39,
+      "timer_expression_candidates": [
+        {
+          "line": 339,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_GOUT_OF_FLAMES, urand(1, IRONHAND_N_GROUPS) * IRONHAND_FLAMES_TIMER / IRONHAND_N_GROUPS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 344,
+          "expression": "\"expression\": \"DoCast(SPELL_GOUT_OF_FLAMES);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 349,
+          "expression": "\"expression\": \"events.RescheduleEvent(SPELL_GOUT_OF_FLAMES, IRONHAND_FLAMES_TIMER - IRONHAND_FLAMES_TIMER_RAND, IRONHAND_FLAMES_TIMER + IRONHAND_FLAMES_TIMER_RAND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 354,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_THUNDERCLAP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALLVOLLEY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 364,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MIGHTYBLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 369,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_DRUNKEN_RAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 550,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_SPIRITS, 12s, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 555,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SPELL_FIREBLAST, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 560,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_SPIRITS, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 565,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_SPIRITS, 12s, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 570,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBLAST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 575,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SPELL_FIREBLAST, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 580,
+          "expression": "\"expression\": \"flamelasher->CastSpell(flamelasher, SPELL_BURNING_SPIRIT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 620,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT, TIMER_SHADOWBOLT / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 625,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_CURSE_TONGUES, TIMER_CURSE_TONGUES / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 630,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_CURSE_WEAKNESS, TIMER_CURSE_WEAKNESS / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 635,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_DEMON_ARMOR, TIMER_DEMON_ARMOR / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 640,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ENVELOPING_WEB, TIMER_ENVELOPING_WEB / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 645,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOWBOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 650,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT, TIMER_SHADOWBOLT - 2s, TIMER_SHADOWBOLT + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 655,
+          "expression": "\"expression\": \"DoCast(target, SPELL_CURSE_TONGUES);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 660,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_CURSE_TONGUES, TIMER_CURSE_TONGUES - 2s, TIMER_CURSE_TONGUES + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 665,
+          "expression": "\"expression\": \"DoCast(target, SPELL_CURSE_WEAKNESS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 670,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_CURSE_WEAKNESS, TIMER_CURSE_WEAKNESS - 2s, TIMER_CURSE_WEAKNESS + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 675,
+          "expression": "\"expression\": \"DoCast(me, SPELL_DEMON_ARMOR);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 680,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_DEMON_ARMOR, TIMER_DEMON_ARMOR);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 685,
+          "expression": "\"expression\": \"DoCast(target, SPELL_ENVELOPING_WEB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 690,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ENVELOPING_WEB, TIMER_ENVELOPING_WEB - 2s, TIMER_ENVELOPING_WEB + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 726,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_HANDOFTHAURISSAN, 4s, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 731,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_AVATAROFFLAME, 10s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 736,
+          "expression": "\"expression\": \"DoCast(SelectTarget(SelectTargetMethod::Random), SPELL_HANDOFTHAURISSAN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 741,
+          "expression": "\"expression\": \"//DoCastVictim(SPELL_HANDOFTHAURISSAN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 746,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_HANDOFTHAURISSAN, 4s, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 751,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_AVATAROFFLAME, 23s, 27s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 788,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT_VOLLEY, TIMER_SHADOWBOLT_VOLLEY / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 793,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_REND, TIMER_REND / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 798,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHIELD, TIMER_SHIELD / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 803,
+          "expression": "\"expression\": \"DoCast(SPELL_SHIELD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 808,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHIELD, TIMER_SHIELD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 813,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOWBOLT_VOLLEY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 818,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT_VOLLEY, TIMER_SHADOWBOLT_VOLLEY - 2s, TIMER_SHADOWBOLT_VOLLEY + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 823,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_REND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 828,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_REND, TIMER_REND - 2s, TIMER_REND + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 863,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MIGHTYBLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 868,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_HAMSTRING);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 873,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CLEAVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 920,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WHIRLWIND, TIMER_WHIRLWIND / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 925,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_MORTALSTRIKE, TIMER_MORTAL / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 930,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_BLOODLUST, TIMER_BLOODLUST / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 935,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WHIRLWIND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 940,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WHIRLWIND, nextWhirlwindTime);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 945,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MORTALSTRIKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 950,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_MORTALSTRIKE, TIMER_MORTAL - 2s, TIMER_MORTAL + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 955,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_BLOODLUST, TIMER_BLOODLUST - 2s, TIMER_BLOODLUST + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 989,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_GROUNDTREMOR, TIMER_GROUNDTREMOR / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 994,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_FRENZY, TIMER_FRENZY / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 999,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_GROUNDTREMOR);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1004,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_GROUNDTREMOR, nextTremorTime);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1009,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_FRENZY, TIMER_FRENZY - 2s, TIMER_FRENZY + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1045,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_PARALYZING, TIMER_PARALYZING / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1050,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_BANEFUL, TIMER_BANEFUL / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1055,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WEB_EXPLOSION, TIMER_WEB_EXPLOSION / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1060,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PARALYZING);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1065,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_PARALYZING, TIMER_PARALYZING - 2s, TIMER_PARALYZING + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1070,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BANEFUL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1075,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_BANEFUL, TIMER_BANEFUL - 2s, TIMER_BANEFUL + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1080,
+          "expression": "\"expression\": \"DoCast(SPELL_WEB_EXPLOSION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1085,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WEB_EXPLOSION, TIMER_WEB_EXPLOSION - 2s, TIMER_WEB_EXPLOSION + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1122,
+          "expression": "\"expression\": \"DoCast(target, SPELL_SHADOWWORDPAIN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1127,
+          "expression": "\"expression\": \"DoCast(target, SPELL_MANABURN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1132,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PSYCHICSCREAM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1137,
+          "expression": "\"expression\": \"DoCast(me, SPELL_SHADOWSHIELD);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1170,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WARSTOMP, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1175,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_FIERYBURST, 4s, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1180,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WARSTOMP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1185,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WARSTOMP, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1190,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIERYBURST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1195,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_FIERYBURST, 4s, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1237,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_MINDBLAST, TIMER_MINDBLAST / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1242,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_HEAL, TIMER_HEAL / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1247,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_RENEW, TIMER_RENEW / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1252,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MINDBLAST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1257,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_MINDBLAST, TIMER_MINDBLAST - 2s, TIMER_MINDBLAST + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1262,
+          "expression": "\"expression\": \"DoCast(emperor, spell);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1267,
+          "expression": "\"expression\": \"events.ScheduleEvent(spell, timer - 2s, timer + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1272,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WORDPAIN, TIMER_WORDPAIN / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1277,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_HEAL, TIMER_HEAL / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1282,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_RENEW, TIMER_RENEW / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1287,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT, TIMER_SHADOWBOLT / 2);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1292,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WORDPAIN);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1297,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_WORDPAIN, TIMER_WORDPAIN - 2s, TIMER_WORDPAIN + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1302,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOWBOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1307,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SHADOWBOLT, TIMER_SHADOWBOLT - 2s, TIMER_SHADOWBOLT + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1356,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ARCANE_BOLT, TIMER_ARCANE_BOLT / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1361,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ARCANE_EXPLOSION, TIMER_ARCANE_EXPLOSION / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1366,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_POLYMORPH, TIMER_POLYMORPH / 5);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1371,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SLOW, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1376,
+          "expression": "\"expression\": \"DoCast(target, SPELL_ARCANE_BOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1381,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ARCANE_BOLT, TIMER_ARCANE_BOLT - 2s, TIMER_ARCANE_BOLT + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1386,
+          "expression": "\"expression\": \"DoCast(SPELL_ARCANE_EXPLOSION);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1391,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_ARCANE_EXPLOSION, _nextArcaneExplosionTime);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1396,
+          "expression": "\"expression\": \"DoCast(target, SPELL_POLYMORPH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1401,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_POLYMORPH, TIMER_POLYMORPH - 2s, TIMER_POLYMORPH + 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1406,
+          "expression": "\"expression\": \"DoCast(SPELL_SLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1411,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_SLOW, TIMER_SLOW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1458,
+          "expression": "\"expression\": \"player->CastSpell(player, SPELL_LEARN_SMELT, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1463,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_SHADOWBOLTVOLLEY, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1468,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_IMMOLATE, 18s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1473,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_CURSEOFWEAKNESS, 5s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1478,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_DEMONARMOR, 16s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1483,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_SUMMON_VOIDWALKERS, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1488,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOWBOLTVOLLEY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1493,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_SHADOWBOLTVOLLEY, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1498,
+          "expression": "\"expression\": \"DoCast(target, SPELL_IMMOLATE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1503,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_IMMOLATE, 25s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1508,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_IMMOLATE, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1513,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_CURSEOFWEAKNESS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1518,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_CURSEOFWEAKNESS, 45s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1523,
+          "expression": "\"expression\": \"DoCast(me, SPELL_DEMONARMOR);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1528,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_DEMONARMOR, 300s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1533,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_VOIDWALKERS, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1538,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SPELL_SUMMON_VOIDWALKERS, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1740,
+          "expression": "\"expression\": \"events.ScheduleEvent(SPELL_GOUT_OF_FLAMES, urand(1, IRONHAND_N_GROUPS) * IRONHAND_FLAMES_TIMER / IRONHAND_N_GROUPS);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1745,
+          "expression": "\"expression\": \"DoCast(SPELL_GOUT_OF_FLAMES);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1750,
+          "expression": "\"expression\": \"events.RescheduleEvent(SPELL_GOUT_OF_FLAMES, IRONHAND_FLAMES_TIMER - IRONHAND_FLAMES_TIMER_RAND, IRONHAND_FLAMES_TIMER + IRONHAND_FLAMES_TIMER_RAND);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1755,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(EVENT_PHALANX_THUNDERCLAP, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1760,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(EVENT_PHALANX_MIGHTY_BLOW, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1765,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(EVENT_PHALANX_FIREBALL_VOLLEY, 1ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1770,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(eventId,\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1775,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(eventId,\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1780,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_MIGHTYBLOW) == SPELL_CAST_OK ? 10s : 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1785,
+          "expression": "\"expression\": \"_combatEvents.ScheduleEvent(eventId,\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1790,
+          "expression": "\"expression\": \"_stagingEvents.ScheduleEvent(EVENT_PHALANX_YELL, 200ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1795,
+          "expression": "\"expression\": \"_stagingEvents.ScheduleEvent(EVENT_PHALANX_FINISH_MOVEMENT, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1800,
+          "expression": "\"expression\": \"DoCast(me, SPELL_POTION_LOVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1805,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_PUNCH, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1810,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_PUNCH, 3100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1815,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_SECOND_KEG, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1820,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_FINAL_KEG, 300ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1825,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_PUNCH, 1900ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1830,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_PUNCH, 3500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1835,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_ALE, 3700ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1840,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_BREAK_KEG, 5100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1845,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_BAR_REACTION, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1850,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_RECOVER, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1855,
+          "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ROCKNOT_MORE_ALE, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2045,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_SPIRITS, 12s, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2050,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SPELL_FIREBLAST, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2055,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SUMMON_SPIRITS, 4s);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 376,
+          "expression": "\"expression\": \"if (HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 880,
+          "expression": "\"expression\": \"if (HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 885,
+          "expression": "\"expression\": \"if (!_medics && HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1314,
+          "expression": "\"expression\": \"if (emperor && emperor->HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1319,
+          "expression": "\"expression\": \"else if (HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1545,
+          "expression": "\"expression\": \"if (!Voidwalkers && HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1862,
+          "expression": "\"expression\": \"if (!_volleyStarted && HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1867,
+          "expression": "\"expression\": \"HealthBelowPct(51) && DoCastSelf(SPELL_FIREBALLVOLLEY) == SPELL_CAST_OK ? 10s : 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2375,
+          "expression": "\"expression\": \"if (HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2380,
+          "expression": "\"expression\": \"if (!_medics && HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2809,
+          "expression": "\"expression\": \"if (emperor && emperor->HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2814,
+          "expression": "\"expression\": \"else if (HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3040,
+          "expression": "\"expression\": \"if (!Voidwalkers && HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3239,
+          "expression": "\"expression\": \"if (HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3436,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_1, Seconds(6), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3461,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_2, Seconds(4), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3466,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_3, Seconds(3), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3523,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3528,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3533,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_1, Seconds(6), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3538,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3543,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3548,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_THREE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3553,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_2, Seconds(4), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3558,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_3, Seconds(3), 0, PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3722,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3727,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3905,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_ONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 3910,
+          "expression": "\"expression\": \"events.SetPhase(PHASE_TWO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 4123,
+          "expression": "\"expression\": \"if (!_voidwalkers && !HealthAbovePct(50))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 4629,
+          "expression": "\"expression\": \"if (HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5133,
+          "expression": "\"expression\": \"if (HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5138,
+          "expression": "\"expression\": \"if (!_medics && HealthBelowPct(21))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5567,
+          "expression": "\"expression\": \"if (emperor && emperor->HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5572,
+          "expression": "\"expression\": \"else if (HealthBelowPct(90))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 5798,
+          "expression": "\"expression\": \"if (!Voidwalkers && HealthBelowPct(51))\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2030-blackrock-depths-prison.json",
       "kind": "shared",
       "bytes": 4175,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6585,10 +8584,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2276-blackrock-depths-upper-city.json",
       "kind": "shared",
       "bytes": 4179,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -6758,20 +8762,24 @@
     }
   },
   "coverage": {
-    "source_files": 95,
+    "source_files": 96,
     "by_kind": {
       "boss": 52,
       "trash": 0,
       "instance": 5,
       "sql": 26,
-      "shared": 12,
+      "shared": 13,
       "other": 0
     },
     "npc_ids_candidate": 83,
     "spell_ids_candidate": 101,
     "encounter_filename_candidates": 14,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 57,
+    "nonboss_ai_source_candidates": 10,
+    "shared_creature_ai_source_candidates": 5,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

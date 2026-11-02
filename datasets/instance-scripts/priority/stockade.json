@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261002_30_stockade.sql",
       "kind": "sql",
       "bytes": 3794,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261006_00_stockade_heroic_mythic_loot.sql",
       "kind": "sql",
       "bytes": 3878,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261024_40_stockade_heroic_boss_dungeon_item.sql",
       "kind": "sql",
       "bytes": 863,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/instance_the_stockade.cpp",
       "kind": "instance",
       "bytes": 1371,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -93,6 +113,11 @@
       "path": "src/server/scripts/EasternKingdoms/TheStockade/instance_the_stockade.cpp",
       "kind": "instance",
       "bytes": 1371,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/boss_hogger.cpp",
       "kind": "boss",
       "bytes": 4471,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_hogger",
+        "npc_warden_thelwater"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -167,10 +200,17 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/boss_lord_overheat.cpp",
       "kind": "boss",
       "bytes": 2605,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_lord_overheat"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -231,10 +271,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/boss_randolph_moloch.cpp",
       "kind": "boss",
       "bytes": 5408,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "boss_randolph_moloch",
+        "npc_mortimer_moloch"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -328,10 +376,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/instance_the_stockade.cpp",
       "kind": "instance",
       "bytes": 1684,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -353,10 +406,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/EasternKingdoms/TheStockade/the_stockade.h",
       "kind": "shared",
       "bytes": 1495,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -393,6 +451,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261002_30_stockade.sql",
       "kind": "sql",
       "bytes": 3794,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -414,6 +477,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261006_00_stockade_heroic_mythic_loot.sql",
       "kind": "sql",
       "bytes": 3878,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -435,6 +503,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261024_40_stockade_heroic_boss_dungeon_item.sql",
       "kind": "sql",
       "bytes": 863,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -456,6 +529,11 @@
       "path": "src/server/scripts/EasternKingdoms/TheStockade/instance_the_stockade.cpp",
       "kind": "instance",
       "bytes": 1371,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -473,10 +551,188 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/stockade.json",
+      "kind": "shared",
+      "bytes": 19199,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_hogger",
+        "boss_lord_overheat",
+        "boss_randolph_moloch",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HOGGER",
+        "DATA_LORD_OVERHEAT",
+        "DATA_RANDOLPH_MOLOCH",
+        "EVENT_ATTACK_RANDOM",
+        "EVENT_FIREBALL",
+        "EVENT_JUST_VANISHED",
+        "EVENT_MADDENING_CALL",
+        "EVENT_MORTIMER_MOLOCH_DEATH",
+        "EVENT_MORTIMER_MOLOCH_EMOTE",
+        "EVENT_OVERHEAT",
+        "EVENT_RAIN_OF_FIRE",
+        "EVENT_SAY_WARDEN_1",
+        "EVENT_SAY_WARDEN_2",
+        "EVENT_SAY_WARDEN_3",
+        "EVENT_SWEEP",
+        "EVENT_VANISH",
+        "EVENT_VICIOUS_SLICE",
+        "EVENT_WILDLY_STABBING",
+        "NPC_HOGGER",
+        "NPC_LORD_OVERHEAT",
+        "NPC_MORTIMER_MOLOCH",
+        "NPC_RANDOLPH_MOLOCH",
+        "NPC_WARDEN_THELWATER",
+        "SPELL_ENRAGE",
+        "SPELL_FIREBALL",
+        "SPELL_MADDENING_CALL",
+        "SPELL_OVERHEAT",
+        "SPELL_RAIN_OF_FIRE",
+        "SPELL_SHADOWSTEP",
+        "SPELL_SWEEP",
+        "SPELL_VANISH",
+        "SPELL_VICIOUS_SLICE",
+        "SPELL_WILDLY_STABBING"
+      ],
+      "cast_calls": 19,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 144,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VICIOUS_SLICE, 3s, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MADDENING_CALL, 1s, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 154,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_VICIOUS_SLICE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 159,
+          "expression": "\"expression\": \"DoCast(SPELL_MADDENING_CALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 198,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OVERHEAT, 9s, 11s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RAIN_OF_FIRE, 10s, 13s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 218,
+          "expression": "\"expression\": \"DoCast(target, SPELL_OVERHEAT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_RAIN_OF_FIRE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 269,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILDLY_STABBING, 4s, 5s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 274,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWEEP, 2s, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 279,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WILDLY_STABBING);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 284,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SWEEP);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 289,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWEEP, 6s, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 294,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_JUST_VANISHED, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 299,
+          "expression": "\"expression\": \"DoCast(target, SPELL_SHADOWSTEP, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 304,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 309,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH, 1s);\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 316,
+          "expression": "\"expression\": \"if (me->HealthBelowPctDamaged(71, damage) && me->HealthAbovePct(59) && !_firstVanish)\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 321,
+          "expression": "\"expression\": \"if (me->HealthBelowPctDamaged(41, damage) && me->HealthAbovePct(29) && !_secondVanish)\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2702-stormwind-stockade.json",
       "kind": "shared",
       "bytes": 4168,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -494,10 +750,23 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/classic-dungeons-scarlet-scholo-strath-uldaman-stockade-deadmines-brd-vaults-2026-10-30.json",
       "kind": "shared",
       "bytes": 54831,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_coa_vaults_darkandle",
+        "boss_coa_vaults_deceiver",
+        "boss_coa_vaults_echo",
+        "npc_coa_vaults_trash",
+        "npc_entry",
+        "npc_spellclick_spells",
+        "npc_text"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -515,10 +784,15 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "research/dbm/coa-dungeon-wing-starts-stockade-stratholme-and-difficulty-2026-10-30.json",
       "kind": "shared",
       "bytes": 239484,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -562,20 +836,24 @@
     }
   },
   "coverage": {
-    "source_files": 17,
+    "source_files": 18,
     "by_kind": {
       "boss": 3,
       "trash": 0,
       "instance": 4,
       "sql": 6,
-      "shared": 4,
+      "shared": 5,
       "other": 0
     },
     "npc_ids_candidate": 5,
     "spell_ids_candidate": 10,
     "encounter_filename_candidates": 3,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 3,
+    "nonboss_ai_source_candidates": 2,
+    "shared_creature_ai_source_candidates": 0,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"

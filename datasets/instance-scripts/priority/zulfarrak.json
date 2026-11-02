@@ -5,10 +5,15 @@
   "source_files": [
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261025_62_zulfarrak_shallow_grave_despawn.sql",
       "kind": "sql",
       "bytes": 948,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -26,10 +31,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261026_110_zulfarrak_sandfury_no_dismounting_blast.sql",
       "kind": "sql",
       "bytes": 440,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -47,10 +57,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "data/sql/updates/pending_db_world/rev_20261028_40_zulfarrak_pyramid_event_no_gossip_pause.sql",
       "kind": "sql",
       "bytes": 710,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -68,10 +83,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/108_manastorm_zul_farrak_antusul.sql",
       "kind": "sql",
       "bytes": 2233,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -89,10 +109,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/109_manastorm_zul_farrak_witch_doctor_zumrah.sql",
       "kind": "sql",
       "bytes": 2151,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -110,10 +135,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/110_manastorm_zul_farrak_gahzrilla.sql",
       "kind": "sql",
       "bytes": 2573,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -131,10 +161,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/111_manastorm_zul_farrak_hydromancer_velratha.sql",
       "kind": "sql",
       "bytes": 7080,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -152,10 +187,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/112_manastorm_zul_farrak_chief_ukorz_sandscalp.sql",
       "kind": "sql",
       "bytes": 2208,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -173,10 +213,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/113_manastorm_zul_farrak_velratha_self_link_repair.sql",
       "kind": "sql",
       "bytes": 2686,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -194,10 +239,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "modules/mod-manastorm-endless/src/ManastormZulFarrakCompat.cpp",
       "kind": "shared",
       "bytes": 7768,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -227,10 +277,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/instance_zulfarrak.cpp",
       "kind": "instance",
       "bytes": 19493,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -266,10 +321,22 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp",
       "kind": "shared",
       "bytes": 23801,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_sergeant_bly",
+        "npc_sergeant_blyAI",
+        "npc_shadowpriest_sezziz",
+        "npc_shadowpriest_sezzizAI",
+        "npc_weegli_blastfuse",
+        "npc_weegli_blastfuseAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -381,10 +448,15 @@
     },
     {
       "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
-      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.h",
       "kind": "shared",
       "bytes": 2127,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -435,6 +507,11 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/instance_zulfarrak.cpp",
       "kind": "instance",
       "bytes": 19805,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -476,6 +553,18 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp",
       "kind": "shared",
       "bytes": 27183,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_sergeant_bly",
+        "npc_sergeant_blyAI",
+        "npc_shadowpriest_sezziz",
+        "npc_shadowpriest_sezzizAI",
+        "npc_weegli_blastfuse",
+        "npc_weegli_blastfuseAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -633,6 +722,11 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.h",
       "kind": "shared",
       "bytes": 2369,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -680,10 +774,18 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/boss_zum_rah.cpp",
       "kind": "boss",
       "bytes": 4341,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_zum_rah",
+        "boss_zum_rahAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -788,10 +890,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/instance_zulfarrak.cpp",
       "kind": "instance",
       "bytes": 14729,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -823,10 +930,20 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp",
       "kind": "shared",
       "bytes": 14328,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_sergeant_bly",
+        "npc_sergeant_blyAI",
+        "npc_weegli_blastfuse",
+        "npc_weegli_blastfuseAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -886,10 +1003,15 @@
     },
     {
       "repository": "TrinityCore/TrinityCore",
-      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.h",
       "kind": "shared",
       "bytes": 2184,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -923,6 +1045,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261025_62_zulfarrak_shallow_grave_despawn.sql",
       "kind": "sql",
       "bytes": 948,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -944,6 +1071,11 @@
       "path": "data/sql/updates/pending_db_world/rev_20261026_110_zulfarrak_sandfury_no_dismounting_blast.sql",
       "kind": "sql",
       "bytes": 440,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -965,6 +1097,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/108_manastorm_zul_farrak_antusul.sql",
       "kind": "sql",
       "bytes": 2233,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -986,6 +1123,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/109_manastorm_zul_farrak_witch_doctor_zumrah.sql",
       "kind": "sql",
       "bytes": 2151,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1007,6 +1149,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/110_manastorm_zul_farrak_gahzrilla.sql",
       "kind": "sql",
       "bytes": 2573,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1028,6 +1175,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/111_manastorm_zul_farrak_hydromancer_velratha.sql",
       "kind": "sql",
       "bytes": 7080,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1049,6 +1201,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/112_manastorm_zul_farrak_chief_ukorz_sandscalp.sql",
       "kind": "sql",
       "bytes": 2208,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1070,6 +1227,11 @@
       "path": "modules/mod-manastorm-endless/data/sql/db-world/base/113_manastorm_zul_farrak_velratha_self_link_repair.sql",
       "kind": "sql",
       "bytes": 2686,
+      "archive_kind": "sql",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1091,6 +1253,11 @@
       "path": "modules/mod-manastorm-endless/src/ManastormZulFarrakCompat.cpp",
       "kind": "shared",
       "bytes": 7768,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1124,6 +1291,11 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/instance_zulfarrak.cpp",
       "kind": "instance",
       "bytes": 19083,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1163,6 +1335,18 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp",
       "kind": "shared",
       "bytes": 23801,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": true,
+      "creature_ai_identifiers_candidate": [
+        "npc_sergeant_bly",
+        "npc_sergeant_blyAI",
+        "npc_shadowpriest_sezziz",
+        "npc_shadowpriest_sezzizAI",
+        "npc_weegli_blastfuse",
+        "npc_weegli_blastfuseAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1278,6 +1462,11 @@
       "path": "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.h",
       "kind": "shared",
       "bytes": 2127,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1328,6 +1517,14 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/zulfarrak/boss_zumrah.cpp",
       "kind": "boss",
       "bytes": 7004,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_zumrah",
+        "boss_zumrahAI"
+      ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1378,6 +1575,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/zulfarrak/instance_zulfarrak.cpp",
       "kind": "instance",
       "bytes": 8552,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1417,6 +1619,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/zulfarrak/zulfarrak.cpp",
       "kind": "shared",
       "bytes": 3836,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1440,6 +1647,11 @@
       "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/zulfarrak/zulfarrak.h",
       "kind": "shared",
       "bytes": 2700,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [
@@ -1491,10 +1703,441 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "path": "datasets/instance-scripts/priority/zulfarrak.json",
+      "kind": "shared",
+      "bytes": 48159,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ai_present",
+        "boss_zum_rah",
+        "boss_zumrah",
+        "npc_ids_candidate"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ANTU_SUL",
+        "BOSS_CHIEF_UKORZ_SANDSCALP",
+        "BOSS_GAHZ_RILLA",
+        "BOSS_HYDROMANCER_VELRATHA",
+        "BOSS_NEKRUM_GUTCHEWER",
+        "BOSS_SHADOWPRIEST_SEZZ_ZIZ",
+        "BOSS_THEKA_THE_MARTYR",
+        "BOSS_WITCH_DOCTOR_ZUM_RAH",
+        "DATA_END_DOOR",
+        "DATA_GAHZRILLA",
+        "DATA_PYRAMID",
+        "EVENT_BLY_FIRST_REPLY",
+        "EVENT_BLY_HOSTILE",
+        "EVENT_BLY_SECOND_REPLY",
+        "EVENT_GAHZRILLA",
+        "EVENT_HEALING_WAVE",
+        "EVENT_ID_GONG_ZULFARRAK",
+        "EVENT_ID_UNLOCKING",
+        "EVENT_PYRAMID",
+        "EVENT_SHADOWBOLT_VOLLEY",
+        "EVENT_SHADOW_BOLT",
+        "EVENT_WARD_OF_ZUM_RAH",
+        "EVENT_WEEGLI_ESCAPE",
+        "EVENT_WEEGLI_PLANT_BARREL",
+        "GO_END_DOOR",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_GONG_OF_ZUL_FARRAK",
+        "GO_JUST_DEACTIVATED",
+        "GO_READY",
+        "GO_SHALLOW_GRAVE",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_ACTIVE_ALTERNATIVE",
+        "GO_ZUL_FARRAK_END_DOOR",
+        "NPC_ANTUSUL",
+        "NPC_BLY",
+        "NPC_CHIEF_SANDSCALP",
+        "NPC_CHIEF_UKORZ",
+        "NPC_DEAD_HERO",
+        "NPC_GAHZRILLA",
+        "NPC_MURTA",
+        "NPC_NEKRUM",
+        "NPC_NEKRUM_GUTCHEWER",
+        "NPC_ORO",
+        "NPC_RAVEN",
+        "NPC_RUUZLU",
+        "NPC_SANDFURY_ACOLYTE",
+        "NPC_SANDFURY_CRETIN",
+        "NPC_SANDFURY_DRUDGE",
+        "NPC_SANDFURY_SLAVE",
+        "NPC_SANDFURY_ZEALOT",
+        "NPC_SERGEANT_BLY",
+        "NPC_SEZZZIZ",
+        "NPC_SHADOWPRIEST_SEZZZIZ",
+        "NPC_SKELETON_OF_ZUMRAH",
+        "NPC_THEKA",
+        "NPC_VELRATHA",
+        "NPC_WARD_OF_ZUMRAH",
+        "NPC_WEEGLI",
+        "NPC_ZOMBIE",
+        "NPC_ZULFARRAK_DEAD_HERO",
+        "NPC_ZULFARRAK_ZOMBIE",
+        "NPC_ZUMRAH",
+        "SPELL_BLYS_BAND_ESCAPE",
+        "SPELL_BOMB",
+        "SPELL_CAST_OK",
+        "SPELL_EFFECT_OPEN_LOCK",
+        "SPELL_EFFECT_SUMMON",
+        "SPELL_GOBLIN_LAND_MINE",
+        "SPELL_HEAL",
+        "SPELL_HEALING_WAVE",
+        "SPELL_PSYCHIC_SCREEM",
+        "SPELL_RENEW",
+        "SPELL_REVENGE",
+        "SPELL_SHADOWBOLT_VOLLEY",
+        "SPELL_SHADOW_BOLT",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SHIELD_BASH",
+        "SPELL_SHOOT",
+        "SPELL_SUMMON_ZOMBIES",
+        "SPELL_WARD_OF_ZUMRAH",
+        "SPELL_WARD_OF_ZUM_RAH",
+        "SPELL_WEEGLIS_BARREL"
+      ],
+      "cast_calls": 59,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [
+        {
+          "line": 318,
+          "expression": "\"expression\": \"weegli->CastSpell(weegli, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 323,
+          "expression": "\"expression\": \"raven->CastSpell(raven, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 328,
+          "expression": "\"expression\": \"oro->CastSpell(oro, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 333,
+          "expression": "\"expression\": \"murta->CastSpell(murta, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 338,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHIELD_BASH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 343,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_REVENGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 348,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BOMB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 353,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHOOT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 358,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_HEAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_RENEW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 368,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PSYCHIC_SCREEM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 373,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOW_BOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 531,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLY_SECOND_REPLY, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 536,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLY_HOSTILE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 541,
+          "expression": "\"expression\": \"weegli->CastSpell(weegli, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 546,
+          "expression": "\"expression\": \"raven->CastSpell(raven, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 551,
+          "expression": "\"expression\": \"oro->CastSpell(oro, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 556,
+          "expression": "\"expression\": \"murta->CastSpell(murta, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 561,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHIELD_BASH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 566,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_REVENGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 571,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BLY_FIRST_REPLY, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 576,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEEGLI_PLANT_BARREL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 581,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEEGLI_ESCAPE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 586,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEEGLI_ESCAPE, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 591,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BOMB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 596,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHOOT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 601,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEEGLI_PLANT_BARREL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 606,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_HEAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 611,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_RENEW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 616,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PSYCHIC_SCREEM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 621,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOW_BOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 714,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_BOLT, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 719,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOWBOLT_VOLLEY, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 724,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOW_BOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 729,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_BOLT, 4s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 734,
+          "expression": "\"expression\": \"DoCast(me,SPELL_WARD_OF_ZUM_RAH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 739,
+          "expression": "\"expression\": \"DoCast(me,SPELL_HEALING_WAVE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 744,
+          "expression": "\"expression\": \"DoCast(target, SPELL_SHADOWBOLT_VOLLEY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 749,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOWBOLT_VOLLEY, 9s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 754,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WARD_OF_ZUM_RAH, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 759,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WARD_OF_ZUM_RAH, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 764,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALING_WAVE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 863,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHIELD_BASH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 868,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_REVENGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 873,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BOMB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 878,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHOOT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1211,
+          "expression": "\"expression\": \"weegli->CastSpell(weegli, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1216,
+          "expression": "\"expression\": \"raven->CastSpell(raven, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1221,
+          "expression": "\"expression\": \"oro->CastSpell(oro, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1226,
+          "expression": "\"expression\": \"murta->CastSpell(murta, SPELL_BLYS_BAND_ESCAPE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1231,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHIELD_BASH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1236,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_REVENGE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1241,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_BOMB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1246,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHOOT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1251,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_HEAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1256,
+          "expression": "\"expression\": \"DoCast(unit, SPELL_RENEW);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1261,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PSYCHIC_SCREEM);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1266,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_SHADOW_BOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1366,
+          "expression": "\"expression\": \"m_creature->CastSpell(pGrave->GetPositionX(), pGrave->GetPositionY(), pGrave->GetPositionZ(), SPELL_SUMMON_ZOMBIES, TRIGGERED_OLD_TRIGGERED, nullptr, nullptr, pGrave->GetObjectGuid());\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 771,
+          "expression": "\"expression\": \"if (!_ward80 && HealthBelowPct(80))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 776,
+          "expression": "\"expression\": \"if (!_ward40 && HealthBelowPct(40))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 781,
+          "expression": "\"expression\": \"if (!_heal30 && HealthBelowPct(30))\",",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2714-zul-farrak.json",
       "kind": "shared",
       "bytes": 4160,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
       "npc_ids_candidate": [],
@@ -1530,20 +2173,24 @@
     }
   },
   "coverage": {
-    "source_files": 37,
+    "source_files": 38,
     "by_kind": {
       "boss": 2,
       "trash": 0,
       "instance": 5,
       "sql": 17,
-      "shared": 13,
+      "shared": 14,
       "other": 0
     },
     "npc_ids_candidate": 23,
     "spell_ids_candidate": 16,
     "encounter_filename_candidates": 2,
     "boss_ai_present": true,
+    "creature_ai_source_candidates": 6,
+    "nonboss_ai_source_candidates": 4,
+    "shared_creature_ai_source_candidates": 4,
     "trash_ai_explicitly_identified": false,
+    "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
     "live_reborn_verified": false,
     "status": "source-candidates-found"
