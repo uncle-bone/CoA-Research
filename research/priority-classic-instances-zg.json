@@ -2,7 +2,7 @@
   "schema": "coa-research.priority-instance-scope.v1",
   "date": "2026-11-02",
   "priority": "Classic Azeroth dungeon baseline plus Zul'Gurub",
-  "note": "The count depends on whether Blackrock Spire and Scarlet Monastery wings are counted separately. These 20 dungeon names are a working scope, not a confirmed realm-specific 19-item queue.",
+  "note": "The count depends on whether Blackrock Spire and Scarlet Monastery wings are counted separately. These 20 dungeon names are a working scope, not a confirmed realm-specific 19-item queue. Blackrock Caverns is released in Conquest Reborn and is explicitly in scope per maintainer.",
   "dungeons": [
     "Ragefire Chasm",
     "Wailing Caverns",
@@ -23,13 +23,13 @@
     "Upper Blackrock Spire",
     "Dire Maul",
     "Scholomance",
-    "Stratholme"
+    "Stratholme",
+    "Blackrock Caverns"
   ],
   "raid": [
     "Zul'Gurub"
   ],
   "custom_dungeon_deferred": [
-    "Blackrock Caverns",
     "Shadowbone Depths"
   ],
   "other_raids_deferred": true,
