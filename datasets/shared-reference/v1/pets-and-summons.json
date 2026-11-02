@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "domain": "pets_and_summons",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 7,
+  "records": [
+    {
+      "npcId": 50078,
+      "name": "Skeletal Rogue",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 50068,
+      "name": "Abomination",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 50119,
+      "name": "Shadow Effigy",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 1374,
+      "name": "Devilsaur",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 4528,
+      "name": "Summoned Earth Guardian",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 2630,
+      "name": "Earthbind Totem",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    },
+    {
+      "npcId": 6066,
+      "name": "Summoned Earthgrab Totem",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit",
+      "recordType": "npc_ownership_candidate",
+      "confidence": "user_report_unverified",
+      "liveRebornVerified": false,
+      "sourcePath": "datasets/relationships/class-pet-summon-investigation-v1.json",
+      "sourceExtractionDate": "2026-11-01"
+    }
+  ],
+  "limitations": [
+    "Seven unverified NPC ownership candidates, not blacklist entries",
+    "No verified summon-spell-to-creature edges yet"
+  ]
+}
