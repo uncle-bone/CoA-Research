@@ -1,0 +1,68 @@
+name: Build and release CoA Shared Database v2.0
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_shared_reference_v20.py'
+      - 'tools/validate_shared_reference_v20.py'
+      - '.github/workflows/shared-reference-v20.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild archived inputs
+        run: |
+          python tools/build_shared_reference_v11.py
+          python tools/build_shared_reference_v12.py
+      - name: Generate v2 graph, eight datasets, Explorer and Lua exports
+        run: python tools/build_shared_reference_v20.py
+      - name: Validate references, provenance, exports, coverage
+        run: python tools/validate_shared_reference_v20.py
+      - name: Package, check archive and SHA-256
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib,json
+          base=Path("datasets/shared-reference/v2.0")
+          files=sorted(p for p in base.rglob("*") if p.is_file())
+          assert len(files)>=17
+          manifest={p.relative_to(base).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+          (base/"sha256-manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+          files=sorted(p for p in base.rglob("*") if p.is_file())
+          with ZipFile("CoA-Shared-Database-v2.0.0.zip","w") as z:
+              for p in files:z.write(p,p.as_posix())
+              for p in (Path("site/research-explorer.html"),Path("site/research-explorer.js")):z.write(p,p.as_posix())
+          with ZipFile("CoA-Shared-Database-v2.0.0.zip") as z:
+              assert z.testzip() is None
+              for name,digest in manifest.items():
+                  assert hashlib.sha256(z.read((base/name).as_posix())).hexdigest()==digest
+          Path("CoA-Shared-Database-v2.0.0.zip.sha256").write_text(hashlib.sha256(Path("CoA-Shared-Database-v2.0.0.zip").read_bytes()).hexdigest()+"  CoA-Shared-Database-v2.0.0.zip\n")
+          PY
+      - name: Publish Explorer index into existing website
+        run: |
+          cp datasets/shared-reference/v2.0/explorer-index.json site/data/research-explorer-v2.json
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add site/data/research-explorer-v2.json
+          git diff --cached --quiet || (git commit -m "data: publish v2 Explorer search index" && git push)
+      - name: Publish versioned release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view shared-database-v2.0.0 >/dev/null 2>&1 || gh release create shared-database-v2.0.0 --title "CoA Shared Database v2.0.0" --notes-file datasets/shared-reference/v2.0/CHANGELOG.md
+          gh release upload shared-database-v2.0.0 CoA-Shared-Database-v2.0.0.zip CoA-Shared-Database-v2.0.0.zip.sha256 datasets/shared-reference/v2.0/coverage-report.json --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CoA-Shared-Database-v2.0.0
+          path: |
+            CoA-Shared-Database-v2.0.0.zip
+            CoA-Shared-Database-v2.0.0.zip.sha256
