@@ -51,9 +51,14 @@ def main():
         for source in args.sources:
             if "/" not in source or source.count("/") != 1:
                 raise ValueError(f"Invalid owner/repo: {source}")
-            revision = args.ref or json.loads(request(f"{API}/repos/{source}"))["default_branch"]
-            sha = json.loads(request(f"{API}/repos/{source}/commits/{revision}"))["sha"]
-            archive = request(f"https://codeload.github.com/{source}/zip/{sha}")
+            try:
+                revision = args.ref or json.loads(request(f"{API}/repos/{source}"))["default_branch"]
+                sha = json.loads(request(f"{API}/repos/{source}/commits/{revision}"))["sha"]
+                archive = request(f"https://codeload.github.com/{source}/zip/{sha}")
+            except Exception as exc:
+                manifest["sources"].append({"repository": source, "status": "failed", "error": str(exc)})
+                print(f"WARNING: skipped {source}: {exc}", flush=True)
+                continue
             count = 0
             with zipfile.ZipFile(io.BytesIO(archive)) as src:
                 for info in src.infolist():
@@ -83,7 +88,7 @@ def main():
                     manifest["files"].append({"source": source, "revision": sha, "path": path,
                                               "bytes": len(raw), "kind": "research" if is_research else ("sql" if is_sql else "script")})
                     count += 1
-            manifest["sources"].append({"repository": source, "revision": sha, "file_count": count})
+            manifest["sources"].append({"repository": source, "revision": sha, "file_count": count, "status": "collected"})
             print(f"{source}: {count} files at {sha}", flush=True)
         if not manifest["files"]:
             raise RuntimeError("No matching scripts found")
