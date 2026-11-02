@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "domain": "items_and_loot",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 1,
+  "records": [
+    {
+      "recordType": "source_inventory",
+      "itemCount": 240,
+      "lootRelationsVerified": 0,
+      "sourcePath": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/extraction-summary.json",
+      "sourceExtractionDate": "2026-10-31",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "No independently validated loot/drop-source edges in this initial shared export"
+  ]
+}
