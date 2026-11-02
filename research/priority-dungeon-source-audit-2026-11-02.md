@@ -24,13 +24,13 @@ Date: 2026-11-02. Source: [Conquest-of-AzerothCore/azerothcore-wotlk-coa](https:
 | Dire Maul | `Kalimdor/DireMaul/dire_maul.h` | `data/sql/updates/pending_db_world/rev_20261009_83_dire_maul_west_fixes.sql` | Source path found, full AI not audited |
 | Scholomance | `EasternKingdoms/Scholomance/instance_scholomance.cpp` | `boss_darkmaster_gandling.cpp` | Source path found, full AI not audited |
 | Stratholme | `EasternKingdoms/Stratholme/instance_stratholme.cpp` | `data/sql/updates/pending_db_world/rev_20261008_20_stratholme_dathrohan.sql` | Source path found, full AI not audited |
-| Blackrock Caverns | `NOT FOUND IN FIRST RESULTS` | `modules/mod-coa-mythic-plus/src/MythicPlus.cpp (mention only)` | Unresolved primary script |
+| Blackrock Caverns | `TrinityCore/TrinityCore: src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/instance_blackrock_caverns.cpp` | TrinityCore boss files: `boss_romogg_bonecrusher.cpp`, `boss_corla.cpp`, `boss_karsh_steelbender.cpp`, `boss_beauty.cpp`, `boss_ascendant_lord_obsidius.cpp` | Public TrinityCore reference found; **not verified in CoA fork or live Conquest Reborn** |
 | Zul'Gurub (raid) | `EasternKingdoms/ZulGurub/instance_zulgurub.cpp` | `modules/mod-coa-raid-difficulty/data/sql/db-world/base/14_zg.sql` | Source path found, full AI not audited |
 
 ## Priority findings
 
 - Zul'Gurub has Ascension-specific boss AI in `modules/mod-coa-raid-difficulty/src/`, and SQL mappings in `modules/mod-coa-raid-difficulty/data/sql/db-world/base/14_zg.sql`. See `research/zg-coa-verified-source-map.md`.
-- Blackrock Caverns is **in scope** because the maintainer confirms it is released. Searches found references but **not its actual encounter AI**. Do not mislabel Blackrock Depths or Blackrock Spire as Caverns.
+- Blackrock Caverns is **in scope** because the maintainer confirms it is released. The public TrinityCore repository has boss and instance scripts; their presence in the CoA fork or deployment on Conquest Reborn remains **unverified**. Do not mislabel Blackrock Depths or Blackrock Spire as Caverns.
 - Stock dungeon script directories, CoA modules, and SQL updates must all be indexed, with provenance and revision recorded.
 - A file found in public source is not proof that the live server uses it. Do not assert timings without confirming the script or a combat log.
 
