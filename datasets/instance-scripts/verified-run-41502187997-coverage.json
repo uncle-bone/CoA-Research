@@ -1,0 +1,38 @@
+{
+  "schema": "verified-actions-log-coverage-v1",
+  "run_url": "https://github.com/uncle-bone/CoA-Research/actions/runs/41502187997",
+  "run_conclusion": "failure-after-successful-collection-and-integrity-check",
+  "archive_integrity": "passed-in-actions-runner",
+  "archive_source_file_count": 28900,
+  "source_file_symbol_index_count": 28375,
+  "instance_count": 22,
+  "instance_source_candidate_counts": {
+    "ragefire-chasm": 15,
+    "wailing-caverns": 24,
+    "deadmines": 55,
+    "shadowfang-keep": 36,
+    "blackfathom-deeps": 30,
+    "stockade": 17,
+    "gnomeregan": 19,
+    "razorfen-kraul": 26,
+    "scarlet-monastery": 47,
+    "razorfen-downs": 32,
+    "uldaman": 33,
+    "zulfarrak": 37,
+    "maraudon": 38,
+    "sunken-temple": 23,
+    "blackrock-depths": 95,
+    "lower-blackrock-spire": 74,
+    "upper-blackrock-spire": 74,
+    "dire-maul": 46,
+    "scholomance": 40,
+    "stratholme": 107,
+    "blackrock-caverns": 10,
+    "zulgurub": 221
+  },
+  "notes": [
+    "Numbers transcribed from GitHub Actions job logs; candidate files can overlap across instances.",
+    "The workflow failed at git push due to concurrent main update; archive upload was skipped.",
+    "No claim that source mechanics match live Conquest Reborn."
+  ]
+}
