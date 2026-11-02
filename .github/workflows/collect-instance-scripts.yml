@@ -59,7 +59,8 @@ jobs:
           git add datasets/instance-scripts/source-inventory.json datasets/instance-scripts/priority
           if ! git diff --cached --quiet; then
             git commit -m "data: index six-source dungeon and raid script collection"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main || echo "Concurrent main update: preserving archive and release outputs instead of failing job"
           fi
       - name: Create permanent source archive release
         env:
