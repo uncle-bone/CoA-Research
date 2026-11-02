@@ -4,8 +4,8 @@ const ADDON_REPOS = new Set([
   "AtlasLoot-CoA",
   "BoneUI",
   "Cell-CoA",
-  "ConquestWorldMapImprovement",
   "CoA-Item-Search",
+  "ConquestWorldMapImprovement",
   "DBM-CoA",
   "Details",
   "ElvUI-CoA",
@@ -22,7 +22,12 @@ const ADDON_REPOS = new Set([
   "UncleTranslate-CoA",
   "VeilForge-CoA",
   "WeakAuras-CoA",
-  "Zygor-CoA"
+  "Zygor-CoA",
+  "WhatsTraining-CoA",
+  "RetailGuildPane-CoA",
+  "RXPGuides-CoA",
+  "BoneProfiler",
+  "pfQuest-CoA"
 ]);
 
 function messagePage(title, message, status) {
