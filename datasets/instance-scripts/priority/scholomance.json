@@ -1,0 +1,3386 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "scholomance",
+  "source_files": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20260928_11_scholomance_boss_loot.sql",
+      "kind": "sql",
+      "bytes": 483,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+      "kind": "boss",
+      "bytes": 13821,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12040,
+        15790,
+        17863,
+        17939,
+        17943,
+        17944,
+        17946,
+        17948,
+        17950,
+        18702
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_MINI_BOSSES",
+        "DATA_PLAYER_KILLED",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "NPC_RISEN_GUARDIAN",
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_CURSE_DARKMASTER",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_PORTAL_DOWN_EAST",
+        "SPELL_SHADOW_PORTAL_DOWN_NORTH",
+        "SPELL_SHADOW_PORTAL_DOWN_SOUTH",
+        "SPELL_SHADOW_PORTAL_UP_EAST",
+        "SPELL_SHADOW_PORTAL_UP_NORTH",
+        "SPELL_SHADOW_PORTAL_UP_SOUTH",
+        "SPELL_SHADOW_SHIELD"
+      ],
+      "cast_calls": 12,
+      "timing_or_phase_signals": 8,
+      "timer_expression_candidates": [
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 189,
+          "expression": "events.ScheduleEvent(SPELL_CURSE_DARKMASTER, TIMER_CURSE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 190,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_SHIELD, TIMER_SHIELD_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 301,
+          "expression": "DoCast(target, GandlingPortalSpells[room], true); // needs triggered somehow.",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "DoCastVictim(SPELL_ARCANE_MISSILES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 335,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 340,
+          "expression": "DoCast(target, SPELL_CURSE_DARKMASTER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 342,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 346,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 356,
+          "expression": "DoCast(target, SPELL_SHADOW_PORTAL); // don't use triggered here",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+      "kind": "boss",
+      "bytes": 9715,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6016,
+        8379,
+        12882,
+        12889,
+        14515,
+        16467,
+        17228,
+        18144,
+        24085
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KIRTONOS_THE_HERALD",
+        "EVENT_CURSE_OF_TONGUES",
+        "EVENT_DISARM",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_KIRTONOS_TRANSFORM",
+        "EVENT_PIERCE_ARMOR",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SWOOP",
+        "EVENT_WING_FLAP",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_DISARM",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_KIRTONOS_TRANSFORM",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SWOOP",
+        "SPELL_TRANSFORM_VISUAL",
+        "SPELL_WING_FLAP"
+      ],
+      "cast_calls": 34,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 113,
+          "expression": "events2.ScheduleEvent(INTRO_2, 1500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "events2.ScheduleEvent(INTRO_3, 2500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "events2.ScheduleEvent(INTRO_4, 5500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "events2.ScheduleEvent(INTRO_5, 6500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 117,
+          "expression": "events2.ScheduleEvent(INTRO_6, 11500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 126,
+          "expression": "events2.ScheduleEvent(INTRO_1, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 155,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_SWOOP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "me->CastSpell(me, SPELL_WING_FLAP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_PIERCE_ARMOR, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_DISARM, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "me->CastSpell(me, SPELL_SHADOW_BOLT_VOLLEY, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 207,
+          "expression": "me->CastSpell(me, SPELL_CURSE_OF_TONGUES, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "me->CastSpell(target, SPELL_DOMINATE_MIND, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 222,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 224,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 225,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "me->CastSpell(me, SPELL_TRANSFORM_VISUAL, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 236,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 237,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "events.ScheduleEvent(EVENT_DOMINATE_MIND, 4s, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 246,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+      "kind": "boss",
+      "bytes": 5533,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        20741,
+        27687,
+        27688,
+        27690,
+        27691,
+        27692,
+        27693,
+        27695,
+        27696,
+        27697,
+        27698,
+        27699
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_SHADOWBOLT_VOLLEY",
+        "EVENT_SUMMON_MINIONS",
+        "SPELL_BONE_SHIELD",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_SHADOWBOLT_VOLLEY",
+        "SPELL_SUMMON_BONE_MAGES",
+        "SPELL_SUMMON_BONE_MAGE_BACK_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_BACK_RIGHT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_RIGHT",
+        "SPELL_SUMMON_BONE_MINION1",
+        "SPELL_SUMMON_BONE_MINION2",
+        "SPELL_SUMMON_BONE_MINION3",
+        "SPELL_SUMMON_BONE_MINION4",
+        "SPELL_SUMMON_BONE_MINIONS"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCastVictim(SPELL_SHADOWBOLT_VOLLEY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MINIONS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MAGES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 173,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SummonMageSpells[urand(0, 3)], true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SPELL_SUMMON_BONE_MINION1 + i, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp",
+      "kind": "instance",
+      "bytes": 15408,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "GO_JUST_DEACTIVATED",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 369,
+          "expression": "events.RescheduleEvent(1, 1s, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 370,
+          "expression": "events.RescheduleEvent(2, 400ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 371,
+          "expression": "events.RescheduleEvent(3, 6s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 388,
+          "expression": "events.RescheduleEvent(4, 2s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 399,
+          "expression": "me->CastSpell(me, BONE_ARMOR_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 405,
+          "expression": "me->CastSpell(target, COUNTER_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 416,
+          "expression": "me->CastSpell(target, DRAIN_MANA_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 421,
+          "expression": "me->CastSpell(me->GetVictim(), SHADOWBOLT_VOLLEY_SPELL, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 383,
+          "expression": "if (me->HealthBelowPct(30) && me->GetEntry() != DARK_SHADE_ENTRY)",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/scholomance.h",
+      "kind": "shared",
+      "bytes": 2008,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        1853,
+        10506,
+        11598
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "NPC_RISEN_GUARDIAN"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+      "kind": "boss",
+      "bytes": 13821,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12040,
+        15790,
+        17863,
+        17939,
+        17943,
+        17944,
+        17946,
+        17948,
+        17950,
+        18702
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_MINI_BOSSES",
+        "DATA_PLAYER_KILLED",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "NPC_RISEN_GUARDIAN",
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_CURSE_DARKMASTER",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_PORTAL_DOWN_EAST",
+        "SPELL_SHADOW_PORTAL_DOWN_NORTH",
+        "SPELL_SHADOW_PORTAL_DOWN_SOUTH",
+        "SPELL_SHADOW_PORTAL_UP_EAST",
+        "SPELL_SHADOW_PORTAL_UP_NORTH",
+        "SPELL_SHADOW_PORTAL_UP_SOUTH",
+        "SPELL_SHADOW_SHIELD"
+      ],
+      "cast_calls": 12,
+      "timing_or_phase_signals": 8,
+      "timer_expression_candidates": [
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 189,
+          "expression": "events.ScheduleEvent(SPELL_CURSE_DARKMASTER, TIMER_CURSE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 190,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_SHIELD, TIMER_SHIELD_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 301,
+          "expression": "DoCast(target, GandlingPortalSpells[room], true); // needs triggered somehow.",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "DoCastVictim(SPELL_ARCANE_MISSILES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 335,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 340,
+          "expression": "DoCast(target, SPELL_CURSE_DARKMASTER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 342,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 346,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 356,
+          "expression": "DoCast(target, SPELL_SHADOW_PORTAL); // don't use triggered here",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+      "kind": "boss",
+      "bytes": 9715,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6016,
+        8379,
+        12882,
+        12889,
+        14515,
+        16467,
+        17228,
+        18144,
+        24085
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KIRTONOS_THE_HERALD",
+        "EVENT_CURSE_OF_TONGUES",
+        "EVENT_DISARM",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_KIRTONOS_TRANSFORM",
+        "EVENT_PIERCE_ARMOR",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SWOOP",
+        "EVENT_WING_FLAP",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_DISARM",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_KIRTONOS_TRANSFORM",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SWOOP",
+        "SPELL_TRANSFORM_VISUAL",
+        "SPELL_WING_FLAP"
+      ],
+      "cast_calls": 34,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 113,
+          "expression": "events2.ScheduleEvent(INTRO_2, 1500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "events2.ScheduleEvent(INTRO_3, 2500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "events2.ScheduleEvent(INTRO_4, 5500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "events2.ScheduleEvent(INTRO_5, 6500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 117,
+          "expression": "events2.ScheduleEvent(INTRO_6, 11500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 126,
+          "expression": "events2.ScheduleEvent(INTRO_1, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 155,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_SWOOP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "me->CastSpell(me, SPELL_WING_FLAP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_PIERCE_ARMOR, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_DISARM, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "me->CastSpell(me, SPELL_SHADOW_BOLT_VOLLEY, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 207,
+          "expression": "me->CastSpell(me, SPELL_CURSE_OF_TONGUES, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "me->CastSpell(target, SPELL_DOMINATE_MIND, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 222,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 224,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 225,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "me->CastSpell(me, SPELL_TRANSFORM_VISUAL, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 236,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 237,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "events.ScheduleEvent(EVENT_DOMINATE_MIND, 4s, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 246,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+      "kind": "boss",
+      "bytes": 5533,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        20741,
+        27687,
+        27688,
+        27690,
+        27691,
+        27692,
+        27693,
+        27695,
+        27696,
+        27697,
+        27698,
+        27699
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_SHADOWBOLT_VOLLEY",
+        "EVENT_SUMMON_MINIONS",
+        "SPELL_BONE_SHIELD",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_SHADOWBOLT_VOLLEY",
+        "SPELL_SUMMON_BONE_MAGES",
+        "SPELL_SUMMON_BONE_MAGE_BACK_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_BACK_RIGHT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_RIGHT",
+        "SPELL_SUMMON_BONE_MINION1",
+        "SPELL_SUMMON_BONE_MINION2",
+        "SPELL_SUMMON_BONE_MINION3",
+        "SPELL_SUMMON_BONE_MINION4",
+        "SPELL_SUMMON_BONE_MINIONS"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCastVictim(SPELL_SHADOWBOLT_VOLLEY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MINIONS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MAGES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 173,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SummonMageSpells[urand(0, 3)], true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SPELL_SUMMON_BONE_MINION1 + i, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp",
+      "kind": "instance",
+      "bytes": 15408,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "GO_JUST_DEACTIVATED",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 369,
+          "expression": "events.RescheduleEvent(1, 1s, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 370,
+          "expression": "events.RescheduleEvent(2, 400ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 371,
+          "expression": "events.RescheduleEvent(3, 6s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 388,
+          "expression": "events.RescheduleEvent(4, 2s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 399,
+          "expression": "me->CastSpell(me, BONE_ARMOR_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 405,
+          "expression": "me->CastSpell(target, COUNTER_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 416,
+          "expression": "me->CastSpell(target, DRAIN_MANA_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 421,
+          "expression": "me->CastSpell(me->GetVictim(), SHADOWBOLT_VOLLEY_SPELL, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 383,
+          "expression": "if (me->HealthBelowPct(30) && me->GetEntry() != DARK_SHADE_ENTRY)",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/scholomance.h",
+      "kind": "shared",
+      "bytes": 2008,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        1853,
+        10506,
+        11598
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "NPC_RISEN_GUARDIAN"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+      "kind": "boss",
+      "bytes": 11297,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        11598
+      ],
+      "spell_ids_candidate": [
+        5618,
+        5619,
+        5620,
+        5621,
+        5622,
+        5623,
+        12040,
+        15790,
+        17863,
+        17939,
+        17943,
+        17944,
+        17946,
+        17948,
+        17950,
+        18702
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "EVENT_ARCANE_MISSILES",
+        "EVENT_CURSE",
+        "EVENT_SHADOW_PORTAL",
+        "EVENT_SHADOW_SHIELD",
+        "GO_GATE_BAROV",
+        "GO_GATE_GANDLING",
+        "GO_GATE_ILLUCIA",
+        "GO_GATE_MALICIA",
+        "GO_GATE_POLKELT",
+        "GO_GATE_RAVENIAN",
+        "GO_GATE_THEOLEN",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_RISEN_GUARDIAN",
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_CURSE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SEND_EVENT",
+        "SPELL_EVENT_BAROVFAMILYVAULT",
+        "SPELL_EVENT_HALLOFSECRETS",
+        "SPELL_EVENT_HALLOFTHEDAMNED",
+        "SPELL_EVENT_THECOVEN",
+        "SPELL_EVENT_THESHADOWVAULT",
+        "SPELL_EVENT_VAULTOFTHERAVENIAN",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_PORTAL_BAROVFAMILYVAULT",
+        "SPELL_SHADOW_PORTAL_HALLOFSECRETS",
+        "SPELL_SHADOW_PORTAL_HALLOFTHEDAMNED",
+        "SPELL_SHADOW_PORTAL_THECOVEN",
+        "SPELL_SHADOW_PORTAL_THESHADOWVAULT",
+        "SPELL_SHADOW_PORTAL_VAULTOFTHERAVENIAN",
+        "SPELL_SHADOW_SHIELD"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 72,
+          "expression": "events.ScheduleEvent(EVENT_ARCANE_MISSILES, 4500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 73,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_SHIELD, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 74,
+          "expression": "events.ScheduleEvent(EVENT_CURSE, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 75,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_PORTAL, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "DoCastVictim(SPELL_ARCANE_MISSILES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "DoCastVictim(SPELL_CURSE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "DoCast(SelectTarget(SelectTargetMethod::Random, 0, 100, true), SPELL_SHADOW_PORTAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 201,
+          "expression": "GetHitUnit()->CastSpell(GetHitUnit(), spellId);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 114,
+          "expression": "if (HealthAbovePct(3))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_death_knight_darkreaver.cpp",
+      "kind": "boss",
+      "bytes": 3381,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        7645,
+        15284,
+        17393,
+        22644,
+        23261
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_BLOOD_LEECH",
+        "EVENT_CLEAVE",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_SHADOW_BOLT",
+        "SPELL_BLOOD_LEECH",
+        "SPELL_CLEAVE",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_SHADOW_BOLT",
+        "SPELL_SUMMON_FALLEN_CHARGER"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 66,
+          "expression": "_events.ScheduleEvent(EVENT_SHADOW_BOLT, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 67,
+          "expression": "_events.ScheduleEvent(EVENT_CLEAVE, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 68,
+          "expression": "_events.ScheduleEvent(EVENT_BLOOD_LEECH, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 69,
+          "expression": "_events.ScheduleEvent(EVENT_DOMINATE_MIND, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCastVictim(SPELL_SHADOW_BOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "DoCastVictim(SPELL_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "DoCast(target, SPELL_DOMINATE_MIND);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_doctor_theolen_krastinov.cpp",
+      "kind": "boss",
+      "bytes": 3247,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8269,
+        16509,
+        18103
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DOCTOR_THEOLEN_KRASTINOV",
+        "EVENT_BACKHAND",
+        "EVENT_FRENZY",
+        "EVENT_REND",
+        "SPELL_BACKHAND",
+        "SPELL_FRENZY",
+        "SPELL_REND"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_REND, 5s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "events.ScheduleEvent(EVENT_BACKHAND, 5s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 73,
+          "expression": "events.ScheduleEvent(EVENT_FRENZY, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCastVictim(SPELL_REND);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "DoCastVictim(SPELL_BACKHAND);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_illucia_barov.cpp",
+      "kind": "boss",
+      "bytes": 3347,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12528,
+        12542,
+        14515,
+        17289,
+        18671
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_LADY_ILLUCIA_BAROV",
+        "EVENT_CURSE_OF_AGONY",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_FEAR",
+        "EVENT_SHADOW_SHOCK",
+        "EVENT_SILENCE",
+        "SPELL_CURSE_OF_AGONY",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_FEAR",
+        "SPELL_SHADOW_SHOCK",
+        "SPELL_SILENCE"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 53,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_AGONY, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 54,
+          "expression": "events.ScheduleEvent(EVENT_DOMINATE_MIND, 15s, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 55,
+          "expression": "events.ScheduleEvent(EVENT_FEAR, 15s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_SHOCK, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 57,
+          "expression": "events.ScheduleEvent(EVENT_SILENCE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "DoCast(target, SPELL_DOMINATE_MIND);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 85,
+          "expression": "DoCast(target, SPELL_FEAR);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "DoCastVictim(SPELL_SHADOW_SHOCK);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_instructor_malicia.cpp",
+      "kind": "boss",
+      "bytes": 3407,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8362,
+        13747,
+        15586,
+        17831,
+        17843,
+        18376
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_INSTRUCTOR_MALICIA",
+        "EVENT_CALL_OF_GRAVES",
+        "EVENT_CORRUPTION",
+        "EVENT_FLASH_HEAL",
+        "EVENT_HEAL",
+        "EVENT_RENEW",
+        "EVENT_SLOW",
+        "SPELL_CALL_OF_GRAVES",
+        "SPELL_CORRUPTION",
+        "SPELL_FLASH_HEAL",
+        "SPELL_HEAL",
+        "SPELL_RENEW",
+        "SPELL_SLOW"
+      ],
+      "cast_calls": 6,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 55,
+          "expression": "events.ScheduleEvent(EVENT_CALL_OF_GRAVES, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "events.ScheduleEvent(EVENT_CORRUPTION, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 57,
+          "expression": "events.ScheduleEvent(EVENT_SLOW, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 58,
+          "expression": "events.ScheduleEvent(EVENT_FLASH_HEAL, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 59,
+          "expression": "events.ScheduleEvent(EVENT_HEAL, 5s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 60,
+          "expression": "events.ScheduleEvent(EVENT_RENEW, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_jandice_barov.cpp",
+      "kind": "boss",
+      "bytes": 3047,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8994,
+        16098,
+        17773,
+        17774,
+        26096
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_JANDICE_BAROV",
+        "EVENT_BANISH",
+        "EVENT_CURSE_OF_BLOOD",
+        "EVENT_SUMMON_ILLUSION",
+        "SPELL_BANISH",
+        "SPELL_CURSE_OF_BLOOD",
+        "SPELL_DROP_JOURNAL",
+        "SPELL_SPREAD",
+        "SPELL_SUMMON_ILLUSION"
+      ],
+      "cast_calls": 4,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 56,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_BLOOD, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 57,
+          "expression": "events.ScheduleEvent(EVENT_BANISH, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 58,
+          "expression": "events.ScheduleEvent(EVENT_SUMMON_ILLUSION, 15s, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 88,
+          "expression": "DoCast(target, SPELL_BANISH);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+      "kind": "boss",
+      "bytes": 8815,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        10506
+      ],
+      "spell_ids_candidate": [
+        6016,
+        8379,
+        12882,
+        12889,
+        14515,
+        16467,
+        17228,
+        18144
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KIRTONOS",
+        "EVENT_CURSE_OF_TONGUES",
+        "EVENT_DISARM",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_INTRO_1",
+        "EVENT_INTRO_2",
+        "EVENT_INTRO_3",
+        "EVENT_INTRO_4",
+        "EVENT_INTRO_5",
+        "EVENT_KIRTONOS_TRANSFORM",
+        "EVENT_PIERCE_ARMOR",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SWOOP",
+        "EVENT_WING_FLAP",
+        "GO_BRAZIER_OF_THE_HERALD",
+        "GO_GATE_KIRTONOS",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_KIRTONOS",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_DISARM",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_KIRTONOS_TRANSFORM",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SWOOP",
+        "SPELL_WING_FLAP"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 89,
+          "expression": "events.ScheduleEvent(EVENT_INTRO_1, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 99,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 100,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 10s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 101,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 10s, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 40s, 50s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 50s, 60s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_DOMINATE_MIND, 60s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 18s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 111,
+          "expression": "events.ScheduleEvent(EVENT_INTRO_2, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "events.ScheduleEvent(EVENT_INTRO_3, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 153,
+          "expression": "events.ScheduleEvent(EVENT_INTRO_4, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 161,
+          "expression": "events.ScheduleEvent(EVENT_INTRO_5, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "DoCastVictim(SPELL_PIERCE_ARMOR);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "DoCastVictim(SPELL_DISARM);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 216,
+          "expression": "DoCast(target, SPELL_DOMINATE_MIND);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+      "kind": "boss",
+      "bytes": 7844,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8269,
+        17228,
+        27687,
+        27688,
+        27689,
+        27690,
+        27691,
+        27692,
+        27693,
+        27695,
+        27696,
+        27697,
+        27698,
+        27699
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_BLOODLUST",
+        "EVENT_BONE_SHIELD",
+        "EVENT_FRENZY",
+        "EVENT_INTRO_1",
+        "EVENT_INTRO_2",
+        "EVENT_INTRO_3",
+        "EVENT_SHADOWBOLT_VOLLEY",
+        "EVENT_SUMMON_MAGES",
+        "EVENT_SUMMON_MINIONS",
+        "SPELL_BLOODLUST",
+        "SPELL_BONE_SHIELD",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_FRENZY",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SUMMON_BONE_MAGES",
+        "SPELL_SUMMON_BONE_MAGE_BACK_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_BACK_RIGHT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_RIGHT",
+        "SPELL_SUMMON_BONE_MINIONS",
+        "SPELL_SUMMON_BONE_MINION_BACK",
+        "SPELL_SUMMON_BONE_MINION_FRONT",
+        "SPELL_SUMMON_BONE_MINION_LEFT",
+        "SPELL_SUMMON_BONE_MINION_RIGHT"
+      ],
+      "cast_calls": 17,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 81,
+          "expression": "_events.ScheduleEvent(EVENT_INTRO_1, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "_events.ScheduleEvent(EVENT_SHADOWBOLT_VOLLEY, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "_events.ScheduleEvent(EVENT_BONE_SHIELD, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "_events.ScheduleEvent(EVENT_BLOODLUST, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 97,
+          "expression": "_events.ScheduleEvent(EVENT_SUMMON_MAGES, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "_events.ScheduleEvent(EVENT_SUMMON_MINIONS, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "_events.ScheduleEvent(EVENT_FRENZY, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 133,
+          "expression": "_events.ScheduleEvent(EVENT_INTRO_2, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 137,
+          "expression": "_events.ScheduleEvent(EVENT_INTRO_3, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 215,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MAGE_FRONT_LEFT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 216,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MAGE_FRONT_RIGHT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 219,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MAGE_BACK_RIGHT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MAGE_BACK_LEFT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 248,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MINION_FRONT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 249,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MINION_BACK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 250,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MINION_LEFT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 251,
+          "expression": "caster->CastSpell(caster, SPELL_SUMMON_BONE_MINION_RIGHT);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_lord_alexei_barov.cpp",
+      "kind": "boss",
+      "bytes": 2308,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        15506,
+        17467,
+        17820
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_LORD_ALEXEI_BAROV",
+        "EVENT_VEIL_OF_SHADOW",
+        "SPELL_IMMOLATE",
+        "SPELL_UNHOLY_AURA",
+        "SPELL_VEIL_OF_SHADOW"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 59,
+          "expression": "events.ScheduleEvent(EVENT_VEIL_OF_SHADOW, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 77,
+          "expression": "DoCastVictim(SPELL_VEIL_OF_SHADOW);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_lorekeeper_polkelt.cpp",
+      "kind": "boss",
+      "bytes": 2688,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8245,
+        18149,
+        18151
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_LOREKEEPER_POLKELT",
+        "EVENT_CORROSIVE_ACID",
+        "EVENT_NOXIOUS_CATALYST",
+        "EVENT_VOLATILE_INFECTION",
+        "SPELL_CORROSIVE_ACID",
+        "SPELL_NOXIOUS_CATALYST",
+        "SPELL_VOLATILE_INFECTION"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 49,
+          "expression": "events.ScheduleEvent(EVENT_VOLATILE_INFECTION, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 50,
+          "expression": "events.ScheduleEvent(EVENT_NOXIOUS_CATALYST, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 51,
+          "expression": "events.ScheduleEvent(EVENT_CORROSIVE_ACID, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 69,
+          "expression": "DoCastVictim(SPELL_VOLATILE_INFECTION);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 73,
+          "expression": "DoCastVictim(SPELL_NOXIOUS_CATALYST);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_ras_frostwhisper.cpp",
+      "kind": "boss",
+      "bytes": 3651,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8398,
+        11130,
+        12096,
+        18099,
+        18100,
+        18763
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_RAS_FROSTWHISPER",
+        "EVENT_CHILL_NOVA",
+        "EVENT_FEAR",
+        "EVENT_FREEZE",
+        "EVENT_FROSTBOLT_VOLLEY",
+        "EVENT_ICE_ARMOR",
+        "EVENT_KNOCK_AWAY",
+        "SPELL_CHILL_NOVA",
+        "SPELL_FEAR",
+        "SPELL_FREEZE",
+        "SPELL_FROSTBOLT_VOLLEY",
+        "SPELL_ICE_ARMOR",
+        "SPELL_KNOCK_AWAY"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 61,
+          "expression": "events.ScheduleEvent(EVENT_ICE_ARMOR, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 62,
+          "expression": "events.ScheduleEvent(EVENT_FREEZE, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 63,
+          "expression": "events.ScheduleEvent(EVENT_FEAR, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_CHILL_NOVA, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "events.ScheduleEvent(EVENT_KNOCK_AWAY, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 66,
+          "expression": "events.ScheduleEvent(EVENT_FROSTBOLT_VOLLEY, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "DoCastVictim(SPELL_FREEZE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "DoCast(target, SPELL_FEAR);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_the_ravenian.cpp",
+      "kind": "boss",
+      "bytes": 2890,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        15550,
+        17963,
+        18670,
+        40504
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_THE_RAVENIAN",
+        "EVENT_CLEAVE",
+        "EVENT_KNOCK_AWAY",
+        "EVENT_SUNDERING_CLEAVE",
+        "EVENT_TRAMPLE",
+        "SPELL_CLEAVE",
+        "SPELL_KNOCK_AWAY",
+        "SPELL_SUNDERING_CLEAVE",
+        "SPELL_TRAMPLE"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 51,
+          "expression": "events.ScheduleEvent(EVENT_TRAMPLE, 8s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "events.ScheduleEvent(EVENT_CLEAVE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 53,
+          "expression": "events.ScheduleEvent(EVENT_SUNDERING_CLEAVE, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 54,
+          "expression": "events.ScheduleEvent(EVENT_KNOCK_AWAY, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 76,
+          "expression": "DoCastVictim(SPELL_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "DoCastVictim(SPELL_SUNDERING_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "DoCastVictim(SPELL_KNOCK_AWAY);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_vectus.cpp",
+      "kind": "boss",
+      "bytes": 3023,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        13377,
+        16046,
+        18399
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_VECTUS",
+        "EVENT_BLAST_WAVE",
+        "EVENT_FLAMESTRIKE",
+        "SPELL_BLAST_WAVE",
+        "SPELL_FIRE_SHIELD",
+        "SPELL_FLAMESTRIKE"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 68,
+          "expression": "events.ScheduleEvent(EVENT_BLAST_WAVE, 15s, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 69,
+          "expression": "events.ScheduleEvent(EVENT_FLAMESTRIKE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCast(target, SPELL_FLAMESTRIKE);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp",
+      "kind": "instance",
+      "bytes": 7779,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_DOCTOR_THEOLEN_KRASTINOV",
+        "DATA_INSTRUCTOR_MALICIA",
+        "DATA_JANDICE_BAROV",
+        "DATA_KIRTONOS",
+        "DATA_LADY_ILLUCIA_BAROV",
+        "DATA_LORD_ALEXEI_BAROV",
+        "DATA_LOREKEEPER_POLKELT",
+        "DATA_MARDUK_BLACKPOOL",
+        "DATA_RAS_FROSTWHISPER",
+        "DATA_RATTLEGORE",
+        "DATA_THE_RAVENIAN",
+        "DATA_VECTUS",
+        "GO_BRAZIER_OF_THE_HERALD",
+        "GO_GATE_BAROV",
+        "GO_GATE_GANDLING",
+        "GO_GATE_ILLUCIA",
+        "GO_GATE_KIRTONOS",
+        "GO_GATE_MALICIA",
+        "GO_GATE_POLKELT",
+        "GO_GATE_RAVENIAN",
+        "GO_GATE_THEOLEN",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_MARDUK_BLACKPOOL",
+        "NPC_RATTLEGORE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/scholomance.h",
+      "kind": "shared",
+      "bytes": 2584,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        1853,
+        10433,
+        11622,
+        16119
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_DOCTOR_THEOLEN_KRASTINOV",
+        "DATA_INSTRUCTOR_MALICIA",
+        "DATA_JANDICE_BAROV",
+        "DATA_KIRTONOS",
+        "DATA_LADY_ILLUCIA_BAROV",
+        "DATA_LORD_ALEXEI_BAROV",
+        "DATA_LOREKEEPER_POLKELT",
+        "DATA_MARDUK_BLACKPOOL",
+        "DATA_RAS_FROSTWHISPER",
+        "DATA_RATTLEGORE",
+        "DATA_THE_RAVENIAN",
+        "DATA_VECTUS",
+        "GO_BRAZIER_OF_THE_HERALD",
+        "GO_GATE_BAROV",
+        "GO_GATE_GANDLING",
+        "GO_GATE_ILLUCIA",
+        "GO_GATE_KIRTONOS",
+        "GO_GATE_MALICIA",
+        "GO_GATE_POLKELT",
+        "GO_GATE_RAVENIAN",
+        "GO_GATE_THEOLEN",
+        "NPC_BONE_MINION",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_MARDUK_BLACKPOOL",
+        "NPC_RATTLEGORE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20260928_11_scholomance_boss_loot.sql",
+      "kind": "sql",
+      "bytes": 483,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+      "kind": "boss",
+      "bytes": 13821,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12040,
+        15790,
+        17863,
+        17939,
+        17943,
+        17944,
+        17946,
+        17948,
+        17950,
+        18702
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_MINI_BOSSES",
+        "DATA_PLAYER_KILLED",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "NPC_RISEN_GUARDIAN",
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_CURSE_DARKMASTER",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_PORTAL_DOWN_EAST",
+        "SPELL_SHADOW_PORTAL_DOWN_NORTH",
+        "SPELL_SHADOW_PORTAL_DOWN_SOUTH",
+        "SPELL_SHADOW_PORTAL_UP_EAST",
+        "SPELL_SHADOW_PORTAL_UP_NORTH",
+        "SPELL_SHADOW_PORTAL_UP_SOUTH",
+        "SPELL_SHADOW_SHIELD"
+      ],
+      "cast_calls": 12,
+      "timing_or_phase_signals": 8,
+      "timer_expression_candidates": [
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 189,
+          "expression": "events.ScheduleEvent(SPELL_CURSE_DARKMASTER, TIMER_CURSE_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 190,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_SHIELD, TIMER_SHIELD_MIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 301,
+          "expression": "DoCast(target, GandlingPortalSpells[room], true); // needs triggered somehow.",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "DoCastVictim(SPELL_ARCANE_MISSILES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 335,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 340,
+          "expression": "DoCast(target, SPELL_CURSE_DARKMASTER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 342,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 346,
+          "expression": "events.ScheduleEvent(SPELL_ARCANE_MISSILES, TIMER_ARCANE_MIN, TIMER_ARCANE_MAX);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 356,
+          "expression": "DoCast(target, SPELL_SHADOW_PORTAL); // don't use triggered here",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "events.ScheduleEvent(SPELL_SHADOW_PORTAL, TIMER_PORTAL);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+      "kind": "boss",
+      "bytes": 9715,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6016,
+        8379,
+        12882,
+        12889,
+        14515,
+        16467,
+        17228,
+        18144,
+        24085
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KIRTONOS_THE_HERALD",
+        "EVENT_CURSE_OF_TONGUES",
+        "EVENT_DISARM",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_KIRTONOS_TRANSFORM",
+        "EVENT_PIERCE_ARMOR",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SWOOP",
+        "EVENT_WING_FLAP",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_DISARM",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_KIRTONOS_TRANSFORM",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SWOOP",
+        "SPELL_TRANSFORM_VISUAL",
+        "SPELL_WING_FLAP"
+      ],
+      "cast_calls": 34,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 113,
+          "expression": "events2.ScheduleEvent(INTRO_2, 1500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "events2.ScheduleEvent(INTRO_3, 2500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "events2.ScheduleEvent(INTRO_4, 5500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "events2.ScheduleEvent(INTRO_5, 6500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 117,
+          "expression": "events2.ScheduleEvent(INTRO_6, 11500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 126,
+          "expression": "events2.ScheduleEvent(INTRO_1, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 155,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_SWOOP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "me->CastSpell(me, SPELL_WING_FLAP, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_PIERCE_ARMOR, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_DISARM, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "me->CastSpell(me, SPELL_SHADOW_BOLT_VOLLEY, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 207,
+          "expression": "me->CastSpell(me, SPELL_CURSE_OF_TONGUES, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "me->CastSpell(target, SPELL_DOMINATE_MIND, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 222,
+          "expression": "events.ScheduleEvent(EVENT_SWOOP, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 224,
+          "expression": "events.ScheduleEvent(EVENT_PIERCE_ARMOR, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 225,
+          "expression": "events.ScheduleEvent(EVENT_DISARM, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "me->CastSpell(me, SPELL_TRANSFORM_VISUAL, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT_VOLLEY, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TONGUES, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 236,
+          "expression": "events.ScheduleEvent(EVENT_WING_FLAP, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 237,
+          "expression": "me->CastSpell(me, SPELL_KIRTONOS_TRANSFORM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "events.ScheduleEvent(EVENT_DOMINATE_MIND, 4s, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 246,
+          "expression": "events.ScheduleEvent(EVENT_KIRTONOS_TRANSFORM, 20s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+      "kind": "boss",
+      "bytes": 5533,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        20741,
+        27687,
+        27688,
+        27690,
+        27691,
+        27692,
+        27693,
+        27695,
+        27696,
+        27697,
+        27698,
+        27699
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_SHADOWBOLT_VOLLEY",
+        "EVENT_SUMMON_MINIONS",
+        "SPELL_BONE_SHIELD",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_SHADOWBOLT_VOLLEY",
+        "SPELL_SUMMON_BONE_MAGES",
+        "SPELL_SUMMON_BONE_MAGE_BACK_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_BACK_RIGHT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_LEFT",
+        "SPELL_SUMMON_BONE_MAGE_FRONT_RIGHT",
+        "SPELL_SUMMON_BONE_MINION1",
+        "SPELL_SUMMON_BONE_MINION2",
+        "SPELL_SUMMON_BONE_MINION3",
+        "SPELL_SUMMON_BONE_MINION4",
+        "SPELL_SUMMON_BONE_MINIONS"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCastVictim(SPELL_SHADOWBOLT_VOLLEY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MINIONS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "DoCast(SPELL_SUMMON_BONE_MAGES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 173,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SummonMageSpells[urand(0, 3)], true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "GetCaster()->CastSpell(GetCaster(), SPELL_SUMMON_BONE_MINION1 + i, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp",
+      "kind": "instance",
+      "bytes": 15408,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "GO_JUST_DEACTIVATED",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 369,
+          "expression": "events.RescheduleEvent(1, 1s, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 370,
+          "expression": "events.RescheduleEvent(2, 400ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 371,
+          "expression": "events.RescheduleEvent(3, 6s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 388,
+          "expression": "events.RescheduleEvent(4, 2s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 399,
+          "expression": "me->CastSpell(me, BONE_ARMOR_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 405,
+          "expression": "me->CastSpell(target, COUNTER_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 416,
+          "expression": "me->CastSpell(target, DRAIN_MANA_SPELL, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 421,
+          "expression": "me->CastSpell(me->GetVictim(), SHADOWBOLT_VOLLEY_SPELL, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 383,
+          "expression": "if (me->HealthBelowPct(30) && me->GetEntry() != DARK_SHADE_ENTRY)",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/Scholomance/scholomance.h",
+      "kind": "shared",
+      "bytes": 2008,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        1853,
+        10506,
+        11598
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DARKMASTER_GANDLING",
+        "DATA_KIRTONOS_THE_HERALD",
+        "DATA_MINI_BOSSES",
+        "DATA_RAS_HUMAN",
+        "GO_BRAZIER_KIRTONOS",
+        "GO_DOOR_OPENED_WITH_KEY",
+        "GO_GATE_GANDLING_DOWN_EAST",
+        "GO_GATE_GANDLING_DOWN_NORTH",
+        "GO_GATE_GANDLING_DOWN_SOUTH",
+        "GO_GATE_GANDLING_ENTRANCE",
+        "GO_GATE_GANDLING_UP_EAST",
+        "GO_GATE_GANDLING_UP_NORTH",
+        "GO_GATE_GANDLING_UP_SOUTH",
+        "GO_GATE_KIRTONOS",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_KIRTONOS",
+        "NPC_RISEN_GUARDIAN"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_darkmaster_gandling.cpp",
+      "kind": "boss",
+      "bytes": 3907,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12040,
+        15790,
+        17950,
+        18702
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_CURSE_SD",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_SHIELD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_jandice_barov.cpp",
+      "kind": "boss",
+      "bytes": 3502,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8994,
+        16098,
+        17772,
+        17773,
+        17774
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_BANISH",
+        "SPELL_CURSE_OF_BLOOD",
+        "SPELL_SPREAD_ILLUSIONS",
+        "SPELL_SPREAD_JANDICE",
+        "SPELL_SUMMON_ILLUSIONS"
+      ],
+      "cast_calls": 1,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [
+        {
+          "line": 52,
+          "expression": "pSummoned->CastSpell(pSummoned, SPELL_SPREAD_ILLUSIONS, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/instance_scholomance.cpp",
+      "kind": "instance",
+      "bytes": 21187,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_ID_BAROV",
+        "EVENT_ID_DAWN_GAMBIT",
+        "EVENT_ID_ILLUCIA",
+        "EVENT_ID_MALICIA",
+        "EVENT_ID_POLKELT",
+        "EVENT_ID_RAVENIAN",
+        "EVENT_ID_THEOLEN",
+        "GO_GATE_BAROV",
+        "GO_GATE_GANDLING",
+        "GO_GATE_ILLUCIA",
+        "GO_GATE_KIRTONOS",
+        "GO_GATE_MALICIA",
+        "GO_GATE_POLKELT",
+        "GO_GATE_RAS",
+        "GO_GATE_RAVENIAN",
+        "GO_GATE_THEOLEN",
+        "GO_STATE_ACTIVE",
+        "GO_VIEWING_ROOM_DOOR",
+        "NPC_ALEXEI_BAROV",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_DISEASED_GHOUL",
+        "NPC_ILLUCIA_BAROV",
+        "NPC_INSTRUCTOR_MALICIA",
+        "NPC_KIRTONOS",
+        "NPC_LOREKEEPER_POLKELT",
+        "NPC_MARDUK_BLACKPOOL",
+        "NPC_NECROFIEND",
+        "NPC_RAS_FROSTWHISPER",
+        "NPC_RATTLEGORE",
+        "NPC_RAVENIAN",
+        "NPC_REANIMATED_CORPSE",
+        "NPC_RISEN_ABERRATION",
+        "NPC_RISEN_GUARDIAN",
+        "NPC_SCHOLOMANCE_STUDENT",
+        "NPC_THEOLEN_KRASTINOV",
+        "NPC_VECTUS",
+        "SPELL_STUDENT_TRANSFORM",
+        "SPELL_XMAS_GANDLING"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 255,
+          "expression": "pGandling->CastSpell(pGandling, SPELL_XMAS_GANDLING, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 457,
+          "expression": "pStudent->CastSpell(pStudent, SPELL_STUDENT_TRANSFORM, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/scholomance.cpp",
+      "kind": "shared",
+      "bytes": 3725,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12528,
+        17630,
+        17651,
+        17652,
+        17653
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_IMAGE_PROJECTION",
+        "SPELL_IMAGE_PROJECTION_HEAL",
+        "SPELL_IMAGE_PROJECTION_SUMMON",
+        "SPELL_MANA_BURN",
+        "SPELL_SILENCE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 6,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/scholomance.h",
+      "kind": "shared",
+      "bytes": 5662,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        1853,
+        10432,
+        10433,
+        10475,
+        10481,
+        10485,
+        10495,
+        10502,
+        10504,
+        10505,
+        10506,
+        10507,
+        10508,
+        10901,
+        11261,
+        11551,
+        11598,
+        11622
+      ],
+      "spell_ids_candidate": [
+        18115,
+        26199
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_ID_BAROV",
+        "EVENT_ID_DAWN_GAMBIT",
+        "EVENT_ID_ILLUCIA",
+        "EVENT_ID_MALICIA",
+        "EVENT_ID_POLKELT",
+        "EVENT_ID_RAVENIAN",
+        "EVENT_ID_THEOLEN",
+        "GO_GATE_BAROV",
+        "GO_GATE_GANDLING",
+        "GO_GATE_ILLUCIA",
+        "GO_GATE_KIRTONOS",
+        "GO_GATE_MALICIA",
+        "GO_GATE_POLKELT",
+        "GO_GATE_RAS",
+        "GO_GATE_RAVENIAN",
+        "GO_GATE_THEOLEN",
+        "GO_VIEWING_ROOM_DOOR",
+        "NPC_ALEXEI_BAROV",
+        "NPC_DARKMASTER_GANDLING",
+        "NPC_DISEASED_GHOUL",
+        "NPC_ILLUCIA_BAROV",
+        "NPC_INSTRUCTOR_MALICIA",
+        "NPC_KIRTONOS",
+        "NPC_LOREKEEPER_POLKELT",
+        "NPC_MARDUK_BLACKPOOL",
+        "NPC_NECROFIEND",
+        "NPC_RAS_FROSTWHISPER",
+        "NPC_RATTLEGORE",
+        "NPC_RAVENIAN",
+        "NPC_REANIMATED_CORPSE",
+        "NPC_RISEN_ABERRATION",
+        "NPC_RISEN_GUARDIAN",
+        "NPC_SCHOLOMANCE_STUDENT",
+        "NPC_THEOLEN_KRASTINOV",
+        "NPC_VECTUS",
+        "SPELL_STUDENT_TRANSFORM",
+        "SPELL_XMAS_GANDLING"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/53-lower-scholomance.json",
+      "kind": "shared",
+      "bytes": 4165,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/56-upper-scholomance.json",
+      "kind": "shared",
+      "bytes": 4265,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "research/dbm/classic-onyxia-stratholme-scholomance-structured-mechanics-2026-10-30.json",
+      "kind": "shared",
+      "bytes": 17836,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_CURSE_OF_TONGUES",
+        "EVENT_DISARM",
+        "EVENT_DOMINATE_MIND",
+        "EVENT_END_MANY_WHELPS_TIME",
+        "EVENT_ERUPTION",
+        "EVENT_FLY_S_TO_N",
+        "EVENT_KIRTONOS_TRANSFORM",
+        "EVENT_LAND",
+        "EVENT_LIFTOFF",
+        "EVENT_OLG_SPELL_BLASTNOVA",
+        "EVENT_OLG_SPELL_IGNITEWEAPON",
+        "EVENT_PHASE_2_STEP_ACROSS",
+        "EVENT_PHASE_2_STEP_ACW",
+        "EVENT_PHASE_2_STEP_CW",
+        "EVENT_PHASE_3_ATTACK",
+        "EVENT_PIERCE_ARMOR",
+        "EVENT_SHADOW_BOLT_VOLLEY",
+        "EVENT_SPELL_BELLOWINGROAR",
+        "EVENT_SPELL_BREATH",
+        "EVENT_SPELL_CLEAVE",
+        "EVENT_SPELL_FIREBALL_FIRST",
+        "EVENT_SPELL_FIREBALL_SECOND",
+        "EVENT_SPELL_FLAMEBREATH",
+        "EVENT_SPELL_TAILSWEEP",
+        "EVENT_SPELL_WINGBUFFET",
+        "EVENT_START_PHASE_2",
+        "EVENT_START_PHASE_3",
+        "EVENT_SUMMON_LAIR_GUARD",
+        "EVENT_SUMMON_WHELP",
+        "EVENT_SWOOP",
+        "EVENT_WHELP_SPAM",
+        "EVENT_WING_FLAP",
+        "SPELL_ARCANE_MISSILES",
+        "SPELL_BANSHEECURSE",
+        "SPELL_BANSHEEWAIL",
+        "SPELL_BELLOWINGROAR",
+        "SPELL_BREATH_E_TO_W",
+        "SPELL_BREATH_NE_TO_SW",
+        "SPELL_BREATH_NW_TO_SE",
+        "SPELL_BREATH_N_TO_S",
+        "SPELL_BREATH_SE_TO_NW",
+        "SPELL_BREATH_SW_TO_NE",
+        "SPELL_BREATH_S_TO_N",
+        "SPELL_BREATH_W_TO_E",
+        "SPELL_CLEAVE",
+        "SPELL_CRIPPLE",
+        "SPELL_CURSE_DARKMASTER",
+        "SPELL_CURSE_OF_TONGUES",
+        "SPELL_DISARM",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_ERUPTION",
+        "SPELL_FEAR",
+        "SPELL_FIREBALL",
+        "SPELL_FLAMEBREATH",
+        "SPELL_KIRTONOS_TRANSFORM",
+        "SPELL_MORTAL_STRIKE",
+        "SPELL_OLG_BLASTNOVA",
+        "SPELL_OLG_IGNITEWEAPON",
+        "SPELL_PIERCE_ARMOR",
+        "SPELL_POSSESS",
+        "SPELL_POSSESSED",
+        "SPELL_POSSESS_INV",
+        "SPELL_SHADOW_BOLT",
+        "SPELL_SHADOW_BOLT_VOLLEY",
+        "SPELL_SHADOW_PORTAL",
+        "SPELL_SHADOW_PORTAL_DOWN_EAST",
+        "SPELL_SHADOW_PORTAL_DOWN_NORTH",
+        "SPELL_SHADOW_PORTAL_DOWN_SOUTH",
+        "SPELL_SHADOW_PORTAL_UP_EAST",
+        "SPELL_SHADOW_PORTAL_UP_NORTH",
+        "SPELL_SHADOW_PORTAL_UP_SOUTH",
+        "SPELL_SHADOW_SHIELD",
+        "SPELL_SHADOW_SHOCK",
+        "SPELL_SHIELD_BLOCK",
+        "SPELL_SHIELD_CHARGE",
+        "SPELL_SHIELD_SLAM",
+        "SPELL_SILENCE",
+        "SPELL_SUMMON_LAIR_GUARD",
+        "SPELL_SUMMON_WHELP",
+        "SPELL_SWOOP",
+        "SPELL_TAILSWEEP",
+        "SPELL_TRANSFORM_VISUAL",
+        "SPELL_VENGEANCE",
+        "SPELL_WINGBUFFET",
+        "SPELL_WING_FLAP"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [
+        {
+          "line": 479,
+          "expression": "\"source\": \"if (!possessedTarget || !possessedTarget->IsAlive() || !possessedTarget->HasAura(SPELL_POSSESSED) || possessedTarget->HealthBelowPct(50))\"",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {
+    "boss_darkmaster_gandling": {
+      "name": "boss_darkmaster_gandling",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_darkmaster_gandling.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_kirtonos_the_herald": {
+      "name": "boss_kirtonos_the_herald",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_kormok": {
+      "name": "boss_kormok",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_death_knight_darkreaver": {
+      "name": "boss_death_knight_darkreaver",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_death_knight_darkreaver.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_doctor_theolen_krastinov": {
+      "name": "boss_doctor_theolen_krastinov",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_doctor_theolen_krastinov.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_illucia_barov": {
+      "name": "boss_illucia_barov",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_illucia_barov.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_instructor_malicia": {
+      "name": "boss_instructor_malicia",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_instructor_malicia.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_jandice_barov": {
+      "name": "boss_jandice_barov",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_jandice_barov.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_jandice_barov.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_lord_alexei_barov": {
+      "name": "boss_lord_alexei_barov",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_lord_alexei_barov.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_lorekeeper_polkelt": {
+      "name": "boss_lorekeeper_polkelt",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_lorekeeper_polkelt.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_ras_frostwhisper": {
+      "name": "boss_ras_frostwhisper",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_ras_frostwhisper.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_the_ravenian": {
+      "name": "boss_the_ravenian",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_the_ravenian.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_vectus": {
+      "name": "boss_vectus",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_vectus.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
+  "coverage": {
+    "source_files": 40,
+    "by_kind": {
+      "boss": 24,
+      "trash": 0,
+      "instance": 5,
+      "sql": 2,
+      "shared": 9,
+      "other": 0
+    },
+    "npc_ids_candidate": 19,
+    "spell_ids_candidate": 87,
+    "encounter_filename_candidates": 13,
+    "boss_ai_present": true,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}

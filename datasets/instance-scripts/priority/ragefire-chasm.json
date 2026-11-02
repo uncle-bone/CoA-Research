@@ -1,0 +1,1063 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "ragefire-chasm",
+  "source_files": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+      "kind": "instance",
+      "bytes": 1383,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+      "kind": "boss",
+      "bytes": 7366,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        74403,
+        74452,
+        74453,
+        74454,
+        78722
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_SAVIANA_RAGEFIRE",
+        "EVENT_AIR_MOVEMENT",
+        "EVENT_CONFLAGRATION",
+        "EVENT_ENRAGE",
+        "EVENT_FLAME_BREATH",
+        "EVENT_FLIGHT",
+        "EVENT_LAND_BACK",
+        "EVENT_LAND_GROUND",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_MISSLE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FLAME_BEACON",
+        "SPELL_FLAME_BREATH"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 85,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_LAND_BACK, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 143,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 50s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 145,
+          "expression": "events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 152,
+          "expression": "me->CastSpell(me, SPELL_ENRAGE, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 154,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 212,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+      "kind": "instance",
+      "bytes": 1383,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+      "kind": "boss",
+      "bytes": 7366,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        74403,
+        74452,
+        74453,
+        74454,
+        78722
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_SAVIANA_RAGEFIRE",
+        "EVENT_AIR_MOVEMENT",
+        "EVENT_CONFLAGRATION",
+        "EVENT_ENRAGE",
+        "EVENT_FLAME_BREATH",
+        "EVENT_FLIGHT",
+        "EVENT_LAND_BACK",
+        "EVENT_LAND_GROUND",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_MISSLE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FLAME_BEACON",
+        "SPELL_FLAME_BREATH"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 85,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_LAND_BACK, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 143,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 50s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 145,
+          "expression": "events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 152,
+          "expression": "me->CastSpell(me, SPELL_ENRAGE, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 154,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 212,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_adarogg.cpp",
+      "kind": "boss",
+      "bytes": 7138,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        119297,
+        119405,
+        119420,
+        120064,
+        120113
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ADAROGG",
+        "EVENT_FIRE_BREATH",
+        "EVENT_INFERNO_CHARGE",
+        "SPELL_ADJULES_CHOW_TIME",
+        "SPELL_EAT_TROGG",
+        "SPELL_FIRE_BREATH",
+        "SPELL_INFERNO_CHARGE_CAST",
+        "SPELL_INFERNO_CHARGE_SUMMON"
+      ],
+      "cast_calls": 9,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 126,
+          "expression": "events.ScheduleEvent(EVENT_INFERNO_CHARGE, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 127,
+          "expression": "events.ScheduleEvent(EVENT_FIRE_BREATH, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 155,
+          "expression": "DoCast(SPELL_ADJULES_CHOW_TIME);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 160,
+          "expression": "DoCast(SPELL_ADJULES_CHOW_TIME);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 165,
+          "expression": "DoCast(SPELL_ADJULES_CHOW_TIME);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "DoCast(SPELL_EAT_TROGG);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "DoCast(target, SPELL_INFERNO_CHARGE_SUMMON);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 233,
+          "expression": "DoCast(target, SPELL_INFERNO_CHARGE_CAST);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "DoCastVictim(SPELL_FIRE_BREATH);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_dark_shaman_koranthal.cpp",
+      "kind": "boss",
+      "bytes": 3886,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        119300,
+        119928,
+        119971
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_DARK_SHAMAN_KORANTHAL",
+        "EVENT_SHADOW_STORM",
+        "EVENT_TWISTED_ELEMENTS",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_SHADOW_STORM",
+        "SPELL_SHADOW_VORTEX",
+        "SPELL_TWISTED_ELEMENTS"
+      ],
+      "cast_calls": 6,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 75,
+          "expression": "events.ScheduleEvent(EVENT_TWISTED_ELEMENTS, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 76,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_STORM, 20500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "DoCastVictim(SPELL_TWISTED_ELEMENTS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "DoCast(SPELL_SHADOW_STORM);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "events.RescheduleEvent(EVENT_TWISTED_ELEMENTS, 15s + 700ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 129,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), GetEffectValueAsInt(), true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_lava_guard_gordoth.cpp",
+      "kind": "boss",
+      "bytes": 7618,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        61644
+      ],
+      "spell_ids_candidate": [
+        50420,
+        111778,
+        111779,
+        111780,
+        119999,
+        120022,
+        120023,
+        120024,
+        120025
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_LAVA_GUARD_GORDOTH",
+        "EVENT_GROUND_RUPTURE",
+        "EVENT_SEISMIC_SLAM",
+        "GO_GORDOTH_CAGE",
+        "GO_LAB_VIAL",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_DESTROYED",
+        "NPC_DARK_SHAMAN_RESEARCHER",
+        "SPELL_BLOODY_SUICIDE",
+        "SPELL_ENRAGE",
+        "SPELL_GROUND_RUPTURE",
+        "SPELL_GROUND_SLAM",
+        "SPELL_JAIL_BREAK",
+        "SPELL_MEAT_EXPLOSION_1",
+        "SPELL_MEAT_EXPLOSION_2",
+        "SPELL_MEAT_EXPLOSION_3",
+        "SPELL_SEISMIC_SLAM"
+      ],
+      "cast_calls": 13,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 128,
+          "expression": "events.ScheduleEvent(EVENT_GROUND_RUPTURE, 7300ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 129,
+          "expression": "events.ScheduleEvent(EVENT_SEISMIC_SLAM, 13300ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "DoCast(SPELL_GROUND_SLAM);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 182,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 184,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 185,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 186,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK)); // According to sniff",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 189,
+          "expression": "darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_BLOODY_SUICIDE, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 211,
+          "expression": "DoCast(target, SPELL_GROUND_RUPTURE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 217,
+          "expression": "DoCast(nullptr, SPELL_SEISMIC_SLAM, CastSpellExtraArgs(TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD)); // cast earlier than category cd",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/boss_slagmaw.cpp",
+      "kind": "boss",
+      "bytes": 4726,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        119424,
+        119425,
+        119426,
+        119428,
+        119434,
+        120384
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_SLAGMAW",
+        "EVENT_BOUNDARY_CHECK",
+        "EVENT_EMERGE",
+        "EVENT_LAVA_SPIT",
+        "EVENT_TELEPORT",
+        "SPELL_LAVA_SPIT",
+        "SPELL_MAGNAW_SUBMERGE",
+        "SPELL_MAGNAW_TELEPORT_EAST",
+        "SPELL_MAGNAW_TELEPORT_NORTH",
+        "SPELL_MAGNAW_TELEPORT_SOUTH",
+        "SPELL_MAGNAW_TELEPORT_WEST"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 82,
+          "expression": "events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "events.ScheduleEvent(EVENT_TELEPORT, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "DoCast(target, SPELL_LAVA_SPIT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
+          "expression": "events.ScheduleEvent(EVENT_EMERGE, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 142,
+          "expression": "events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+      "kind": "instance",
+      "bytes": 2144,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ADAROGG",
+        "BOSS_DARK_SHAMAN_KORANTHAL",
+        "BOSS_LAVA_GUARD_GORDOTH",
+        "BOSS_SLAGMAW",
+        "NPC_ADAROGG",
+        "NPC_DARK_SHAMAN_KORANTHAL",
+        "NPC_LAVA_GUARD_GORDOTH",
+        "NPC_SLAGMAW"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/ragefire_chasm.cpp",
+      "kind": "shared",
+      "bytes": 3708,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_EFFECT_SCRIPT_EFFECT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/ragefire_chasm.h",
+      "kind": "shared",
+      "bytes": 1626,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        61408,
+        61412,
+        61463,
+        61528
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ADAROGG",
+        "BOSS_DARK_SHAMAN_KORANTHAL",
+        "BOSS_LAVA_GUARD_GORDOTH",
+        "BOSS_SLAGMAW",
+        "NPC_ADAROGG",
+        "NPC_DARK_SHAMAN_KORANTHAL",
+        "NPC_LAVA_GUARD_GORDOTH",
+        "NPC_SLAGMAW"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+      "kind": "boss",
+      "bytes": 8372,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        74403,
+        74452,
+        74453,
+        74454,
+        78722
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_SAVIANA_RAGEFIRE",
+        "EVENT_AIR_MOVEMENT",
+        "EVENT_CONFLAGRATION",
+        "EVENT_ENRAGE",
+        "EVENT_FLAME_BREATH",
+        "EVENT_FLIGHT",
+        "EVENT_GROUP_LAND_PHASE",
+        "EVENT_LAND_GROUND",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_2",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FLAME_BEACON",
+        "SPELL_FLAME_BREATH"
+      ],
+      "cast_calls": 13,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 91,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 20s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 14s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 93,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 60s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "events.ScheduleEvent(EVENT_LAND_GROUND, 1ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 1s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 121,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 2s, 4s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 50s, EVENT_GROUP_LAND_PHASE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 125,
+          "expression": "events.ScheduleEvent(EVENT_AIR_MOVEMENT, 1ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 179,
+          "expression": "DoCastVictim(SPELL_FLAME_BREATH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 228,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 229,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_2, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 245,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValueAsInt()), true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+      "kind": "instance",
+      "bytes": 1383,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+      "kind": "boss",
+      "bytes": 7366,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        74403,
+        74452,
+        74453,
+        74454,
+        78722
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_SAVIANA_RAGEFIRE",
+        "EVENT_AIR_MOVEMENT",
+        "EVENT_CONFLAGRATION",
+        "EVENT_ENRAGE",
+        "EVENT_FLAME_BREATH",
+        "EVENT_FLIGHT",
+        "EVENT_LAND_BACK",
+        "EVENT_LAND_GROUND",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_MISSLE",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FLAME_BEACON",
+        "SPELL_FLAME_BREATH"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 85,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_LAND_BACK, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 143,
+          "expression": "events.ScheduleEvent(EVENT_FLIGHT, 50s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 145,
+          "expression": "events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 152,
+          "expression": "me->CastSpell(me, SPELL_ENRAGE, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 154,
+          "expression": "events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 212,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2694-ragefire-chasm.json",
+      "kind": "shared",
+      "bytes": 4164,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {
+    "boss_saviana_ragefire": {
+      "name": "boss_saviana_ragefire",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_adarogg": {
+      "name": "boss_adarogg",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_adarogg.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_dark_shaman_koranthal": {
+      "name": "boss_dark_shaman_koranthal",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_dark_shaman_koranthal.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_lava_guard_gordoth": {
+      "name": "boss_lava_guard_gordoth",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_lava_guard_gordoth.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_slagmaw": {
+      "name": "boss_slagmaw",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_slagmaw.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
+  "coverage": {
+    "source_files": 15,
+    "by_kind": {
+      "boss": 8,
+      "trash": 0,
+      "instance": 4,
+      "sql": 0,
+      "shared": 3,
+      "other": 0
+    },
+    "npc_ids_candidate": 5,
+    "spell_ids_candidate": 28,
+    "encounter_filename_candidates": 5,
+    "boss_ai_present": true,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}

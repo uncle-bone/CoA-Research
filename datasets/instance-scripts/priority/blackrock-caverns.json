@@ -1,0 +1,1025 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "blackrock-caverns",
+  "source_files": [
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.cpp",
+      "kind": "shared",
+      "bytes": 28539,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        40164
+      ],
+      "spell_ids_candidate": [
+        8599,
+        74851,
+        74911,
+        74912,
+        75437,
+        75441,
+        75464,
+        75590,
+        75649,
+        75650,
+        75653,
+        75654,
+        76325,
+        76473,
+        76478,
+        76484,
+        76487,
+        76497,
+        76500,
+        76502,
+        76512,
+        76572,
+        77568,
+        79720,
+        79725,
+        80196,
+        80206,
+        80273,
+        82189,
+        82192
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ROMOGG_DEAD",
+        "EVENT_AGGO_NEARBY_TARGETS",
+        "EVENT_BLAST_WAVE",
+        "EVENT_CALL_FLAMES",
+        "EVENT_CHANNEL",
+        "EVENT_ENRAGE",
+        "EVENT_ENRAGE2",
+        "EVENT_FIRE_CYCLONE_AURA",
+        "EVENT_FURIOUS_SWIPE",
+        "EVENT_HEAD_CRACK",
+        "EVENT_HEAD_CRACK2",
+        "EVENT_HEAT_SEEKER_BLADE",
+        "EVENT_INFECTED_WOUND",
+        "EVENT_INFECTED_WOUND2",
+        "EVENT_INFLICT_PAIN_TS",
+        "EVENT_INFLICT_PAIN_TT",
+        "EVENT_RED_HOT_POKER",
+        "EVENT_SHACKLES",
+        "EVENT_SHORT_THROW",
+        "EVENT_SINISTER_STRIKE",
+        "EVENT_START_FIRST_PATH",
+        "EVENT_WILD_BEATDOWN",
+        "NPC_FIRE_CYCLONE",
+        "NPC_ROMOGG_BONECRUSHER",
+        "SPELL_AGGRO_NEARBY_TARGETS",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL",
+        "SPELL_BLAST_WAVE",
+        "SPELL_CALL_FLAMES",
+        "SPELL_CHAINS_OF_WOE_1",
+        "SPELL_CHAINS_OF_WOE_2",
+        "SPELL_CHAINS_OF_WOE_3",
+        "SPELL_CHAINS_OF_WOE_4",
+        "SPELL_CHAINS_OF_WOE_5",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_ENRAGE",
+        "SPELL_FIRE_CHANNELING_1",
+        "SPELL_FIRE_CHANNELING_2",
+        "SPELL_FIRE_CYCLONE_AURA",
+        "SPELL_FURIOUS_SWIPE",
+        "SPELL_HEAD_CRACK",
+        "SPELL_HEAT_SEEKER_BLADE",
+        "SPELL_INFECTED_WOUND",
+        "SPELL_INFLICT_PAIN",
+        "SPELL_INFLICT_PAIN_1",
+        "SPELL_LEAP_FROM_BRIDGE",
+        "SPELL_LEAP_FROM_CAGE",
+        "SPELL_NETHER_DRAGON_ESSENCE_1",
+        "SPELL_NETHER_DRAGON_ESSENCE_2",
+        "SPELL_NETHER_DRAGON_ESSENCE_3",
+        "SPELL_NETHER_DRAGON_ESSENCE_4",
+        "SPELL_RED_HOT_POKER",
+        "SPELL_SHACKLES",
+        "SPELL_SHADOW_PRISON",
+        "SPELL_SHORT_THROW",
+        "SPELL_SINISTER_STRIKE",
+        "SPELL_WILD_BEATDOWN"
+      ],
+      "cast_calls": 70,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 46,
+          "expression": "_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 58,
+          "expression": "DoCast(me, SPELL_FIRE_CYCLONE_AURA, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 59,
+          "expression": "_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 141,
+          "expression": "_events.ScheduleEvent(EVENT_CHANNEL, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "_events.ScheduleEvent(EVENT_BLAST_WAVE, 8s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 159,
+          "expression": "_events.ScheduleEvent(EVENT_CALL_FLAMES,  10s, 14s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "DoCast(me, SPELL_FIRE_CHANNELING_1);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 176,
+          "expression": "DoCast(me, SPELL_FIRE_CHANNELING_2);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 177,
+          "expression": "_events.ScheduleEvent(EVENT_CHANNEL, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 194,
+          "expression": "DoCast(me, SPELL_BLAST_WAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "_events.ScheduleEvent(EVENT_BLAST_WAVE, 16s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 198,
+          "expression": "DoCast(me, SPELL_CALL_FLAMES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "_events.ScheduleEvent(EVENT_CALL_FLAMES, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 258,
+          "expression": "_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 6s, 18s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 265,
+          "expression": "_events.ScheduleEvent(EVENT_RED_HOT_POKER, 9s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 266,
+          "expression": "_events.ScheduleEvent(EVENT_SHACKLES, 13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 267,
+          "expression": "_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 17s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 281,
+          "expression": "DoCast(me, SPELL_INFLICT_PAIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 282,
+          "expression": "_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 25s, 32s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 299,
+          "expression": "DoCast(me, SPELL_RED_HOT_POKER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 300,
+          "expression": "_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 303,
+          "expression": "DoCast(me, SPELL_SHACKLES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 304,
+          "expression": "_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 307,
+          "expression": "DoCast(me, SPELL_WILD_BEATDOWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 308,
+          "expression": "_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 356,
+          "expression": "_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 6s, 18s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 9s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 364,
+          "expression": "_events.ScheduleEvent(EVENT_HEAT_SEEKER_BLADE,  13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 365,
+          "expression": "_events.ScheduleEvent(EVENT_SHORT_THROW, 17s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 366,
+          "expression": "_events.ScheduleEvent(EVENT_SINISTER_STRIKE, 17s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 380,
+          "expression": "DoCast(me, SPELL_INFLICT_PAIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 381,
+          "expression": "_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 25s, 32s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 398,
+          "expression": "DoCast(me, SPELL_RED_HOT_POKER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 399,
+          "expression": "_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 402,
+          "expression": "DoCast(me, SPELL_SHACKLES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 403,
+          "expression": "_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 406,
+          "expression": "DoCast(me, SPELL_WILD_BEATDOWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 407,
+          "expression": "_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 454,
+          "expression": "_events.ScheduleEvent(EVENT_HEAD_CRACK, 9s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 455,
+          "expression": "_events.ScheduleEvent(EVENT_INFECTED_WOUND,  13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 456,
+          "expression": "_events.ScheduleEvent(EVENT_ENRAGE, 17s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 471,
+          "expression": "DoCast(me, SPELL_HEAD_CRACK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 472,
+          "expression": "_events.ScheduleEvent(EVENT_HEAD_CRACK, 16s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 475,
+          "expression": "DoCast(me, SPELL_INFECTED_WOUND);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 476,
+          "expression": "_events.ScheduleEvent(EVENT_INFECTED_WOUND, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 479,
+          "expression": "DoCast(me, SPELL_ENRAGE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 480,
+          "expression": "_events.ScheduleEvent(EVENT_ENRAGE, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 523,
+          "expression": "_events.ScheduleEvent(EVENT_HEAD_CRACK2, 9s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 524,
+          "expression": "_events.ScheduleEvent(EVENT_INFECTED_WOUND2,  13s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 525,
+          "expression": "_events.ScheduleEvent(EVENT_ENRAGE2, 17s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 540,
+          "expression": "DoCast(me, SPELL_HEAD_CRACK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 541,
+          "expression": "_events.ScheduleEvent(EVENT_HEAD_CRACK2, 16s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 544,
+          "expression": "DoCast(me, SPELL_INFECTED_WOUND);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 545,
+          "expression": "_events.ScheduleEvent(EVENT_INFECTED_WOUND2, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 548,
+          "expression": "DoCast(me, SPELL_ENRAGE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 549,
+          "expression": "_events.ScheduleEvent(EVENT_ENRAGE2, 12s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 600,
+          "expression": "_events.ScheduleEvent(EVENT_FURIOUS_SWIPE, 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 608,
+          "expression": "DoCast(me, SPELL_SHADOW_PRISON);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 609,
+          "expression": "_events.ScheduleEvent(EVENT_AGGO_NEARBY_TARGETS, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 619,
+          "expression": "DoCast(me, SPELL_LEAP_FROM_CAGE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 620,
+          "expression": "_events.ScheduleEvent(EVENT_START_FIRST_PATH, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 633,
+          "expression": "DoCast(me, SPELL_AGGRO_NEARBY_TARGETS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 634,
+          "expression": "_events.ScheduleEvent(EVENT_AGGO_NEARBY_TARGETS, 1500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 640,
+          "expression": "DoCastVictim(SPELL_FURIOUS_SWIPE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 641,
+          "expression": "_events.ScheduleEvent(EVENT_FURIOUS_SWIPE, 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 685,
+          "expression": "DoCast(me, SPELL_CHAINS_OF_WOE_1, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 686,
+          "expression": "DoCast(me, SPELL_CHAINS_OF_WOE_2, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 717,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), SPELL_CHAINS_OF_WOE_3, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 750,
+          "expression": "GetHitUnit()->CastSpell(GetHitUnit(), SPELL_CHAINS_OF_WOE_5, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 796,
+          "expression": "caster->CastSpell(caster, RAND(SPELL_NETHER_DRAGON_ESSENCE_2, SPELL_NETHER_DRAGON_ESSENCE_3, SPELL_NETHER_DRAGON_ESSENCE_4));",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.h",
+      "kind": "shared",
+      "bytes": 1639,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        39665,
+        39670,
+        39708
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ASCENDANT_LORD_OBSIDIUS",
+        "DATA_BEAUTY",
+        "DATA_CORLA",
+        "DATA_KARSH_STEELBENDER",
+        "DATA_RAZ_THE_CRAZED",
+        "DATA_ROMOGG_BONECRUSHER",
+        "NPC_RAZ_THE_CRAZED",
+        "NPC_ROMOGG_BONECRUSHER",
+        "NPC_TWILIGHT_FLAME_CALLER"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp",
+      "kind": "boss",
+      "bytes": 3246,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        35280,
+        36021,
+        36022
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ASCENDANT_LORD_OBSIDIUS",
+        "EVENT_ARCANE_TORRENT",
+        "EVENT_DOMINATION",
+        "EVENT_MANA_TAP",
+        "SPELL_ARCANE_TORRENT",
+        "SPELL_DOMINATION",
+        "SPELL_MANA_TAP"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 62,
+          "expression": "events.ScheduleEvent(EVENT_MANA_TAP, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 93,
+          "expression": "DoCastVictim(SPELL_MANA_TAP, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "events.ScheduleEvent(EVENT_MANA_TAP, 14s, 22s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp",
+      "kind": "boss",
+      "bytes": 3841,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        76028,
+        76030,
+        76031,
+        76032,
+        82395
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_BEAUTY",
+        "EVENT_BERSERK",
+        "EVENT_BERSERKER_CHARGE",
+        "EVENT_FLAMEBREAK",
+        "EVENT_MAGMA_SPIT",
+        "EVENT_TERRIFYING_ROAR",
+        "SPELL_BERSERK",
+        "SPELL_BERSERKER_CHARGE",
+        "SPELL_FLAMEBREAK",
+        "SPELL_MAGMA_SPIT",
+        "SPELL_TERRIFYING_ROAR"
+      ],
+      "cast_calls": 9,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 63,
+          "expression": "events.ScheduleEvent(EVENT_MAGMA_SPIT, 7s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_BERSERKER_CHARGE, 16s, 19s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "events.ScheduleEvent(EVENT_FLAMEBREAK, 18s, 22s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 90,
+          "expression": "DoCast(SelectTarget(SelectTargetMethod::Random, 0, 100, true), SPELL_MAGMA_SPIT, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "events.ScheduleEvent(EVENT_MAGMA_SPIT, 7s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "DoCast(SelectTarget(SelectTargetMethod::Random, 0, 100, true), SPELL_BERSERKER_CHARGE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "events.ScheduleEvent(EVENT_BERSERKER_CHARGE, 16s, 19s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCast(me, SPELL_FLAMEBREAK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 99,
+          "expression": "events.ScheduleEvent(EVENT_FLAMEBREAK, 18s, 22s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp",
+      "kind": "boss",
+      "bytes": 3888,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        35322,
+        75610,
+        75645
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_CORLA",
+        "EVENT_DRAIN_ESSENSE",
+        "EVENT_EVOLUTION",
+        "EVENT_STOP_DRAIN_ESSENSE",
+        "SPELL_DRAIN_ESSENSE",
+        "SPELL_EVOLUTION",
+        "SPELL_SHADOW_POWER"
+      ],
+      "cast_calls": 6,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 61,
+          "expression": "events.ScheduleEvent(EVENT_DRAIN_ESSENSE, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "DoCast(me, SPELL_DRAIN_ESSENSE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "events.ScheduleEvent(EVENT_STOP_DRAIN_ESSENSE, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 100,
+          "expression": "events.ScheduleEvent(EVENT_EVOLUTION, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "DoCast(me, SPELL_EVOLUTION);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_DRAIN_ESSENSE, 2s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp",
+      "kind": "boss",
+      "bytes": 3296,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        15284,
+        75842,
+        75846
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KARSH_STEELBENDER",
+        "EVENT_CLEAVE",
+        "EVENT_QUICKSILVER_ARMOR",
+        "EVENT_SUPERHEATED_QUICKSILVER_ARMOR",
+        "SPELL_CLEAVE",
+        "SPELL_QUICKSILVER_ARMOR",
+        "SPELL_SUPERHEATED_QUICKSILVER_ARMOR"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 63,
+          "expression": "events.ScheduleEvent(EVENT_CLEAVE, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 93,
+          "expression": "DoCastVictim(SPELL_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "events.ScheduleEvent(EVENT_CLEAVE, 10s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp",
+      "kind": "boss",
+      "bytes": 4933,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        75272,
+        75539,
+        75543,
+        75571,
+        82137
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_RAZ_THE_CRAZED",
+        "DATA_ROMOGG_BONECRUSHER",
+        "DATA_ROMOGG_DEAD",
+        "EVENT_CHAINS_OF_WOE",
+        "EVENT_QUAKE",
+        "EVENT_SKULLCRACKER",
+        "EVENT_WOUNDING_STRIKE",
+        "NPC_RAZ_THE_CRAZED",
+        "SPELL_CALL_FOR_HELP",
+        "SPELL_CHAINS_OF_WOE",
+        "SPELL_QUAKE",
+        "SPELL_SKULLCRACKER",
+        "SPELL_WOUNDING_STRIKE"
+      ],
+      "cast_calls": 12,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 81,
+          "expression": "events.ScheduleEvent(EVENT_CHAINS_OF_WOE, 22s, 32s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 82,
+          "expression": "events.ScheduleEvent(EVENT_WOUNDING_STRIKE, 26s, 32s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_QUAKE, 45s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 86,
+          "expression": "DoCast(me, SPELL_CALL_FOR_HELP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "DoCast(me, SPELL_CHAINS_OF_WOE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "events.ScheduleEvent(EVENT_CHAINS_OF_WOE, 22s, 32s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 107,
+          "expression": "events.ScheduleEvent(EVENT_SKULLCRACKER, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 111,
+          "expression": "DoCast(me, SPELL_SKULLCRACKER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "DoCast(me, SPELL_QUAKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "events.ScheduleEvent(EVENT_QUAKE, 32s, 40s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 118,
+          "expression": "DoCastVictim(SPELL_WOUNDING_STRIKE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_WOUNDING_STRIKE, 26s, 32s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/instance_blackrock_caverns.cpp",
+      "kind": "instance",
+      "bytes": 2641,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ASCENDANT_LORD_OBSIDIUS",
+        "DATA_BEAUTY",
+        "DATA_CORLA",
+        "DATA_KARSH_STEELBENDER",
+        "DATA_RAZ_THE_CRAZED",
+        "DATA_ROMOGG_BONECRUSHER",
+        "NPC_RAZ_THE_CRAZED"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/instance-scripts/blackrock-caverns-trinitycore-reference.json",
+      "kind": "shared",
+      "bytes": 4210,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_ARCANE_TORRENT",
+        "EVENT_BERSERK",
+        "EVENT_BERSERKER_CHARGE",
+        "EVENT_CHAINS_OF_WOE",
+        "EVENT_CLEAVE",
+        "EVENT_DOMINATION",
+        "EVENT_DRAIN_ESSENSE",
+        "EVENT_EVOLUTION",
+        "EVENT_FLAMEBREAK",
+        "EVENT_MAGMA_SPIT",
+        "EVENT_MANA_TAP",
+        "EVENT_QUAKE",
+        "EVENT_QUICKSILVER_ARMOR",
+        "EVENT_SKULLCRACKER",
+        "EVENT_STOP_DRAIN_ESSENSE",
+        "EVENT_SUPERHEATED_QUICKSILVER_ARMOR",
+        "EVENT_TERRIFYING_ROAR",
+        "EVENT_WOUNDING_STRIKE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2045-blackrock-caverns.json",
+      "kind": "shared",
+      "bytes": 4267,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2046-blackrock-caverns.json",
+      "kind": "shared",
+      "bytes": 4267,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {
+    "boss_ascendant_lord_obsidius": {
+      "name": "boss_ascendant_lord_obsidius",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_beauty": {
+      "name": "boss_beauty",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_corla": {
+      "name": "boss_corla",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_karsh_steelbender": {
+      "name": "boss_karsh_steelbender",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_romogg_bonecrusher": {
+      "name": "boss_romogg_bonecrusher",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
+  "coverage": {
+    "source_files": 11,
+    "by_kind": {
+      "boss": 5,
+      "trash": 0,
+      "instance": 1,
+      "sql": 0,
+      "shared": 5,
+      "other": 0
+    },
+    "npc_ids_candidate": 4,
+    "spell_ids_candidate": 49,
+    "encounter_filename_candidates": 5,
+    "boss_ai_present": true,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}

@@ -1,0 +1,865 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "wailing-caverns",
+  "source_files": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20261002_40_wailing_caverns.sql",
+      "kind": "sql",
+      "bytes": 272,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [
+        "spell_coa_skum_overrun"
+      ],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20261014_21_wailing_caverns_disciple_gossip.sql",
+      "kind": "sql",
+      "bytes": 145,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20261019_21_wailing_caverns_disciple_wing_gossip.sql",
+      "kind": "sql",
+      "bytes": 825,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20261028_39_coa_worldforged_wailing_sash_chapel_9296.sql",
+      "kind": "sql",
+      "bytes": 634,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/instance_wailing_caverns.cpp",
+      "kind": "instance",
+      "bytes": 5122,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1276,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3673,
+        3678
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/instance_wailing_caverns.cpp",
+      "kind": "instance",
+      "bytes": 4026,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1239,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3673,
+        3678
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/instance_wailing_caverns.cpp",
+      "kind": "instance",
+      "bytes": 3637,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DISCIPLE",
+        "DATA_KRESH",
+        "DATA_LADY_ANACONDRA",
+        "DATA_LORD_COBRAHN",
+        "DATA_LORD_PYTHAS",
+        "DATA_LORD_SERPENTIS",
+        "DATA_MUTANUS_THE_DEVOURER",
+        "DATA_NARALEX",
+        "DATA_SKUM",
+        "DATA_VERDAN_THE_EVERLIVING",
+        "NPC_DISCIPLE",
+        "NPC_KRESH",
+        "NPC_NARALEX",
+        "NPC_SKUM",
+        "NPC_VERDAN_THE_EVERLIVING"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.cpp",
+      "kind": "shared",
+      "bytes": 14008,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        1090,
+        5232,
+        6270,
+        6271,
+        8141,
+        8153
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_LADY_ANACONDRA",
+        "DATA_LORD_COBRAHN",
+        "DATA_LORD_PYTHAS",
+        "DATA_LORD_SERPENTIS",
+        "DATA_NARALEX",
+        "EVENT_DRUIDS_POTION",
+        "EVENT_PROGRESS_1",
+        "EVENT_PROGRESS_10",
+        "EVENT_PROGRESS_11",
+        "EVENT_PROGRESS_12",
+        "EVENT_PROGRESS_13",
+        "EVENT_PROGRESS_14",
+        "EVENT_PROGRESS_15",
+        "EVENT_PROGRESS_16",
+        "EVENT_PROGRESS_17",
+        "EVENT_PROGRESS_18",
+        "EVENT_PROGRESS_19",
+        "EVENT_PROGRESS_2",
+        "EVENT_PROGRESS_20",
+        "EVENT_PROGRESS_21",
+        "EVENT_PROGRESS_22",
+        "EVENT_PROGRESS_23",
+        "EVENT_PROGRESS_24",
+        "EVENT_PROGRESS_25",
+        "EVENT_PROGRESS_26",
+        "EVENT_PROGRESS_27",
+        "EVENT_PROGRESS_3",
+        "EVENT_PROGRESS_4",
+        "EVENT_PROGRESS_5",
+        "EVENT_PROGRESS_6",
+        "EVENT_PROGRESS_7",
+        "EVENT_PROGRESS_8",
+        "EVENT_PROGRESS_9",
+        "EVENT_SLEEP",
+        "SPELL_DRUIDS_POTION",
+        "SPELL_MARK_OF_THE_WILD",
+        "SPELL_NARALEXS_AWAKENING",
+        "SPELL_OWL_FORM",
+        "SPELL_SERPENTINE_CLEANSING",
+        "SPELL_SLEEP"
+      ],
+      "cast_calls": 32,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 137,
+          "expression": "_combatEvents.ScheduleEvent(EVENT_SLEEP, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 138,
+          "expression": "_combatEvents.ScheduleEvent(EVENT_DRUIDS_POTION, 5s, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 160,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_4, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 163,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_8, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 166,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_12, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 169,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_14, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 172,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_27, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_2, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_3, 3500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_5, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_6, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_7, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 222,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_9, 18s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 226,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_10, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 230,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_11, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_13, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 246,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_15, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 251,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_16, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 255,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_17, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 260,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_18, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 264,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_19, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 269,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_20, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 275,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_21, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 284,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_22, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 290,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_23, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 295,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_24, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 300,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_25, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 305,
+          "expression": "naralex->CastSpell(naralex, SPELL_OWL_FORM);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 307,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_26, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 343,
+          "expression": "DoCast(target, SPELL_SLEEP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "DoCast(player, SPELL_MARK_OF_THE_WILD);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 375,
+          "expression": "_events.ScheduleEvent(EVENT_PROGRESS_1, 0s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 347,
+          "expression": "if (HealthBelowPct(80))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1982,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3653,
+        3674,
+        3678,
+        3679,
+        5775
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DISCIPLE",
+        "DATA_KRESH",
+        "DATA_LADY_ANACONDRA",
+        "DATA_LORD_COBRAHN",
+        "DATA_LORD_PYTHAS",
+        "DATA_LORD_SERPENTIS",
+        "DATA_MUTANUS_THE_DEVOURER",
+        "DATA_NARALEX",
+        "DATA_SKUM",
+        "DATA_VERDAN_THE_EVERLIVING",
+        "NPC_DISCIPLE",
+        "NPC_KRESH",
+        "NPC_NARALEX",
+        "NPC_SKUM",
+        "NPC_VERDAN_THE_EVERLIVING"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20261002_40_wailing_caverns.sql",
+      "kind": "sql",
+      "bytes": 272,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [
+        "spell_coa_skum_overrun"
+      ],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20261014_21_wailing_caverns_disciple_gossip.sql",
+      "kind": "sql",
+      "bytes": 145,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20261019_21_wailing_caverns_disciple_wing_gossip.sql",
+      "kind": "sql",
+      "bytes": 825,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/instance_wailing_caverns.cpp",
+      "kind": "instance",
+      "bytes": 5122,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1276,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3673,
+        3678
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_LORD_SERPENTIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/wailing_caverns/wailing_caverns.cpp",
+      "kind": "shared",
+      "bytes": 4956,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_MYSTERIOUS_CHEST",
+        "NPC_DISCIPLE",
+        "NPC_NARALEX"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/wailing_caverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1605,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3678,
+        3679
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_MYSTERIOUS_CHEST",
+        "NPC_DISCIPLE",
+        "NPC_NARALEX"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/wailing_caverns/wailing_cavernsScripts.cpp",
+      "kind": "shared",
+      "bytes": 21890,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3636,
+        3654,
+        5048,
+        5755,
+        5762,
+        5763
+      ],
+      "spell_ids_candidate": [
+        1090,
+        5232,
+        6270,
+        6271,
+        8141,
+        8153
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DEVIATE_ADDER",
+        "NPC_DEVIATE_MOCCASIN",
+        "NPC_DEVIATE_RAPTOR",
+        "NPC_DEVIATE_VIPER",
+        "NPC_MUTANUS",
+        "NPC_NARALEX",
+        "NPC_NIGHTMARE_ECTOPLASM",
+        "SPELL_AWAKENING",
+        "SPELL_CLEANSING",
+        "SPELL_MARK",
+        "SPELL_POTION",
+        "SPELL_SHAPESHIFT",
+        "SPELL_SLEEP"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 393,
+          "expression": "pNaralex->CastSpell(pNaralex, SPELL_SHAPESHIFT, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 470,
+          "expression": "creature->CastSpell(player, SPELL_MARK, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1-wailing-caverns.json",
+      "kind": "shared",
+      "bytes": 2738,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1003-wailing-caverns-pit-of-fangs.json",
+      "kind": "shared",
+      "bytes": 2754,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/3318-wailing-caverns-pit-of-the-fangs.json",
+      "kind": "shared",
+      "bytes": 8276,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/3319-wailing-caverns-crag-of-the-everliving.json",
+      "kind": "shared",
+      "bytes": 4190,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "research/dbm/classic-last-four-dungeons-wailing-kraul-uldaman-downs-evidence-2026-10-30.json",
+      "kind": "shared",
+      "bytes": 5870,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {},
+  "coverage": {
+    "source_files": 24,
+    "by_kind": {
+      "boss": 0,
+      "trash": 0,
+      "instance": 4,
+      "sql": 7,
+      "shared": 13,
+      "other": 0
+    },
+    "npc_ids_candidate": 12,
+    "spell_ids_candidate": 6,
+    "encounter_filename_candidates": 0,
+    "boss_ai_present": false,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}

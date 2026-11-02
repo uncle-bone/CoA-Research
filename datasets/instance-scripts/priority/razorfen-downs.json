@@ -1,0 +1,1535 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "razorfen-downs",
+  "source_files": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
+      "kind": "sql",
+      "bytes": 1899,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
+      "kind": "sql",
+      "bytes": 2446,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
+      "kind": "sql",
+      "bytes": 2348,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
+      "kind": "sql",
+      "bytes": 2117,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
+      "kind": "sql",
+      "bytes": 1928,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
+      "kind": "sql",
+      "bytes": 2408,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 2957,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 12139,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        9053,
+        11831,
+        12774,
+        12816,
+        13326
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_CHANNEL",
+        "EVENT_COMPLETE",
+        "EVENT_FIREBALL",
+        "EVENT_FROST_NOVA",
+        "EVENT_IDOL_ROOM_SPAWNER",
+        "EVENT_PROGRESS",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_SHUTDOWN_VISUAL",
+        "SPELL_IDOM_ROOM_CAMERA_SHAKE"
+      ],
+      "cast_calls": 17,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCast(me, SPELL_ARCANE_INTELLECT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 148,
+          "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 165,
+          "expression": "DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 166,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 193,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "events.ScheduleEvent(EVENT_COMPLETE, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "DoCastVictim(SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "DoCast(me, SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 15s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 1626,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 2957,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 12139,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        9053,
+        11831,
+        12774,
+        12816,
+        13326
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_CHANNEL",
+        "EVENT_COMPLETE",
+        "EVENT_FIREBALL",
+        "EVENT_FROST_NOVA",
+        "EVENT_IDOL_ROOM_SPAWNER",
+        "EVENT_PROGRESS",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_SHUTDOWN_VISUAL",
+        "SPELL_IDOM_ROOM_CAMERA_SHAKE"
+      ],
+      "cast_calls": 17,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCast(me, SPELL_ARCANE_INTELLECT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 148,
+          "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 165,
+          "expression": "DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 166,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 193,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "events.ScheduleEvent(EVENT_COMPLETE, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "DoCastVictim(SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "DoCast(me, SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 15s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 1626,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp",
+      "kind": "boss",
+      "bytes": 5166,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12642,
+        12660,
+        13009,
+        15530,
+        15531
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_AMNENNAR_THE_COLD_BRINGER",
+        "EVENT_AMNENNARS_WRATH",
+        "EVENT_FROSTBOLT",
+        "EVENT_FROST_NOVA",
+        "EVENT_HEALTH_30",
+        "EVENT_HEALTH_60",
+        "EVENT_HEALTH_75",
+        "SPELL_AMNENNARS_WRATH",
+        "SPELL_BANISH_FROST_SPECTRES",
+        "SPELL_FROSTBOLT",
+        "SPELL_FROST_NOVA",
+        "SPELL_SUMMON_FROST_SPECTRES"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 79,
+          "expression": "events.ScheduleEvent(EVENT_AMNENNARS_WRATH, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "events.ScheduleEvent(EVENT_FROSTBOLT, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 81,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 90,
+          "expression": "events.ScheduleEvent(EVENT_HEALTH_75, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "events.ScheduleEvent(EVENT_HEALTH_60, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "events.ScheduleEvent(EVENT_HEALTH_30, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 142,
+          "expression": "DoCastVictim(SPELL_AMNENNARS_WRATH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 146,
+          "expression": "DoCastVictim(SPELL_FROSTBOLT);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_glutton.cpp",
+      "kind": "boss",
+      "bytes": 3317,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8876,
+        12627,
+        12787,
+        12795
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_GLUTTON",
+        "EVENT_HEALTH_15",
+        "EVENT_HEALTH_50",
+        "SPELL_DISEASE_CLOUD",
+        "SPELL_FRENZY",
+        "SPELL_THRASH_15",
+        "SPELL_THRASH_35"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 75,
+          "expression": "events.ScheduleEvent(EVENT_HEALTH_50, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 81,
+          "expression": "events.ScheduleEvent(EVENT_HEALTH_15, 0s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_mordresh_fire_eye.cpp",
+      "kind": "boss",
+      "bytes": 3593,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12466,
+        12470
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_MORDRESH_FIRE_EYE",
+        "EVENT_FIREBALL",
+        "EVENT_FIRE_NOVA",
+        "EVENT_OOC_1",
+        "EVENT_OOC_2",
+        "EVENT_OOC_3",
+        "EVENT_OOC_4",
+        "SPELL_FIREBALL",
+        "SPELL_FIRE_NOVA"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 59,
+          "expression": "events.ScheduleEvent(EVENT_OOC_1, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 67,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 0s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 68,
+          "expression": "events.ScheduleEvent(EVENT_FIRE_NOVA, 8s, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_OOC_2, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 87,
+          "expression": "events.ScheduleEvent(EVENT_OOC_3, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "events.ScheduleEvent(EVENT_OOC_4, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "events.ScheduleEvent(EVENT_OOC_1, 14s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "DoCastVictim(SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/boss_tuten_kash.cpp",
+      "kind": "boss",
+      "bytes": 2539,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8876,
+        12252,
+        12254,
+        12255
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_TUTEN_KASH",
+        "EVENT_CURSE_OF_TUTENKASH",
+        "EVENT_WEB_SPRAY",
+        "SPELL_CURSE_OF_TUTENKASH",
+        "SPELL_THRASH",
+        "SPELL_VIRULENT_POISON",
+        "SPELL_WEB_SPRAY"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 55,
+          "expression": "events.ScheduleEvent(EVENT_WEB_SPRAY, 10s, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_OF_TUTENKASH, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 6777,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_AMNENNAR_THE_COLD_BRINGER",
+        "DATA_EXTINGUISHING_THE_IDOL",
+        "DATA_GLUTTON",
+        "DATA_GONG",
+        "DATA_MORDRESH_FIRE_EYE",
+        "DATA_TUTEN_KASH",
+        "DATA_WAVE",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTEN_KASH"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 14185,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        745,
+        3616,
+        9053,
+        11831,
+        12254,
+        12774,
+        12816,
+        13326
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_EXTINGUISHING_THE_IDOL",
+        "DATA_WAVE",
+        "EVENT_CHANNEL",
+        "EVENT_COMPLETE",
+        "EVENT_FIREBALL",
+        "EVENT_FROST_NOVA",
+        "EVENT_IDOL_ROOM_SPAWNER",
+        "EVENT_PROGRESS",
+        "EVENT_WEB",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "GO_SUMMON_TIMED_DESPAWN",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_SHUTDOWN_VISUAL",
+        "SPELL_IDOM_ROOM_CAMERA_SHAKE",
+        "SPELL_POISON_PROC",
+        "SPELL_VIRULENT_POISON_PROC",
+        "SPELL_WEB"
+      ],
+      "cast_calls": 19,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 118,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 168,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 193,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "events.ScheduleEvent(EVENT_COMPLETE, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "DoCastVictim(SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 233,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
+          "expression": "DoCastAOE(SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 239,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 321,
+          "expression": "DoCast(me, SPELL_POISON_PROC);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 324,
+          "expression": "DoCast(me, SPELL_VIRULENT_POISON_PROC);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "events.ScheduleEvent(EVENT_WEB, 5s, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 349,
+          "expression": "DoCastVictim(SPELL_WEB);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 350,
+          "expression": "events.ScheduleEvent(EVENT_WEB, 7s, 16s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 2593,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7349,
+        7351,
+        7355,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_AMNENNAR_THE_COLD_BRINGER",
+        "DATA_EXTINGUISHING_THE_IDOL",
+        "DATA_GLUTTON",
+        "DATA_GONG",
+        "DATA_MORDRESH_FIRE_EYE",
+        "DATA_TUTEN_KASH",
+        "DATA_WAVE",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTEN_KASH",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
+      "kind": "sql",
+      "bytes": 1899,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
+      "kind": "sql",
+      "bytes": 2446,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
+      "kind": "sql",
+      "bytes": 2348,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
+      "kind": "sql",
+      "bytes": 2117,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
+      "kind": "sql",
+      "bytes": 1928,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
+      "kind": "sql",
+      "bytes": 2408,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 2957,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 12139,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        9053,
+        11831,
+        12774,
+        12816,
+        13326
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_CHANNEL",
+        "EVENT_COMPLETE",
+        "EVENT_FIREBALL",
+        "EVENT_FROST_NOVA",
+        "EVENT_IDOL_ROOM_SPAWNER",
+        "EVENT_PROGRESS",
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_SHUTDOWN_VISUAL",
+        "SPELL_IDOM_ROOM_CAMERA_SHAKE"
+      ],
+      "cast_calls": 17,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 93,
+          "expression": "DoCast(me, SPELL_ARCANE_INTELLECT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 148,
+          "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 165,
+          "expression": "DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 166,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 193,
+          "expression": "events.ScheduleEvent(EVENT_PROGRESS, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "events.ScheduleEvent(EVENT_COMPLETE, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 234,
+          "expression": "DoCastVictim(SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 235,
+          "expression": "events.ScheduleEvent(EVENT_FIREBALL, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "DoCast(me, SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 15s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 1626,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZS_BRAZIER",
+        "GO_GONG",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 6152,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_FLAG_NO_INTERACT",
+        "GO_GONG",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTEN_KASH"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 10556,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [
+        9053,
+        11831,
+        12694,
+        12774,
+        12816,
+        13326,
+        14801,
+        14802
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_BELNISTRASZ_BRAZIER",
+        "GO_IDOL_CUP_FIRE",
+        "GO_IDOL_MOUTH_FIRE",
+        "GO_IDOL_OVEN_FIRE",
+        "GO_JUST_DEACTIVATED",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_IDOL_ROOM_SHAKE",
+        "SPELL_IDOL_SHUTDOWN",
+        "SPELL_SUMMON_1",
+        "SPELL_SUMMON_2",
+        "SPELL_SUMMON_3"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 9,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 1853,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7349,
+        7351,
+        7355
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_GONG",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTEN_KASH"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2710-razorfen-downs.json",
+      "kind": "shared",
+      "bytes": 4164,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {
+    "boss_amnennar_the_coldbringer": {
+      "name": "boss_amnennar_the_coldbringer",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_glutton": {
+      "name": "boss_glutton",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_glutton.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_mordresh_fire_eye": {
+      "name": "boss_mordresh_fire_eye",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_mordresh_fire_eye.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_tuten_kash": {
+      "name": "boss_tuten_kash",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_tuten_kash.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
+  "coverage": {
+    "source_files": 32,
+    "by_kind": {
+      "boss": 4,
+      "trash": 0,
+      "instance": 5,
+      "sql": 12,
+      "shared": 11,
+      "other": 0
+    },
+    "npc_ids_candidate": 8,
+    "spell_ids_candidate": 24,
+    "encounter_filename_candidates": 4,
+    "boss_ai_present": true,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}

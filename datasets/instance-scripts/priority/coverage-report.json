@@ -1,0 +1,471 @@
+{
+  "schema": "coa-dbm-priority-coverage-v1",
+  "archive_integrity": "zip-testzip-passed",
+  "source_statuses": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "file_count": 322,
+      "status": "collected"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "file_count": 122,
+      "status": "collected"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "file_count": 191,
+      "status": "collected"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "file_count": 301,
+      "status": "collected"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "file_count": 89,
+      "status": "collected"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "file_count": 535,
+      "status": "collected"
+    }
+  ],
+  "instance_count": 22,
+  "covered_source_instances": 22,
+  "instances": {
+    "ragefire-chasm": {
+      "source_files": 15,
+      "by_kind": {
+        "boss": 8,
+        "trash": 0,
+        "instance": 4,
+        "sql": 0,
+        "shared": 3,
+        "other": 0
+      },
+      "npc_ids_candidate": 5,
+      "spell_ids_candidate": 28,
+      "encounter_filename_candidates": 5,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "wailing-caverns": {
+      "source_files": 24,
+      "by_kind": {
+        "boss": 0,
+        "trash": 0,
+        "instance": 4,
+        "sql": 7,
+        "shared": 13,
+        "other": 0
+      },
+      "npc_ids_candidate": 12,
+      "spell_ids_candidate": 6,
+      "encounter_filename_candidates": 0,
+      "boss_ai_present": false,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "deadmines": {
+      "source_files": 55,
+      "by_kind": {
+        "boss": 4,
+        "trash": 0,
+        "instance": 5,
+        "sql": 36,
+        "shared": 10,
+        "other": 0
+      },
+      "npc_ids_candidate": 15,
+      "spell_ids_candidate": 11,
+      "encounter_filename_candidates": 1,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "shadowfang-keep": {
+      "source_files": 36,
+      "by_kind": {
+        "boss": 5,
+        "trash": 0,
+        "instance": 5,
+        "sql": 16,
+        "shared": 10,
+        "other": 0
+      },
+      "npc_ids_candidate": 25,
+      "spell_ids_candidate": 28,
+      "encounter_filename_candidates": 2,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "blackfathom-deeps": {
+      "source_files": 30,
+      "by_kind": {
+        "boss": 3,
+        "trash": 0,
+        "instance": 5,
+        "sql": 12,
+        "shared": 10,
+        "other": 0
+      },
+      "npc_ids_candidate": 9,
+      "spell_ids_candidate": 11,
+      "encounter_filename_candidates": 3,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "stockade": {
+      "source_files": 17,
+      "by_kind": {
+        "boss": 3,
+        "trash": 0,
+        "instance": 4,
+        "sql": 6,
+        "shared": 4,
+        "other": 0
+      },
+      "npc_ids_candidate": 5,
+      "spell_ids_candidate": 10,
+      "encounter_filename_candidates": 3,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "gnomeregan": {
+      "source_files": 19,
+      "by_kind": {
+        "boss": 1,
+        "trash": 0,
+        "instance": 5,
+        "sql": 2,
+        "shared": 11,
+        "other": 0
+      },
+      "npc_ids_candidate": 10,
+      "spell_ids_candidate": 25,
+      "encounter_filename_candidates": 1,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "razorfen-kraul": {
+      "source_files": 26,
+      "by_kind": {
+        "boss": 0,
+        "trash": 0,
+        "instance": 5,
+        "sql": 14,
+        "shared": 7,
+        "other": 0
+      },
+      "npc_ids_candidate": 9,
+      "spell_ids_candidate": 1,
+      "encounter_filename_candidates": 0,
+      "boss_ai_present": false,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "scarlet-monastery": {
+      "source_files": 47,
+      "by_kind": {
+        "boss": 15,
+        "trash": 0,
+        "instance": 5,
+        "sql": 14,
+        "shared": 13,
+        "other": 0
+      },
+      "npc_ids_candidate": 51,
+      "spell_ids_candidate": 112,
+      "encounter_filename_candidates": 11,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "razorfen-downs": {
+      "source_files": 32,
+      "by_kind": {
+        "boss": 4,
+        "trash": 0,
+        "instance": 5,
+        "sql": 12,
+        "shared": 11,
+        "other": 0
+      },
+      "npc_ids_candidate": 8,
+      "spell_ids_candidate": 24,
+      "encounter_filename_candidates": 4,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "uldaman": {
+      "source_files": 33,
+      "by_kind": {
+        "boss": 3,
+        "trash": 0,
+        "instance": 5,
+        "sql": 14,
+        "shared": 11,
+        "other": 0
+      },
+      "npc_ids_candidate": 11,
+      "spell_ids_candidate": 18,
+      "encounter_filename_candidates": 2,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "zulfarrak": {
+      "source_files": 37,
+      "by_kind": {
+        "boss": 2,
+        "trash": 0,
+        "instance": 5,
+        "sql": 17,
+        "shared": 13,
+        "other": 0
+      },
+      "npc_ids_candidate": 23,
+      "spell_ids_candidate": 16,
+      "encounter_filename_candidates": 2,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "maraudon": {
+      "source_files": 38,
+      "by_kind": {
+        "boss": 5,
+        "trash": 0,
+        "instance": 5,
+        "sql": 20,
+        "shared": 8,
+        "other": 0
+      },
+      "npc_ids_candidate": 8,
+      "spell_ids_candidate": 14,
+      "encounter_filename_candidates": 4,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "sunken-temple": {
+      "source_files": 23,
+      "by_kind": {
+        "boss": 0,
+        "trash": 0,
+        "instance": 4,
+        "sql": 8,
+        "shared": 11,
+        "other": 0
+      },
+      "npc_ids_candidate": 20,
+      "spell_ids_candidate": 6,
+      "encounter_filename_candidates": 0,
+      "boss_ai_present": false,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "blackrock-depths": {
+      "source_files": 95,
+      "by_kind": {
+        "boss": 52,
+        "trash": 0,
+        "instance": 5,
+        "sql": 26,
+        "shared": 12,
+        "other": 0
+      },
+      "npc_ids_candidate": 83,
+      "spell_ids_candidate": 101,
+      "encounter_filename_candidates": 14,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "lower-blackrock-spire": {
+      "source_files": 74,
+      "by_kind": {
+        "boss": 60,
+        "trash": 0,
+        "instance": 5,
+        "sql": 0,
+        "shared": 9,
+        "other": 0
+      },
+      "npc_ids_candidate": 38,
+      "spell_ids_candidate": 128,
+      "encounter_filename_candidates": 17,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "upper-blackrock-spire": {
+      "source_files": 74,
+      "by_kind": {
+        "boss": 60,
+        "trash": 0,
+        "instance": 5,
+        "sql": 0,
+        "shared": 9,
+        "other": 0
+      },
+      "npc_ids_candidate": 38,
+      "spell_ids_candidate": 128,
+      "encounter_filename_candidates": 17,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "dire-maul": {
+      "source_files": 46,
+      "by_kind": {
+        "boss": 3,
+        "trash": 0,
+        "instance": 5,
+        "sql": 27,
+        "shared": 11,
+        "other": 0
+      },
+      "npc_ids_candidate": 22,
+      "spell_ids_candidate": 11,
+      "encounter_filename_candidates": 1,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "scholomance": {
+      "source_files": 40,
+      "by_kind": {
+        "boss": 24,
+        "trash": 0,
+        "instance": 5,
+        "sql": 2,
+        "shared": 9,
+        "other": 0
+      },
+      "npc_ids_candidate": 19,
+      "spell_ids_candidate": 87,
+      "encounter_filename_candidates": 13,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "stratholme": {
+      "source_files": 107,
+      "by_kind": {
+        "boss": 42,
+        "trash": 1,
+        "instance": 9,
+        "sql": 32,
+        "shared": 23,
+        "other": 0
+      },
+      "npc_ids_candidate": 116,
+      "spell_ids_candidate": 134,
+      "encounter_filename_candidates": 20,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": true,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "blackrock-caverns": {
+      "source_files": 11,
+      "by_kind": {
+        "boss": 5,
+        "trash": 0,
+        "instance": 1,
+        "sql": 0,
+        "shared": 5,
+        "other": 0
+      },
+      "npc_ids_candidate": 4,
+      "spell_ids_candidate": 49,
+      "encounter_filename_candidates": 5,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": false,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    },
+    "zulgurub": {
+      "source_files": 125,
+      "by_kind": {
+        "boss": 74,
+        "trash": 1,
+        "instance": 4,
+        "sql": 20,
+        "shared": 26,
+        "other": 0
+      },
+      "npc_ids_candidate": 55,
+      "spell_ids_candidate": 356,
+      "encounter_filename_candidates": 25,
+      "boss_ai_present": true,
+      "trash_ai_explicitly_identified": true,
+      "script_timers_verified": false,
+      "live_reborn_verified": false,
+      "status": "source-candidates-found"
+    }
+  },
+  "not_live_verified": true,
+  "limitations": [
+    "Script candidates are not live-server validation.",
+    "Phase and timer coverage remains unverified until reviewed against scripts and combat logs.",
+    "Trash and boss AI may be implemented in SQL or shared scripts and require additional mapping.",
+    "Source archives are alternatives and not proof of active server deployment."
+  ]
+}

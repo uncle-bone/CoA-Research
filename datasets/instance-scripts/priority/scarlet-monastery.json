@@ -1,0 +1,2667 @@
+{
+  "schema": "coa-dbm-encounter-research-v1",
+  "warning": "Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
+  "instance": "scarlet-monastery",
+  "source_files": [
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20260917_41_scarlet_monastery_outside_elites.sql",
+      "kind": "sql",
+      "bytes": 250,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "data/sql/updates/pending_db_world/rev_20261019_20_scarlet_monastery_graveyard_rares_normal.sql",
+      "kind": "sql",
+      "bytes": 6058,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
+      "kind": "sql",
+      "bytes": 2071,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
+      "kind": "sql",
+      "bytes": 1663,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
+      "kind": "sql",
+      "bytes": 2052,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
+      "kind": "sql",
+      "bytes": 1879,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
+      "kind": "sql",
+      "bytes": 2322,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
+      "kind": "shared",
+      "bytes": 4964,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3975,
+        3977
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_CHAPEL_DOOR",
+        "GO_HEROD_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_HEROD",
+        "NPC_WHITEMANE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
+      "kind": "instance",
+      "bytes": 16981,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        721,
+        3976,
+        3977,
+        3983,
+        4075,
+        4283,
+        4293,
+        4294,
+        4295,
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4306,
+        4308,
+        4540,
+        4542,
+        4543,
+        6426,
+        6427,
+        6488,
+        6547,
+        16062
+      ],
+      "spell_ids_candidate": [
+        317,
+        500,
+        28443,
+        28697
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "DATA_DOOR_CHAPEL",
+        "DATA_DOOR_WHITEMANE",
+        "DATA_HORSEMAN_EVENT",
+        "DATA_MOGRAINE",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "DATA_WHITEMANE_FAKE_DEATH",
+        "GO_ACTIVATED",
+        "GO_CHAPEL_DOOR",
+        "GO_FLAG_IN_USE",
+        "GO_HIGH_INQUISITOR_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_ANGUISHED_DEAD",
+        "NPC_BLOODMAGE_THALNOS",
+        "NPC_COMMANDER_MOGRAINE",
+        "NPC_FAIRBANKS",
+        "NPC_FALLON_CHAMPION",
+        "NPC_HAUNTING_PHANTASM",
+        "NPC_HIGHLORD_MOGRAINE",
+        "NPC_INQUISITOR_WHITEMANE",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_RABBIT",
+        "NPC_RAT",
+        "NPC_SCARLET_ABBOT",
+        "NPC_SCARLET_CENTURION",
+        "NPC_SCARLET_CHAMPION",
+        "NPC_SCARLET_CHAPLAIN",
+        "NPC_SCARLET_DEFENDER",
+        "NPC_SCARLET_MONK",
+        "NPC_SCARLET_MYRIDON",
+        "NPC_SCARLET_SCRYER",
+        "NPC_SCARLET_SENTRY",
+        "NPC_SCARLET_SORCERER",
+        "NPC_SCARLET_TORTURER",
+        "NPC_SCARLET_WIZARD",
+        "NPC_SUFFERING_VICTIM",
+        "NPC_UNFETTERED_SPIRIT",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_FORGIVENESS",
+        "SPELL_FORGIVENESS_IMPACTKIT",
+        "SPELL_TRANSFORM_GHOST",
+        "SPELL_TRANSFORM_IMPACTKIT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
+      "kind": "shared",
+      "bytes": 1076,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
+      "kind": "instance",
+      "bytes": 12540,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        721,
+        3976,
+        3977,
+        3983,
+        4075,
+        4283,
+        4293,
+        4294,
+        4295,
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4306,
+        4308,
+        4540,
+        4542,
+        4543,
+        6426,
+        6427,
+        6488,
+        6547,
+        16062
+      ],
+      "spell_ids_candidate": [
+        317,
+        500,
+        28443,
+        28697
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "DATA_DOOR_CHAPEL",
+        "DATA_DOOR_WHITEMANE",
+        "DATA_HORSEMAN_EVENT",
+        "DATA_MOGRAINE",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "GO_ACTIVATED",
+        "GO_CHAPEL_DOOR",
+        "GO_FLAG_IN_USE",
+        "GO_HIGH_INQUISITOR_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_ANGUISHED_DEAD",
+        "NPC_BLOODMAGE_THALNOS",
+        "NPC_COMMANDER_MOGRAINE",
+        "NPC_FAIRBANKS",
+        "NPC_FALLON_CHAMPION",
+        "NPC_HAUNTING_PHANTASM",
+        "NPC_HIGHLORD_MOGRAINE",
+        "NPC_INQUISITOR_WHITEMANE",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_RABBIT",
+        "NPC_RAT",
+        "NPC_SCARLET_ABBOT",
+        "NPC_SCARLET_CENTURION",
+        "NPC_SCARLET_CHAMPION",
+        "NPC_SCARLET_CHAPLAIN",
+        "NPC_SCARLET_DEFENDER",
+        "NPC_SCARLET_MONK",
+        "NPC_SCARLET_MYRIDON",
+        "NPC_SCARLET_SCRYER",
+        "NPC_SCARLET_SENTRY",
+        "NPC_SCARLET_SORCERER",
+        "NPC_SCARLET_TORTURER",
+        "NPC_SCARLET_WIZARD",
+        "NPC_SUFFERING_VICTIM",
+        "NPC_UNFETTERED_SPIRIT",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_FORGIVENESS",
+        "SPELL_FORGIVENESS_IMPACTKIT",
+        "SPELL_TRANSFORM_GHOST",
+        "SPELL_TRANSFORM_IMPACTKIT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
+      "kind": "shared",
+      "bytes": 1076,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/boss_armsmaster_harlan.cpp",
+      "kind": "boss",
+      "bytes": 9571,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        111215,
+        111216,
+        111217,
+        111219,
+        111221,
+        111755,
+        112953,
+        112955,
+        113969
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARMSMASTER_HARLAN",
+        "EVENT_HARLAN_BERSERKER_RAGE",
+        "EVENT_HARLAN_BLADES_OF_LIGHT",
+        "EVENT_HARLAN_CALL_FOR_HELP",
+        "EVENT_HARLAN_CALL_REINFORCEMENT",
+        "EVENT_HARLAN_DRAGONS_REACH",
+        "EVENT_HARLAN_FINISH_BLADES_OF_LIGHT",
+        "EVENT_HARLAN_HEROIC_LEAP",
+        "EVENT_JUMP",
+        "SPELL_AURA_SCHOOL_ABSORB",
+        "SPELL_AURA_SPIRIT_OF_REDEMPTION",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_HARLAN_BERSERKERS_RAGE",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_CAST",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_DAMAGE",
+        "SPELL_HARLAN_BLADES_OF_LIGHT_VEHICLE",
+        "SPELL_HARLAN_CALL_REINFORCEMENT",
+        "SPELL_HARLAN_DRAGONS_REACH",
+        "SPELL_HARLAN_HEROIC_LEAP_JUMP",
+        "SPELL_HARLAN_LEAVE_VEHICLE",
+        "SPELL_SCARLET_DEFENDER_UNARMORED"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 82,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_HEROIC_LEAP, 41s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 133,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_FINISH_BLADES_OF_LIGHT, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 134,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 135,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 19s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_HEROIC_LEAP, 29s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 156,
+          "expression": "DoCastVictim(SPELL_HARLAN_DRAGONS_REACH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_DRAGONS_REACH, 7s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 161,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_CALL_REINFORCEMENT, 4s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 164,
+          "expression": "DoCast(SPELL_HARLAN_HEROIC_LEAP_JUMP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 168,
+          "expression": "DoCast(SPELL_HARLAN_CALL_REINFORCEMENT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 169,
+          "expression": "events.ScheduleEvent(EVENT_HARLAN_CALL_FOR_HELP, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 226,
+          "expression": "GetHitUnit()->CastSpell(GetCaster(), SPELL_HARLAN_BLADES_OF_LIGHT_VEHICLE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "GetCaster()->CastSpell(GetHitUnit(), SPELL_HARLAN_BLADES_OF_LIGHT_DAMAGE, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 255,
+          "expression": "GetTarget()->CastSpell(GetTarget(), SPELL_SCARLET_DEFENDER_UNARMORED);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/scarlet_halls.cpp",
+      "kind": "shared",
+      "bytes": 2215,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ARMSMASTER_HARLAN",
+        "BOSS_FLAMEWEAVER_KOEGLER",
+        "BOSS_HOUNDMASTER_BRAUN",
+        "DATA_ARMSMASTER_HARLAN",
+        "DATA_FLAMEWEAVER_KOEGLER",
+        "DATA_HOUNDMASTER_BRAUN",
+        "GO_HERODS_DOOR_HARLAN_ENCOUNTER_ENTRANCE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/scarlet_halls.h",
+      "kind": "shared",
+      "bytes": 1626,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        58632,
+        59150,
+        59303
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "BOSS_ARMSMASTER_HARLAN",
+        "BOSS_FLAMEWEAVER_KOEGLER",
+        "BOSS_HOUNDMASTER_BRAUN",
+        "DATA_ARMSMASTER_HARLAN",
+        "DATA_FLAMEWEAVER_KOEGLER",
+        "DATA_HOUNDMASTER_BRAUN",
+        "GO_HERODS_DOOR_HARLAN_ENCOUNTER_ENTRANCE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_arcanist_doan.cpp",
+      "kind": "boss",
+      "bytes": 3175,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8988,
+        9433,
+        9435,
+        9438,
+        13323
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "EVENT_ARCANE_BUBBLE",
+        "EVENT_ARCANE_EXPLOSION",
+        "EVENT_POLYMORPH",
+        "EVENT_SILENCE",
+        "SPELL_ARCANE_BUBBLE",
+        "SPELL_ARCANE_EXPLOSION",
+        "SPELL_DETONATION",
+        "SPELL_POLYMORPH",
+        "SPELL_SILENCE"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 63,
+          "expression": "events.ScheduleEvent(EVENT_SILENCE, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_ARCANE_EXPLOSION, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "events.ScheduleEvent(EVENT_POLYMORPH, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "DoCastVictim(SPELL_SILENCE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 87,
+          "expression": "DoCastVictim(SPELL_ARCANE_EXPLOSION);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCast(target, SPELL_POLYMORPH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 108,
+          "expression": "DoCastAOE(SPELL_DETONATION);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 103,
+          "expression": "if (_healthAbove50Pct && HealthBelowPct(50))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_azshir_the_sleepless.cpp",
+      "kind": "boss",
+      "bytes": 2977,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        7290,
+        7399,
+        17831
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_AZSHIR",
+        "EVENT_CALL_OF_GRAVE",
+        "EVENT_SOUL_SIPHON",
+        "EVENT_TERRIFY",
+        "SPELL_CALL_OF_THE_GRAVE",
+        "SPELL_SOUL_SIPHON",
+        "SPELL_TERRIFY"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 52,
+          "expression": "events.ScheduleEvent(EVENT_CALL_OF_GRAVE, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 53,
+          "expression": "events.ScheduleEvent(EVENT_TERRIFY, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 60,
+          "expression": "DoCastVictim(SPELL_SOUL_SIPHON);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 61,
+          "expression": "events.ScheduleEvent(EVENT_SOUL_SIPHON, 20s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 81,
+          "expression": "DoCastVictim(SPELL_CALL_OF_THE_GRAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 85,
+          "expression": "DoCastVictim(SPELL_TERRIFY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "DoCastVictim(SPELL_SOUL_SIPHON);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_bloodmage_thalnos.cpp",
+      "kind": "boss",
+      "bytes": 3072,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        1106,
+        8053,
+        8814,
+        16079
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_BLOODMAGE_THALNOS",
+        "EVENT_FIRE_NOVA",
+        "EVENT_FLAME_SHOCK",
+        "EVENT_FLAME_SPIKE",
+        "EVENT_SHADOW_BOLT",
+        "SPELL_FIRENOVA",
+        "SPELL_FLAMESHOCK",
+        "SPELL_FLAMESPIKE",
+        "SPELL_SHADOWBOLT"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 62,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_SHOCK, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 63,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_BOLT, 2s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_FLAME_SPIKE, 8s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "events.ScheduleEvent(EVENT_FIRE_NOVA, 40s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 88,
+          "expression": "DoCastVictim(SPELL_FLAMESHOCK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCastVictim(SPELL_SHADOWBOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "DoCastVictim(SPELL_FLAMESPIKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 100,
+          "expression": "DoCastVictim(SPELL_FIRENOVA);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_headless_horseman.cpp",
+      "kind": "boss",
+      "bytes": 36576,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        42280,
+        42281,
+        42285,
+        42294,
+        42380,
+        42399,
+        42401,
+        42403,
+        42408,
+        42410,
+        42413,
+        42428,
+        42429,
+        42432,
+        42438,
+        42504,
+        42514,
+        42547,
+        42548,
+        42549,
+        42556,
+        42575,
+        42587,
+        42603,
+        42818,
+        42821,
+        42823,
+        42879,
+        42909,
+        42910,
+        42971,
+        43101,
+        43105,
+        43116,
+        43129,
+        43148,
+        43184,
+        43306,
+        43344,
+        43877,
+        43893,
+        48148,
+        48149,
+        52236
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HEADLESS_HORSEMAN",
+        "DATA_HORSEMAN_EVENT_STATE",
+        "DATA_HORSEMAN_HEAD",
+        "DATA_PREPARE_RESET",
+        "DATA_START_HORSEMAN_EVENT",
+        "EVENT_CONFLAGRATE",
+        "EVENT_HORSEMAN_CLEAVE",
+        "EVENT_RAIN_OF_TREATS",
+        "EVENT_RANDOM_LAUGH",
+        "EVENT_START_HEAD_DELAYED",
+        "EVENT_START_NEXT_HEADLESS_PHASE",
+        "EVENT_START_NEXT_PHASE_DELAYED",
+        "EVENT_STOP_HEAD_PHASE",
+        "EVENT_SUMMON_PUMPKIN",
+        "GO_LOOSELY_TURNED_SOIL",
+        "GO_PUMPKIN_SHRINE",
+        "NPC_HEADLESS_HORSEMAN",
+        "NPC_PULSING_PUMPKIN",
+        "NPC_PUMPKIN_FIEND",
+        "NPC_SIR_THOMAS",
+        "SPELL_AURA_DUMMY",
+        "SPELL_AURA_PERIODIC_DUMMY",
+        "SPELL_AURA_PERIODIC_TRIGGER_SPELL",
+        "SPELL_CONFLAGRATION",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_EFFECT_SCRIPT_EFFECT",
+        "SPELL_HEADLESS_HORSEMAN_BURNING_COSMETIC",
+        "SPELL_HEADLESS_HORSEMAN_BURNING_COSMETIC_BASE",
+        "SPELL_HEADLESS_HORSEMAN_CLEAVE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_DEATH",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_CONFUSE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_IMMUNE",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_REGEN_TRANSFORM",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_1",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_2",
+        "SPELL_HEADLESS_HORSEMAN_C_BODY_STAGE_3",
+        "SPELL_HEADLESS_HORSEMAN_C_COMMAND_HEAD_REPOSITIONS",
+        "SPELL_HEADLESS_HORSEMAN_C_COMMAND_REQUEST_BODY",
+        "SPELL_HEADLESS_HORSEMAN_C_ENRAGED_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_GHOST_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_IS_DEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_PAUSE",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_PERIODIC",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_STUN",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAD_VISUAL",
+        "SPELL_HEADLESS_HORSEMAN_C_HEAL_BODY",
+        "SPELL_HEADLESS_HORSEMAN_C_HORSEMANS_WHIRLWIND",
+        "SPELL_HEADLESS_HORSEMAN_C_RETURN_HEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_SEND_HEAD",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_AURA",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_MEDIUM",
+        "SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_SMALL",
+        "SPELL_HEADLESS_HORSEMAN_FIRE_SIZE_BIG",
+        "SPELL_HEADLESS_HORSEMAN_MANIACAL_LAUGH",
+        "SPELL_HEADLESS_HORSEMAN_ONKILL_PROC",
+        "SPELL_HEADLESS_HORSEMAN_PUMPKIN_AURA",
+        "SPELL_HEADLESS_HORSEMAN_SPEAKS",
+        "SPELL_HEADLESS_HORSEMAN_WISP_FLIGHT_MISSILE",
+        "SPELL_HEADLESS_HORSEMAN_WISP_FLIGHT_PORT",
+        "SPELL_HEADLESS_HORSEMAN_WISP_INVIS",
+        "SPELL_HEADLESS_HORSEMAN_YELL_TIMER",
+        "SPELL_HORSEMANS_CONFLAGRATION_SOUND",
+        "SPELL_HORSEMANS_CONFLAGRATION_SOUND_THROTTLE",
+        "SPELL_PUMPKIN_LIFE_CYCLE",
+        "SPELL_RAIN_OF_TREATS",
+        "SPELL_SPROUTING",
+        "SPELL_SPROUT_BODY",
+        "SPELL_SQUASH_SOUL",
+        "SPELL_SUMMON_PUMPKIN_BURST_DELAY"
+      ],
+      "cast_calls": 21,
+      "timing_or_phase_signals": 6,
+      "timer_expression_candidates": [
+        {
+          "line": 224,
+          "expression": "_events.ScheduleEvent(EVENT_START_HEAD_DELAYED, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "_events.ScheduleEvent(EVENT_STOP_HEAD_PHASE, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "_events.ScheduleEvent(EVENT_STOP_HEAD_PHASE, 1s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 256,
+          "expression": "DoCast(target, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_AURA, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 291,
+          "expression": "_events.ScheduleEvent(EVENT_RAIN_OF_TREATS, 11s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 315,
+          "expression": "DoCast(horseman, SPELL_HEADLESS_HORSEMAN_C_RETURN_HEAD, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 387,
+          "expression": "_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 13s, 0, PHASE_1);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 388,
+          "expression": "_events.ScheduleEvent(EVENT_RANDOM_LAUGH, 30s, 60s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 435,
+          "expression": "_events.ScheduleEvent(EVENT_START_NEXT_PHASE_DELAYED, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 502,
+          "expression": "_events.ScheduleEvent(EVENT_START_NEXT_HEADLESS_PHASE, 1ms, 0, nextPhase);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 507,
+          "expression": "_events.ScheduleEvent(EVENT_CONFLAGRATE, 5s, 0, PHASE_2);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 508,
+          "expression": "_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 16s, 0, PHASE_2);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 513,
+          "expression": "_events.ScheduleEvent(EVENT_SUMMON_PUMPKIN, 1s, 0, PHASE_3);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 514,
+          "expression": "_events.ScheduleEvent(EVENT_HORSEMAN_CLEAVE, 9s, 0, PHASE_3);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 564,
+          "expression": "DoCastVictim(SPELL_HEADLESS_HORSEMAN_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 568,
+          "expression": "DoCastAOE(SPELL_HEADLESS_HORSEMAN_C_COMMAND_HEAD_REPOSITIONS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 570,
+          "expression": "DoCast(head, SPELL_HEADLESS_HORSEMAN_C_SEND_HEAD, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 597,
+          "expression": "DoCast(target, SPELL_CONFLAGRATION);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 662,
+          "expression": "DoCastVictim(SPELL_SQUASH_SOUL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 980,
+          "expression": "player->CastSpell(player, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_SMALL, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 984,
+          "expression": "player->CastSpell(player, SPELL_HEADLESS_HORSEMAN_C_SUMMONING_RHYME_SHAKE_MEDIUM, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 208,
+          "expression": "_events.SetPhase(PHASE_1);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 289,
+          "expression": "_events.SetPhase(PHASE_DEAD);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 369,
+          "expression": "_events.SetPhase(PHASE_1);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 480,
+          "expression": "_events.SetPhase(nextPhase);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 868,
+          "expression": "if (target->HealthBelowPct(34))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 870,
+          "expression": "else if (target->HealthBelowPct(67))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_herod.cpp",
+      "kind": "boss",
+      "bytes": 4043,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        4295,
+        6575
+      ],
+      "spell_ids_candidate": [
+        8260,
+        8269,
+        8989,
+        15496
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HEROD",
+        "EVENT_CLEAVE",
+        "EVENT_WHIRLWIND",
+        "NPC_SCARLET_MYRMIDON",
+        "NPC_SCARLET_TRAINEE",
+        "SPELL_CLEAVE",
+        "SPELL_FRENZY",
+        "SPELL_RUSHINGCHARGE",
+        "SPELL_WHIRLWIND"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 70,
+          "expression": "DoCast(me, SPELL_RUSHINGCHARGE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 73,
+          "expression": "events.ScheduleEvent(EVENT_CLEAVE, 12s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 74,
+          "expression": "events.ScheduleEvent(EVENT_WHIRLWIND, 1min);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 111,
+          "expression": "DoCastVictim(SPELL_CLEAVE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "DoCastVictim(SPELL_WHIRLWIND);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_high_inquisitor_fairbanks.cpp",
+      "kind": "boss",
+      "bytes": 4717,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8282,
+        8399,
+        11647,
+        12039,
+        12096,
+        15090
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HIGH_INQUISITOR_FAIRBANKS",
+        "EVENT_CURSE_BLOOD",
+        "EVENT_DIPEL_MAGIC",
+        "EVENT_FEAR",
+        "EVENT_HEAL",
+        "EVENT_SLEEP",
+        "SPELL_CURSEOFBLOOD",
+        "SPELL_DISPEL_MAGIC",
+        "SPELL_FEAR",
+        "SPELL_HEAL",
+        "SPELL_POWERWORDSHIELD",
+        "SPELL_SLEEP"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 79,
+          "expression": "events.ScheduleEvent(EVENT_CURSE_BLOOD, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "events.ScheduleEvent(EVENT_DIPEL_MAGIC, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 81,
+          "expression": "events.ScheduleEvent(EVENT_FEAR, 40s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 82,
+          "expression": "events.ScheduleEvent(EVENT_SLEEP, 25s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "DoCastVictim(SPELL_CURSEOFBLOOD);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 135,
+          "expression": "DoCast(target, SPELL_DISPEL_MAGIC);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 140,
+          "expression": "DoCast(target, SPELL_FEAR);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 145,
+          "expression": "DoCast(target, SPELL_SLEEP);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_houndmaster_loksey.cpp",
+      "kind": "boss",
+      "bytes": 1953,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6742,
+        17164
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HOUNDMASTER_LOKSEY",
+        "EVENT_BLOODLUST",
+        "SPELL_BLOODLUST",
+        "SPELL_SUMMON_SCARLET_HOUND"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 46,
+          "expression": "DoCast(SPELL_SUMMON_SCARLET_HOUND);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 47,
+          "expression": "events.ScheduleEvent(EVENT_BLOODLUST, 20s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 55,
+          "expression": "if (me->HealthBelowPct(60))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_interrogator_vishas.cpp",
+      "kind": "boss",
+      "bytes": 2947,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        2767
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_INTERROGATOR_VISHAS",
+        "DATA_VORREL",
+        "EVENT_SHADOW_WORD_PAIN",
+        "SPELL_SHADOW_WORD_PAIN"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 64,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 5s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 103,
+          "expression": "DoCastVictim(SPELL_SHADOW_WORD_PAIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "events.ScheduleEvent(EVENT_SHADOW_WORD_PAIN, 5s, 15s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_mograine_and_whitemane.cpp",
+      "kind": "boss",
+      "bytes": 12681,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        5589,
+        8990,
+        9232,
+        9256,
+        9257,
+        9481,
+        12039,
+        14515,
+        14518,
+        22187
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_HIGH_INQUISITORS_DOOR",
+        "DATA_MOGRAINE",
+        "DATA_MOGRAINE_AND_WHITE_EVENT",
+        "DATA_WHITEMANE",
+        "EVENT_CRUSADER_STRIKE",
+        "EVENT_HAMMER_OF_JUSTICE",
+        "EVENT_HEAL",
+        "EVENT_HOLY_SMITE",
+        "EVENT_POWER_WORD_SHIELD",
+        "NPC_MOGRAINE",
+        "SPELL_CRUSADER_STRIKE",
+        "SPELL_DEEP_SLEEP",
+        "SPELL_DOMINATE_MIND",
+        "SPELL_HAMMER_OF_JUSTICE",
+        "SPELL_HEAL",
+        "SPELL_HOLY_SMITE",
+        "SPELL_LAY_ONHANDS",
+        "SPELL_POWER_WORD_SHIELD",
+        "SPELL_RETRIBUTION_AURA",
+        "SPELL_SCARLET_RESURRECTION"
+      ],
+      "cast_calls": 16,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 119,
+          "expression": "events.ScheduleEvent(EVENT_CRUSADER_STRIKE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 120,
+          "expression": "events.ScheduleEvent(EVENT_HAMMER_OF_JUSTICE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 140,
+          "expression": "DoCastVictim(SPELL_CRUSADER_STRIKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 144,
+          "expression": "DoCastVictim(SPELL_HAMMER_OF_JUSTICE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 202,
+          "expression": "events.ScheduleEvent(EVENT_CRUSADER_STRIKE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "events.ScheduleEvent(EVENT_HAMMER_OF_JUSTICE, 10s, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 276,
+          "expression": "_events.ScheduleEvent(EVENT_HEAL, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 277,
+          "expression": "_events.ScheduleEvent(EVENT_POWER_WORD_SHIELD, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 278,
+          "expression": "_events.ScheduleEvent(EVENT_HOLY_SMITE, 6s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 324,
+          "expression": "DoCast(target, SPELL_HEAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 334,
+          "expression": "DoCastVictim(SPELL_HOLY_SMITE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 362,
+          "expression": "DoCastAOE(SPELL_DEEP_SLEEP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 393,
+          "expression": "DoCast(mograine, SPELL_SCARLET_RESURRECTION);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 411,
+          "expression": "_events.ScheduleEvent(EVENT_HEAL, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 412,
+          "expression": "_events.ScheduleEvent(EVENT_POWER_WORD_SHIELD, 15s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 413,
+          "expression": "_events.ScheduleEvent(EVENT_HOLY_SMITE, 6s);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 315,
+          "expression": "if (HealthBelowPct(75))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 319,
+          "expression": "if (mograine->IsAlive() && mograine->HealthBelowPct(75))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_scorn.cpp",
+      "kind": "boss",
+      "bytes": 2316,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8398,
+        15531,
+        17313,
+        28873
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_SCORN",
+        "EVENT_FROSTBOLT_VOLLEY",
+        "EVENT_FROST_NOVA",
+        "EVENT_LICH_SLAP",
+        "EVENT_MIND_FLAY",
+        "SPELL_FROSTBOLT_VOLLEY",
+        "SPELL_FROSTNOVA",
+        "SPELL_LICHSLAP",
+        "SPELL_MINDFLAY"
+      ],
+      "cast_calls": 8,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 45,
+          "expression": "events.ScheduleEvent(EVENT_LICH_SLAP, 45s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 46,
+          "expression": "events.ScheduleEvent(EVENT_FROSTBOLT_VOLLEY, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 47,
+          "expression": "events.ScheduleEvent(EVENT_MIND_FLAY, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 48,
+          "expression": "events.ScheduleEvent(EVENT_FROST_NOVA, 30s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "DoCastVictim(SPELL_LICHSLAP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 60,
+          "expression": "DoCastVictim(SPELL_FROSTBOLT_VOLLEY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "DoCastVictim(SPELL_MINDFLAY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 68,
+          "expression": "DoCastVictim(SPELL_FROSTNOVA);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
+      "kind": "instance",
+      "bytes": 6856,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "DATA_BLOODMAGE_THALNOS",
+        "DATA_EARTH_BUNNY",
+        "DATA_FLAME_BUNNY",
+        "DATA_HEADLESS_HORSEMAN",
+        "DATA_HEROD",
+        "DATA_HIGH_INQUISITORS_DOOR",
+        "DATA_HIGH_INQUISITOR_FAIRBANKS",
+        "DATA_HORSEMAN_EVENT_STATE",
+        "DATA_HORSEMAN_HEAD",
+        "DATA_HOUNDMASTER_LOKSEY",
+        "DATA_INTERROGATOR_VISHAS",
+        "DATA_LOOSELY_TURNED_SOIL",
+        "DATA_MOGRAINE",
+        "DATA_MOGRAINE_AND_WHITE_EVENT",
+        "DATA_PREPARE_RESET",
+        "DATA_PUMPKIN_SHRINE",
+        "DATA_START_HORSEMAN_EVENT",
+        "DATA_THOMAS",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "EVENT_ACTIVE_EARTH_EXPLOSION",
+        "EVENT_DESPAWN_OBJECTS",
+        "EVENT_SPAWN_HEADLESS_HORSEMAN",
+        "GO_FLAG_NOT_SELECTABLE",
+        "GO_HIGH_INQUISITORS_DOOR",
+        "GO_LOOSELY_TURNED_SOIL",
+        "GO_PUMPKIN_SHRINE",
+        "NPC_EARTH_BUNNY",
+        "NPC_FLAME_BUNNY",
+        "NPC_HEADLESS_HORSEMAN",
+        "NPC_HEADLESS_HORSEMAN_HEAD",
+        "NPC_MOGRAINE",
+        "NPC_SIR_THOMAS",
+        "NPC_VORREL",
+        "NPC_WHITEMANE",
+        "SPELL_EARTH_EXPLOSION"
+      ],
+      "cast_calls": 4,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 89,
+          "expression": "_events.ScheduleEvent(EVENT_ACTIVE_EARTH_EXPLOSION, 1s + 500ms);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 90,
+          "expression": "_events.ScheduleEvent(EVENT_SPAWN_HEADLESS_HORSEMAN, 3s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "_events.ScheduleEvent(EVENT_DESPAWN_OBJECTS, 10s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 142,
+          "expression": "earthBunny->CastSpell(earthBunny, SPELL_EARTH_EXPLOSION);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "469f8908d051c1d9a1fa891911c1afc8b398f349",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarlet_monastery.h",
+      "kind": "shared",
+      "bytes": 2955,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3976,
+        3977,
+        3981,
+        23545,
+        23682,
+        23686,
+        23694,
+        23758,
+        23775,
+        23904
+      ],
+      "spell_ids_candidate": [
+        42373
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "DATA_AZSHIR",
+        "DATA_BLOODMAGE_THALNOS",
+        "DATA_EARTH_BUNNY",
+        "DATA_FLAME_BUNNY",
+        "DATA_HEADLESS_HORSEMAN",
+        "DATA_HEROD",
+        "DATA_HIGH_INQUISITORS_DOOR",
+        "DATA_HIGH_INQUISITOR_FAIRBANKS",
+        "DATA_HORSEMAN_EVENT_STATE",
+        "DATA_HORSEMAN_HEAD",
+        "DATA_HOUNDMASTER_LOKSEY",
+        "DATA_INTERROGATOR_VISHAS",
+        "DATA_LOOSELY_TURNED_SOIL",
+        "DATA_MOGRAINE",
+        "DATA_MOGRAINE_AND_WHITE_EVENT",
+        "DATA_PREPARE_RESET",
+        "DATA_PUMPKIN_SHRINE",
+        "DATA_SCORN",
+        "DATA_START_HORSEMAN_EVENT",
+        "DATA_THOMAS",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "EVENT_ACTIVE_EARTH_EXPLOSION",
+        "EVENT_DESPAWN_OBJECTS",
+        "EVENT_SPAWN_HEADLESS_HORSEMAN",
+        "GO_HIGH_INQUISITORS_DOOR",
+        "GO_LOOSELY_TURNED_SOIL",
+        "GO_PUMPKIN_SHRINE",
+        "NPC_EARTH_BUNNY",
+        "NPC_FLAME_BUNNY",
+        "NPC_HEADLESS_HORSEMAN",
+        "NPC_HEADLESS_HORSEMAN_HEAD",
+        "NPC_MOGRAINE",
+        "NPC_PULSING_PUMPKIN",
+        "NPC_PUMPKIN_FIEND",
+        "NPC_SIR_THOMAS",
+        "NPC_VORREL",
+        "NPC_WHITEMANE",
+        "SPELL_EARTH_EXPLOSION"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20260917_41_scarlet_monastery_outside_elites.sql",
+      "kind": "sql",
+      "bytes": 250,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "data/sql/updates/pending_db_world/rev_20261019_20_scarlet_monastery_graveyard_rares_normal.sql",
+      "kind": "sql",
+      "bytes": 6058,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
+      "kind": "sql",
+      "bytes": 2071,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
+      "kind": "sql",
+      "bytes": 1663,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
+      "kind": "sql",
+      "bytes": 2052,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
+      "kind": "sql",
+      "bytes": 1879,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
+      "kind": "sql",
+      "bytes": 2322,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
+      "kind": "shared",
+      "bytes": 4964,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3975,
+        3977
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_CHAPEL_DOOR",
+        "GO_HEROD_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_HEROD",
+        "NPC_WHITEMANE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "manastorm"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
+      "kind": "instance",
+      "bytes": 16981,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        721,
+        3976,
+        3977,
+        3983,
+        4075,
+        4283,
+        4293,
+        4294,
+        4295,
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4306,
+        4308,
+        4540,
+        4542,
+        4543,
+        6426,
+        6427,
+        6488,
+        6547,
+        16062
+      ],
+      "spell_ids_candidate": [
+        317,
+        500,
+        28443,
+        28697
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_ARCANIST_DOAN",
+        "DATA_DOOR_CHAPEL",
+        "DATA_DOOR_WHITEMANE",
+        "DATA_HORSEMAN_EVENT",
+        "DATA_MOGRAINE",
+        "DATA_VORREL",
+        "DATA_WHITEMANE",
+        "DATA_WHITEMANE_FAKE_DEATH",
+        "GO_ACTIVATED",
+        "GO_CHAPEL_DOOR",
+        "GO_FLAG_IN_USE",
+        "GO_HIGH_INQUISITOR_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_ANGUISHED_DEAD",
+        "NPC_BLOODMAGE_THALNOS",
+        "NPC_COMMANDER_MOGRAINE",
+        "NPC_FAIRBANKS",
+        "NPC_FALLON_CHAMPION",
+        "NPC_HAUNTING_PHANTASM",
+        "NPC_HIGHLORD_MOGRAINE",
+        "NPC_INQUISITOR_WHITEMANE",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_RABBIT",
+        "NPC_RAT",
+        "NPC_SCARLET_ABBOT",
+        "NPC_SCARLET_CENTURION",
+        "NPC_SCARLET_CHAMPION",
+        "NPC_SCARLET_CHAPLAIN",
+        "NPC_SCARLET_DEFENDER",
+        "NPC_SCARLET_MONK",
+        "NPC_SCARLET_MYRIDON",
+        "NPC_SCARLET_SCRYER",
+        "NPC_SCARLET_SENTRY",
+        "NPC_SCARLET_SORCERER",
+        "NPC_SCARLET_TORTURER",
+        "NPC_SCARLET_WIZARD",
+        "NPC_SUFFERING_VICTIM",
+        "NPC_UNFETTERED_SPIRIT",
+        "SPELL_EFFECT_DUMMY",
+        "SPELL_FORGIVENESS",
+        "SPELL_FORGIVENESS_IMPACTKIT",
+        "SPELL_TRANSFORM_GHOST",
+        "SPELL_TRANSFORM_IMPACTKIT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "path": "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
+      "kind": "shared",
+      "bytes": 1076,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_arcanist_doan.cpp",
+      "kind": "boss",
+      "bytes": 4210,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8988,
+        9433,
+        9435,
+        9438,
+        13323
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_ARCANE_BUBBLE",
+        "SPELL_ARCANE_EXPLOSION",
+        "SPELL_DETONATION",
+        "SPELL_POLYMORPH",
+        "SPELL_SILENCE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_headless_horseman.cpp",
+      "kind": "boss",
+      "bytes": 20020,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        23682,
+        23694,
+        23775,
+        24034
+      ],
+      "spell_ids_candidate": [
+        42280,
+        42281,
+        42285,
+        42291,
+        42294,
+        42373,
+        42394,
+        42399,
+        42400,
+        42403,
+        42408,
+        42409,
+        42410,
+        42413,
+        42428,
+        42429,
+        42432,
+        42438,
+        42514,
+        42547,
+        42548,
+        42549,
+        42556,
+        42587,
+        42603,
+        42821,
+        42823,
+        42879,
+        42909,
+        42910,
+        43034,
+        43101,
+        43105,
+        43116,
+        43129,
+        43207,
+        43306,
+        43344,
+        43805,
+        43877,
+        43881,
+        43885,
+        43893,
+        43894,
+        44185,
+        44241,
+        44312,
+        45342,
+        48149,
+        52236
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_HEADLESS_HORSEMAN",
+        "NPC_HEADLESS_HORSEMAN_EARTHQUAKE_BUNNY",
+        "NPC_HEAD_OF_HORSEMAN",
+        "NPC_HORSEMAN_WISP_INV",
+        "NPC_PULSING_PUMPKIN",
+        "SPELL_BODY_DEAD",
+        "SPELL_BODY_HEAD_VISUAL",
+        "SPELL_BODY_LEAVE_COMBAT",
+        "SPELL_BODY_REGEN",
+        "SPELL_BODY_REGEN_CONFUSE",
+        "SPELL_BODY_REGEN_PROC",
+        "SPELL_BODY_STAGE_1",
+        "SPELL_BODY_STAGE_2",
+        "SPELL_BODY_STAGE_3",
+        "SPELL_COMMAND_HEAD_REPOSITIONS",
+        "SPELL_CONFLAGRATION",
+        "SPELL_CONFLAGRATION_SOUND",
+        "SPELL_EARTH_EXPLOSION",
+        "SPELL_ENRAGE_VISUAL",
+        "SPELL_HEADS_BREATH",
+        "SPELL_HEAD_INVISIBLE",
+        "SPELL_HEAD_IS_DEAD",
+        "SPELL_HEAD_PERIODIC",
+        "SPELL_HEAD_REPOSITIONS",
+        "SPELL_HEAD_STUN",
+        "SPELL_HEAD_VISUAL",
+        "SPELL_HEAL_BODY",
+        "SPELL_HORSEMAN_CLEAVE",
+        "SPELL_HORSEMAN_HEAD_LANDS",
+        "SPELL_HORSEMAN_SPEAKS",
+        "SPELL_HORSEMAN_SUMMON",
+        "SPELL_JACK_LANTERNED",
+        "SPELL_LAUGH",
+        "SPELL_LAUGH_LOW",
+        "SPELL_LAUGH_MANIACAL",
+        "SPELL_MANIACAL_LAUGHT_DELAYED_9",
+        "SPELL_ON_KILL_PROC",
+        "SPELL_PUMPKIN_AURA",
+        "SPELL_PUMPKIN_DEATH",
+        "SPELL_PUMPKIN_LIFE_CYCLE",
+        "SPELL_RAIN_OF_TREATS",
+        "SPELL_REQUEST_BODY",
+        "SPELL_RHYME_AURA",
+        "SPELL_RHYME_SHAKE_MEDIUM",
+        "SPELL_RHYME_SHAKE_SMALL",
+        "SPELL_SEND_HEAD",
+        "SPELL_SPROUTING",
+        "SPELL_SPROUT_BODY",
+        "SPELL_SQUASH_SOUL",
+        "SPELL_SUMMON_PUMPKIN",
+        "SPELL_WHIRLWIND",
+        "SPELL_WISP_ESCAPE_MISSILE",
+        "SPELL_WISP_FLIGHT_MISSILE",
+        "SPELL_WISP_INVISIBLE",
+        "SPELL_YELL_TIMER"
+      ],
+      "cast_calls": 9,
+      "timing_or_phase_signals": 4,
+      "timer_expression_candidates": [
+        {
+          "line": 186,
+          "expression": "pSummoned->CastSpell(pSummoned, SPELL_SPROUTING, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "pSummoned->CastSpell(pSummoned, SPELL_PUMPKIN_AURA, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "pSummoned->CastSpell(pSummoned, SPELL_PUMPKIN_LIFE_CYCLE, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 230,
+          "expression": "bunny->CastSpell(nullptr, SPELL_EARTH_EXPLOSION, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 253,
+          "expression": "pInvoker->CastSpell(m_creature, SPELL_SEND_HEAD, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 267,
+          "expression": "head->CastSpell(m_creature, SPELL_HEAD_REPOSITIONS, TRIGGERED_OLD_TRIGGERED); // also should use SPELL_COMMAND_HEAD_REPOSITIONS",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 422,
+          "expression": "pHorseman->CastSpell(pHorseman, SPELL_BODY_LEAVE_COMBAT, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 423,
+          "expression": "pHorseman->CastSpell(pHorseman, SPELL_BODY_DEAD, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 433,
+          "expression": "m_creature->CastSpell(nullptr, SPELL_RAIN_OF_TREATS, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_herod.cpp",
+      "kind": "boss",
+      "bytes": 5183,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        6575
+      ],
+      "spell_ids_candidate": [
+        8260,
+        8269,
+        8989,
+        15496
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_SCARLET_TRAINEE",
+        "SPELL_CLEAVE",
+        "SPELL_FRENZY",
+        "SPELL_RUSHINGCHARGE",
+        "SPELL_WHIRLWIND"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_mograine_and_whitemane.cpp",
+      "kind": "boss",
+      "bytes": 18658,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4540
+      ],
+      "spell_ids_candidate": [
+        642,
+        5589,
+        8990,
+        9232,
+        9256,
+        9257,
+        9481,
+        12039,
+        14515,
+        14518,
+        22187,
+        28441
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_MOGRAINE",
+        "NPC_SCARLET_ABBOT",
+        "NPC_SCARLET_CENTURION",
+        "NPC_SCARLET_CHAMPION",
+        "NPC_SCARLET_CHAPLAIN",
+        "NPC_SCARLET_MONK",
+        "NPC_SCARLET_WIZARD",
+        "NPC_WHITEMANE",
+        "SPELL_AB_EFFECT_000",
+        "SPELL_CRUSADERSTRIKE",
+        "SPELL_DEEPSLEEP",
+        "SPELL_DIVINESHIELD",
+        "SPELL_DOMINATEMIND",
+        "SPELL_HAMMEROFJUSTICE",
+        "SPELL_HEAL",
+        "SPELL_HOLYSMITE",
+        "SPELL_LAYONHANDS",
+        "SPELL_POWERWORDSHIELD",
+        "SPELL_RETRIBUTIONAURA",
+        "SPELL_SCARLETRESURRECTION"
+      ],
+      "cast_calls": 1,
+      "timing_or_phase_signals": 8,
+      "timer_expression_candidates": [
+        {
+          "line": 227,
+          "expression": "m_creature->CastSpell(nullptr, SPELL_LAYONHANDS, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/instance_scarlet_monastery.cpp",
+      "kind": "instance",
+      "bytes": 8928,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_CHAPEL_DOOR",
+        "GO_WHITEMANE_DOOR",
+        "NPC_ABBOT",
+        "NPC_ARCANIST_DOAN",
+        "NPC_CENTURION",
+        "NPC_CHAMPION",
+        "NPC_CHAPLAIN",
+        "NPC_DEFENDER",
+        "NPC_DEFIAS_CUTPURSE",
+        "NPC_FAIRBANKS",
+        "NPC_HEADLESS_HORSEMAN_EARTHQUAKE_BUNNY",
+        "NPC_HOUNDMASTER_LOKSEY",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_MOGRAINE",
+        "NPC_MONK",
+        "NPC_MYRMIDON",
+        "NPC_SCARLET_ADEPT",
+        "NPC_SCARLET_BEASTMASTER",
+        "NPC_SCARLET_CONJUROR",
+        "NPC_SCARLET_DIVINER",
+        "NPC_SCARLET_EVOKER",
+        "NPC_SCARLET_GALLANT",
+        "NPC_SCARLET_GUARDSMAN",
+        "NPC_SCARLET_PROTECTOR",
+        "NPC_SCARLET_SOLDIER",
+        "NPC_SCARLET_TRACKING_HOUND",
+        "NPC_SORCERER",
+        "NPC_THE_SCARLET_CHAMPION",
+        "NPC_VORREL",
+        "NPC_WHITEMANE",
+        "NPC_WIZARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/scarlet_monastery.h",
+      "kind": "shared",
+      "bytes": 2622,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3974,
+        3975,
+        3976,
+        3977,
+        3981,
+        3983,
+        4286,
+        4287,
+        4288,
+        4289,
+        4290,
+        4291,
+        4292,
+        4294,
+        4295,
+        4296,
+        4297,
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4304,
+        4540,
+        4542,
+        6487,
+        23758
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_CHAPEL_DOOR",
+        "GO_WHITEMANE_DOOR",
+        "NPC_ABBOT",
+        "NPC_ARCANIST_DOAN",
+        "NPC_CENTURION",
+        "NPC_CHAMPION",
+        "NPC_CHAPLAIN",
+        "NPC_DEFENDER",
+        "NPC_DEFIAS_CUTPURSE",
+        "NPC_FAIRBANKS",
+        "NPC_HEADLESS_HORSEMAN_EARTHQUAKE_BUNNY",
+        "NPC_HOUNDMASTER_LOKSEY",
+        "NPC_INTERROGATOR_VISHAS",
+        "NPC_MOGRAINE",
+        "NPC_MONK",
+        "NPC_MYRMIDON",
+        "NPC_SCARLET_ADEPT",
+        "NPC_SCARLET_BEASTMASTER",
+        "NPC_SCARLET_CONJUROR",
+        "NPC_SCARLET_DIVINER",
+        "NPC_SCARLET_EVOKER",
+        "NPC_SCARLET_GALLANT",
+        "NPC_SCARLET_GUARDSMAN",
+        "NPC_SCARLET_PROTECTOR",
+        "NPC_SCARLET_SOLDIER",
+        "NPC_SCARLET_TRACKING_HOUND",
+        "NPC_SORCERER",
+        "NPC_THE_SCARLET_CHAMPION",
+        "NPC_VORREL",
+        "NPC_WHITEMANE",
+        "NPC_WIZARD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2708-scarlet-monastery-graveyard.json",
+      "kind": "shared",
+      "bytes": 4279,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2853-scarlet-monastery-armory.json",
+      "kind": "shared",
+      "bytes": 4276,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2854-scarlet-monastery-cathedral.json",
+      "kind": "shared",
+      "bytes": 4279,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "1b8021c0330e39a194365c94624a6ee372d6d6cd",
+      "path": "datasets/upstream/srhinos-coa-datamine/keystones/2855-scarlet-monastery-library.json",
+      "kind": "shared",
+      "bytes": 4277,
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    }
+  ],
+  "encounters": {
+    "boss_armsmaster_harlan": {
+      "name": "boss_armsmaster_harlan",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/boss_armsmaster_harlan.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_arcanist_doan": {
+      "name": "boss_arcanist_doan",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_arcanist_doan.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_arcanist_doan.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_azshir_the_sleepless": {
+      "name": "boss_azshir_the_sleepless",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_azshir_the_sleepless.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_bloodmage_thalnos": {
+      "name": "boss_bloodmage_thalnos",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_bloodmage_thalnos.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_headless_horseman": {
+      "name": "boss_headless_horseman",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_headless_horseman.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_headless_horseman.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_herod": {
+      "name": "boss_herod",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_herod.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_herod.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_high_inquisitor_fairbanks": {
+      "name": "boss_high_inquisitor_fairbanks",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_high_inquisitor_fairbanks.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_houndmaster_loksey": {
+      "name": "boss_houndmaster_loksey",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_houndmaster_loksey.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_interrogator_vishas": {
+      "name": "boss_interrogator_vishas",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_interrogator_vishas.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_mograine_and_whitemane": {
+      "name": "boss_mograine_and_whitemane",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_mograine_and_whitemane.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_mograine_and_whitemane.cpp"
+      ],
+      "live_reborn_verified": false
+    },
+    "boss_scorn": {
+      "name": "boss_scorn",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_scorn.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
+  "coverage": {
+    "source_files": 47,
+    "by_kind": {
+      "boss": 15,
+      "trash": 0,
+      "instance": 5,
+      "sql": 14,
+      "shared": 13,
+      "other": 0
+    },
+    "npc_ids_candidate": 51,
+    "spell_ids_candidate": 112,
+    "encounter_filename_candidates": 11,
+    "boss_ai_present": true,
+    "trash_ai_explicitly_identified": false,
+    "script_timers_verified": false,
+    "live_reborn_verified": false,
+    "status": "source-candidates-found"
+  }
+}
