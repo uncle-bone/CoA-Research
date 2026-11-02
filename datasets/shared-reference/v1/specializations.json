@@ -1,0 +1,1730 @@
+{
+  "schemaVersion": 1,
+  "domain": "specializations",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 101,
+  "records": [
+    {
+      "classId": 12,
+      "specId": 1,
+      "name": "Headhunting",
+      "sourceTab": "TACTICS",
+      "tabStatus": {
+        "cadTab": "Tactics",
+        "liveTab": "Headhunting",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 12,
+      "specId": 2,
+      "name": "Brutality",
+      "sourceTab": "BRUTALITY",
+      "tabStatus": {
+        "cadTab": "Brutality",
+        "liveTab": "Brutality",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 12,
+      "specId": 3,
+      "name": "Ancestry",
+      "sourceTab": "ANCESTRY",
+      "tabStatus": {
+        "cadTab": "Ancestry",
+        "liveTab": "Ancestry",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 13,
+      "specId": 4,
+      "name": "Shadowhunting",
+      "sourceTab": "SHADOWHUNTING",
+      "tabStatus": {
+        "cadTab": "Shadowhunting",
+        "liveTab": "Shadowhunting",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 13,
+      "specId": 5,
+      "name": "Voodoo",
+      "sourceTab": "VOODOO",
+      "tabStatus": {
+        "cadTab": "Voodoo",
+        "liveTab": "Voodoo",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 13,
+      "specId": 6,
+      "name": "Brewing",
+      "sourceTab": "BREWING",
+      "tabStatus": {
+        "cadTab": "Brewing",
+        "liveTab": "Brewing",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 14,
+      "specId": 7,
+      "name": "Infernal",
+      "sourceTab": "FELBLOOD",
+      "tabStatus": {
+        "cadTab": "Felblood",
+        "liveTab": "Infernal",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 14,
+      "specId": 8,
+      "name": "Slayer",
+      "sourceTab": "SLAYING",
+      "tabStatus": {
+        "cadTab": "Slaying",
+        "liveTab": "Slayer",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 14,
+      "specId": 9,
+      "name": "Tyrant",
+      "sourceTab": "DEMONOLOGY",
+      "tabStatus": {
+        "cadTab": "Demonology",
+        "liveTab": "Tyrant",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 15,
+      "specId": 10,
+      "name": "Boltslinger",
+      "sourceTab": "BOLTSLINGER",
+      "tabStatus": {
+        "cadTab": "Boltslinger",
+        "liveTab": "Boltslinger",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 15,
+      "specId": 11,
+      "name": "Houndmaster",
+      "sourceTab": "DARKNESS",
+      "tabStatus": {
+        "cadTab": "Darkness",
+        "liveTab": "Houndmaster",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 15,
+      "specId": 12,
+      "name": "Inquisition",
+      "sourceTab": "INQUISITION",
+      "tabStatus": {
+        "cadTab": "Inquisition",
+        "liveTab": "Inquisition",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 16,
+      "specId": 13,
+      "name": "Wind",
+      "sourceTab": "WIND",
+      "tabStatus": {
+        "cadTab": "Wind",
+        "liveTab": "Wind",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 16,
+      "specId": 14,
+      "name": "Maelstrom",
+      "sourceTab": "GIFTS",
+      "tabStatus": {
+        "cadTab": "Gifts",
+        "liveTab": "Maelstrom",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 16,
+      "specId": 15,
+      "name": "Lightning",
+      "sourceTab": "LIGHTNING",
+      "tabStatus": {
+        "cadTab": "Lightning",
+        "liveTab": "Lightning",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 17,
+      "specId": 16,
+      "name": "Hellfire",
+      "sourceTab": "HELLFIRE",
+      "tabStatus": {
+        "cadTab": "Hellfire",
+        "liveTab": "Hellfire",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 17,
+      "specId": 17,
+      "name": "Defiance",
+      "sourceTab": "DEFIANCE",
+      "tabStatus": {
+        "cadTab": "Defiance",
+        "liveTab": "Defiance",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 17,
+      "specId": 18,
+      "name": "War",
+      "sourceTab": "WAR",
+      "tabStatus": {
+        "cadTab": "War",
+        "liveTab": "War",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 18,
+      "specId": 19,
+      "name": "Gladiator",
+      "sourceTab": "GLADIATOR",
+      "tabStatus": {
+        "cadTab": "Gladiator",
+        "liveTab": "Gladiator",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 18,
+      "specId": 20,
+      "name": "Inspiration",
+      "sourceTab": "INSPIRATION",
+      "tabStatus": {
+        "cadTab": "Inspiration",
+        "liveTab": "Inspiration",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 18,
+      "specId": 21,
+      "name": "Vanguard",
+      "sourceTab": "PROTECTION",
+      "tabStatus": {
+        "cadTab": "Protection",
+        "liveTab": "Vanguard",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 19,
+      "specId": 22,
+      "name": "Oathkeeper",
+      "sourceTab": "DISCIPLINE",
+      "tabStatus": {
+        "cadTab": "Discipline",
+        "liveTab": "Oathkeeper",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 19,
+      "specId": 23,
+      "name": "Zealot",
+      "sourceTab": "FIGHTING",
+      "tabStatus": {
+        "cadTab": "Fighting",
+        "liveTab": "Zealot",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 19,
+      "specId": 24,
+      "name": "Crusader",
+      "sourceTab": "RUNES",
+      "tabStatus": {
+        "cadTab": "Runes",
+        "liveTab": "Crusader",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 20,
+      "specId": 25,
+      "name": "Fleshweaver",
+      "sourceTab": "FLESHWEAVER",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Fleshweaver",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 20,
+      "specId": 26,
+      "name": "Sanguine",
+      "sourceTab": "BLOOD",
+      "tabStatus": {
+        "cadTab": "Blood",
+        "liveTab": "Sanguine",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 20,
+      "specId": 27,
+      "name": "Accursed",
+      "sourceTab": "FEROCITY",
+      "tabStatus": {
+        "cadTab": "Ferocity",
+        "liveTab": "Accursed",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 21,
+      "specId": 28,
+      "name": "Archery",
+      "sourceTab": "ARCHERY",
+      "tabStatus": {
+        "cadTab": "Archery",
+        "liveTab": "Archery",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 21,
+      "specId": 29,
+      "name": "Farstrider",
+      "sourceTab": "SURVIVAL",
+      "tabStatus": {
+        "cadTab": "Survival",
+        "liveTab": "Farstrider",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 21,
+      "specId": 30,
+      "name": "Brigand",
+      "sourceTab": "DUELING",
+      "tabStatus": {
+        "cadTab": "Dueling",
+        "liveTab": "Brigand",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 22,
+      "specId": 31,
+      "name": "Time",
+      "sourceTab": "DISPLACEMENT",
+      "tabStatus": {
+        "cadTab": "Displacement",
+        "liveTab": "Time",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 22,
+      "specId": 32,
+      "name": "Infinite",
+      "sourceTab": "DUALITY",
+      "tabStatus": {
+        "cadTab": "Duality",
+        "liveTab": "Infinite",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 22,
+      "specId": 33,
+      "name": "Artificer",
+      "sourceTab": "TIME",
+      "tabStatus": {
+        "cadTab": "Time",
+        "liveTab": "Artificer",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 23,
+      "specId": 34,
+      "name": "Death",
+      "sourceTab": "DEATH",
+      "tabStatus": {
+        "cadTab": "Death",
+        "liveTab": "Death",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 23,
+      "specId": 35,
+      "name": "Animation",
+      "sourceTab": "ANIMATION",
+      "tabStatus": {
+        "cadTab": "Animation",
+        "liveTab": "Animation",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 23,
+      "specId": 36,
+      "name": "Rime",
+      "sourceTab": "RIME",
+      "tabStatus": {
+        "cadTab": "Rime",
+        "liveTab": "Rime",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 24,
+      "specId": 37,
+      "name": "Flameweaving",
+      "sourceTab": "DESTRUCTION",
+      "tabStatus": {
+        "cadTab": "Destruction",
+        "liveTab": "Flameweaving",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 24,
+      "specId": 38,
+      "name": "Incineration",
+      "sourceTab": "INCINERATION",
+      "tabStatus": {
+        "cadTab": "Incineration",
+        "liveTab": "Incineration",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 24,
+      "specId": 39,
+      "name": "Draconic",
+      "sourceTab": "DRACONIC",
+      "tabStatus": {
+        "cadTab": "Draconic",
+        "liveTab": "Draconic",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 25,
+      "specId": 40,
+      "name": "Heretic",
+      "sourceTab": "INFLUENCE",
+      "tabStatus": {
+        "cadTab": "Influence",
+        "liveTab": "Heretic",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 25,
+      "specId": 41,
+      "name": "Corruption",
+      "sourceTab": "CORRUPTION",
+      "tabStatus": {
+        "cadTab": "Corruption",
+        "liveTab": "Corruption",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 25,
+      "specId": 42,
+      "name": "Godblade",
+      "sourceTab": "GODBLADE",
+      "tabStatus": {
+        "cadTab": "Godblade",
+        "liveTab": "Godblade",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 26,
+      "specId": 43,
+      "name": "Moon Priest",
+      "sourceTab": "TIDES",
+      "tabStatus": {
+        "cadTab": "Tides",
+        "liveTab": "Moon Priest",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 26,
+      "specId": 44,
+      "name": "Sentinel",
+      "sourceTab": "MOONBOW",
+      "tabStatus": {
+        "cadTab": "Moonbow",
+        "liveTab": "Sentinel",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 26,
+      "specId": 45,
+      "name": "Warden",
+      "sourceTab": "HYDROMANCY",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Warden",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 27,
+      "specId": 46,
+      "name": "Piety",
+      "sourceTab": "PIETY",
+      "tabStatus": {
+        "cadTab": "Piety",
+        "liveTab": "Piety",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 27,
+      "specId": 47,
+      "name": "Valkyrie",
+      "sourceTab": "VALKYR",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Valkyrie",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 27,
+      "specId": 48,
+      "name": "Seraphim",
+      "sourceTab": "SERAPHIM",
+      "tabStatus": {
+        "cadTab": "Seraphim",
+        "liveTab": "Seraphim",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 28,
+      "specId": 49,
+      "name": "Demolition",
+      "sourceTab": "FIREARMS",
+      "tabStatus": {
+        "cadTab": "Firearms",
+        "liveTab": "Demolition",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 28,
+      "specId": 50,
+      "name": "Mechanics",
+      "sourceTab": "MECHANICS",
+      "tabStatus": {
+        "cadTab": "Mechanics",
+        "liveTab": "Mechanics",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 28,
+      "specId": 51,
+      "name": "Invention",
+      "sourceTab": "INVENTION",
+      "tabStatus": {
+        "cadTab": "Invention",
+        "liveTab": "Invention",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 29,
+      "specId": 52,
+      "name": "Fortitude",
+      "sourceTab": "FORTITUDE",
+      "tabStatus": {
+        "cadTab": "Fortitude",
+        "liveTab": "Fortitude",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 29,
+      "specId": 53,
+      "name": "Stalking",
+      "sourceTab": "STALKING",
+      "tabStatus": {
+        "cadTab": "Stalking",
+        "liveTab": "Stalking",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 29,
+      "specId": 54,
+      "name": "Rot",
+      "sourceTab": "VENOM",
+      "tabStatus": {
+        "cadTab": "Venom",
+        "liveTab": "Venom",
+        "match": "cadTabMapping:sameName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 30,
+      "specId": 55,
+      "name": "Soul",
+      "sourceTab": "SOUL",
+      "tabStatus": {
+        "cadTab": "Soul",
+        "liveTab": "Soul",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 30,
+      "specId": 56,
+      "name": "Harvest",
+      "sourceTab": "REAPING",
+      "tabStatus": {
+        "cadTab": "Reaping",
+        "liveTab": "Harvest",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 30,
+      "specId": 57,
+      "name": "Domination",
+      "sourceTab": "DOMINATION",
+      "tabStatus": {
+        "cadTab": "Domination",
+        "liveTab": "Domination",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 31,
+      "specId": 58,
+      "name": "Grovekeeper",
+      "sourceTab": "LIFE",
+      "tabStatus": {
+        "cadTab": "Life",
+        "liveTab": "Life",
+        "match": "cadTabMapping:sameName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 31,
+      "specId": 59,
+      "name": "Wildwalker",
+      "sourceTab": "PRIMAL",
+      "tabStatus": {
+        "cadTab": "Primal",
+        "liveTab": "Primal",
+        "match": "cadTabMapping:sameName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 31,
+      "specId": 60,
+      "name": "Mountain King",
+      "sourceTab": "MOUNTAINKING",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Mountain King",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 32,
+      "specId": 61,
+      "name": "Engravement",
+      "sourceTab": "RUNIC",
+      "tabStatus": {
+        "cadTab": "Runic",
+        "liveTab": "Runic",
+        "match": "cadTabMapping:sameName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 32,
+      "specId": 62,
+      "name": "Glyphic",
+      "sourceTab": "ARCANE",
+      "tabStatus": {
+        "cadTab": "Arcane",
+        "liveTab": "Arcane",
+        "match": "cadTabMapping:sameName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 32,
+      "specId": 63,
+      "name": "Riftblade",
+      "sourceTab": "RIFTBLADE",
+      "tabStatus": {
+        "cadTab": "Riftblade",
+        "liveTab": "Riftblade",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 1,
+      "specId": 64,
+      "name": "Arms",
+      "sourceTab": "ARMS",
+      "tabStatus": {
+        "cadTab": "Arms",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 1,
+      "specId": 65,
+      "name": "Fury",
+      "sourceTab": "FURY",
+      "tabStatus": {
+        "cadTab": "Fury",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 1,
+      "specId": 66,
+      "name": "Protection",
+      "sourceTab": "PROTECTION",
+      "tabStatus": {
+        "cadTab": "Protection",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 2,
+      "specId": 67,
+      "name": "Holy",
+      "sourceTab": "HOLY",
+      "tabStatus": {
+        "cadTab": "Holy",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 2,
+      "specId": 68,
+      "name": "Protection",
+      "sourceTab": "PROTECTION",
+      "tabStatus": {
+        "cadTab": "Protection",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 2,
+      "specId": 69,
+      "name": "Retribution",
+      "sourceTab": "RETRIBUTION",
+      "tabStatus": {
+        "cadTab": "Retribution",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 3,
+      "specId": 70,
+      "name": "Beast Mastery",
+      "sourceTab": "BEASTMASTERY",
+      "tabStatus": {
+        "cadTab": "BeastMastery",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 3,
+      "specId": 71,
+      "name": "Marksmanship",
+      "sourceTab": "MARKSMANSHIP",
+      "tabStatus": {
+        "cadTab": "Marksmanship",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 3,
+      "specId": 72,
+      "name": "Survival",
+      "sourceTab": "SURVIVAL",
+      "tabStatus": {
+        "cadTab": "Survival",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 4,
+      "specId": 73,
+      "name": "Assassination",
+      "sourceTab": "ASSASSINATION",
+      "tabStatus": {
+        "cadTab": "Assassination",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 4,
+      "specId": 74,
+      "name": "Combat",
+      "sourceTab": "COMBAT",
+      "tabStatus": {
+        "cadTab": "Combat",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 4,
+      "specId": 75,
+      "name": "Subtlety",
+      "sourceTab": "SUBTLETY",
+      "tabStatus": {
+        "cadTab": "Subtlety",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 5,
+      "specId": 76,
+      "name": "Discipline",
+      "sourceTab": "DISCIPLINE",
+      "tabStatus": {
+        "cadTab": "Discipline",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 5,
+      "specId": 77,
+      "name": "Holy",
+      "sourceTab": "HOLY",
+      "tabStatus": {
+        "cadTab": "Holy",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 5,
+      "specId": 78,
+      "name": "Shadow",
+      "sourceTab": "SHADOW",
+      "tabStatus": {
+        "cadTab": "Shadow",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 6,
+      "specId": 79,
+      "name": "Blood",
+      "sourceTab": "BLOOD",
+      "tabStatus": {
+        "cadTab": "Blood",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 6,
+      "specId": 80,
+      "name": "Frost",
+      "sourceTab": "FROST",
+      "tabStatus": {
+        "cadTab": "Frost",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 6,
+      "specId": 81,
+      "name": "Unholy",
+      "sourceTab": "UNHOLY",
+      "tabStatus": {
+        "cadTab": "Unholy",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 7,
+      "specId": 82,
+      "name": "Elemental",
+      "sourceTab": "ELEMENTAL",
+      "tabStatus": {
+        "cadTab": "Elemental",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 7,
+      "specId": 83,
+      "name": "Enhancement",
+      "sourceTab": "ENHANCEMENT",
+      "tabStatus": {
+        "cadTab": "Enhancement",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 7,
+      "specId": 84,
+      "name": "Restoration",
+      "sourceTab": "RESTORATION",
+      "tabStatus": {
+        "cadTab": "Restoration",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 8,
+      "specId": 85,
+      "name": "Arcane",
+      "sourceTab": "ARCANE",
+      "tabStatus": {
+        "cadTab": "Arcane",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 8,
+      "specId": 86,
+      "name": "Fire",
+      "sourceTab": "FIRE",
+      "tabStatus": {
+        "cadTab": "Fire",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 8,
+      "specId": 87,
+      "name": "Frost",
+      "sourceTab": "FROST",
+      "tabStatus": {
+        "cadTab": "Frost",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 9,
+      "specId": 88,
+      "name": "Affliction",
+      "sourceTab": "AFFLICTION",
+      "tabStatus": {
+        "cadTab": "Affliction",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 9,
+      "specId": 89,
+      "name": "Destruction",
+      "sourceTab": "DESTRUCTION",
+      "tabStatus": {
+        "cadTab": "Destruction",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 9,
+      "specId": 90,
+      "name": "Demonology",
+      "sourceTab": "DEMONOLOGY",
+      "tabStatus": {
+        "cadTab": "Demonology",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 11,
+      "specId": 91,
+      "name": "Balance",
+      "sourceTab": "BALANCE",
+      "tabStatus": {
+        "cadTab": "Balance",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 11,
+      "specId": 92,
+      "name": "Feral",
+      "sourceTab": "FERAL",
+      "tabStatus": {
+        "cadTab": "Feral",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 11,
+      "specId": 93,
+      "name": "Restoration",
+      "sourceTab": "RESTORATION",
+      "tabStatus": {
+        "cadTab": "Restoration",
+        "liveTab": null,
+        "match": "tabToken",
+        "renamed": null,
+        "status": "noLiveGeometry"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 10,
+      "specId": 94,
+      "name": "Hero",
+      "sourceTab": "HERO",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": null,
+        "match": null,
+        "renamed": null,
+        "status": "noCadClass"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 31,
+      "specId": 95,
+      "name": "Geomancy",
+      "sourceTab": "GEOMANCY",
+      "tabStatus": {
+        "cadTab": "Geomancy",
+        "liveTab": "Geomancy",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 25,
+      "specId": 96,
+      "name": "Dreadnought",
+      "sourceTab": "BULWARK",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Dreadnought",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 15,
+      "specId": 97,
+      "name": "Black Knight",
+      "sourceTab": "WITCHKNIGHT",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Black Knight",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 27,
+      "specId": 98,
+      "name": "Blessings",
+      "sourceTab": "BLESSINGS",
+      "tabStatus": {
+        "cadTab": "Blessings",
+        "liveTab": "Blessings",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 20,
+      "specId": 99,
+      "name": "Eternal",
+      "sourceTab": "PACKLEADER",
+      "tabStatus": {
+        "cadTab": "Packleader",
+        "liveTab": "Eternal",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 26,
+      "specId": 100,
+      "name": "Moon Guard",
+      "sourceTab": "ASTRALWARFARE",
+      "tabStatus": {
+        "cadTab": "AstralWarfare",
+        "liveTab": "Moon Guard",
+        "match": "specName",
+        "renamed": true,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 29,
+      "specId": 101,
+      "name": "Vizier",
+      "sourceTab": "VIZIER",
+      "tabStatus": {
+        "cadTab": null,
+        "liveTab": "Vizier",
+        "match": "specName",
+        "renamed": false,
+        "status": "inLiveBuilder"
+      },
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-specs.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "Historical source; specialization names, status and IDs not independently verified in current client"
+  ]
+}
