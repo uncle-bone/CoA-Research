@@ -29,13 +29,14 @@ def main():
         "limitations":["Script candidates are not live-server validation.",
             "Phase and timer coverage remains unverified until reviewed against scripts and combat logs.",
             "Trash and boss AI may be implemented in SQL or shared scripts and require additional mapping.",
+            "Filename-only trash counts undercount NPC AI in shared scripts; nonboss creature AI counts include escorts, pets and quest support and are not proof of trash combat mechanics.",
             "Source archives are alternatives and not proof of active server deployment."]}
     (dest/"coverage-report.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     gaps=[slug for slug,v in coverage.items() if not v["source_files"] or not v["boss_ai_present"] or not v["trash_ai_explicitly_identified"]]
     print("Instances:",len(coverage),"with source:",report["covered_source_instances"],"gaps:",len(gaps))
     for slug in gaps:
         v=coverage[slug]
-        print("GAP",slug,"source",v["source_files"],"boss",v["boss_ai_present"],"trash",v["trash_ai_explicitly_identified"])
+        print("GAP",slug,"source",v["source_files"],"boss",v["boss_ai_present"],"trash",v["trash_ai_explicitly_identified"],"shared_creature_ai",v.get("shared_creature_ai_source_candidates",0),"nonboss_ai",v.get("nonboss_ai_source_candidates",0))
     if not coverage:
         raise SystemExit("No instances indexed")
 
