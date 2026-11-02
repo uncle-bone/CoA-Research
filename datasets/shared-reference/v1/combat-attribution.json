@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "domain": "combat_attribution",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 1,
+  "records": [
+    {
+      "recordType": "classification_policy",
+      "id": "guid-flags-quarantine-v1",
+      "rules": [
+        "Prefer sourceGUID/sourceFlags/destGUID/destFlags over NPC ID/name",
+        "Do not promote friendly player/pet/guardian abilities to hostile dungeon discovery",
+        "Unknown ownership goes to quarantine",
+        "Hostile NPC candidate is not automatically a verified boss"
+      ],
+      "sourcePath": "research/dbm/class-pet-summon-ownership-classification-2026-11-01.md",
+      "sourceExtractionDate": "2026-11-01",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "Design-only; not validated in 3.3.5a runtime"
+  ]
+}
