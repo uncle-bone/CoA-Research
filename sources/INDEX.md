@@ -1,6 +1,6 @@
 # CoA source index
 
-Last cataloged: 2026-10-29. Dates/counts below describe prior inspections, not a live guarantee of completeness.
+Last cataloged: 2026-11-02. Dates/counts below describe prior inspections, not a live guarantee of completeness.
 
 ## Official and core adjacent
 | Source | URL | Research use |
@@ -8,7 +8,7 @@ Last cataloged: 2026-10-29. Dates/counts below describe prior inspections, not a
 | World0fWarcraft GitHub organization | https://github.com/World0fWarcraft | Broad historical Vanilla/TBC/Wrath emulator, 3.3.5a database, WoWDBDefs, packet and development tools catalog; [selected repositories](../research/sources/world0fwarcraft-github-repository-catalog-2026-10-31.json) |
 | TrinityCore project | https://www.trinitycore.org/ | Official emulator project documentation and background; historical comparative reference, not CoA authoritative data |
 | TrinityCore GitHub (3.3.5 branch) | https://github.com/TrinityCore/TrinityCore/tree/3.3.5 | Compare Vanilla/TBC/Wrath NPCs, spells, quests, instance scripts, world SQL and core APIs against CoA-specific code; [source registration](../research/sources/trinitycore-upstream-335-reference-2026-10-31.json) |
-| CoA AzerothCore repository | https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa | C++ core, modules, world SQL, custom mechanics; contains `modules/mod-ascension`, `modules/mod-spellbook`, `data/coa-world`, `src/server` |
+| CoA AzerothCore repository | https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa | C++ core, modules, world SQL, custom mechanics; contains `modules/mod-ascension`, `modules/mod-spellbook`, `data/coa-world`, `src/server`; targeted class/spec and summon ownership findings pinned to commit `9f22d992e39410c6869d1efad6426f0fd2eef081` are documented in [Details-CoA research](../research/DETAILS-COA-CLASS-SPEC-SERVER-SOURCE-2026-11-02.md) |
 | CoA talents | https://coa-development.org/talents | Class/spec talent presentation; test-realm differences possible |
 | Ascension DB website | https://ascension-db.ascension-archive.workers.dev/ | Item, spell, NPC and other archived Ascension reference material |
 | CoA server manager | https://github.com/Corfirean/coa-server-manager | Server tooling and setup |

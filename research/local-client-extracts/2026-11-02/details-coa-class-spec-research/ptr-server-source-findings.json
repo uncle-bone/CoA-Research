@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": {
+    "url": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+    "owner": "Conquest-of-AzerothCore",
+    "name": "azerothcore-wotlk-coa",
+    "branch": "main",
+    "inspectedCommit": "9f22d992e39410c6869d1efad6426f0fd2eef081",
+    "commitDateUtc": "2026-11-02T17:01:41Z",
+    "confidence": "repository-source snapshot; deployment to a particular PTR realm not verified"
+  },
+  "findings": [
+    {
+      "id": "active-specialization-state",
+      "classification": "server-source/documentation-derived",
+      "confidence": "high for described implementation at inspected commit; realm deployment unverified",
+      "details": [
+        "Server active specialization is stored in character setting core.ascension_active_spec.",
+        "Catalog data comes from client CharacterAdvancement.dbc and ChrSpecs.dbc.",
+        "Server derives learned talent rank from character_spell; it does not maintain a separate talent table.",
+        "Specialization-to-tab matching uses internal token from ChrSpecs field 2 joined to class token and CharacterAdvancement tab token. Display name is a separate field and must not be used as join key.",
+        "Client C_CharacterAdvancement.GetActiveChrSpec resolves specialization from held identity entries; server sends active slot index/capacity separately."
+      ],
+      "source": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa/blob/9f22d992e39410c6869d1efad6426f0fd2eef081/.agents/docs/systems/ascension-talents.md"
+    },
+    {
+      "id": "wire-level-advancement-api",
+      "classification": "repository-source/documentation-derived",
+      "confidence": "high for documented protocol; validate exact current client build before addon assumptions",
+      "details": [
+        "SMSG 0x0725 contains active specialization slot index and slot count. CoA classes are documented as receiving capacity 20.",
+        "SMSG 0x0726 carries complete known-entry state and follows initial state, uploads, resets, specialization switches, and level changes.",
+        "ASCENSION_CA_SPECIALIZATION_ACTIVE_ID_CHANGED is a shipped client event registered by the UI; event handler should refresh by querying C_CharacterAdvancement.GetActiveChrSpec.",
+        "Inspect uses CMSG 0x06E1 and SMSG 0x06E2; server can return active slot and known entries."
+      ],
+      "source": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa/blob/9f22d992e39410c6869d1efad6426f0fd2eef081/.agents/docs/systems/ascension-talents.md"
+    },
+    {
+      "id": "spell-aliasing-risk",
+      "classification": "repository-source/documentation-derived",
+      "confidence": "medium until class/spec and spell catalog joins are built",
+      "details": [
+        "Repository documents Warcraft Reborn stock-spell twins: custom Reborn spell IDs may be stock spell ID + 1,100,000.",
+        "A Details parser keyed only to stock spell IDs may miss custom Reborn spell events; normalize with explicit alias rows only when name/effect identity is supported."
+      ],
+      "source": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa/blob/9f22d992e39410c6869d1efad6426f0fd2eef081/.agents/docs/systems/warcraft-reborn-spell-twins.md"
+    },
+    {
+      "id": "tinker-summon-ownership-source-example",
+      "classification": "server-source-derived",
+      "confidence": "high for source behavior in repository snapshot; deployment and runtime logs unverified",
+      "details": [
+        "TinkerState tracks summons in a set of ObjectGuid values.",
+        "Source declares Owner(Unit const*), Owned(Player*,Unit*), PetCast, Summon, DeviceEvent, and device/summon lifecycle helpers.",
+        "This is promising server evidence for owner attribution and summon lifetime; it does not itself prove what combat-log source flags the client receives."
+      ],
+      "source": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa/blob/9f22d992e39410c6869d1efad6426f0fd2eef081/src/server/coa/AscensionTinker.h"
+    },
+    {
+      "id": "class-coverage-pending",
+      "classification": "unresolved",
+      "confidence": "unknown",
+      "details": [
+        "The targeted search establishes class-advancement infrastructure and one Tinker-specific ownership API.",
+        "A complete class-by-class spell/summon mapping still requires a systematic pass over CharacterAdvancement DBC/SQL migrations and src/server/coa class scripts.",
+        "Code in public main is not proof that a PTR realm deployed it or that a live character uses the behavior."
+      ],
+      "source": "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa"
+    }
+  ],
+  "implementationGuidance": [
+    "Use runtime client APIs as first choice for the player’s active class/spec; query after specialization-change event.",
+    "Maintain both displayName and internal spec token in the Details class/spec registry.",
+    "Store spell aliases as explicit normalized relationships with provenance; do not blindly add 1,100,000 to arbitrary spell IDs.",
+    "For pets, track owner GUID separately from unit GUID and preserve unknown attribution when an event arrives before owner association.",
+    "Keep repository-derived evidence separate from live combat-log-observed evidence."
+  ]
+}

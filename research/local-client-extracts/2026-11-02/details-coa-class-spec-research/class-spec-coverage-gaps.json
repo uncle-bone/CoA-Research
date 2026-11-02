@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "knownRosterCounts": {
+    "classes": 21,
+    "archivedSpecializations": 70
+  },
+  "specsWithoutDirectInstalledTabMapping": [
+    {
+      "classId": 20,
+      "className": "Bloodmage",
+      "specId": 25,
+      "displaySpecName": "Fleshweaver",
+      "archivedTalentTab": "Fleshweaver",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 26,
+      "className": "Starcaller",
+      "specId": 45,
+      "displaySpecName": "Warden",
+      "archivedTalentTab": "Warden",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 27,
+      "className": "Sun Cleric",
+      "specId": 47,
+      "displaySpecName": "Valkyrie",
+      "archivedTalentTab": "Valkyrie",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 31,
+      "className": "Primalist",
+      "specId": 60,
+      "displaySpecName": "Mountain King",
+      "archivedTalentTab": "Mountain King",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 25,
+      "className": "Cultist",
+      "specId": 96,
+      "displaySpecName": "Dreadnought",
+      "archivedTalentTab": "Dreadnought",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 15,
+      "className": "Witch Hunter",
+      "specId": 97,
+      "displaySpecName": "Black Knight",
+      "archivedTalentTab": "Black Knight",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    },
+    {
+      "classId": 29,
+      "className": "Venomancer",
+      "specId": 101,
+      "displaySpecName": "Vizier",
+      "archivedTalentTab": "Vizier",
+      "reason": "archivedCadTab is null; installed client JSON tab match cannot be checked from this field"
+    }
+  ],
+  "runtimeVerificationRequired": true,
+  "unknowns": [
+    "Exact active spec IDs and names per character without a live client query",
+    "Current-client availability for archived spell IDs",
+    "Ability ownership by class/spec for generic skill-card links",
+    "Pet/guardian runtime ownership and GUID transitions",
+    "Combat-log event ordering and attribution"
+  ]
+}
