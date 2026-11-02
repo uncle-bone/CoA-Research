@@ -67,7 +67,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create coa-priority-encounters-${{ github.run_id }} CoA-All-Instance-Scripts.zip dbm-priority-encounters.json datasets/instance-scripts/priority/coverage-report.json --title "CoA priority dungeons + ZG research" --notes "Public-source research candidates, not verified live Conquest Reborn mechanics. Source revisions and file provenance are in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
+          gh release create coa-priority-encounters-${{ github.run_id }} CoA-All-Instance-Scripts.zip dbm-priority-encounters.json datasets/instance-scripts/priority/coverage-report.json --title "CoA priority dungeons + ZG research" --notes "Updated shared creature AI classification; three unresolved boss combat AI source gaps documented in research/priority-dungeon-source-coverage-gap-analysis-2026-11-02.md. Candidate public-source mechanics only; no live Conquest Reborn verification. Source revisions in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
       - uses: actions/upload-artifact@v4
         with:
           name: CoA-All-Instance-Scripts
