@@ -17,6 +17,8 @@ jobs:
           python-version: '3.12'
       - name: Check research tools compile
         run: python -m py_compile tools/collect_coa_instance_scripts.py tools/index_instance_scripts.py tools/build_encounter_database.py tools/publish_encounter_coverage.py
+      - name: Validate classifier regexes
+        run: python -c "import tools.build_encounter_database as m; print(m.CREATURE_AI.pattern, m.BOSS_AI.pattern, m.TRASH_AI.pattern)"
       - name: Collect six source repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
