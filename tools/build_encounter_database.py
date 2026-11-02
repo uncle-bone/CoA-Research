@@ -41,6 +41,7 @@ def norm(s):
 def parse(archive):
     db = {k: {"instance":k, "source_files":[], "encounters":{}, "coverage":{}} for k in INSTANCE_TERMS}
     manifest = {}
+    global_sources = []
     with zipfile.ZipFile(archive) as z:
         bad = z.testzip()
         if bad:
@@ -54,6 +55,8 @@ def parse(archive):
             key = norm(path)
             matches = [slug for slug,terms in INSTANCE_TERMS.items() if any(norm(term) in key for term in terms)]
             if not matches:
+                if path.startswith("src/server/coa/CoADungeon") or path.endswith(("boss_kits_scripted.sql", "dungeon_boss_fierce_blow.sql", "dungeon_main_kits_precedence.sql")):
+                    global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","evidence":"collected-source-file","live_reborn_verified":False})
                 continue
             data = z.read(name).decode("utf-8", errors="replace")
             basename = path.rsplit("/",1)[-1].lower()
@@ -120,7 +123,7 @@ def parse(archive):
     return {"schema":"coa-dbm-encounter-research-v1",
       "warning":"Candidate source data only. Numeric IDs may be unrelated to runtime use; timings and phases are NOT verified. Review script behavior and live combat logs.",
       "archive_integrity":"zip-testzip-passed",
-      "sources":manifest.get("sources",[]),"instances":db}
+      "sources":manifest.get("sources",[]),"cross_instance_sources":global_sources,"instances":db}
 
 if __name__=="__main__":
     p=argparse.ArgumentParser()
