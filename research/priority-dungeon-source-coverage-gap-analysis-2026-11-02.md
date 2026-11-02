@@ -20,6 +20,12 @@ The updated index records `creature_ai_source_candidate`, `boss_ai_source_candid
 
 The old field `trash_ai_explicitly_identified` is **filename-based only** and should never have been interpreted as complete trash coverage. The source archives contain NPC scripts in shared `.cpp` files, but many are escort, quest, pet, or event helpers. Classifying every `npc_` symbol as hostile trash would inflate coverage. The revised database reports separate nonboss/shared creature AI candidates and retains the original conservative filename count.
 
+## Additional discovery: global CoA dungeon mechanics were omitted by the collector
+
+The public CoA fork contains `src/server/coa/CoADungeonBossKit.cpp`, `src/server/coa/CoADungeonBossSpells.cpp`, and `src/server/coa/CoADungeonNormal.cpp`. These are **outside** the former `src/server/scripts/` path filter. For example, `data/sql/updates/pending_db_world/rev_20261002_40_wailing_caverns.sql` maps Skum's Overrun (spell 2102624) to `spell_coa_skum_overrun`, implemented in `CoADungeonBossSpells.cpp`. The generic kit SQL `data/sql/updates/pending_db_world/rev_20261001_10_boss_kits_scripted.sql` defines NPC/spell/timing rows for multiple dungeons.
+
+**Disposition:** missing from collected source set because of the path filter (**category a**). Collector now includes the global dungeon C++ handlers and relevant global boss kit SQL, and the encounter database records them as **cross-instance sources**. They are not blindly assigned to a particular dungeon without NPC/SQL mapping. These source implementations are public reference candidates, not verified deployed Conquest Reborn behavior.
+
 ## Remaining evidence-based gaps
 
 - Three instances still lack independently identified boss combat AI in the inspected six-source collection. This is a **source-coverage gap**, not a claim that live Conquest Reborn lacks those bosses.
