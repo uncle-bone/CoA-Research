@@ -36,6 +36,8 @@ jobs:
           assert len(d['instances'])==22, 'Wrong priority scope'
           print('Verified archive integrity and',len(m['files']),'source entries across',len(d['instances']),'instances')
           PY
+      - name: Publish per-instance research and coverage report
+        run: python tools/publish_encounter_coverage.py dbm-priority-encounters.json
       - name: Extract source inventory
         run: |
           mkdir -p datasets/instance-scripts
@@ -52,11 +54,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add datasets/instance-scripts/source-inventory.json
+          git add datasets/instance-scripts/source-inventory.json datasets/instance-scripts/priority
           if ! git diff --cached --quiet; then
             git commit -m "data: index six-source dungeon and raid script collection"
             git push
           fi
+      - name: Create permanent source archive release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create coa-priority-encounters-latest CoA-All-Instance-Scripts.zip dbm-priority-encounters.json --title "CoA priority dungeons + ZG research" --notes "Public-source research candidates, not verified live Conquest Reborn mechanics. Source revisions and file provenance are in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
       - uses: actions/upload-artifact@v4
         with:
           name: CoA-All-Instance-Scripts
@@ -64,5 +71,6 @@ jobs:
             CoA-All-Instance-Scripts.zip
             instance-script-symbol-index.json
             dbm-priority-encounters.json
+            datasets/instance-scripts/priority/coverage-report.json
           retention-days: 30
           compression-level: 0
