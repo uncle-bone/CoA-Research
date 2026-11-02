@@ -1,0 +1,141 @@
+{
+  "schema": "coa-blackrock-caverns-reference-v1",
+  "note": "TrinityCore source candidate mechanics; not confirmed Conquest Reborn. Numeric constants not validated against 3.3.5a.",
+  "files": [
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp",
+      "sha": "2915f04a156da4204ebf8a498061aedcb1ea46d3",
+      "bytes": 4933,
+      "spell_ids_candidate": [
+        82137,
+        75539,
+        75272,
+        75543,
+        75571
+      ],
+      "npc_ids_candidate": [],
+      "event_identifiers": [
+        "EVENT_CHAINS_OF_WOE",
+        "EVENT_QUAKE",
+        "EVENT_SKULLCRACKER",
+        "EVENT_WOUNDING_STRIKE"
+      ],
+      "phase_identifiers": [],
+      "timing_call_sites": 7,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp",
+      "sha": "88ce3101be9ad30eb716a3b458a60ce9dc5392b7",
+      "bytes": 3888,
+      "spell_ids_candidate": [
+        75610,
+        75645,
+        35322
+      ],
+      "npc_ids_candidate": [],
+      "event_identifiers": [
+        "EVENT_DRAIN_ESSENSE",
+        "EVENT_STOP_DRAIN_ESSENSE",
+        "EVENT_EVOLUTION"
+      ],
+      "phase_identifiers": [],
+      "timing_call_sites": 4,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp",
+      "sha": "22a7caef73f7dbaf674df96dd94afed734f5f04e",
+      "bytes": 3296,
+      "spell_ids_candidate": [
+        15284,
+        75842,
+        75846
+      ],
+      "npc_ids_candidate": [],
+      "event_identifiers": [
+        "EVENT_CLEAVE",
+        "EVENT_QUICKSILVER_ARMOR",
+        "EVENT_SUPERHEATED_QUICKSILVER_ARMOR"
+      ],
+      "phase_identifiers": [],
+      "timing_call_sites": 2,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp",
+      "sha": "49a9e33f719892129d1fc8fcb34eae92bf299020",
+      "bytes": 3841,
+      "spell_ids_candidate": [
+        76028,
+        76030,
+        76031,
+        76032,
+        82395
+      ],
+      "npc_ids_candidate": [],
+      "event_identifiers": [
+        "EVENT_TERRIFYING_ROAR",
+        "EVENT_BERSERKER_CHARGE",
+        "EVENT_MAGMA_SPIT",
+        "EVENT_FLAMEBREAK",
+        "EVENT_BERSERK"
+      ],
+      "phase_identifiers": [],
+      "timing_call_sites": 6,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp",
+      "sha": "38a4eb6f5157367f6556e304dbfd751b12951fe4",
+      "bytes": 3246,
+      "spell_ids_candidate": [
+        36021,
+        36022,
+        35280
+      ],
+      "npc_ids_candidate": [],
+      "event_identifiers": [
+        "EVENT_MANA_TAP",
+        "EVENT_ARCANE_TORRENT",
+        "EVENT_DOMINATION"
+      ],
+      "phase_identifiers": [],
+      "timing_call_sites": 2,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/instance_blackrock_caverns.cpp",
+      "sha": "6b23fe23bd891fda3b9e9e8204327ef945837519",
+      "bytes": 2641,
+      "spell_ids_candidate": [],
+      "npc_ids_candidate": [],
+      "event_identifiers": [],
+      "phase_identifiers": [],
+      "timing_call_sites": 0,
+      "live_reborn_verified": false
+    },
+    {
+      "source": "TrinityCore/TrinityCore",
+      "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.h",
+      "sha": "19ac3c0d538062704a22368fe6fa5f95e3d6de50",
+      "bytes": 1639,
+      "spell_ids_candidate": [],
+      "npc_ids_candidate": [
+        39708,
+        39670,
+        39665
+      ],
+      "event_identifiers": [],
+      "phase_identifiers": [],
+      "timing_call_sites": 0,
+      "live_reborn_verified": false
+    }
+  ]
+}
