@@ -13,7 +13,7 @@ import urllib.request
 import zipfile
 
 API = "https://api.github.com"
-SOURCE = "Conquest-of-AzerothCore/azerothcore-wotlk-coa"
+SOURCES = ("Conquest-of-AzerothCore/azerothcore-wotlk-coa", "azerothcore/azerothcore-wotlk", "TrinityCore/TrinityCore", "Zyth45/azerothcore-wotlk-coa", "cmangos/mangos-wotlk")
 REGIONS = ("EasternKingdoms/", "Kalimdor/", "Northrend/", "Outland/")
 SCRIPT_PREFIX = "src/server/scripts/"
 SQL_PREFIX = "data/sql/"
@@ -29,40 +29,55 @@ def request(url):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ref", default="main", help="CoA core branch, tag, or commit")
+    ap.add_argument("--ref", default=None, help="Override ref (single-source only)")
+    ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="owner/repo names")
     ap.add_argument("--output", default="coa-core-instance-scripts.zip")
     ap.add_argument("--include-sql", action="store_true", help="Include relevant SQL update files (can be large)")
     args = ap.parse_args()
-    ref = json.loads(request(f"{API}/repos/{SOURCE}/commits/{args.ref}"))
-    sha = ref["sha"]
-    # Download a single pinned source archive instead of making thousands of API calls.
-    # This avoids GitHub's per-hour API rate limit for individual file contents.
-    archive = request(f"https://codeload.github.com/{SOURCE}/zip/{sha}")
+    if args.ref and len(args.sources) != 1:
+        ap.error("--ref requires exactly one --sources entry")
     output = pathlib.Path(args.output)
-    manifest = {"source": f"https://github.com/{SOURCE}", "revision": sha,
-                "evidence": "assumed-coa-core", "verified_on_conquest_reborn": False,
-                "scripts": [], "sql_filter": "filename-based only; not exhaustive" if args.include_sql else "not included"}
-    with zipfile.ZipFile(io.BytesIO(archive)) as source_zip, zipfile.ZipFile(
-        output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6
-    ) as z:
-        for info in source_zip.infolist():
-            if info.is_dir():
-                continue
-            path = info.filename.split("/", 1)[-1]
-            selected = (path.startswith(SCRIPT_PREFIX + REGIONS) and path.endswith((".cpp", ".h")))
-            if args.include_sql and path.startswith(SQL_PREFIX) and path.endswith(".sql"):
-                selected = selected or any(word in path.lower() for word in INSTANCE_WORDS)
-            if not selected:
-                continue
-            raw = source_zip.read(info)
-            z.writestr("source/" + path, raw)
-            manifest["scripts"].append({"path": path, "bytes": len(raw)})
-        if not manifest["scripts"]:
-            raise RuntimeError("No matching files: check source tree or ref")
+    manifest = {"schema": 2, "baseline": "assumed-coa-core",
+                "verified_on_conquest_reborn": False, "sources": [], "files": [],
+                "notes": ["This is a multi-source reference archive, not a verified Reborn script corpus.",
+                          "SQL updates are included whole with --include-sql; database snapshots must be collected separately.",
+                          "Multiple implementations of an encounter are alternatives, not merged behavior."]}
+    with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+        for source in args.sources:
+            if "/" not in source or source.count("/") != 1:
+                raise ValueError(f"Invalid owner/repo: {source}")
+            revision = args.ref or json.loads(request(f"{API}/repos/{source}"))["default_branch"]
+            sha = json.loads(request(f"{API}/repos/{source}/commits/{revision}"))["sha"]
+            archive = request(f"https://codeload.github.com/{source}/zip/{sha}")
+            count = 0
+            with zipfile.ZipFile(io.BytesIO(archive)) as src:
+                for info in src.infolist():
+                    if info.is_dir():
+                        continue
+                    path = info.filename.split("/", 1)[-1]
+                    lower = path.lower()
+                    is_script = (
+                        (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower)
+                        and lower.endswith((".cpp", ".h", ".lua"))
+                    )
+                    is_sql = args.include_sql and lower.endswith(".sql") and (
+                        path.startswith(SQL_PREFIX) or "/sql/" in lower
+                    )
+                    if not (is_script or is_sql):
+                        continue
+                    raw = src.read(info)
+                    dest = f"source/{source}/{path}"
+                    z.writestr(dest, raw)
+                    manifest["files"].append({"source": source, "revision": sha, "path": path,
+                                              "bytes": len(raw), "kind": "sql" if is_sql else "script"})
+                    count += 1
+            manifest["sources"].append({"repository": source, "revision": sha, "file_count": count})
+            print(f"{source}: {count} files at {sha}", flush=True)
+        if not manifest["files"]:
+            raise RuntimeError("No matching scripts found")
         z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\\n")
-        z.writestr("README.txt", "Public CoA/AzerothCore reference scripts, NOT verified Conquest Reborn scripts. Original licensing applies; see source repository LICENSE (GPL-2.0).\\n")
-    entries = manifest["scripts"]
-    print(f"Saved {output} with {len(entries)} files at {sha}")
+        z.writestr("README.txt", "Research reference archive. Scripts are not verified against Conquest Reborn. Each source retains its original copyright and license; consult upstream repositories before redistribution.\\n")
+    print(f"Saved {output} with {len(manifest['files'])} files")
 
 if __name__ == "__main__":
     main()
