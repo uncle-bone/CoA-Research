@@ -1,5 +1,7 @@
 # CoA Research — Conquest Reborn Addon & Data Hub
 
+> **[Download](https://github.com/uncle-bone/CoA-Research/releases/latest)**
+
 **Maintainer:** Uncle Bone · [@uncle-bone](https://github.com/uncle-bone)
 
 A searchable collection of research, reference data, and engineering notes supporting addons for Ascension's **Conquest of Azeroth / Conquest Reborn**. It brings together the sources and compatibility findings used to build, update, and maintain the CoA addon lineup, alongside preservation work for useful community data and older projects.
