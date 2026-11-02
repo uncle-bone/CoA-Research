@@ -21,6 +21,21 @@ jobs:
         run: python tools/collect_coa_instance_scripts.py --priority-only --include-sql --output CoA-All-Instance-Scripts.zip
       - name: Index encounter script symbols
         run: python tools/index_instance_scripts.py CoA-All-Instance-Scripts.zip --output instance-script-symbol-index.json
+      - name: Build per-instance DBM encounter research
+        run: python tools/build_encounter_database.py CoA-All-Instance-Scripts.zip --output dbm-priority-encounters.json
+      - name: Validate archive and coverage
+        run: |
+          python - <<'PY'
+          import json,zipfile
+          with zipfile.ZipFile('CoA-All-Instance-Scripts.zip') as z:
+              assert z.testzip() is None, 'Corrupt ZIP entry'
+              m=json.loads(z.read('manifest.json'))
+              assert m['files'], 'Empty archive'
+              assert any(s.get('repository')=='Conquest-of-AzerothCore/azerothcore-wotlk-coa' and s.get('status')=='collected' for s in m['sources']), 'Primary CoA source unavailable'
+          d=json.load(open('dbm-priority-encounters.json'))
+          assert len(d['instances'])==22, 'Wrong priority scope'
+          print('Verified archive integrity and',len(m['files']),'source entries across',len(d['instances']),'instances')
+          PY
       - name: Extract source inventory
         run: |
           mkdir -p datasets/instance-scripts
@@ -48,5 +63,6 @@ jobs:
           path: |
             CoA-All-Instance-Scripts.zip
             instance-script-symbol-index.json
+            dbm-priority-encounters.json
           retention-days: 30
           compression-level: 0
