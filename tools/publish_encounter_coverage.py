@@ -22,6 +22,8 @@ def main():
     report={"schema":"coa-dbm-priority-coverage-v1",
         "archive_integrity":db["archive_integrity"],
         "source_statuses":db["sources"],
+        "cross_instance_sources":db.get("cross_instance_sources",[]),
+        "cross_instance_source_count":len(db.get("cross_instance_sources",[])),
         "instance_count":len(coverage),
         "covered_source_instances":sum(x["source_files"]>0 for x in coverage.values()),
         "instances":coverage,
