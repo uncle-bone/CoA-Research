@@ -15,6 +15,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check research tools compile
+        run: python -m py_compile tools/collect_coa_instance_scripts.py tools/index_instance_scripts.py tools/build_encounter_database.py tools/publish_encounter_coverage.py
       - name: Collect six source repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -63,7 +65,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create coa-priority-encounters-latest CoA-All-Instance-Scripts.zip dbm-priority-encounters.json --title "CoA priority dungeons + ZG research" --notes "Public-source research candidates, not verified live Conquest Reborn mechanics. Source revisions and file provenance are in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
+          gh release create coa-priority-encounters-${{ github.run_id }} CoA-All-Instance-Scripts.zip dbm-priority-encounters.json datasets/instance-scripts/priority/coverage-report.json --title "CoA priority dungeons + ZG research" --notes "Public-source research candidates, not verified live Conquest Reborn mechanics. Source revisions and file provenance are in manifest.json." --latest=false --target "${{ github.sha }}" || echo "Release upload unavailable; workflow artifact remains the fallback."
       - uses: actions/upload-artifact@v4
         with:
           name: CoA-All-Instance-Scripts
