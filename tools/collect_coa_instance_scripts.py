@@ -20,6 +20,8 @@ SQL_PREFIX = "data/sql/"
 EXTENSIONS = (".cpp", ".h", ".sql")
 INSTANCE_WORDS = ("instance_", "boss_", "dungeon", "raid", "creature", "smartai", "waypoint", "areatrigger", "gameobject")
 
+PRIORITY_PATH_TERMS = ['ragefire','wailing','deadmines','shadowfang','blackfathom','stockade','gnomeregan','razorfen','scarlet','uldaman','zulfarrak','maraudon','sunken','atalhakkar','blackrock','diremaul','scholomance','stratholme','zulgurub']
+
 def request(url):
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "CoA-Research-instance-script-collector"}
     if os.getenv("GITHUB_TOKEN"):
@@ -33,16 +35,18 @@ def main():
     ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="owner/repo names")
     ap.add_argument("--output", default="coa-core-instance-scripts.zip")
     ap.add_argument("--include-sql", action="store_true", help="Include relevant SQL update files (can be large)")
+    ap.add_argument("--priority-only", action="store_true", help="Collect named classic dungeon and ZG scripts; SQL and research remain broad")
     args = ap.parse_args()
     if args.ref and len(args.sources) != 1:
         ap.error("--ref requires exactly one --sources entry")
     output = pathlib.Path(args.output)
-    manifest = {"schema": 2, "baseline": "assumed-coa-core",
+    manifest = {"schema": 2, "priority_only": args.priority_only, "baseline": "assumed-coa-core",
                 "verified_on_conquest_reborn": False, "sources": [], "files": [],
                 "notes": ["This is a multi-source reference archive, not a verified Reborn script corpus.",
                           "SQL updates are included whole with --include-sql; database snapshots must be collected separately.",
                           "Multiple implementations of an encounter are alternatives, not merged behavior.",
-                          "CoA-Research data is included as research evidence, not executable server AI."]}
+                          "CoA-Research data is included as research evidence, not executable server AI.",
+                          "Priority filtering uses filenames and may miss shared scripts; coverage audit required."]}
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for source in args.sources:
             if "/" not in source or source.count("/") != 1:
@@ -61,6 +65,9 @@ def main():
                         (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower)
                         and lower.endswith((".cpp", ".h", ".lua"))
                     )
+                    if args.priority_only and is_script:
+                        normalized = lower.replace("-", "").replace("_", "").replace(" ", "")
+                        is_script = any(term in normalized for term in PRIORITY_PATH_TERMS)
                     is_research = source == "uncle-bone/CoA-Research" and (
                         path.startswith(("datasets/", "research/", "docs/"))
                         and lower.endswith((".json", ".jsonl", ".csv", ".md", ".txt", ".lua", ".sql"))
