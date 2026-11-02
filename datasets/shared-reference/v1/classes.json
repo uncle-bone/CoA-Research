@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "domain": "classes",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 21,
+  "records": [
+    {
+      "classId": 12,
+      "name": "Barbarian",
+      "internalToken": "BARBARIAN",
+      "specializationIds": [
+        1,
+        2,
+        3
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 13,
+      "name": "Witch Doctor",
+      "internalToken": "WITCHDOCTOR",
+      "specializationIds": [
+        4,
+        5,
+        6
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 14,
+      "name": "Felsworn",
+      "internalToken": "DEMONHUNTER",
+      "specializationIds": [
+        7,
+        8,
+        9
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 15,
+      "name": "Witch Hunter",
+      "internalToken": "WITCHHUNTER",
+      "specializationIds": [
+        10,
+        11,
+        12,
+        97
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 16,
+      "name": "Stormbringer",
+      "internalToken": "STORMBRINGER",
+      "specializationIds": [
+        13,
+        14,
+        15
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 17,
+      "name": "Knight of Xoroth",
+      "internalToken": "FLESHWARDEN",
+      "specializationIds": [
+        16,
+        17,
+        18
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 18,
+      "name": "Guardian",
+      "internalToken": "GUARDIAN",
+      "specializationIds": [
+        19,
+        20,
+        21
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 19,
+      "name": "Templar",
+      "internalToken": "MONK",
+      "specializationIds": [
+        22,
+        23,
+        24
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 20,
+      "name": "Bloodmage",
+      "internalToken": "SONOFARUGAL",
+      "specializationIds": [
+        25,
+        26,
+        27,
+        99
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 21,
+      "name": "Ranger",
+      "internalToken": "RANGER",
+      "specializationIds": [
+        28,
+        29,
+        30
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 22,
+      "name": "Chronomancer",
+      "internalToken": "CHRONOMANCER",
+      "specializationIds": [
+        31,
+        32,
+        33
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 23,
+      "name": "Necromancer",
+      "internalToken": "NECROMANCER",
+      "specializationIds": [
+        34,
+        35,
+        36
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 24,
+      "name": "Pyromancer",
+      "internalToken": "PYROMANCER",
+      "specializationIds": [
+        37,
+        38,
+        39
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 25,
+      "name": "Cultist",
+      "internalToken": "CULTIST",
+      "specializationIds": [
+        40,
+        41,
+        42,
+        96
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 26,
+      "name": "Starcaller",
+      "internalToken": "STARCALLER",
+      "specializationIds": [
+        43,
+        44,
+        45,
+        100
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 27,
+      "name": "Sun Cleric",
+      "internalToken": "SUNCLERIC",
+      "specializationIds": [
+        46,
+        47,
+        48,
+        98
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 28,
+      "name": "Tinker",
+      "internalToken": "TINKER",
+      "specializationIds": [
+        49,
+        50,
+        51
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 29,
+      "name": "Venomancer",
+      "internalToken": "PROPHET",
+      "specializationIds": [
+        52,
+        53,
+        54,
+        101
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 30,
+      "name": "Reaper",
+      "internalToken": "REAPER",
+      "specializationIds": [
+        55,
+        56,
+        57
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 31,
+      "name": "Primalist",
+      "internalToken": "WILDWALKER",
+      "specializationIds": [
+        58,
+        59,
+        60,
+        95
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    },
+    {
+      "classId": 32,
+      "name": "Runemaster",
+      "internalToken": "SPIRITMAGE",
+      "specializationIds": [
+        61,
+        62,
+        63
+      ],
+      "sourcePath": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "sourceExtractionDate": "unknown",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "21 archived custom classes; current playable roster unverified",
+    "Classic/placeholder classes are not represented here"
+  ]
+}
