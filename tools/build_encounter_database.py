@@ -30,9 +30,9 @@ CAST = re.compile(r"\b(?:DoCast|CastSpell|CastCustomSpell|DoCastVictim|DoCastAOE
 TIMING = re.compile(r"\b(?:Seconds|Milliseconds|MINUTE|SECOND|urand|randtime|EVENT_|TIMER_|PHASE_|SetPhase|GetPhase|HealthBelowPct|HealthAbovePct|HealthPct|HealthPctBelow|HealthPctAbove)\b")
 SQL_ENTRY = re.compile(r"(?:\bentry\b|\`entry\`)\s*=\s*(\d{3,9})", re.I)
 SQL_SCRIPT = re.compile(r"ScriptName.{0,90}?['\"]([a-zA-Z_][a-zA-Z_0-9]+)['\"]", re.I)
-CREATURE_AI = re.compile(r"\\b(?:struct|class)\\s+(?:npc_|mob_|boss_)[A-Za-z0-9_]+|\\b(?:RegisterCreatureAI|GetAI_npc_|GetAI_mob_|CreatureScript\\s*\\(|ScriptedAI\\s*\\(|npc_escortAI)\\b")
-BOSS_AI = re.compile(r"\b(?:BossAI|boss_[A-Za-z0-9_]+AI|GetAI_boss_|RegisterCreatureAI\s*\(\s*boss_)")
-TRASH_AI = re.compile(r"\\b(?:struct|class)\\s+(?:npc_|mob_)[A-Za-z0-9_]+(?:AI)?\\b")
+CREATURE_AI = re.compile(r"\b(?:struct|class)\s+(?:npc_|mob_|boss_)[A-Za-z0-9_]+|\b(?:RegisterCreatureAI|GetAI_npc_|GetAI_mob_|CreatureScript\s*\(|ScriptedAI\s*\(|npc_escortAI)\b")
+BOSS_AI = re.compile(r"\b(?:BossAI|boss_[A-Za-z0-9_]+AI|GetAI_boss_|RegisterCreatureAI\s*\(\s*boss_")
+TRASH_AI = re.compile(r"\b(?:struct|class)\s+(?:npc_|mob_)[A-Za-z0-9_]+(?:AI)?\b")
 COA_SQL = re.compile(r"mod-manastorm-endless|mod-coa-raid-difficulty", re.I)
 
 def norm(s):
