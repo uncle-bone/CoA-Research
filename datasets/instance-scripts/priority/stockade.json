@@ -551,20 +551,30 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/stockade.json",
       "kind": "shared",
-      "bytes": 19199,
+      "bytes": 29390,
       "archive_kind": "research",
       "creature_ai_source_candidate": false,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
+        "boss_coa_vaults_darkandle",
+        "boss_coa_vaults_deceiver",
+        "boss_coa_vaults_echo",
         "boss_hogger",
         "boss_lord_overheat",
         "boss_randolph_moloch",
-        "npc_ids_candidate"
+        "npc_coa_vaults_trash",
+        "npc_entry",
+        "npc_ids_candidate",
+        "npc_mortimer_moloch",
+        "npc_spellclick_spells",
+        "npc_text",
+        "npc_warden_thelwater"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -607,114 +617,309 @@
         "SPELL_VICIOUS_SLICE",
         "SPELL_WILDLY_STABBING"
       ],
-      "cast_calls": 19,
-      "timing_or_phase_signals": 2,
+      "cast_calls": 38,
+      "timing_or_phase_signals": 4,
       "timer_expression_candidates": [
         {
-          "line": 144,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 78,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 177,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VICIOUS_SLICE, 3s, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 149,
+          "line": 182,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MADDENING_CALL, 1s, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 154,
+          "line": 187,
           "expression": "\"expression\": \"DoCastVictim(SPELL_VICIOUS_SLICE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 159,
+          "line": 192,
           "expression": "\"expression\": \"DoCast(SPELL_MADDENING_CALL);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 198,
+          "line": 235,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 203,
+          "line": 243,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OVERHEAT, 9s, 11s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 208,
+          "line": 248,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RAIN_OF_FIRE, 10s, 13s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 213,
+          "line": 253,
           "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 218,
+          "line": 258,
           "expression": "\"expression\": \"DoCast(target, SPELL_OVERHEAT);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 223,
+          "line": 263,
           "expression": "\"expression\": \"DoCastAOE(SPELL_RAIN_OF_FIRE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 269,
+          "line": 314,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 317,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WILDLY_STABBING, 4s, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 274,
+          "line": 322,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWEEP, 2s, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 279,
+          "line": 327,
           "expression": "\"expression\": \"DoCastVictim(SPELL_WILDLY_STABBING);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 284,
+          "line": 332,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SWEEP);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 289,
+          "line": 337,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWEEP, 6s, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 294,
+          "line": 342,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_JUST_VANISHED, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 299,
+          "line": 347,
           "expression": "\"expression\": \"DoCast(target, SPELL_SHADOWSTEP, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 304,
+          "line": 352,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 309,
+          "line": 357,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_VANISH, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 401,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 442,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 468,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 494,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 520,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 546,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 612,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 615,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_VICIOUS_SLICE, 3s, 4s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 620,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_MADDENING_CALL, 1s, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 625,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_VICIOUS_SLICE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 630,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(SPELL_MADDENING_CALL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 635,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIREBALL, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 640,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_OVERHEAT, 9s, 11s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 645,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RAIN_OF_FIRE, 10s, 13s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 650,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_FIREBALL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 655,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_OVERHEAT);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 660,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastAOE(SPELL_RAIN_OF_FIRE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 665,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_WILDLY_STABBING, 4s, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 670,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SWEEP, 2s, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 675,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_WILDLY_STABBING);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 680,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_SWEEP);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 685,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SWEEP, 6s, 7s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 690,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_JUST_VANISHED, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 695,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_SHADOWSTEP, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 700,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_VANISH, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 705,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_VANISH, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 745,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 779,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 805,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
       "phase_expression_candidates": [
         {
-          "line": 316,
+          "line": 364,
           "expression": "\"expression\": \"if (me->HealthBelowPctDamaged(71, damage) && me->HealthAbovePct(59) && !_firstVanish)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 321,
+          "line": 369,
           "expression": "\"expression\": \"if (me->HealthBelowPctDamaged(41, damage) && me->HealthAbovePct(29) && !_secondVanish)\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 712,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPctDamaged(71, damage) && me->HealthAbovePct(59) && !_firstVanish)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 717,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPctDamaged(41, damage) && me->HealthAbovePct(29) && !_secondVanish)\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -724,7 +929,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2702-stormwind-stockade.json",
       "kind": "shared",
       "bytes": 4168,
@@ -750,7 +955,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-dungeons-scarlet-scholo-strath-uldaman-stockade-deadmines-brd-vaults-2026-10-30.json",
       "kind": "shared",
       "bytes": 54831,
@@ -784,7 +989,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/coa-dungeon-wing-starts-stockade-stratholme-and-difficulty-2026-10-30.json",
       "kind": "shared",
       "bytes": 239484,

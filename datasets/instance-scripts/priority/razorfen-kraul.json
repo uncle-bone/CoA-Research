@@ -699,6 +699,11 @@
       "timing_or_phase_signals": 2,
       "timer_expression_candidates": [
         {
+          "line": 75,
+          "expression": "switch (urand(0, 6))                                // Not always said",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 257,
           "expression": "target->CastSpell(nullptr, 8359, TRIGGERED_OLD_TRIGGERED);",
           "evidence": "source-expression-candidate"
@@ -741,18 +746,138 @@
       "variant": "baseline-candidate"
     },
     {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_kraul/instance_razorfen_kraul.cpp",
+      "kind": "instance",
+      "bytes": 3450,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_AGATHELOS_WARD",
+        "GO_STATE_ACTIVE",
+        "NPC_BLIND_HUNTER",
+        "NPC_EARTHCALLER_HALMGAR",
+        "NPC_WARD_KEEPER"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_kraul/razorfen_kraul.cpp",
+      "kind": "shared",
+      "bytes": 6263,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "npc_death_head_ward_keeper",
+        "npc_deaths_head_ward_keeper",
+        "npc_deaths_head_ward_keeperAI",
+        "npc_escortAI",
+        "npc_willix_the_importer",
+        "npc_willix_the_importerAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        7083
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_RAGING_AGAMAR",
+        "SPELL_QUILLBOAR_CHANNELING"
+      ],
+      "cast_calls": 1,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 186,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_QUILLBOAR_CHANNELING);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_kraul/razorfen_kraul.h",
+      "kind": "shared",
+      "bytes": 1935,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        4425,
+        4514,
+        4625,
+        4842
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_AGATHELOS_WARD",
+        "NPC_BLIND_HUNTER",
+        "NPC_DEATHS_HEAD_WARD_KEEPER",
+        "NPC_EARTHCALLER_HALMGAR",
+        "NPC_RAGING_AGAMAR",
+        "NPC_WARD_KEEPER"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/razorfen-kraul.json",
       "kind": "shared",
-      "bytes": 22148,
+      "bytes": 29962,
       "archive_kind": "research",
-      "creature_ai_source_candidate": false,
+      "creature_ai_source_candidate": true,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
-        "npc_ids_candidate"
+        "boss_ai_source_candidate",
+        "npc_escortAI",
+        "npc_ids_candidate",
+        "npc_snufflenose_gopher",
+        "npc_snufflenose_gopherAI",
+        "npc_willix_the_importer",
+        "npc_willix_the_importerAI"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -785,12 +910,152 @@
         "SPELL_EFFECT_DUMMY",
         "SPELL_SNUFFLENOSE_COMMAND"
       ],
-      "cast_calls": 1,
+      "cast_calls": 2,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 574,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 78,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 156,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 182,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 214,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 266,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 307,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 343,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 387,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 413,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 439,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 465,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 491,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 517,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 543,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 569,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 601,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 627,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 657,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 700,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 703,
           "expression": "\"expression\": \"target->CastSpell(nullptr, 8359, TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 737,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 790,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 793,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"target->CastSpell(nullptr, 8359, TRIGGERED_OLD_TRIGGERED);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 822,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -801,7 +1066,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2706-razorfen-kraul.json",
       "kind": "shared",
       "bytes": 4164,
@@ -828,22 +1093,22 @@
   ],
   "encounters": {},
   "coverage": {
-    "source_files": 27,
+    "source_files": 30,
     "by_kind": {
       "boss": 0,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 14,
-      "shared": 8,
+      "shared": 10,
       "other": 0
     },
-    "npc_ids_candidate": 9,
-    "spell_ids_candidate": 1,
+    "npc_ids_candidate": 11,
+    "spell_ids_candidate": 2,
     "encounter_filename_candidates": 0,
     "boss_ai_present": false,
-    "creature_ai_source_candidates": 2,
+    "creature_ai_source_candidates": 4,
     "nonboss_ai_source_candidates": 2,
-    "shared_creature_ai_source_candidates": 2,
+    "shared_creature_ai_source_candidates": 4,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,

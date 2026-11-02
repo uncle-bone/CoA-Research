@@ -1075,22 +1075,33 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/ragefire-chasm.json",
       "kind": "shared",
-      "bytes": 35337,
+      "bytes": 61889,
       "archive_kind": "research",
       "creature_ai_source_candidate": false,
-      "boss_ai_source_candidate": false,
+      "boss_ai_source_candidate": true,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_adarogg",
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_dark_shaman_koranthal",
         "boss_lava_guard_gordoth",
         "boss_saviana_ragefire",
+        "boss_saviana_ragefireAI",
         "boss_slagmaw",
-        "npc_ids_candidate"
+        "npc_adolescent_flame_hound_1",
+        "npc_adolescent_flame_hound_2",
+        "npc_adolescent_flame_hound_3",
+        "npc_adolescent_flame_hound_4",
+        "npc_corrupted_houndmaster_1",
+        "npc_corrupted_houndmaster_2",
+        "npc_ids_candidate",
+        "npc_rescued_cage_1",
+        "npc_rescued_cage_2",
+        "npc_rescued_cage_3"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1162,487 +1173,757 @@
         "SPELL_SHADOW_VORTEX",
         "SPELL_TWISTED_ELEMENTS"
       ],
-      "cast_calls": 96,
+      "cast_calls": 192,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 67,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 72,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 77,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 82,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 87,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 92,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 97,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 102,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 107,
-          "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 112,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 117,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 122,
-          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 127,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 132,
-          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 137,
-          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 142,
-          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 212,
+          "line": 80,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 217,
+          "line": 85,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 222,
+          "line": 90,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 227,
+          "line": 95,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 232,
+          "line": 100,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 237,
+          "line": 105,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 242,
+          "line": 110,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 247,
+          "line": 115,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 252,
+          "line": 120,
           "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 257,
+          "line": 125,
           "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 262,
+          "line": 130,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 267,
+          "line": 135,
           "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 272,
+          "line": 140,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 277,
+          "line": 145,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 282,
+          "line": 150,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 287,
+          "line": 155,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 329,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INFERNO_CHARGE, 10s);\",",
+          "line": 184,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 334,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_BREATH, 20s);\",",
+          "line": 235,
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 339,
-          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "line": 238,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 344,
-          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "line": 243,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 349,
-          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "line": 248,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 354,
-          "expression": "\"expression\": \"DoCast(SPELL_EAT_TROGG);\",",
+          "line": 253,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 359,
-          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_SUMMON);\",",
+          "line": 258,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 263,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 268,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 273,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 278,
+          "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 283,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 288,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 293,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 298,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 303,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 308,
+          "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 313,
+          "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 361,
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 364,
-          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_CAST);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INFERNO_CHARGE, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 369,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_BREATH, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 374,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 379,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 384,
+          "expression": "\"expression\": \"DoCast(SPELL_ADJULES_CHOW_TIME);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 389,
+          "expression": "\"expression\": \"DoCast(SPELL_EAT_TROGG);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 394,
+          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_SUMMON);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 399,
+          "expression": "\"expression\": \"DoCast(target, SPELL_INFERNO_CHARGE_CAST);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 404,
           "expression": "\"expression\": \"DoCastVictim(SPELL_FIRE_BREATH);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 408,
+          "line": 447,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 450,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TWISTED_ELEMENTS, 6s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 413,
+          "line": 455,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SHADOW_STORM, 20500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 418,
+          "line": 460,
           "expression": "\"expression\": \"DoCastVictim(SPELL_TWISTED_ELEMENTS);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 423,
+          "line": 465,
           "expression": "\"expression\": \"DoCast(SPELL_SHADOW_STORM);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 428,
+          "line": 470,
           "expression": "\"expression\": \"events.RescheduleEvent(EVENT_TWISTED_ELEMENTS, 15s + 700ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 433,
+          "line": 475,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), GetEffectValueAsInt(), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 490,
+          "line": 536,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 539,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GROUND_RUPTURE, 7300ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 495,
+          "line": 544,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SEISMIC_SLAM, 13300ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 500,
+          "line": 549,
           "expression": "\"expression\": \"DoCast(SPELL_GROUND_SLAM);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 505,
+          "line": 554,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 510,
+          "line": 559,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_1, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 515,
+          "line": 564,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 520,
+          "line": 569,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_2, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 525,
+          "line": 574,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 530,
+          "line": 579,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 535,
+          "line": 584,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_MEAT_EXPLOSION_3, CastSpellExtraArgs(TRIGGERED_FULL_MASK)); // According to sniff\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 540,
+          "line": 589,
           "expression": "\"expression\": \"darkShamanResearcher->CastSpell(darkShamanResearcher, SPELL_BLOODY_SUICIDE, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 545,
+          "line": 594,
           "expression": "\"expression\": \"DoCast(target, SPELL_GROUND_RUPTURE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 550,
+          "line": 599,
           "expression": "\"expression\": \"DoCast(nullptr, SPELL_SEISMIC_SLAM, CastSpellExtraArgs(TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD)); // cast earlier than category cd\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 596,
+          "line": 649,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 652,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 601,
+          "line": 657,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 606,
+          "line": 662,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_TELEPORT, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 611,
+          "line": 667,
           "expression": "\"expression\": \"DoCast(target, SPELL_LAVA_SPIT);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 616,
+          "line": 672,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EMERGE, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 621,
+          "line": 677,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAVA_SPIT, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 626,
+          "line": 682,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BOUNDARY_CHECK, 2500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 763,
+          "line": 720,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 756,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 796,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 846,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 849,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 20s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 768,
+          "line": 854,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 14s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 773,
+          "line": 859,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 60s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 778,
+          "line": 864,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 783,
+          "line": 869,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 1ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 788,
+          "line": 874,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 1s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 793,
+          "line": 879,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 2s, 4s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 798,
+          "line": 884,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s, EVENT_GROUP_LAND_PHASE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 803,
+          "line": 889,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 1ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 808,
+          "line": 894,
           "expression": "\"expression\": \"DoCastVictim(SPELL_FLAME_BREATH);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 813,
+          "line": 899,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 818,
+          "line": 904,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_2, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 823,
+          "line": 909,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValueAsInt()), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 893,
+          "line": 938,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 989,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 992,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 898,
+          "line": 997,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 903,
+          "line": 1002,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 908,
+          "line": 1007,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 913,
+          "line": 1012,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 918,
+          "line": 1017,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 923,
+          "line": 1022,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLIGHT, 50s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 928,
+          "line": 1027,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 933,
+          "line": 1032,
           "expression": "\"expression\": \"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 938,
+          "line": 1037,
           "expression": "\"expression\": \"me->CastSpell(me, SPELL_ENRAGE, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 943,
+          "line": 1042,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 948,
+          "line": 1047,
           "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 953,
+          "line": 1052,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 958,
+          "line": 1057,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 963,
+          "line": 1062,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 968,
+          "line": 1067,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1167,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1170,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_ENRAGE, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1175,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1180,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLIGHT, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1185,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1190,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1195,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1200,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLIGHT, 50s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1205,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1210,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1215,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_ENRAGE, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1220,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1225,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1230,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1235,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1240,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1245,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1250,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_ENRAGE, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1255,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLAME_BREATH, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1260,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLIGHT, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1265,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CONFLAGRATION, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1270,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_LAND_BACK, 7s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1275,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_LAND_GROUND, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1280,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLIGHT, 50s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1285,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_AIR_MOVEMENT, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1290,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastCustomSpell(SPELL_CONFLAGRATION, SPELLVALUE_MAX_TARGETS, RAID_MODE(3, 6, 3, 6), me, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1295,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_ENRAGE, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1300,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_ENRAGE, 15s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1305,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_FLAME_BREATH, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1310,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FLAME_BREATH, 20s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1315,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), SPELL_FLAME_BEACON, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1320,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), SPELL_CONFLAGRATION_MISSLE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1325,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetCaster(), uint32(GetEffectValue()), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1330,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INFERNO_CHARGE, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1335,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIRE_BREATH, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1340,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(SPELL_ADJULES_CHOW_TIME);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1345,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(SPELL_ADJULES_CHOW_TIME);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1350,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(SPELL_ADJULES_CHOW_TIME);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1355,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(SPELL_EAT_TROGG);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1360,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_INFERNO_CHARGE_SUMMON);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -1653,7 +1934,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2694-ragefire-chasm.json",
       "kind": "shared",
       "bytes": 4164,

@@ -818,12 +818,252 @@
         "SPELL_SHAPESHIFT",
         "SPELL_SLEEP"
       ],
-      "cast_calls": 2,
+      "cast_calls": 7,
       "timing_or_phase_signals": 1,
       "timer_expression_candidates": [
         {
+          "line": 116,
+          "expression": "uint32 m_uiEventTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 117,
+          "expression": "uint32 m_uiSleepTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 118,
+          "expression": "uint32 m_uiPotionTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "uint32 m_uiCleansingTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 128,
+          "expression": "m_uiSleepTimer      = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 129,
+          "expression": "m_uiPotionTimer     = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "m_uiCleansingTimer  = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 205,
+          "expression": "m_uiEventTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 211,
+          "expression": "m_uiEventTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 216,
+          "expression": "m_uiEventTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 237,
+          "expression": "if (m_uiSummonedAlive == 0 && m_uiEventTimer == 0)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
+          "expression": "m_uiEventTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 243,
+          "expression": "if (m_uiEventTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 245,
+          "expression": "if (m_uiEventTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 257,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 263,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 273,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_CLEANSING);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 274,
+          "expression": "m_uiEventTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 280,
+          "expression": "m_creature->SummonCreature(urand(0, 1) ? NPC_DEVIATE_ADDER : NPC_DEVIATE_VIPER, circleLocations[i][0], circleLocations[i][1], circleLocations[i][2], circleLocations[i][3], TEMPSPAWN_TIMED_OOC_DESPAWN, 20000, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 281,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 287,
+          "expression": "m_uiEventTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 292,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 307,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 311,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_AWAKENING);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 313,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 320,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 326,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 333,
+          "expression": "m_uiEventTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 341,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 349,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 361,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 368,
+          "expression": "m_uiEventTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 377,
+          "expression": "m_uiEventTimer = 7000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 387,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 393,
           "expression": "pNaralex->CastSpell(pNaralex, SPELL_SHAPESHIFT, TRIGGERED_NONE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 394,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SHAPESHIFT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 395,
+          "expression": "m_uiEventTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 414,
+          "expression": "m_uiEventTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 427,
+          "expression": "m_uiEventTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 430,
+          "expression": "if (m_uiPotionTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 435,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_POTION) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 436,
+          "expression": "m_uiPotionTimer = 45000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 439,
+          "expression": "m_uiPotionTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 442,
+          "expression": "m_uiPotionTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 447,
+          "expression": "if (m_uiSleepTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 451,
+          "expression": "if (DoCastSpellIfCan(pTarget, SPELL_SLEEP) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 452,
+          "expression": "m_uiSleepTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 456,
+          "expression": "m_uiSleepTimer -= uiDiff;",
           "evidence": "source-expression-candidate"
         },
         {
@@ -838,17 +1078,396 @@
       "variant": "baseline-candidate"
     },
     {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/wailing_caverns/boss_mutanus_the_devourer.cpp",
+      "kind": "boss",
+      "bytes": 3783,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_mutanus_the_devourer",
+        "boss_mutanus_the_devourerAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        7399,
+        7967,
+        8150
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DISCIPLE_OF_NARALEX",
+        "SPELL_NARALEXS_NIGHTMARE",
+        "SPELL_TERRIFY",
+        "SPELL_THUNDERCRACK"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 6,
+      "timer_expression_candidates": [
+        {
+          "line": 45,
+          "expression": "uint32 m_uiNaralexsNightmareTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 46,
+          "expression": "uint32 m_uiThundercrackTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 47,
+          "expression": "uint32 m_uiTerrifyTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 51,
+          "expression": "m_uiNaralexsNightmareTimer = urand(6000, 11000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "m_uiThundercrackTimer = urand(10000, 14000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 53,
+          "expression": "m_uiTerrifyTimer = urand(15000, 21000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 76,
+          "expression": "if (m_uiNaralexsNightmareTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 81,
+          "expression": "DoCastSpellIfCan(pTarget, SPELL_NARALEXS_NIGHTMARE, CAST_INTERRUPT_PREVIOUS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "m_uiNaralexsNightmareTimer = urand(25000, 36000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 86,
+          "expression": "m_uiNaralexsNightmareTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "if (m_uiThundercrackTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_THUNDERCRACK) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "m_uiThundercrackTimer = urand(10000, 16000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "m_uiThundercrackTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "if (m_uiTerrifyTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 101,
+          "expression": "if (DoCastSpellIfCan(pTarget, SPELL_TERRIFY, CAST_INTERRUPT_PREVIOUS) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "m_uiTerrifyTimer = urand(18000, 24000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "m_uiTerrifyTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/wailing_caverns/instance_wailing_caverns.cpp",
+      "kind": "instance",
+      "bytes": 4382,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DEVIATE_FAERIE_DRAGON",
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_NARALEX"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/wailing_caverns/wailing_caverns.cpp",
+      "kind": "shared",
+      "bytes": 18531,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "npc_disciple_of_naralex",
+        "npc_disciple_of_naralexAI",
+        "npc_escortAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        5232,
+        6270,
+        6271,
+        8153
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DEVIATE_MOCCASIN",
+        "NPC_DEVIATE_RAVAGER",
+        "NPC_DEVIATE_VIPER",
+        "NPC_MUTANUS_THE_DEVOURER",
+        "NPC_NARALEX",
+        "NPC_NIGHTMARE_ECTOPLASM",
+        "SPELL_FLY_FORM",
+        "SPELL_MARK_OF_THE_WILD_RANK_2",
+        "SPELL_NARALEXS_AWAKENING",
+        "SPELL_SERPENTINE_CLEANSING"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 78,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 86,
+          "expression": "uint32 m_uiEventTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 99,
+          "expression": "m_uiEventTimer = 100;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "m_uiEventTimer = 100;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 118,
+          "expression": "m_uiEventTimer = 100;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "if (m_uiEventTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 159,
+          "expression": "if (m_uiEventTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 161,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 180,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SERPENTINE_CLEANSING);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 181,
+          "expression": "m_uiEventTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "m_uiEventTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "DoCastSpellIfCan(naralex, SPELL_NARALEXS_AWAKENING, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "m_uiEventTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 231,
+          "expression": "m_uiEventTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 246,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 258,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 273,
+          "expression": "m_uiEventTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 285,
+          "expression": "m_uiEventTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 289,
+          "expression": "naralex->CastSpell(naralex, SPELL_FLY_FORM, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 292,
+          "expression": "m_creature->CastSpell(m_creature, SPELL_FLY_FORM, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 298,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 306,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 328,
+          "expression": "m_uiEventTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 345,
+          "expression": "pCreature->CastSpell(pPlayer, SPELL_MARK_OF_THE_WILD_RANK_2, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/wailing_caverns/wailing_caverns.h",
+      "kind": "shared",
+      "bytes": 1464,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3636,
+        3654,
+        3678,
+        3679,
+        5755,
+        5762,
+        5763,
+        5912
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_DEVIATE_FAERIE_DRAGON",
+        "NPC_DEVIATE_MOCCASIN",
+        "NPC_DEVIATE_RAVAGER",
+        "NPC_DEVIATE_VIPER",
+        "NPC_DISCIPLE_OF_NARALEX",
+        "NPC_MUTANUS_THE_DEVOURER",
+        "NPC_NARALEX",
+        "NPC_NIGHTMARE_ECTOPLASM"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/wailing-caverns.json",
       "kind": "shared",
-      "bytes": 28104,
+      "bytes": 42999,
       "archive_kind": "research",
-      "creature_ai_source_candidate": false,
+      "creature_ai_source_candidate": true,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
+        "npc_disciple_of_naralex",
+        "npc_disciple_of_naralexAI",
+        "npc_escortAI",
         "npc_ids_candidate"
       ],
       "evidence": "source-file-read",
@@ -923,184 +1542,484 @@
         "SPELL_SHAPESHIFT",
         "SPELL_SLEEP"
       ],
-      "cast_calls": 34,
-      "timing_or_phase_signals": 1,
+      "cast_calls": 68,
+      "timing_or_phase_signals": 2,
       "timer_expression_candidates": [
         {
-          "line": 297,
+          "line": 28,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 54,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 135,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 167,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 228,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 270,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 346,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 349,
           "expression": "\"expression\": \"_combatEvents.ScheduleEvent(EVENT_SLEEP, 5s, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 302,
+          "line": 354,
           "expression": "\"expression\": \"_combatEvents.ScheduleEvent(EVENT_DRUIDS_POTION, 5s, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 307,
+          "line": 359,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_4, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 312,
+          "line": 364,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_8, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 317,
+          "line": 369,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_12, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 322,
+          "line": 374,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_14, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 327,
+          "line": 379,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_27, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 332,
+          "line": 384,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_2, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 337,
+          "line": 389,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_3, 3500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 342,
+          "line": 394,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_5, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 347,
+          "line": 399,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_6, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 352,
+          "line": 404,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_7, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 357,
+          "line": 409,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_9, 18s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 362,
+          "line": 414,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_10, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 367,
+          "line": 419,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_11, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 372,
+          "line": 424,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_13, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 377,
+          "line": 429,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_15, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 382,
+          "line": 434,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_16, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 387,
+          "line": 439,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_17, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 392,
+          "line": 444,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_18, 25s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 397,
+          "line": 449,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_19, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 402,
+          "line": 454,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_20, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 407,
+          "line": 459,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_21, 25s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 412,
+          "line": 464,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_22, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 417,
+          "line": 469,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_23, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 422,
+          "line": 474,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_24, 6s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 427,
+          "line": 479,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_25, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 432,
+          "line": 484,
           "expression": "\"expression\": \"naralex->CastSpell(naralex, SPELL_OWL_FORM);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 437,
+          "line": 489,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_26, 8s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 442,
+          "line": 494,
           "expression": "\"expression\": \"DoCast(target, SPELL_SLEEP);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 447,
+          "line": 499,
           "expression": "\"expression\": \"DoCast(player, SPELL_MARK_OF_THE_WILD);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 452,
+          "line": 504,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_PROGRESS_1, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 725,
+          "line": 561,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 589,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 615,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 641,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 670,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 702,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 732,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 765,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 823,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 826,
           "expression": "\"expression\": \"pNaralex->CastSpell(pNaralex, SPELL_SHAPESHIFT, TRIGGERED_NONE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 730,
+          "line": 831,
           "expression": "\"expression\": \"creature->CastSpell(player, SPELL_MARK, TRIGGERED_NONE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 928,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 931,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_combatEvents.ScheduleEvent(EVENT_SLEEP, 5s, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 936,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_combatEvents.ScheduleEvent(EVENT_DRUIDS_POTION, 5s, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 941,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_4, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 946,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_8, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 951,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_12, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 956,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_14, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 961,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_27, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 966,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_2, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 971,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_3, 3500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 976,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_5, 7s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 981,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_6, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 986,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_7, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 991,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_9, 18s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 996,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_10, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1001,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_11, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1006,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_13, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1011,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_15, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1016,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_16, 4s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1021,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_17, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1026,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_18, 25s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1031,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_19, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1036,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_20, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1041,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_21, 25s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1046,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_22, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1051,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_23, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1056,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_24, 6s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1061,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_25, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1066,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"naralex->CastSpell(naralex, SPELL_OWL_FORM);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1071,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_26, 8s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1076,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_SLEEP);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1081,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(player, SPELL_MARK_OF_THE_WILD);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1086,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_PROGRESS_1, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1091,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"pNaralex->CastSpell(pNaralex, SPELL_SHAPESHIFT, TRIGGERED_NONE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1096,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"creature->CastSpell(player, SPELL_MARK, TRIGGERED_NONE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1131,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1157,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1183,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1209,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1235,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
       "phase_expression_candidates": [
         {
-          "line": 459,
+          "line": 511,
           "expression": "\"expression\": \"if (HealthBelowPct(80))\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1103,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (HealthBelowPct(80))\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -1110,7 +2029,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1-wailing-caverns.json",
       "kind": "shared",
       "bytes": 2738,
@@ -1136,7 +2055,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1003-wailing-caverns-pit-of-fangs.json",
       "kind": "shared",
       "bytes": 2754,
@@ -1162,7 +2081,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3318-wailing-caverns-pit-of-the-fangs.json",
       "kind": "shared",
       "bytes": 8276,
@@ -1188,7 +2107,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3319-wailing-caverns-crag-of-the-everliving.json",
       "kind": "shared",
       "bytes": 4190,
@@ -1214,7 +2133,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-last-four-dungeons-wailing-kraul-uldaman-downs-evidence-2026-10-30.json",
       "kind": "shared",
       "bytes": 5870,
@@ -1239,24 +2158,33 @@
       "variant": "baseline-candidate"
     }
   ],
-  "encounters": {},
+  "encounters": {
+    "boss_mutanus_the_devourer": {
+      "name": "boss_mutanus_the_devourer",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/wailing_caverns/boss_mutanus_the_devourer.cpp"
+      ],
+      "live_reborn_verified": false
+    }
+  },
   "coverage": {
-    "source_files": 25,
+    "source_files": 29,
     "by_kind": {
-      "boss": 0,
+      "boss": 1,
       "trash": 0,
-      "instance": 4,
+      "instance": 5,
       "sql": 7,
-      "shared": 14,
+      "shared": 16,
       "other": 0
     },
-    "npc_ids_candidate": 12,
-    "spell_ids_candidate": 6,
-    "encounter_filename_candidates": 0,
-    "boss_ai_present": false,
-    "creature_ai_source_candidates": 2,
+    "npc_ids_candidate": 13,
+    "spell_ids_candidate": 9,
+    "encounter_filename_candidates": 1,
+    "boss_ai_present": true,
+    "creature_ai_source_candidates": 5,
     "nonboss_ai_source_candidates": 2,
-    "shared_creature_ai_source_candidates": 2,
+    "shared_creature_ai_source_candidates": 4,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,

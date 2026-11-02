@@ -952,7 +952,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/blackrock-caverns-trinitycore-reference.json",
       "kind": "shared",
       "bytes": 4210,
@@ -1004,22 +1004,44 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/blackrock-caverns.json",
       "kind": "shared",
-      "bytes": 33026,
+      "bytes": 60552,
       "archive_kind": "research",
       "creature_ai_source_candidate": false,
-      "boss_ai_source_candidate": false,
+      "boss_ai_source_candidate": true,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_ascendant_lord_obsidius",
+        "boss_ascendant_lord_obsidiusAI",
         "boss_beauty",
+        "boss_beautyAI",
         "boss_corla",
+        "boss_corlaAI",
         "boss_karsh_steelbender",
+        "boss_karsh_steelbenderAI",
         "boss_romogg_bonecrusher",
-        "npc_ids_candidate"
+        "boss_romogg_bonecrusherAI",
+        "npc_chains_of_woe",
+        "npc_chains_of_woeAI",
+        "npc_crazed_mage",
+        "npc_crazed_mageAI",
+        "npc_fire_cyclone",
+        "npc_fire_cycloneAI",
+        "npc_ids_candidate",
+        "npc_mad_prisoner",
+        "npc_mad_prisonerAI",
+        "npc_raz_the_crazed",
+        "npc_raz_the_crazedAI",
+        "npc_twilight_flame_caller",
+        "npc_twilight_flame_callerAI",
+        "npc_twilight_sadist",
+        "npc_twilight_sadistAI",
+        "npc_twilight_torturer",
+        "npc_twilight_torturerAI"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1130,522 +1152,757 @@
         "SPELL_WILD_BEATDOWN",
         "SPELL_WOUNDING_STRIKE"
       ],
-      "cast_calls": 103,
+      "cast_calls": 206,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 114,
+          "line": 133,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 100ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 119,
+          "line": 141,
           "expression": "\"expression\": \"DoCast(me, SPELL_FIRE_CYCLONE_AURA, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 124,
+          "line": 146,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 129,
+          "line": 151,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CHANNEL, 100ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 134,
+          "line": 156,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_BLAST_WAVE, 8s, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 139,
+          "line": 161,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CALL_FLAMES,  10s, 14s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 144,
+          "line": 166,
           "expression": "\"expression\": \"DoCast(me, SPELL_FIRE_CHANNELING_1);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 149,
+          "line": 171,
           "expression": "\"expression\": \"DoCast(me, SPELL_FIRE_CHANNELING_2);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 154,
+          "line": 176,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CHANNEL, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 159,
+          "line": 181,
           "expression": "\"expression\": \"DoCast(me, SPELL_BLAST_WAVE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 164,
+          "line": 186,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_BLAST_WAVE, 16s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 169,
+          "line": 191,
           "expression": "\"expression\": \"DoCast(me, SPELL_CALL_FLAMES);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 174,
+          "line": 196,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CALL_FLAMES, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 179,
+          "line": 201,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 6s, 18s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 184,
+          "line": 206,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 189,
+          "line": 211,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SHACKLES, 13s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 194,
+          "line": 216,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 17s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 199,
+          "line": 221,
           "expression": "\"expression\": \"DoCast(me, SPELL_INFLICT_PAIN);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 204,
+          "line": 226,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 25s, 32s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 209,
+          "line": 231,
           "expression": "\"expression\": \"DoCast(me, SPELL_RED_HOT_POKER);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 214,
+          "line": 236,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 219,
+          "line": 241,
           "expression": "\"expression\": \"DoCast(me, SPELL_SHACKLES);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 224,
+          "line": 246,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 229,
+          "line": 251,
           "expression": "\"expression\": \"DoCast(me, SPELL_WILD_BEATDOWN);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 234,
+          "line": 256,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 239,
+          "line": 261,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 6s, 18s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 244,
+          "line": 266,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 249,
+          "line": 271,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAT_SEEKER_BLADE,  13s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 254,
+          "line": 276,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SHORT_THROW, 17s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 259,
+          "line": 281,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SINISTER_STRIKE, 17s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 264,
+          "line": 286,
           "expression": "\"expression\": \"DoCast(me, SPELL_INFLICT_PAIN);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 269,
+          "line": 291,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 25s, 32s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 274,
+          "line": 296,
           "expression": "\"expression\": \"DoCast(me, SPELL_RED_HOT_POKER);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 279,
+          "line": 301,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 284,
+          "line": 306,
           "expression": "\"expression\": \"DoCast(me, SPELL_SHACKLES);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 289,
+          "line": 311,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 294,
+          "line": 316,
           "expression": "\"expression\": \"DoCast(me, SPELL_WILD_BEATDOWN);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 299,
+          "line": 321,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 304,
+          "line": 326,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAD_CRACK, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 309,
+          "line": 331,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFECTED_WOUND,  13s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 314,
+          "line": 336,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ENRAGE, 17s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 319,
+          "line": 341,
           "expression": "\"expression\": \"DoCast(me, SPELL_HEAD_CRACK);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 324,
+          "line": 346,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAD_CRACK, 16s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 329,
+          "line": 351,
           "expression": "\"expression\": \"DoCast(me, SPELL_INFECTED_WOUND);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 334,
+          "line": 356,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFECTED_WOUND, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 339,
+          "line": 361,
           "expression": "\"expression\": \"DoCast(me, SPELL_ENRAGE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 344,
+          "line": 366,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ENRAGE, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 349,
+          "line": 371,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAD_CRACK2, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 354,
+          "line": 376,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFECTED_WOUND2,  13s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 359,
+          "line": 381,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ENRAGE2, 17s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 364,
+          "line": 386,
           "expression": "\"expression\": \"DoCast(me, SPELL_HEAD_CRACK);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 369,
+          "line": 391,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_HEAD_CRACK2, 16s, 20s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 374,
+          "line": 396,
           "expression": "\"expression\": \"DoCast(me, SPELL_INFECTED_WOUND);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 379,
+          "line": 401,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_INFECTED_WOUND2, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 384,
+          "line": 406,
           "expression": "\"expression\": \"DoCast(me, SPELL_ENRAGE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 389,
+          "line": 411,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_ENRAGE2, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 394,
+          "line": 416,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FURIOUS_SWIPE, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 399,
+          "line": 421,
           "expression": "\"expression\": \"DoCast(me, SPELL_SHADOW_PRISON);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 404,
+          "line": 426,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_AGGO_NEARBY_TARGETS, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 409,
+          "line": 431,
           "expression": "\"expression\": \"DoCast(me, SPELL_LEAP_FROM_CAGE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 414,
+          "line": 436,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_START_FIRST_PATH, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 419,
+          "line": 441,
           "expression": "\"expression\": \"DoCast(me, SPELL_AGGRO_NEARBY_TARGETS);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 424,
+          "line": 446,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_AGGO_NEARBY_TARGETS, 1500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 429,
+          "line": 451,
           "expression": "\"expression\": \"DoCastVictim(SPELL_FURIOUS_SWIPE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 434,
+          "line": 456,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FURIOUS_SWIPE, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 439,
+          "line": 461,
           "expression": "\"expression\": \"DoCast(me, SPELL_CHAINS_OF_WOE_1, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 444,
+          "line": 466,
           "expression": "\"expression\": \"DoCast(me, SPELL_CHAINS_OF_WOE_2, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 449,
+          "line": 471,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetCaster(), SPELL_CHAINS_OF_WOE_3, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 454,
+          "line": 476,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_CHAINS_OF_WOE_5, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 459,
+          "line": 481,
           "expression": "\"expression\": \"caster->CastSpell(caster, RAND(SPELL_NETHER_DRAGON_ESSENCE_2, SPELL_NETHER_DRAGON_ESSENCE_3, SPELL_NETHER_DRAGON_ESSENCE_4));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 533,
+          "line": 524,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 565,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 568,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MANA_TAP, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 538,
+          "line": 573,
           "expression": "\"expression\": \"DoCastVictim(SPELL_MANA_TAP, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 543,
+          "line": 578,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MANA_TAP, 14s, 22s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 588,
+          "line": 628,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 631,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MAGMA_SPIT, 7s, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 593,
+          "line": 636,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BERSERKER_CHARGE, 16s, 19s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 598,
+          "line": 641,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAMEBREAK, 18s, 22s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 603,
+          "line": 646,
           "expression": "\"expression\": \"DoCast(SelectTarget(SelectTargetMethod::Random, 0, 100, true), SPELL_MAGMA_SPIT, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 608,
+          "line": 651,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MAGMA_SPIT, 7s, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 613,
+          "line": 656,
           "expression": "\"expression\": \"DoCast(SelectTarget(SelectTargetMethod::Random, 0, 100, true), SPELL_BERSERKER_CHARGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 618,
+          "line": 661,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_BERSERKER_CHARGE, 16s, 19s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 623,
+          "line": 666,
           "expression": "\"expression\": \"DoCast(me, SPELL_FLAMEBREAK);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 628,
+          "line": 671,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FLAMEBREAK, 18s, 22s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 667,
+          "line": 715,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 718,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DRAIN_ESSENSE, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 672,
+          "line": 723,
           "expression": "\"expression\": \"DoCast(me, SPELL_DRAIN_ESSENSE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 677,
+          "line": 728,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STOP_DRAIN_ESSENSE, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 682,
+          "line": 733,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_EVOLUTION, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 687,
+          "line": 738,
           "expression": "\"expression\": \"DoCast(me, SPELL_EVOLUTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 692,
+          "line": 743,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_DRAIN_ESSENSE, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 731,
+          "line": 787,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 790,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CLEAVE, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 736,
+          "line": 795,
           "expression": "\"expression\": \"DoCastVictim(SPELL_CLEAVE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 741,
+          "line": 800,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CLEAVE, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 788,
+          "line": 852,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 855,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHAINS_OF_WOE, 22s, 32s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 793,
+          "line": 860,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WOUNDING_STRIKE, 26s, 32s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 798,
+          "line": 865,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_QUAKE, 45s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 803,
+          "line": 870,
           "expression": "\"expression\": \"DoCast(me, SPELL_CALL_FOR_HELP);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 808,
+          "line": 875,
           "expression": "\"expression\": \"DoCast(me, SPELL_CHAINS_OF_WOE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 813,
+          "line": 880,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHAINS_OF_WOE, 22s, 32s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 818,
+          "line": 885,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SKULLCRACKER, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 823,
+          "line": 890,
           "expression": "\"expression\": \"DoCast(me, SPELL_SKULLCRACKER);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 828,
+          "line": 895,
           "expression": "\"expression\": \"DoCast(me, SPELL_QUAKE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 833,
+          "line": 900,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_QUAKE, 32s, 40s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 838,
+          "line": 905,
           "expression": "\"expression\": \"DoCastVictim(SPELL_WOUNDING_STRIKE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 843,
+          "line": 910,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WOUNDING_STRIKE, 26s, 32s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 947,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 999,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1135,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1138,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 100ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1143,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_FIRE_CYCLONE_AURA, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1148,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_FIRE_CYCLONE_AURA, 4s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1153,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_CHANNEL, 100ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1158,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_BLAST_WAVE, 8s, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1163,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_CALL_FLAMES,  10s, 14s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1168,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_FIRE_CHANNELING_1);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1173,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_FIRE_CHANNELING_2);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1178,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_CHANNEL, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1183,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_BLAST_WAVE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1188,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_BLAST_WAVE, 16s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1193,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_CALL_FLAMES);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1198,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_CALL_FLAMES, 12s, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1203,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 6s, 18s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1208,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 9s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1213,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_SHACKLES, 13s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1218,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 17s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1223,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_INFLICT_PAIN);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1228,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TT, 25s, 32s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1233,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_RED_HOT_POKER);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1238,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1243,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_SHACKLES);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1248,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1253,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_WILD_BEATDOWN);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1258,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_WILD_BEATDOWN, 12s, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1263,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 6s, 18s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1268,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 9s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1273,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_HEAT_SEEKER_BLADE,  13s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1278,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_SHORT_THROW, 17s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1283,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_SINISTER_STRIKE, 17s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1288,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_INFLICT_PAIN);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1293,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_INFLICT_PAIN_TS, 25s, 32s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1298,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_RED_HOT_POKER);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1303,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_RED_HOT_POKER, 16s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1308,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_SHACKLES);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1313,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_SHACKLES, 12s, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1318,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_WILD_BEATDOWN);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -1656,7 +1913,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2045-blackrock-caverns.json",
       "kind": "shared",
       "bytes": 4267,
@@ -1682,7 +1939,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2046-blackrock-caverns.json",
       "kind": "shared",
       "bytes": 4267,

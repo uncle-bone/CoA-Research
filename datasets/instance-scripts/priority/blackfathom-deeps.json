@@ -742,7 +742,13 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 1,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 84,
+          "expression": "creature->SetHomePosition(LorgusPosition[urand(0, 3)]);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1062,7 +1068,13 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 115,
+          "expression": "uint32 m_uiSpawnMobsTimer[MAX_FIRES];",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1101,6 +1113,342 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 42,
+          "expression": "memset(&m_uiSpawnMobsTimer, 0, sizeof(m_uiSpawnMobsTimer));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 123,
+          "expression": "m_uiSpawnMobsTimer[m_uiWaveCounter] = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 236,
+          "expression": "if (m_uiSpawnMobsTimer[i])",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
+          "expression": "if (m_uiSpawnMobsTimer[i] <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "m_uiSpawnMobsTimer[i] = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 244,
+          "expression": "m_uiSpawnMobsTimer[i] -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/blackfathom_deeps.cpp",
+      "kind": "shared",
+      "bytes": 3457,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8733,
+        8735
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_ALTAR_OF_THE_DEEPS",
+        "GO_FLAG_INTERACT_COND",
+        "GO_STATE_ACTIVE",
+        "NPC_BARON_AQUANIS",
+        "SPELL_BLACKFATHOM_TELEPORT",
+        "SPELL_BLESSING_OF_BLACKFATHOM"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 63,
+          "expression": "pPlayer->CastSpell(pPlayer, SPELL_BLESSING_OF_BLACKFATHOM, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 66,
+          "expression": "pPlayer->CastSpell(pPlayer, SPELL_BLACKFATHOM_TELEPORT, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "uint8 random = urand(0,4);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/blackfathom_deeps.h",
+      "kind": "shared",
+      "bytes": 1437,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        4832,
+        12876,
+        12902
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_AKU_MAI_DOOR",
+        "GO_ALTAR_OF_THE_DEEPS",
+        "GO_FIRE_OF_AKU_MAI_1",
+        "GO_FIRE_OF_AKU_MAI_2",
+        "GO_FIRE_OF_AKU_MAI_3",
+        "GO_FIRE_OF_AKU_MAI_4",
+        "GO_SHRINE_OF_GELIHAST",
+        "NPC_BARON_AQUANIS",
+        "NPC_LORGUS_JETT",
+        "NPC_TWILIGHT_LORD_KELRIS"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/boss_aku_mai.cpp",
+      "kind": "boss",
+      "bytes": 2640,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_aku_mai",
+        "boss_aku_maiAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        3490,
+        3815
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_FRENZIED_RAGE",
+        "SPELL_POISON_CLOUD"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [
+        {
+          "line": 42,
+          "expression": "uiPoisonCloudTimer = urand(5000,7000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 70,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_POISON_CLOUD);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 71,
+          "expression": "uiPoisonCloudTimer = urand(6000,8000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 76,
+          "expression": "DoCastSpellIfCan(m_creature,SPELL_FRENZIED_RAGE);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 74,
+          "expression": "if (!bIsEnraged && HealthBelowPct(30))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/boss_gelihast.cpp",
+      "kind": "boss",
+      "bytes": 2338,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_gelihast",
+        "boss_gelihastAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6533
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_NET"
+      ],
+      "cast_calls": 1,
+      "timing_or_phase_signals": 2,
+      "timer_expression_candidates": [
+        {
+          "line": 39,
+          "expression": "uiNetTimer = urand(2000,4000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 67,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_NET);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 68,
+          "expression": "uiNetTimer = urand(4000,7000);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/boss_kelris.cpp",
+      "kind": "boss",
+      "bytes": 3150,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_kelris",
+        "boss_kelrisAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        8399,
+        15587
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_MIND_BLAST",
+        "SPELL_SLEEP"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 4,
+      "timer_expression_candidates": [
+        {
+          "line": 52,
+          "expression": "uiMindBlastTimer = urand(2000,5000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 53,
+          "expression": "uiSleepTimer = urand(9000,12000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_MIND_BLAST);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "uiMindBlastTimer = urand(6000,8000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCastSpellIfCan(pTarget, SPELL_SLEEP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "uiSleepTimer = urand(10000,15000);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/blackfathom_deeps/instance_blackfathom_deeps.cpp",
+      "kind": "instance",
+      "bytes": 5056,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_AKU_MAI_DOOR",
+        "GO_ALTAR_OF_THE_DEEPS",
+        "GO_FIRE_OF_AKU_MAI_1",
+        "GO_FIRE_OF_AKU_MAI_2",
+        "GO_FIRE_OF_AKU_MAI_3",
+        "GO_FIRE_OF_AKU_MAI_4",
+        "GO_SHRINE_OF_GELIHAST",
+        "GO_STATE_ACTIVE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
       "timer_expression_candidates": [],
       "phase_expression_candidates": [],
       "timers_verified": [],
@@ -1109,20 +1457,23 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/blackfathom-deeps.json",
       "kind": "shared",
-      "bytes": 33839,
+      "bytes": 47232,
       "archive_kind": "research",
       "creature_ai_source_candidate": false,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_aku_mai",
         "boss_gelihast",
         "boss_kelris",
-        "npc_ids_candidate"
+        "npc_blackfathom_deeps_event",
+        "npc_ids_candidate",
+        "npc_morridune"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1193,112 +1544,372 @@
         "SPELL_SLEEP",
         "SPELL_TELEPORT_DARNASSUS"
       ],
-      "cast_calls": 21,
+      "cast_calls": 42,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 351,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 132,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 190,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 233,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 274,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 317,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 358,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 411,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 414,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_RAVAGE, 5s, 8s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 356,
+          "line": 419,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FROST_NOVA, 9s, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 361,
+          "line": 424,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_FROST_BOLT_VOLLEY, 2s, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 366,
+          "line": 429,
           "expression": "\"expression\": \"DoCastVictim(SPELL_RAVAGE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 371,
+          "line": 434,
           "expression": "\"expression\": \"DoCastAOE(SPELL_FROST_NOVA, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 376,
+          "line": 439,
           "expression": "\"expression\": \"DoCast(target, SPELL_FROST_BOLT_VOLLEY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 381,
+          "line": 444,
           "expression": "\"expression\": \"DoCast(player, SPELL_TELEPORT_DARNASSUS);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 386,
+          "line": 449,
           "expression": "\"expression\": \"GetCaster()->CastSpell(hitUnit, uint32(GetEffectValueAsInt()), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 479,
+          "line": 514,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 551,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 554,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_POISON_CLOUD, 5s, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 484,
+          "line": 559,
           "expression": "\"expression\": \"DoCast(me, SPELL_FRENZIED_RAGE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 489,
+          "line": 564,
           "expression": "\"expression\": \"DoCastVictim(SPELL_POISON_CLOUD);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 494,
+          "line": 569,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_POISON_CLOUD, 25s, 50s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 527,
+          "line": 606,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 609,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_THROW_NET, 2s, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 532,
+          "line": 614,
           "expression": "\"expression\": \"DoCastVictim(SPELL_NET);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 537,
+          "line": 619,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_THROW_NET, 4s, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 575,
+          "line": 661,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 664,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MIND_BLAST, 2s, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 580,
+          "line": 669,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SLEEP, 9s, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 585,
+          "line": 674,
           "expression": "\"expression\": \"DoCastVictim(SPELL_MIND_BLAST);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 590,
+          "line": 679,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_MIND_BLAST, 7s, 9s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 595,
+          "line": 684,
           "expression": "\"expression\": \"DoCast(target, SPELL_SLEEP);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 600,
+          "line": 689,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SLEEP, 15s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 745,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 771,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 797,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 825,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 851,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 877,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 903,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 935,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 978,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1019,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1065,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1104,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1198,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1201,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_RAVAGE, 5s, 8s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1206,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_FROST_NOVA, 9s, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1211,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"_events.ScheduleEvent(EVENT_FROST_BOLT_VOLLEY, 2s, 4s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1216,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_RAVAGE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1221,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastAOE(SPELL_FROST_NOVA, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1226,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_FROST_BOLT_VOLLEY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1231,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(player, SPELL_TELEPORT_DARNASSUS);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1236,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(hitUnit, uint32(GetEffectValueAsInt()), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1241,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_POISON_CLOUD, 5s, 9s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1246,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_FRENZIED_RAGE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1251,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_POISON_CLOUD);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1256,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_POISON_CLOUD, 25s, 50s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1261,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_THROW_NET, 2s, 4s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1266,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_NET);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1271,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_THROW_NET, 4s, 7s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1276,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_MIND_BLAST, 2s, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1281,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SLEEP, 9s, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1286,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_MIND_BLAST);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1291,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_MIND_BLAST, 7s, 9s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1296,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(target, SPELL_SLEEP);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1301,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SLEEP, 15s, 20s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1330,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1356,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -1309,7 +1920,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/dungeons/10-blackfathom-deeps.json",
       "kind": "shared",
       "bytes": 2634,
@@ -1335,7 +1946,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2700-blackfathom-deeps.json",
       "kind": "shared",
       "bytes": 4167,
@@ -1365,7 +1976,8 @@
       "name": "boss_aku_mai",
       "evidence": "candidate-from-filename",
       "source_paths": [
-        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_aku_mai.cpp"
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_aku_mai.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_aku_mai.cpp"
       ],
       "live_reborn_verified": false
     },
@@ -1373,7 +1985,8 @@
       "name": "boss_gelihast",
       "evidence": "candidate-from-filename",
       "source_paths": [
-        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_gelihast.cpp"
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_gelihast.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_gelihast.cpp"
       ],
       "live_reborn_verified": false
     },
@@ -1381,26 +1994,27 @@
       "name": "boss_kelris",
       "evidence": "candidate-from-filename",
       "source_paths": [
-        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_kelris.cpp"
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_kelris.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_kelris.cpp"
       ],
       "live_reborn_verified": false
     }
   },
   "coverage": {
-    "source_files": 31,
+    "source_files": 37,
     "by_kind": {
-      "boss": 3,
+      "boss": 6,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 12,
-      "shared": 11,
+      "shared": 13,
       "other": 0
     },
     "npc_ids_candidate": 9,
-    "spell_ids_candidate": 11,
+    "spell_ids_candidate": 12,
     "encounter_filename_candidates": 3,
     "boss_ai_present": true,
-    "creature_ai_source_candidates": 4,
+    "creature_ai_source_candidates": 7,
     "nonboss_ai_source_candidates": 1,
     "shared_creature_ai_source_candidates": 1,
     "trash_ai_explicitly_identified": false,

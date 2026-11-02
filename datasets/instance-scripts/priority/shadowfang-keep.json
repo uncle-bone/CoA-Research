@@ -429,13 +429,28 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 147,
+          "expression": "amplitude = irand(30 * IN_MILLISECONDS, 90 * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 152,
           "expression": "GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);",
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 209,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 212,
           "expression": "GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 219,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
           "evidence": "source-expression-candidate"
         },
         {
@@ -675,13 +690,28 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 147,
+          "expression": "amplitude = irand(30 * IN_MILLISECONDS, 90 * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 152,
           "expression": "GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);",
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 209,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 212,
           "expression": "GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 219,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
           "evidence": "source-expression-candidate"
         },
         {
@@ -1012,6 +1042,11 @@
       "cast_calls": 1,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
+        {
+          "line": 29,
+          "expression": "amplitude = (irand(0, 60) + 30) * IN_MILLISECONDS;",
+          "evidence": "source-expression-candidate"
+        },
         {
           "line": 34,
           "expression": "GetTarget()->CastSpell(nullptr, aurEff->GetAmountAsInt(), true);",
@@ -1468,13 +1503,28 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 147,
+          "expression": "amplitude = irand(30 * IN_MILLISECONDS, 90 * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 152,
           "expression": "GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);",
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 209,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 212,
           "expression": "GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 219,
+          "expression": "_forsakenSpell = urand(SPELL_FORSAKEN_SKILL_SWORD, SPELL_FORSAKEN_SKILL_SHADOW);",
           "evidence": "source-expression-candidate"
         },
         {
@@ -1571,9 +1621,34 @@
         "SPELL_SUMMON_TABLE",
         "SPELL_SUMMON_VALENTINE_ADD"
       ],
-      "cast_calls": 9,
+      "cast_calls": 14,
       "timing_or_phase_signals": 2,
       "timer_expression_candidates": [
+        {
+          "line": 89,
+          "expression": "DoCastSpellIfCan(nullptr, SPELL_ALLURING_PERFUME, CAST_TRIGGERED | CAST_AURA_NOT_PRESENT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "DoCastSpellIfCan(nullptr, SPELL_PERMANENT_FEIGN_DEATH, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "if (DoCastSpellIfCan(m_creature->GetVictim(), SPELL_ALLURING_PERFUME_SPRAY) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 123,
+          "expression": "if (DoCastSpellIfCan(m_creature->GetVictim(), SPELL_CHAIN_REACTION) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 125,
+          "expression": "DoCastSpellIfCan(m_creature->GetVictim(), SPELL_SUMMON_TABLE, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
         {
           "line": 133,
           "expression": "generator->CastSpell(generator, SPELL_SUMMON_VALENTINE_ADD, TRIGGERED_OLD_TRIGGERED);",
@@ -1587,6 +1662,11 @@
         {
           "line": 313,
           "expression": "caster->CastSpell(nullptr, 68644, TRIGGERED_OLD_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 318,
+          "expression": "if (urand(0, 1))",
           "evidence": "source-expression-candidate"
         },
         {
@@ -1673,9 +1753,50 @@
         "SPELL_FIRE",
         "SPELL_SPAWN"
       ],
-      "cast_calls": 0,
+      "cast_calls": 3,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 56,
+          "expression": "m_uiApothecaryResetTimer(0)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 278,
+          "expression": "m_uiApothecaryResetTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "if (m_uiApothecaryResetTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 365,
+          "expression": "if (m_uiApothecaryResetTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 379,
+          "expression": "m_uiApothecaryResetTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 398,
+          "expression": "creature->AI()->DoCastSpellIfCan(creature, SPELL_SPAWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 419,
+          "expression": "creature->AI()->DoCastSpellIfCan(creature, SPELL_ARUGAL_TELEPORT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 435,
+          "expression": "creature->AI()->DoCastSpellIfCan(creature, SPELL_FIRE);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1734,9 +1855,99 @@
         "SPELL_UNLOCK",
         "SPELL_VOID_BOLT"
       ],
-      "cast_calls": 1,
+      "cast_calls": 10,
       "timing_or_phase_signals": 10,
       "timer_expression_candidates": [
+        {
+          "line": 96,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FIRE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 137,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_UNLOCK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 326,
+          "expression": "if (DoCastSpellIfCan(dearestFriend, SPELL_DARK_OFFERING) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 327,
+          "expression": "ResetCombatAction(action, urand(4, 12) * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 423,
+          "expression": "DoCastSpellIfCan(who, SPELL_VOID_BOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 471,
+          "expression": "if (DoCastSpellIfCan(m_creature->GetVictim(), SPELL_VOID_BOLT) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 472,
+          "expression": "ResetCombatAction(action, urand(2900, 4800));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 479,
+          "expression": "if (DoCastSpellIfCan(nullptr, SPELL_THUNDERSHOCK) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 480,
+          "expression": "ResetCombatAction(action, urand(30, 38) * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 489,
+          "expression": "if (DoCastSpellIfCan(target, SPELL_ARUGALS_CURSE) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 490,
+          "expression": "ResetCombatAction(action, urand(20, 35) * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 496,
+          "expression": "uint8 newPosition = urand(0, 2);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 501,
+          "expression": "ResetCombatAction(action, urand(10, 15) * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 530,
+          "expression": "CanCastResult castResult = DoCastSpellIfCan(m_creature, teleportSpellId);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 533,
+          "expression": "castResult = DoCastSpellIfCan(m_creature, teleportSpellId, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 541,
+          "expression": "ResetCombatAction(action, urand(2000, 2200));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 546,
+          "expression": "ResetCombatAction(action, urand(48, 55) * IN_MILLISECONDS);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 634,
+          "expression": "if (urand(0, 99) == 0)",
+          "evidence": "source-expression-candidate"
+        },
         {
           "line": 635,
           "expression": "aura->GetTarget()->CastSpell(nullptr, forsakenSpells[urand(0, 14)], TRIGGERED_OLD_TRIGGERED);",
@@ -1821,6 +2032,530 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 133,
+          "expression": "uint32 m_uiApothecaryResetTimer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/shadowfang_keep/instance_shadowfang_keep.cpp",
+      "kind": "instance",
+      "bytes": 5667,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_ARUGAL_DOOR",
+        "GO_ARUGAL_FOCUS",
+        "GO_COURTYARD_DOOR",
+        "GO_SORCERER_DOOR",
+        "GO_STATE_ACTIVE",
+        "NPC_ADA",
+        "NPC_ARCHMAGE_ARUGAL",
+        "NPC_ASH",
+        "NPC_FENRUS",
+        "NPC_VINCENT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/shadowfang_keep/shadowfang_keep.cpp",
+      "kind": "shared",
+      "bytes": 30869,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_arugal",
+        "boss_arugalAI",
+        "boss_rethilgore",
+        "boss_rethilgoreAI",
+        "mob_arugal_voidwalker",
+        "mob_arugal_voidwalkerAI",
+        "npc_arugal",
+        "npc_arugalAI",
+        "npc_deathstalker_vincent",
+        "npc_deathstalker_vincentAI",
+        "npc_escortAI",
+        "npc_shadowfang_prisoner",
+        "npc_shadowfang_prisonerAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        4627
+      ],
+      "spell_ids_candidate": [
+        6421,
+        6422,
+        7136,
+        7154,
+        7295,
+        7586,
+        7587,
+        7588,
+        7621,
+        7741,
+        7803
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_ARUGAL_FOCUS",
+        "NPC_ADA",
+        "NPC_ASH",
+        "NPC_VINCENT",
+        "NPC_VOIDWALKER",
+        "SPELL_ARUGALS_CURSE",
+        "SPELL_DARK_OFFERING",
+        "SPELL_FIRE",
+        "SPELL_SHADOW_PORT_SPAWN_LEDGE",
+        "SPELL_SHADOW_PORT_STAIRS",
+        "SPELL_SHADOW_PORT_UPPER_LEDGE",
+        "SPELL_SOUL_DRAIN",
+        "SPELL_SPAWN",
+        "SPELL_THUNDERSHOCK",
+        "SPELL_UNLOCK",
+        "SPELL_VOID_BOLT"
+      ],
+      "cast_calls": 15,
+      "timing_or_phase_signals": 16,
+      "timer_expression_candidates": [
+        {
+          "line": 55,
+          "expression": "uint32 m_uiSoulDrainTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 59,
+          "expression": "m_uiSoulDrainTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "if (m_uiSoulDrainTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCastSpellIfCan(pTarget, SPELL_SOUL_DRAIN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 93,
+          "expression": "m_uiSoulDrainTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 94,
+          "expression": "} else m_uiSoulDrainTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_UNLOCK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 176,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FIRE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 282,
+          "expression": "uint32 m_uiResetTimer, m_uiDarkOffering;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 291,
+          "expression": "m_uiDarkOffering = urand(4400,12500);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 357,
+          "expression": "m_uiDarkOffering = urand(4400,12500);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 360,
+          "expression": "DoCastSpellIfCan(pUnit, SPELL_DARK_OFFERING);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 525,
+          "expression": "uint32 m_uiTeleportTimer, m_uiCurseTimer, m_uiVoidboltTimer, m_uiThundershockTimer, m_uiYellTimer, m_uiSpeechTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 532,
+          "expression": "m_uiTeleportTimer = urand(22000, 26000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 533,
+          "expression": "m_uiCurseTimer = urand(20000, 30000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 534,
+          "expression": "m_uiVoidboltTimer = m_uiThundershockTimer = m_uiSpeechTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 535,
+          "expression": "m_uiYellTimer = urand(32000, 46000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 546,
+          "expression": "DoCastSpellIfCan(pWho, SPELL_VOID_BOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 562,
+          "expression": "if (m_uiSpeechTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 569,
+          "expression": "m_uiSpeechTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 572,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FIRE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 573,
+          "expression": "m_uiSpeechTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 580,
+          "expression": "m_uiSpeechTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 584,
+          "expression": "m_uiSpeechTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 616,
+          "expression": "m_uiSpeechTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 629,
+          "expression": "else if (m_uiTeleportTimer > 2000)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 630,
+          "expression": "m_uiTeleportTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 640,
+          "expression": "if (m_uiYellTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 643,
+          "expression": "m_uiYellTimer = urand(34000, 68000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 646,
+          "expression": "m_uiYellTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 648,
+          "expression": "if (m_uiCurseTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 651,
+          "expression": "DoCastSpellIfCan(pTarget, SPELL_ARUGALS_CURSE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 653,
+          "expression": "m_uiCurseTimer = urand(20000, 35000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 656,
+          "expression": "m_uiCurseTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 658,
+          "expression": "if (m_uiThundershockTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 662,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_THUNDERSHOCK);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 663,
+          "expression": "m_uiThundershockTimer = urand(30200, 38500);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 667,
+          "expression": "m_uiThundershockTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 669,
+          "expression": "if (m_uiVoidboltTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 677,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_VOID_BOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 678,
+          "expression": "m_uiVoidboltTimer = urand(1000, 2000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 684,
+          "expression": "m_uiVoidboltTimer = urand(5000, 8000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 691,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_VOID_BOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 692,
+          "expression": "m_uiVoidboltTimer = urand(5000, 8000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 696,
+          "expression": "m_uiVoidboltTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 698,
+          "expression": "if (m_uiTeleportTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 700,
+          "expression": "m_uiVoidboltTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 705,
+          "expression": "posNewPosition = (ArugalPosition)urand(2, 3);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 708,
+          "expression": "posNewPosition = (ArugalPosition)urand(1, 2);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 720,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SHADOW_PORT_SPAWN_LEDGE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 723,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SHADOW_PORT_UPPER_LEDGE, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 726,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SHADOW_PORT_STAIRS, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 735,
+          "expression": "m_uiTeleportTimer = urand(2000, 2200);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 740,
+          "expression": "m_uiTeleportTimer = urand(48000, 55000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 744,
+          "expression": "m_uiTeleportTimer = urand(48000, 55000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 750,
+          "expression": "m_uiTeleportTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 826,
+          "expression": "uint32 m_uiSpeechTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 832,
+          "expression": "m_uiSpeechTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 846,
+          "expression": "if (m_uiSpeechTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 852,
+          "expression": "m_uiSpeechTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 855,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SPAWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 856,
+          "expression": "m_uiSpeechTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 863,
+          "expression": "m_uiSpeechTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 868,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 872,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 876,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 880,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 885,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 889,
+          "expression": "m_uiSpeechTimer = 1750;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 893,
+          "expression": "m_uiSpeechTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 896,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SPAWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 897,
+          "expression": "m_uiSpeechTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 913,
+          "expression": "m_uiSpeechTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/shadowfang_keep/shadowfang_keep.h",
+      "kind": "shared",
+      "bytes": 2221,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        3849,
+        3850,
+        4274,
+        4275,
+        4444,
+        10000
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_ARUGAL_DOOR",
+        "GO_ARUGAL_FOCUS",
+        "GO_COURTYARD_DOOR",
+        "GO_SORCERER_DOOR",
+        "NPC_ADA",
+        "NPC_ARCHMAGE_ARUGAL",
+        "NPC_ARUGAL",
+        "NPC_ASH",
+        "NPC_FENRUS",
+        "NPC_VINCENT"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
       "timer_expression_candidates": [],
       "phase_expression_candidates": [],
       "timers_verified": [],
@@ -1829,19 +2564,35 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/shadowfang-keep.json",
       "kind": "shared",
-      "bytes": 55402,
+      "bytes": 85632,
       "archive_kind": "research",
-      "creature_ai_source_candidate": false,
-      "boss_ai_source_candidate": false,
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_apothecary_hummel",
+        "boss_apothecary_hummelAI",
+        "boss_arugal",
+        "boss_arugalAI",
         "boss_hummel",
-        "npc_ids_candidate"
+        "mob_arugal_voidwalker",
+        "mob_arugal_voidwalkerAI",
+        "npc_apothecary_baxter",
+        "npc_apothecary_frye",
+        "npc_apothecary_genericAI",
+        "npc_deathstalker_vincent",
+        "npc_deathstalker_vincentAI",
+        "npc_escortAI",
+        "npc_ids_candidate",
+        "npc_shadowfang_prisoner",
+        "npc_shadowfang_prisonerAI",
+        "npc_valentine_boss_manager",
+        "npc_valentine_boss_managerAI"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1944,444 +2695,779 @@
         "SPELL_VALIDATE_AREA",
         "SPELL_VOID_BOLT"
       ],
-      "cast_calls": 85,
-      "timing_or_phase_signals": 8,
+      "cast_calls": 170,
+      "timing_or_phase_signals": 16,
       "timer_expression_candidates": [
         {
-          "line": 263,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 78,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 156,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 182,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 239,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 316,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 319,
           "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 268,
+          "line": 324,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 273,
+          "line": 329,
           "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 278,
+          "line": 334,
           "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 283,
+          "line": 339,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 288,
+          "line": 344,
           "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 293,
+          "line": 349,
           "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 298,
+          "line": 354,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 303,
+          "line": 359,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 308,
+          "line": 364,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 313,
+          "line": 369,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 318,
+          "line": 374,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 323,
+          "line": 379,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 367,
+          "line": 425,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 428,
           "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 372,
+          "line": 433,
           "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 377,
+          "line": 438,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 382,
+          "line": 443,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 488,
+          "line": 485,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 562,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 565,
           "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 493,
+          "line": 570,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 498,
+          "line": 575,
           "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 503,
+          "line": 580,
           "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 508,
+          "line": 585,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 513,
+          "line": 590,
           "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 518,
+          "line": 595,
           "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 523,
+          "line": 600,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 528,
+          "line": 605,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 533,
+          "line": 610,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 538,
+          "line": 615,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 543,
+          "line": 620,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 548,
+          "line": 625,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 592,
+          "line": 671,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 674,
           "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 597,
+          "line": 679,
           "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 602,
+          "line": 684,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 607,
+          "line": 689,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 721,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_0, Milliseconds(1));\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 726,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_1, Seconds(4));\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 731,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 815,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 818,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_0, Milliseconds(1));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 823,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_1, Seconds(4));\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 828,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HUMMEL_SAY_2, Seconds(4));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 736,
+          "line": 833,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_START_FIGHT, 4s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 741,
+          "line": 838,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_BAXTER, 6s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 746,
+          "line": 843,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CALL_FRYE, 14s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 751,
+          "line": 848,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PERFUME_SPRAY, Milliseconds(3640));\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 756,
+          "line": 853,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHAIN_REACTION, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 761,
+          "line": 858,
           "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 766,
+          "line": 863,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 771,
+          "line": 868,
           "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 776,
+          "line": 873,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_COLOGNE_SPRAY, 7s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 781,
+          "line": 878,
           "expression": "\"expression\": \"_events.ScheduleEvent(EVENT_CHAIN_REACTION, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 786,
+          "line": 883,
           "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 791,
+          "line": 888,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 796,
+          "line": 893,
           "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 801,
+          "line": 898,
           "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 806,
+          "line": 903,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 811,
+          "line": 908,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 816,
+          "line": 913,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 821,
+          "line": 918,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 826,
+          "line": 923,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 831,
+          "line": 928,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 910,
+          "line": 986,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1014,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1017,
           "expression": "\"expression\": \"GetTarget()->CastSpell(nullptr, aurEff->GetAmountAsInt(), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1195,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "line": 1070,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1096,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1122,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1148,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1174,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 1200,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1226,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1252,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1278,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1355,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1358,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_PERFUME_SPRAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1363,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1205,
+          "line": 1368,
           "expression": "\"expression\": \"DoCastAOE(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1210,
+          "line": 1373,
           "expression": "\"expression\": \"DoCastVictim(SPELL_COLOGNE_SPRAY);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1215,
+          "line": 1378,
           "expression": "\"expression\": \"DoCastVictim(SPELL_SUMMON_TABLE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1220,
+          "line": 1383,
           "expression": "\"expression\": \"DoCastVictim(SPELL_CHAIN_REACTION);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1225,
+          "line": 1388,
           "expression": "\"expression\": \"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1230,
+          "line": 1393,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1235,
+          "line": 1398,
           "expression": "\"expression\": \"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1240,
+          "line": 1403,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1245,
+          "line": 1408,
           "expression": "\"expression\": \"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1250,
+          "line": 1413,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1255,
+          "line": 1418,
           "expression": "\"expression\": \"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1299,
+          "line": 1464,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1467,
           "expression": "\"expression\": \"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1304,
+          "line": 1472,
           "expression": "\"expression\": \"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1309,
+          "line": 1477,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1314,
+          "line": 1482,
           "expression": "\"expression\": \"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1395,
+          "line": 1524,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1576,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1579,
           "expression": "\"expression\": \"generator->CastSpell(generator, SPELL_SUMMON_VALENTINE_ADD, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1400,
+          "line": 1584,
           "expression": "\"expression\": \"caster->CastSpell(target, 68799, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1405,
+          "line": 1589,
           "expression": "\"expression\": \"caster->CastSpell(nullptr, 68644, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1410,
+          "line": 1594,
           "expression": "\"expression\": \"caster->CastSpell(nullptr, 69039, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1415,
+          "line": 1599,
           "expression": "\"expression\": \"caster->CastSpell(target, urand(0, 1) ? 68841 : 68799, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1420,
+          "line": 1604,
           "expression": "\"expression\": \"caster->CastSpell(nullptr, 68798, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1425,
+          "line": 1609,
           "expression": "\"expression\": \"caster->CastSpell(nullptr, 68614, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1430,
+          "line": 1614,
           "expression": "\"expression\": \"caster->CastSpell(target, 68927, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1435,
+          "line": 1619,
           "expression": "\"expression\": \"caster->CastSpell(target, 68934, TRIGGERED_OLD_TRIGGERED);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1538,
+          "line": 1678,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1739,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1742,
           "expression": "\"expression\": \"aura->GetTarget()->CastSpell(nullptr, forsakenSpells[urand(0, 14)], TRIGGERED_OLD_TRIGGERED);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1824,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1949,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1952,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_PERFUME_SPRAY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1957,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_SUMMON_TABLE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1962,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastAOE(SPELL_CHAIN_REACTION);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1967,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_COLOGNE_SPRAY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1972,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_SUMMON_TABLE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1977,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_CHAIN_REACTION);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1982,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1987,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1992,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1997,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2002,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2007,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2012,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2017,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"generator->CastSpell(nullptr, SPELL_SUMMON_VALENTINE_ADD);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2022,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetTarget()->CastSpell((Unit*)nullptr, aurEff->GetAmount(), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2027,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2032,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetUnitOwner()->CastSpell(GetUnitOwner(), _forsakenSpell, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2037,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_PERFUME_SPRAY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2042,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_SUMMON_TABLE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2047,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastAOE(SPELL_CHAIN_REACTION);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2052,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_COLOGNE_SPRAY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2057,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_SUMMON_TABLE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2062,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_CHAIN_REACTION);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2067,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"caster->CastSpell(GetHitUnit(), SPELL_VALIDATE_AREA, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2072,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_BUNNY_LOCKDOWN, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2077,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetCaster()->CastSpell(GetHitUnit(), RAND(SPELL_THROW_COLOGNE, SPELL_THROW_PERFUME), true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2082,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_COLOGNE_SPILL, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2087,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetHitUnit()->CastSpell(GetHitUnit(), SPELL_PERFUME_SPILL, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2092,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetTarget()->CastSpell(GetTarget(), SPELL_PERFUME_SPILL_DAMAGE, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2097,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"GetTarget()->CastSpell(GetTarget(), SPELL_COLOGNE_SPILL_DAMAGE, true);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
       "phase_expression_candidates": [
         {
-          "line": 838,
+          "line": 935,
           "expression": "\"expression\": \"events.SetPhase(PHASE_ALL);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 843,
+          "line": 940,
           "expression": "\"expression\": \"events.SetPhase(PHASE_INTRO);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2379,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.SetPhase(PHASE_ALL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2384,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.SetPhase(PHASE_INTRO);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -2391,7 +3477,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3320-shadowfang-keep-halls-of-the-damned.json",
       "kind": "shared",
       "bytes": 8279,
@@ -2417,7 +3503,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/3321-shadowfang-keep-arugal-s-rise.json",
       "kind": "shared",
       "bytes": 4181,
@@ -2464,22 +3550,22 @@
     }
   },
   "coverage": {
-    "source_files": 37,
+    "source_files": 40,
     "by_kind": {
       "boss": 5,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 16,
-      "shared": 11,
+      "shared": 13,
       "other": 0
     },
     "npc_ids_candidate": 25,
-    "spell_ids_candidate": 28,
+    "spell_ids_candidate": 29,
     "encounter_filename_candidates": 2,
     "boss_ai_present": true,
-    "creature_ai_source_candidates": 6,
+    "creature_ai_source_candidates": 8,
     "nonboss_ai_source_candidates": 6,
-    "shared_creature_ai_source_candidates": 1,
+    "shared_creature_ai_source_candidates": 3,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,

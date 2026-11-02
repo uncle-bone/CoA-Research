@@ -261,6 +261,11 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 121,
+          "expression": "if (urand(0, 100) > 40)",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 148,
           "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
           "evidence": "source-expression-candidate"
@@ -278,6 +283,11 @@
         {
           "line": 167,
           "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 171,
+          "expression": "if (Creature* creature = me->SummonCreature(NPC_IDOL_ROOM_SPAWNER, PosSummonSpawner[urand(0, 2)], TEMPSUMMON_TIMED_DESPAWN, 4000))",
           "evidence": "source-expression-candidate"
         },
         {
@@ -481,6 +491,11 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 121,
+          "expression": "if (urand(0, 100) > 40)",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 148,
           "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
           "evidence": "source-expression-candidate"
@@ -498,6 +513,11 @@
         {
           "line": 167,
           "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 171,
+          "expression": "if (Creature* creature = me->SummonCreature(NPC_IDOL_ROOM_SPAWNER, PosSummonSpawner[urand(0, 2)], TEMPSUMMON_TIMED_DESPAWN, 4000))",
           "evidence": "source-expression-candidate"
         },
         {
@@ -909,7 +929,13 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 141,
+          "expression": "creature->GetMotionMaster()->MovePoint(0, 2533.479f + float(irand(-5, 5)), 870.020f + float(irand(-5, 5)), 47.678f);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -994,6 +1020,11 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 120,
+          "expression": "if (urand(0, 100) > 40)",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 149,
           "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
           "evidence": "source-expression-candidate"
@@ -1006,6 +1037,11 @@
         {
           "line": 168,
           "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 171,
+          "expression": "if (Creature* creature = me->SummonCreature(NPC_IDOL_ROOM_SPAWNER, PosSummonSpawner[urand(0,2)], TEMPSUMMON_TIMED_DESPAWN, 4s))",
           "evidence": "source-expression-candidate"
         },
         {
@@ -1398,6 +1434,11 @@
           "evidence": "source-expression-candidate"
         },
         {
+          "line": 121,
+          "expression": "if (urand(0, 100) > 40)",
+          "evidence": "source-expression-candidate"
+        },
+        {
           "line": 148,
           "expression": "events.ScheduleEvent(EVENT_CHANNEL, 2s);",
           "evidence": "source-expression-candidate"
@@ -1415,6 +1456,11 @@
         {
           "line": 167,
           "expression": "events.ScheduleEvent(EVENT_PROGRESS, 120s);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 171,
+          "expression": "if (Creature* creature = me->SummonCreature(NPC_IDOL_ROOM_SPAWNER, PosSummonSpawner[urand(0, 2)], TEMPSUMMON_TIMED_DESPAWN, 4000))",
           "evidence": "source-expression-candidate"
         },
         {
@@ -1604,9 +1650,185 @@
         "SPELL_SUMMON_2",
         "SPELL_SUMMON_3"
       ],
-      "cast_calls": 0,
+      "cast_calls": 4,
       "timing_or_phase_signals": 9,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 86,
+          "expression": "m_uiRitualTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "uint32 m_uiRitualTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 95,
+          "expression": "uint32 m_uiFireballTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "uint32 m_uiFrostNovaTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 100,
+          "expression": "m_uiFireballTimer  = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 101,
+          "expression": "m_uiFrostNovaTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "DoScriptText(urand(0, 1) ? SAY_BELNISTRASZ_AGGRO_1 : SAY_BELNISTRASZ_AGGRO_2, m_creature, pAttacker);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 178,
+          "expression": "if (m_uiRitualTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 183,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_IDOL_SHUTDOWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 184,
+          "expression": "m_uiRitualTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 187,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 188,
+          "expression": "m_uiRitualTimer = 39000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 191,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 196,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 200,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 205,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 208,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 209,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 213,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 216,
+          "expression": "DoSummonSpawner(urand(0, 2));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 217,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 221,
+          "expression": "m_uiRitualTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 243,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_IDOL_ROOM_SHAKE);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 258,
+          "expression": "m_uiRitualTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 266,
+          "expression": "if (m_uiFireballTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 268,
+          "expression": "DoCastSpellIfCan(m_creature->GetVictim(), SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 269,
+          "expression": "m_uiFireballTimer  = urand(2000, 3000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 272,
+          "expression": "m_uiFireballTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 274,
+          "expression": "if (m_uiFrostNovaTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 276,
+          "expression": "DoCastSpellIfCan(m_creature->GetVictim(), SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 277,
+          "expression": "m_uiFrostNovaTimer = urand(10000, 15000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 280,
+          "expression": "m_uiFrostNovaTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1648,22 +1870,522 @@
       "variant": "baseline-candidate"
     },
     {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_downs/boss_amnennar_the_coldbringer.cpp",
+      "kind": "boss",
+      "bytes": 4774,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_amnennar_the_coldbringer",
+        "boss_amnennar_the_coldbringerAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        12642,
+        13009,
+        15530,
+        15531
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_AMNENNARS_WRATH",
+        "SPELL_FROSTBOLT",
+        "SPELL_FROST_NOVA",
+        "SPELL_FROST_SPECTRES"
+      ],
+      "cast_calls": 6,
+      "timing_or_phase_signals": 5,
+      "timer_expression_candidates": [
+        {
+          "line": 60,
+          "expression": "uint32 m_uiAmnenarsWrathTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 61,
+          "expression": "uint32 m_uiFrostBoltTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 62,
+          "expression": "uint32 m_uiFrostNovaTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 71,
+          "expression": "m_uiAmnenarsWrathTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 72,
+          "expression": "m_uiFrostBoltTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 73,
+          "expression": "m_uiFrostNovaTimer = urand(10000, 15000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 107,
+          "expression": "if (m_uiAmnenarsWrathTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_AMNENNARS_WRATH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "m_uiAmnenarsWrathTimer = 12000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 113,
+          "expression": "m_uiAmnenarsWrathTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "if (m_uiFrostBoltTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 118,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FROSTBOLT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "m_uiFrostBoltTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 122,
+          "expression": "m_uiFrostBoltTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 125,
+          "expression": "if (m_uiFrostNovaTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 127,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 128,
+          "expression": "m_uiFrostNovaTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 131,
+          "expression": "m_uiFrostNovaTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FROST_SPECTRES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FROST_SPECTRES);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 156,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FROST_SPECTRES);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 133,
+          "expression": "if (!Spectrals65 && HealthBelowPct(65))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 140,
+          "expression": "if(!Hp && HealthBelowPct(50))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 146,
+          "expression": "if (!Spectrals45 && HealthBelowPct(45))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 153,
+          "expression": "if (!Spectrals25 && HealthBelowPct(25))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_downs/instance_razorfen_downs.cpp",
+      "kind": "instance",
+      "bytes": 5693,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_GONG_USE",
+        "GO_FLAG_INTERACT_COND",
+        "GO_FLAG_NO_INTERACT",
+        "GO_GONG",
+        "NPC_FROZEN_SPECTRE",
+        "NPC_RAGGLESNOUT",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTENKASH"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_downs/razorfen_downs.cpp",
+      "kind": "shared",
+      "bytes": 12385,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_escortAI",
+        "npc_henry_stern"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7329,
+        7333,
+        7335,
+        7356,
+        8611
+      ],
+      "spell_ids_candidate": [
+        3451,
+        9053,
+        11831,
+        12694,
+        12774,
+        13028,
+        13029,
+        13030,
+        13326,
+        14801,
+        14802
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_GONG_USE",
+        "GO_BELNISTRASZ_BRAZIER",
+        "NPC_DEATHS_HEAD_GEOMANCER",
+        "NPC_IDOL_ROOM_SPAWNER",
+        "NPC_PLAGUEMAW_THE_ROTTING",
+        "NPC_WITHERED_BATTLE_BOAR",
+        "NPC_WITHERED_QUILGUARD",
+        "SPELL_ARCANE_INTELLECT",
+        "SPELL_FIREBALL",
+        "SPELL_FROST_NOVA",
+        "SPELL_GOLDTHORN_TEA",
+        "SPELL_IDOL_SHUTDOWN",
+        "SPELL_MIGHT_TROLLS_BLOOD_POTION",
+        "SPELL_SUMMON_1",
+        "SPELL_SUMMON_2",
+        "SPELL_SUMMON_3",
+        "SPELL_TEACHING_GOLDTHORN_TEA",
+        "SPELL_TEACHING_MIGHTY_TROLLS_BLOOD_POTION"
+      ],
+      "cast_calls": 5,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [
+        {
+          "line": 101,
+          "expression": "m_uiRitualTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 107,
+          "expression": "uint32 m_uiRitualTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 110,
+          "expression": "uint32 m_uiFireballTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 111,
+          "expression": "uint32 m_uiFrostNovaTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "m_uiFireballTimer  = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 116,
+          "expression": "m_uiFrostNovaTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 125,
+          "expression": "DoScriptText(urand(0,1) ? SAY_BELNISTRASZ_AGGRO_1 : SAY_BELNISTRASZ_AGGRO_1, m_creature, pAttacker);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 193,
+          "expression": "if (m_uiRitualTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 198,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_IDOL_SHUTDOWN);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "m_uiRitualTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 202,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "m_uiRitualTimer = 39000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 207,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 211,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 214,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 215,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 218,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 224,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 228,
+          "expression": "m_uiRitualTimer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 231,
+          "expression": "DoSummonSpawner(irand(1, 3));",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "m_uiRitualTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 236,
+          "expression": "m_uiRitualTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 263,
+          "expression": "m_uiRitualTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 271,
+          "expression": "if (m_uiFireballTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 273,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FIREBALL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 274,
+          "expression": "m_uiFireballTimer  = urand(2000,3000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 277,
+          "expression": "m_uiFireballTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 279,
+          "expression": "if (m_uiFrostNovaTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 281,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_FROST_NOVA);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 282,
+          "expression": "m_uiFrostNovaTimer = urand(10000,15000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 285,
+          "expression": "m_uiFrostNovaTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 345,
+          "expression": "pCreature->CastSpell(pPlayer, SPELL_TEACHING_GOLDTHORN_TEA, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 350,
+          "expression": "pCreature->CastSpell(pPlayer, SPELL_TEACHING_MIGHTY_TROLLS_BLOOD_POTION, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/kalimdor/razorfen_downs/razorfen_downs.h",
+      "kind": "shared",
+      "bytes": 2018,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7349,
+        7351,
+        7354,
+        7355,
+        8585
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_GONG_USE",
+        "GO_GONG",
+        "NPC_FROZEN_SPECTRE",
+        "NPC_RAGGLESNOUT",
+        "NPC_TOMB_FIEND",
+        "NPC_TOMB_REAVER",
+        "NPC_TUTENKASH"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/razorfen-downs.json",
       "kind": "shared",
-      "bytes": 48972,
+      "bytes": 76730,
       "archive_kind": "research",
-      "creature_ai_source_candidate": false,
+      "creature_ai_source_candidate": true,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_amnennar_the_coldbringer",
         "boss_glutton",
         "boss_mordresh_fire_eye",
         "boss_tuten_kash",
-        "npc_ids_candidate"
+        "npc_belnistrasz",
+        "npc_belnistraszAI",
+        "npc_escortAI",
+        "npc_henry_stern",
+        "npc_idol_room_spawner",
+        "npc_idol_room_spawnerAI",
+        "npc_ids_candidate",
+        "npc_tomb_creature",
+        "npc_tomb_creatureAI"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1745,457 +2467,757 @@
         "SPELL_WEB",
         "SPELL_WEB_SPRAY"
       ],
-      "cast_calls": 90,
+      "cast_calls": 180,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 205,
-          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 210,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "line": 52,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 215,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "line": 78,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 220,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "line": 104,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 225,
-          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
+          "line": 130,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 230,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "line": 156,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 235,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "line": 189,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 240,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 245,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "line": 247,
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 250,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 255,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 260,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 265,
-          "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 270,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 275,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 280,
-          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 285,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 405,
-          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 410,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 415,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 420,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 425,
-          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 430,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 435,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 440,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 445,
+          "line": 290,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 450,
+          "line": 295,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 455,
+          "line": 300,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 460,
+          "line": 305,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 465,
+          "line": 310,
           "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 315,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 320,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 325,
+          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 330,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 376,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 409,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 467,
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 470,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 475,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 480,
-          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 485,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 569,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AMNENNARS_WRATH, 8s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 574,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROSTBOLT, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 579,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 10s, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 584,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_75, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 589,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_60, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 594,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_30, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 599,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_AMNENNARS_WRATH);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 604,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_FROSTBOLT);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 644,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_50, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 649,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_15, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 689,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 10s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 694,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 0s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 699,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_NOVA, 8s, 12s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 704,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_2, 8s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 709,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_3, 3s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 714,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_4, 6s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 719,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 14s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 724,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 764,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB_SPRAY, 10s, 20s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 769,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_OF_TUTENKASH, 10s, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 872,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 877,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 882,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 887,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 892,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 897,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 902,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 907,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 912,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 917,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 922,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 927,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 932,
-          "expression": "\"expression\": \"DoCastAOE(SPELL_FROST_NOVA);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 937,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 942,
-          "expression": "\"expression\": \"DoCast(me, SPELL_POISON_PROC);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 947,
-          "expression": "\"expression\": \"DoCast(me, SPELL_VIRULENT_POISON_PROC);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 952,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 5s, 8s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 957,
-          "expression": "\"expression\": \"DoCastVictim(SPELL_WEB);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 962,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 7s, 16s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 1221,
           "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1226,
+          "line": 475,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1231,
+          "line": 480,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1236,
+          "line": 485,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1241,
+          "line": 490,
           "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1246,
+          "line": 495,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1251,
+          "line": 500,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1256,
+          "line": 505,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1261,
+          "line": 510,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1266,
+          "line": 515,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1271,
+          "line": 520,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1276,
+          "line": 525,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1281,
+          "line": 530,
           "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1286,
+          "line": 535,
           "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1291,
+          "line": 540,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1296,
+          "line": 545,
           "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1301,
+          "line": 550,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 596,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 643,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 646,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AMNENNARS_WRATH, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 651,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROSTBOLT, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 656,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 661,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_75, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 666,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_60, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 671,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_30, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 676,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_AMNENNARS_WRATH);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 681,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FROSTBOLT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 725,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 728,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_50, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 733,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_HEALTH_15, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 777,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 780,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 10s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 785,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 0s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 790,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIRE_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 795,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_2, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 800,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_3, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 805,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_4, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 810,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_OOC_1, 14s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 815,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 859,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 862,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB_SPRAY, 10s, 20s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 867,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CURSE_OF_TUTENKASH, 10s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 912,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 985,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 988,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 993,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 998,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1003,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1008,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1013,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1018,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1023,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1028,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1033,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1038,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1043,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1048,
+          "expression": "\"expression\": \"DoCastAOE(SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1053,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1058,
+          "expression": "\"expression\": \"DoCast(me, SPELL_POISON_PROC);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1063,
+          "expression": "\"expression\": \"DoCast(me, SPELL_VIRULENT_POISON_PROC);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1068,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 5s, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1073,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_WEB);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1078,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WEB, 7s, 16s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1137,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1163,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1189,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1215,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1241,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1267,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1293,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1326,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1384,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1387,
+          "expression": "\"expression\": \"DoCast(me, SPELL_ARCANE_INTELLECT);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1392,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 1s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1397,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1402,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHANNEL, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1407,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1412,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1417,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 120s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1422,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1427,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1432,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1437,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_PROGRESS, 1min);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1442,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_COMPLETE, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1447,
+          "expression": "\"expression\": \"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1452,
+          "expression": "\"expression\": \"DoCastVictim(SPELL_FIREBALL);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1457,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIREBALL, 8s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1462,
+          "expression": "\"expression\": \"DoCast(me, SPELL_FROST_NOVA);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1467,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1513,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1545,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1609,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1644,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1750,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1753,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_ARCANE_INTELLECT);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1758,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIREBALL, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1763,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1768,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHANNEL, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1773,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1778,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1783,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 120s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1788,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1793,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1798,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1803,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1808,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_COMPLETE, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1813,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_IDOM_ROOM_CAMERA_SHAKE);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1818,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_FIREBALL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1823,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIREBALL, 8s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1828,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_FROST_NOVA);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1833,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FROST_NOVA, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1838,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_ARCANE_INTELLECT);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1843,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIREBALL, 1s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1848,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FROST_NOVA, 8s, 12s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1853,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHANNEL, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1858,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCast(me, SPELL_IDOL_SHUTDOWN_VISUAL);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1863,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 100ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1868,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 120s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1873,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_IDOL_ROOM_SPAWNER, 35s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1878,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1883,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1888,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_PROGRESS, 1min);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -2206,7 +3228,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2710-razorfen-downs.json",
       "kind": "shared",
       "bytes": 4164,
@@ -2236,7 +3258,8 @@
       "name": "boss_amnennar_the_coldbringer",
       "evidence": "candidate-from-filename",
       "source_paths": [
-        "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp"
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp",
+        "scripts/kalimdor/razorfen_downs/boss_amnennar_the_coldbringer.cpp"
       ],
       "live_reborn_verified": false
     },
@@ -2266,22 +3289,22 @@
     }
   },
   "coverage": {
-    "source_files": 33,
+    "source_files": 37,
     "by_kind": {
-      "boss": 4,
+      "boss": 5,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 12,
-      "shared": 12,
+      "shared": 14,
       "other": 0
     },
-    "npc_ids_candidate": 8,
-    "spell_ids_candidate": 24,
+    "npc_ids_candidate": 10,
+    "spell_ids_candidate": 28,
     "encounter_filename_candidates": 4,
     "boss_ai_present": true,
-    "creature_ai_source_candidates": 9,
+    "creature_ai_source_candidates": 12,
     "nonboss_ai_source_candidates": 5,
-    "shared_creature_ai_source_candidates": 5,
+    "shared_creature_ai_source_candidates": 7,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,

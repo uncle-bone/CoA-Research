@@ -1869,9 +1869,120 @@
         "SPELL_SMITE_STOMP",
         "SPELL_THRASH"
       ],
-      "cast_calls": 0,
+      "cast_calls": 7,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 56,
+          "expression": "uint32 m_uiEquipTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 57,
+          "expression": "uint32 m_uiSlamTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 62,
+          "expression": "m_uiEquipTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 63,
+          "expression": "m_uiSlamTimer = 9000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_NIBLE_REFLEXES, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_NIBLE_REFLEXES, CAST_TRIGGERED | CAST_AURA_NOT_PRESENT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 104,
+          "expression": "m_uiEquipTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 136,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_SMITE_HAMMER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 143,
+          "expression": "m_uiEquipTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 162,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_THRASH, CAST_TRIGGERED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 171,
+          "expression": "if (m_uiEquipTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "if (m_uiEquipTimer > uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 176,
+          "expression": "m_uiEquipTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 179,
+          "expression": "m_uiEquipTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 205,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_SMITE_STOMP) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 209,
+          "expression": "m_uiEquipTimer = 2500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_SMITE_STOMP) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 227,
+          "expression": "m_uiEquipTimer = 2500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 239,
+          "expression": "if (m_uiSlamTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "if (DoCastSpellIfCan(m_creature->GetVictim(), SPELL_SMITE_SLAM) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 242,
+          "expression": "m_uiSlamTimer = 11000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 245,
+          "expression": "m_uiSlamTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1946,7 +2057,13 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 72,
+          "expression": "uint32 m_uiIronDoorTimer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1986,6 +2103,70 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 28,
+          "expression": "m_uiIronDoorTimer(0),",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 168,
+          "expression": "m_uiIronDoorTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 221,
+          "expression": "if (m_uiIronDoorTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 223,
+          "expression": "if (m_uiIronDoorTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 243,
+          "expression": "m_uiIronDoorTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 250,
+          "expression": "m_uiIronDoorTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 255,
+          "expression": "m_uiIronDoorTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/deadmines/deadmines.cpp",
+      "kind": "shared",
+      "bytes": 2125,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_IRON_CLAD"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
       "timer_expression_candidates": [],
       "phase_expression_candidates": [],
       "timers_verified": [],
@@ -1993,19 +2174,148 @@
       "variant": "baseline-candidate"
     },
     {
-      "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
-      "path": "datasets/instance-scripts/priority/deadmines.json",
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/deadmines/deadmines.h",
       "kind": "shared",
-      "bytes": 60045,
-      "archive_kind": "research",
+      "bytes": 1192,
+      "archive_kind": "script",
       "creature_ai_source_candidate": false,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        646,
+        657
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_DEFIAS_DOOR",
+        "GO_DEFIAS_CANNON",
+        "GO_DOOR_LEVER",
+        "GO_IRON_CLAD",
+        "NPC_MR_SMITE",
+        "NPC_PIRATE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 44,
+          "expression": "uint32 m_uiIronDoor_Timer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/deadmines/instance_deadmines.cpp",
+      "kind": "instance",
+      "bytes": 4112,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_DEFIAS_CANNON",
+        "GO_IRON_CLAD",
+        "GO_STATE_ACTIVE_ALTERNATIVE",
+        "NPC_MR_SMITE",
+        "NPC_PIRATE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 28,
+          "expression": "m_uiIronDoor_Timer(0),",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 65,
+          "expression": "m_uiIronDoor_Timer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 82,
+          "expression": "if (m_uiIronDoor_Timer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 84,
+          "expression": "if (m_uiIronDoor_Timer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "m_uiIronDoor_Timer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 101,
+          "expression": "m_uiIronDoor_Timer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "m_uiIronDoor_Timer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 112,
+          "expression": "m_uiIronDoor_Timer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "m_uiIronDoor_Timer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+      "path": "datasets/instance-scripts/priority/deadmines.json",
+      "kind": "shared",
+      "bytes": 87764,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
+        "boss_coa_vaults_darkandle",
+        "boss_coa_vaults_deceiver",
+        "boss_coa_vaults_echo",
         "boss_mr_smite",
-        "npc_ids_candidate"
+        "boss_mr_smiteAI",
+        "npc_coa_vaults_trash",
+        "npc_entry",
+        "npc_ids_candidate",
+        "npc_spellclick_spells",
+        "npc_text"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -2077,339 +2387,829 @@
         "SPELL_STUNNING_STRIKE",
         "SPELL_THRASH"
       ],
-      "cast_calls": 59,
-      "timing_or_phase_signals": 7,
+      "cast_calls": 118,
+      "timing_or_phase_signals": 14,
       "timer_expression_candidates": [
         {
-          "line": 465,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
+          "line": 28,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 470,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_SAY, 800ms);\",",
+          "line": 54,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 475,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_MOVE, 2s);\",",
+          "line": 80,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 480,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
+          "line": 106,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 485,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
+          "line": 134,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 490,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 8400ms);\",",
+          "line": 160,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 495,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 14s, 18s);\",",
+          "line": 186,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 500,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 12s, 15s);\",",
+          "line": 212,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 505,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 13s, 18s);\",",
+          "line": 240,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 266,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 292,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 318,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 344,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 370,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 396,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 422,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 448,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 474,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 510,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 515,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 520,
-          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FIERCE_BLOW, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 525,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 7800ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 530,
-          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_STUNNING_STRIKE, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 535,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 20s, 26s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 540,
-          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_RUPTURE, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 545,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 18s, 24s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 550,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_RETALIATION, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 555,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 25s, 30s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 560,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_RUSH, true);\",",
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         },
         {
           "line": 565,
-          "expression": "\"expression\": \"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\",",
+          "expression": "\"timer_expression_candidates\": [",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 570,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 575,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNEEL, 0ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 692,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 697,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 702,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 3s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 707,
+          "line": 568,
           "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 712,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 717,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 722,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 727,
-          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_SMITE_SLAM, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 732,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 6s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 737,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 742,
-          "expression": "\"expression\": \"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 747,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 752,
-          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNEEL, 0ms);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 1388,
-          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
-          "evidence": "source-expression-candidate"
-        },
-        {
-          "line": 1393,
+          "line": 573,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_SAY, 800ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1398,
+          "line": 578,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_MOVE, 2s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1403,
+          "line": 583,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1408,
+          "line": 588,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1413,
+          "line": 593,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 8400ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1418,
+          "line": 598,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 14s, 18s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1423,
+          "line": 603,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 12s, 15s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1428,
+          "line": 608,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 13s, 18s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1433,
+          "line": 613,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1438,
+          "line": 618,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1443,
+          "line": 623,
           "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FIERCE_BLOW, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1448,
+          "line": 628,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 7800ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1453,
+          "line": 633,
           "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_STUNNING_STRIKE, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1458,
+          "line": 638,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 20s, 26s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1463,
+          "line": 643,
           "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_RUPTURE, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1468,
+          "line": 648,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 18s, 24s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1473,
+          "line": 653,
           "expression": "\"expression\": \"me->CastSpell(me, SPELL_RETALIATION, false);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1478,
+          "line": 658,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 25s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1483,
+          "line": 663,
           "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_RUSH, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1488,
+          "line": 668,
           "expression": "\"expression\": \"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1493,
+          "line": 673,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1498,
+          "line": 678,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNEEL, 0ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 729,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 768,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 810,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 813,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 818,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 823,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 828,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 833,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 838,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 843,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 848,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_SMITE_SLAM, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 853,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 6s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 858,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SMITE_SLAM, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 863,
+          "expression": "\"expression\": \"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 868,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 873,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNEEL, 0ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 929,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 968,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1021,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1064,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1092,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1118,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1144,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1170,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1198,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1224,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1250,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1276,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1304,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1330,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1356,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1382,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1408,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1434,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1460,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1486,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1512,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1538,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1574,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1629,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1632,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_STOMP, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1637,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_SAY, 800ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1642,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_SWAP_MOVE, 2s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1647,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1652,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1657,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 8400ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1662,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 14s, 18s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1667,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 12s, 15s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1672,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 13s, 18s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1677,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1682,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1687,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_FIERCE_BLOW, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1692,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_FIERCE_BLOW, 7800ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1697,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_STUNNING_STRIKE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1702,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 20s, 26s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1707,
+          "expression": "\"expression\": \"me->CastSpell(me->GetVictim(), SPELL_RUPTURE, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1712,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RUPTURE, 18s, 24s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1717,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_RETALIATION, false);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1722,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RETALIATION, 25s, 30s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1727,
+          "expression": "\"expression\": \"me->CastSpell(me, SPELL_SMITE_RUSH, true);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1732,
+          "expression": "\"expression\": \"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1737,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1742,
+          "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNEEL, 0ms);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1793,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1832,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1874,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1900,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1949,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1989,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2082,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2085,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_SMITE_STOMP, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2090,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SWAP_SAY, 800ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2095,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SWAP_MOVE, 2s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2100,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2105,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2110,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIERCE_BLOW, 8400ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2115,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 14s, 18s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2120,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RUPTURE, 12s, 15s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2125,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RETALIATION, 13s, 18s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2130,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2135,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2140,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_FIERCE_BLOW, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2145,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_FIERCE_BLOW, 7800ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2150,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_STUNNING_STRIKE, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2155,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_STUNNING_STRIKE, 20s, 26s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2160,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_RUPTURE, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2165,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RUPTURE, 18s, 24s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2170,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_RETALIATION, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2175,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RETALIATION, 25s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2180,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_SMITE_RUSH, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2185,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2190,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2195,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_KNEEL, 0ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2200,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2205,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2210,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SMITE_SLAM, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2215,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_SMITE_STOMP, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2220,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH1, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2225,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_SMITE_STOMP, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2230,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_CHECK_HEALTH2, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2235,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me->GetVictim(), SPELL_SMITE_SLAM, false);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2240,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SMITE_SLAM, 6s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2245,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_SMITE_SLAM, 500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2250,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(point == EQUIP_TWO_SWORDS ? EVENT_SWAP_WEAPON1 : EVENT_SWAP_WEAPON2, 1500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2255,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_RESTORE_COMBAT, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2260,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_KNEEL, 0ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2265,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"me->CastSpell(me, SPELL_SMITE_STOMP, false);\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
       "phase_expression_candidates": [
         {
-          "line": 582,
+          "line": 685,
           "expression": "\"expression\": \"if (me->HealthBelowPct(67) && !health67)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 587,
+          "line": 690,
           "expression": "\"expression\": \"if (me->HealthBelowPct(34) && !health34)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 759,
+          "line": 880,
           "expression": "\"expression\": \"if (me->HealthBelowPct(67) && !health67)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 764,
+          "line": 885,
           "expression": "\"expression\": \"if (me->HealthBelowPct(34) && !health34)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 769,
+          "line": 890,
           "expression": "\"expression\": \"if (me->HealthBelowPct(33))\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1505,
+          "line": 1749,
           "expression": "\"expression\": \"if (me->HealthBelowPct(67) && !health67)\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 1510,
+          "line": 1754,
           "expression": "\"expression\": \"if (me->HealthBelowPct(34) && !health34)\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2382,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(67) && !health67)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2387,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(34) && !health34)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2392,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(67) && !health67)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2397,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(34) && !health34)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2402,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(33))\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2407,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(67) && !health67)\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 2412,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"if (me->HealthBelowPct(34) && !health34)\\\",\",",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -2419,7 +3219,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2696-deadmines.json",
       "kind": "shared",
       "bytes": 4159,
@@ -2445,7 +3245,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-dungeons-scarlet-scholo-strath-uldaman-stockade-deadmines-brd-vaults-2026-10-30.json",
       "kind": "shared",
       "bytes": 54831,
@@ -2492,13 +3292,13 @@
     }
   },
   "coverage": {
-    "source_files": 56,
+    "source_files": 59,
     "by_kind": {
       "boss": 4,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 36,
-      "shared": 11,
+      "shared": 13,
       "other": 0
     },
     "npc_ids_candidate": 15,

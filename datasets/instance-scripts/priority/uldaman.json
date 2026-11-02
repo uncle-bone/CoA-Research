@@ -1016,9 +1016,115 @@
         "SPELL_GROUND_TREMOR",
         "SPELL_STONED"
       ],
-      "cast_calls": 0,
+      "cast_calls": 5,
       "timing_or_phase_signals": 3,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 54,
+          "expression": "uint32 m_uiAwakeningTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 55,
+          "expression": "uint32 m_uiAwakeDwarfTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "uint32 m_uiTremorTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "m_uiAwakeningTimer  = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 66,
+          "expression": "m_uiAwakeDwarfTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 67,
+          "expression": "m_uiTremorTimer     = urand(7000, 14000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 71,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FREEZE_ANIM);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 109,
+          "expression": "if (m_uiAwakeningTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 114,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_ARCHAEDAS_AWAKEN_VISUAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 115,
+          "expression": "m_uiAwakeningTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 119,
+          "expression": "m_uiAwakeningTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 139,
+          "expression": "m_uiAwakeningTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 148,
+          "expression": "if (DoCastSpellIfCan(m_creature, m_uiHpPhaseCheck == 1 ? SPELL_AWAKEN_EARTHEN_GUARDIAN : SPELL_AWAKEN_VAULT_WARDER) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "if (m_uiAwakeDwarfTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 162,
+          "expression": "if (DoCastSpellIfCan(pEarthen, SPELL_AWAKEN_EARTHEN_DWARF) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 163,
+          "expression": "m_uiAwakeDwarfTimer = urand(9000, 12000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 169,
+          "expression": "m_uiAwakeDwarfTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 172,
+          "expression": "if (m_uiTremorTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 174,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_GROUND_TREMOR) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 175,
+          "expression": "m_uiTremorTimer = urand(8000, 17000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 178,
+          "expression": "m_uiTremorTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -1143,20 +1249,437 @@
       "variant": "baseline-candidate"
     },
     {
-      "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
-      "path": "datasets/instance-scripts/priority/uldaman.json",
-      "kind": "shared",
-      "bytes": 35611,
-      "archive_kind": "research",
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp",
+      "kind": "boss",
+      "bytes": 6600,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_archaedas",
+        "boss_archaedasAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        6524,
+        10252,
+        10258,
+        10259,
+        10347
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_EARTHEN_GUARDIAN",
+        "NPC_VAULT_WALKER",
+        "SPELL_ARCHAEDAS_AWAKEN_VISUAL",
+        "SPELL_AWAKEN_EARTHEN_DWARF",
+        "SPELL_AWAKEN_EARTHEN_GUARDIAN",
+        "SPELL_AWAKEN_VAULT_WARDER",
+        "SPELL_GROUND_TREMOR",
+        "SPELL_STONED"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 1,
+      "timer_expression_candidates": [
+        {
+          "line": 56,
+          "expression": "uint32 m_uiAwakeningTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 57,
+          "expression": "uint32 m_uiAwakeDwarfTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 58,
+          "expression": "uint32 m_uiTremorTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 66,
+          "expression": "m_uiAwakeningTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 68,
+          "expression": "m_uiAwakeDwarfTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 69,
+          "expression": "m_uiTremorTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 124,
+          "expression": "if (m_uiAwakeningTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 129,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_ARCHAEDAS_AWAKEN_VISUAL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 146,
+          "expression": "m_uiAwakeningTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "m_uiAwakeningTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "if (m_uiAwakeDwarfTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 162,
+          "expression": "if (DoCastSpellIfCan(pEarthen, SPELL_AWAKEN_EARTHEN_DWARF) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 163,
+          "expression": "m_uiAwakeDwarfTimer = urand(9000, 12000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 169,
+          "expression": "m_uiAwakeDwarfTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 192,
+          "expression": "if (m_uiTremorTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 194,
+          "expression": "if (DoCastSpellIfCan(m_creature->getVictim(), SPELL_GROUND_TREMOR) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "m_uiTremorTimer = 45000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 198,
+          "expression": "m_uiTremorTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/uldaman/boss_ironaya.cpp",
+      "kind": "boss",
+      "bytes": 3343,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_ironaya",
+        "boss_ironayaAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_ARCING_SMASH",
+        "SPELL_KNOCK_AWAY",
+        "SPELL_WAR_STOMP"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 5,
+      "timer_expression_candidates": [
+        {
+          "line": 43,
+          "expression": "ArcingSmashTimer = urand(3000,4000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 44,
+          "expression": "WarStompTimer = urand(5000,7000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 64,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_KNOCK_AWAY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 82,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_ARCING_SMASH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 83,
+          "expression": "ArcingSmashTimer = urand(7000,10000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 91,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_WAR_STOMP);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 92,
+          "expression": "WarStompTimer = urand(20000,25000);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [
+        {
+          "line": 62,
+          "expression": "if (!hasCastedKnockAway && HealthBelowPct(50))",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/uldaman/instance_uldaman.cpp",
+      "kind": "instance",
+      "bytes": 10606,
+      "archive_kind": "script",
       "creature_ai_source_candidate": false,
       "boss_ai_source_candidate": false,
       "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_ID_ALTAR_ARCHAEDAS",
+        "EVENT_ID_ALTAR_KEEPER",
+        "GO_ANCIENT_VAULT_DOOR",
+        "GO_FLAG_INTERACT_COND",
+        "GO_IRONAYA_SEAL_DOOR",
+        "GO_KEYSTONE",
+        "GO_STATE_ACTIVE",
+        "GO_TEMPLE_DOOR_LOWER",
+        "GO_TEMPLE_DOOR_UPPER",
+        "NPC_ARCHAEDAS",
+        "NPC_EARTHEN_CUSTODIAN",
+        "NPC_EARTHEN_GUARDIAN",
+        "NPC_EARTHEN_HALLSHAPER",
+        "NPC_IRONAYA",
+        "NPC_STONE_KEEPER",
+        "NPC_VAULT_WALKER",
+        "SPELL_SELF_DESTRUCT",
+        "SPELL_STONED"
+      ],
+      "cast_calls": 4,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 28,
+          "expression": "m_uiIronayaSealDoorTimer(26000)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 51,
+          "expression": "pCreature->CastSpell(pCreature, SPELL_STONED, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 56,
+          "expression": "pCreature->CastSpell(pCreature, SPELL_STONED, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 70,
+          "expression": "pCreature->CastSpell(pCreature, SPELL_SELF_DESTRUCT, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 230,
+          "expression": "pWarden->CastSpell(pWarden, SPELL_STONED, true);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 298,
+          "expression": "if (m_uiIronayaSealDoorTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 301,
+          "expression": "m_uiIronayaSealDoorTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/uldaman/uldaman.cpp",
+      "kind": "shared",
+      "bytes": 9685,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "mob_jadespine_basilisk",
+        "mob_jadespine_basiliskAI",
+        "npc_lore_keeper_of_norgannon"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "NPC_SHADOWFORGE_AMBUSHER",
+        "SPELL_CSLUMBER"
+      ],
+      "cast_calls": 2,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 73,
+          "expression": "pPlayer->SummonCreature(NPC_SHADOWFORGE_AMBUSHER, x + irand(-3,3), y + irand(-3,3), z, 0.0f, TEMPSUMMON_DEAD_DESPAWN, 0);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "// DoCastSpellIfCan(m_creature->getVictim(),SPELL_CSLUMBER);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "m_creature->CastSpell(m_creature->getVictim(),SPELL_CSLUMBER, true);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/uldaman/uldaman.h",
+      "kind": "shared",
+      "bytes": 2539,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        2748,
+        4857,
+        7076,
+        7077,
+        7091,
+        7228,
+        7309,
+        10120
+      ],
+      "spell_ids_candidate": [
+        9874,
+        10255
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "EVENT_ID_ALTAR_ARCHAEDAS",
+        "EVENT_ID_ALTAR_KEEPER",
+        "GO_ALTAR_OF_ARCHAEDAS",
+        "GO_ALTAR_OF_THE_KEEPER_TEMPLE",
+        "GO_ANCIENT_VAULT_DOOR",
+        "GO_IRONAYA_SEAL_DOOR",
+        "GO_KEYSTONE",
+        "GO_TEMPLE_DOOR_LOWER",
+        "GO_TEMPLE_DOOR_UPPER",
+        "NPC_ARCHAEDAS",
+        "NPC_EARTHEN_CUSTODIAN",
+        "NPC_EARTHEN_GUARDIAN",
+        "NPC_EARTHEN_HALLSHAPER",
+        "NPC_IRONAYA",
+        "NPC_SHADOWFORGE_AMBUSHER",
+        "NPC_STONE_KEEPER",
+        "NPC_VAULT_WALKER",
+        "SPELL_SELF_DESTRUCT",
+        "SPELL_STONED"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 82,
+          "expression": "uint32 m_uiIronayaSealDoorTimer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+      "path": "datasets/instance-scripts/priority/uldaman.json",
+      "kind": "shared",
+      "bytes": 49300,
+      "archive_kind": "research",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
         "boss_archaedas",
+        "boss_archaedasAI",
+        "boss_coa_vaults_darkandle",
+        "boss_coa_vaults_deceiver",
+        "boss_coa_vaults_echo",
         "boss_ironaya",
-        "npc_ids_candidate"
+        "npc_coa_vaults_trash",
+        "npc_earthen_guardian",
+        "npc_earthen_hallshaper_custodian",
+        "npc_entry",
+        "npc_ids_candidate",
+        "npc_spellclick_spells",
+        "npc_stone_keeper",
+        "npc_text",
+        "npc_vault_warder"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -1250,72 +1773,307 @@
         "SPELL_WAR_STOMP",
         "SPELL_WHIRLWIND"
       ],
-      "cast_calls": 13,
+      "cast_calls": 26,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 365,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 54,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 106,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 132,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 158,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 186,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 232,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 272,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 318,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 358,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 427,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 430,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_GROUND_TREMOR, 20s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 370,
+          "line": 435,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AWAKEN_DWARF, 10s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 375,
+          "line": 440,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AWAKEN_GUARDIANS, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 380,
+          "line": 445,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_AWAKEN_WALKERS, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 385,
+          "line": 450,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_1, 0s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 390,
+          "line": 455,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_2, 1500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 395,
+          "line": 460,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_3, 3500ms);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 400,
+          "line": 465,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO_4, 3s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 441,
+          "line": 510,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 513,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_INTRO, 25s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 446,
+          "line": 518,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_ARCING_SMASH, 0s, 5s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 451,
+          "line": 523,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_KNOCK_AWAY, 20s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 456,
+          "line": 528,
           "expression": "\"expression\": \"events.ScheduleEvent(EVENT_WAR_STOMP, 20s, 30s);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 461,
+          "line": 533,
           "expression": "\"expression\": \"DoCastVictim(SPELL_KNOCK_AWAY);\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 595,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 635,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 704,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 730,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 758,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 784,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 810,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 836,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 862,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 890,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 936,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 976,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1021,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1061,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1087,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1139,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1255,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1258,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_GROUND_TREMOR, 20s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1263,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_AWAKEN_DWARF, 10s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1268,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_AWAKEN_GUARDIANS, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1273,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_AWAKEN_WALKERS, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1278,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INTRO_1, 0s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1283,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INTRO_2, 1500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1288,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INTRO_3, 3500ms);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1293,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INTRO_4, 3s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1298,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_INTRO, 25s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1303,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_ARCING_SMASH, 0s, 5s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1308,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_KNOCK_AWAY, 20s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1313,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"events.ScheduleEvent(EVENT_WAR_STOMP, 20s, 30s);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1318,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"DoCastVictim(SPELL_KNOCK_AWAY);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1347,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1373,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1407,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 1433,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -1326,7 +2084,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1005-uldaman-map-chamber.json",
       "kind": "shared",
       "bytes": 2764,
@@ -1352,7 +2110,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2712-uldaman.json",
       "kind": "shared",
       "bytes": 4157,
@@ -1378,7 +2136,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-dungeons-scarlet-scholo-strath-uldaman-stockade-deadmines-brd-vaults-2026-10-30.json",
       "kind": "shared",
       "bytes": 54831,
@@ -1412,7 +2170,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-last-four-dungeons-wailing-kraul-uldaman-downs-evidence-2026-10-30.json",
       "kind": "shared",
       "bytes": 5870,
@@ -1443,7 +2201,8 @@
       "evidence": "candidate-from-filename",
       "source_paths": [
         "src/server/scripts/EasternKingdoms/Uldaman/boss_archaedas.cpp",
-        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp"
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp",
+        "scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp"
       ],
       "live_reborn_verified": false
     },
@@ -1451,28 +2210,29 @@
       "name": "boss_ironaya",
       "evidence": "candidate-from-filename",
       "source_paths": [
-        "src/server/scripts/EasternKingdoms/Uldaman/boss_ironaya.cpp"
+        "src/server/scripts/EasternKingdoms/Uldaman/boss_ironaya.cpp",
+        "scripts/eastern_kingdoms/uldaman/boss_ironaya.cpp"
       ],
       "live_reborn_verified": false
     }
   },
   "coverage": {
-    "source_files": 34,
+    "source_files": 39,
     "by_kind": {
-      "boss": 3,
+      "boss": 5,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 14,
-      "shared": 12,
+      "shared": 14,
       "other": 0
     },
-    "npc_ids_candidate": 11,
+    "npc_ids_candidate": 13,
     "spell_ids_candidate": 18,
     "encounter_filename_candidates": 2,
     "boss_ai_present": true,
-    "creature_ai_source_candidates": 4,
+    "creature_ai_source_candidates": 7,
     "nonboss_ai_source_candidates": 2,
-    "shared_creature_ai_source_candidates": 1,
+    "shared_creature_ai_source_candidates": 2,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,

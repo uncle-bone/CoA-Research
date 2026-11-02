@@ -523,9 +523,105 @@
         "SPELL_KNOCK_AWAY_AOE",
         "SPELL_WALKING_BOMB_EFFECT"
       ],
-      "cast_calls": 0,
+      "cast_calls": 3,
       "timing_or_phase_signals": 8,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 68,
+          "expression": "uint32 m_uiKnockAwayTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 69,
+          "expression": "uint32 m_uiActivateBombTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 79,
+          "expression": "m_uiKnockAwayTimer = urand(12000, 20000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 80,
+          "expression": "m_uiActivateBombTimer = urand(10000, 15000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 185,
+          "expression": "if (m_uiKnockAwayTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 189,
+          "expression": "if (DoCastSpellIfCan(m_creature, SPELL_KNOCK_AWAY_AOE) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 190,
+          "expression": "m_uiKnockAwayTimer = 12000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 194,
+          "expression": "if (DoCastSpellIfCan(m_creature->GetVictim(), SPELL_KNOCK_AWAY) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 195,
+          "expression": "m_uiKnockAwayTimer = urand(17000, 20000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 199,
+          "expression": "m_uiKnockAwayTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 201,
+          "expression": "if (m_uiActivateBombTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 203,
+          "expression": "if (DoCastSpellIfCan(m_creature, m_bIsPhaseTwo ? SPELL_ACTIVATE_BOMB_B : SPELL_ACTIVATE_BOMB_A) == CAST_OK)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 205,
+          "expression": "m_uiActivateBombTimer = (m_bIsPhaseTwo ? urand(6, 12) : urand(12, 17)) * IN_MILLISECONDS;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "if (!urand(0, 5))                           // TODO, chance/ place for this correct?",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 211,
+          "expression": "m_uiActivateBombTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "if (m_asBombFaces[i].m_uiBombTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 230,
+          "expression": "m_asBombFaces[i].m_uiBombTimer = urand(10000, 25000);   // TODO",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 233,
+          "expression": "m_asBombFaces[i].m_uiBombTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 259,
+          "expression": "instance->DoActivateBombFace(urand(0, MAX_GNOME_FACES - 1));",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -579,9 +675,335 @@
         "SPELL_EXPLOSION_SOUTH",
         "SPELL_FIREWORKS_RED"
       ],
-      "cast_calls": 0,
+      "cast_calls": 3,
       "timing_or_phase_signals": 2,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 145,
+          "expression": "uint32 m_uiPhaseTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 157,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 204,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 240,
+          "expression": "if (!urand(0, 2))",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 241,
+          "expression": "DoScriptText(urand(0, 1) ? SAY_AGGRO_1 : SAY_AGGRO_2, m_creature, pAttacker);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 271,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 303,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 306,
+          "expression": "m_uiPhaseTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 310,
+          "expression": "m_uiPhaseTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 314,
+          "expression": "m_uiPhaseTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 324,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 328,
+          "expression": "m_uiPhaseTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 332,
+          "expression": "m_uiPhaseTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 335,
+          "expression": "m_uiPhaseTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 344,
+          "expression": "if (m_uiPhaseTimer && !m_creature->GetVictim())",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 346,
+          "expression": "if (m_uiPhaseTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 355,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 359,
+          "expression": "m_uiPhaseTimer = 3500;              // 6s delay, but 2500ms for escortstarting",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 368,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 373,
+          "expression": "m_uiPhaseTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 377,
+          "expression": "m_uiPhaseTimer = 9000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 385,
+          "expression": "m_uiPhaseTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 389,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 393,
+          "expression": "m_uiPhaseTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 397,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 409,
+          "expression": "m_uiPhaseTimer = 1;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 412,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 424,
+          "expression": "m_uiPhaseTimer = 11000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 427,
+          "expression": "m_uiPhaseTimer = 1;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 433,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 438,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 442,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 445,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSION_SOUTH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 446,
+          "expression": "m_uiPhaseTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 456,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 460,
+          "expression": "m_uiPhaseTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 464,
+          "expression": "m_uiPhaseTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 468,
+          "expression": "m_uiPhaseTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 476,
+          "expression": "m_uiPhaseTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 480,
+          "expression": "m_uiPhaseTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 485,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 497,
+          "expression": "m_uiPhaseTimer = 1;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 500,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 512,
+          "expression": "m_uiPhaseTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 515,
+          "expression": "m_uiPhaseTimer = 1;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 519,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 529,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 533,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 537,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 547,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 551,
+          "expression": "m_uiPhaseTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 555,
+          "expression": "m_uiPhaseTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 559,
+          "expression": "m_uiPhaseTimer = 1000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 562,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSION_NORTH);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 563,
+          "expression": "m_uiPhaseTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 573,
+          "expression": "m_uiPhaseTimer = 8000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 576,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_FIREWORKS_RED);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 578,
+          "expression": "m_uiPhaseTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 584,
+          "expression": "m_uiPhaseTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 651,
+          "expression": "m_uiCheckEndposTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 655,
+          "expression": "uint32 m_uiCheckEndposTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 676,
+          "expression": "if (m_uiCheckEndposTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 678,
+          "expression": "m_uiCheckEndposTimer = 500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 689,
+          "expression": "m_uiCheckEndposTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -633,7 +1055,13 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 51,
+          "expression": "uint32 m_uiBombTimer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -680,7 +1108,647 @@
       ],
       "cast_calls": 0,
       "timing_or_phase_signals": 0,
-      "timer_expression_candidates": [],
+      "timer_expression_candidates": [
+        {
+          "line": 39,
+          "expression": "m_asBombFace.m_uiBombTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 257,
+          "expression": "m_asBombFaces[uiIndex].m_uiBombTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 270,
+          "expression": "m_asBombFaces[uiIndex].m_uiBombTimer = 0;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/gnomeregan/boss_mekgineer_thermaplug.cpp",
+      "kind": "boss",
+      "bytes": 4647,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "boss_mekgineer_thermaplug",
+        "boss_mekgineer_thermaplugAI",
+        "mob_walking_bomb",
+        "mob_walking_bombAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [
+        10101,
+        11130,
+        11504
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "SPELL_KNOCK_AWAY",
+        "SPELL_KNOCK_AWAY_",
+        "SPELL_WALKING_BOMB_EFFECT"
+      ],
+      "cast_calls": 3,
+      "timing_or_phase_signals": 3,
+      "timer_expression_candidates": [
+        {
+          "line": 46,
+          "expression": "uint32 m_uiKnockAwayTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 47,
+          "expression": "uint32 m_uiKnockAway_Timer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 48,
+          "expression": "uint32 m_uiYellTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 52,
+          "expression": "m_uiKnockAwayTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 53,
+          "expression": "m_uiKnockAway_Timer = 40000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 54,
+          "expression": "m_uiYellTimer = 20000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 87,
+          "expression": "if (m_uiKnockAwayTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 89,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_KNOCK_AWAY);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 90,
+          "expression": "m_uiKnockAwayTimer = urand(15000, 35000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 93,
+          "expression": "m_uiKnockAwayTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "if (m_uiKnockAway_Timer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 98,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_KNOCK_AWAY_);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 99,
+          "expression": "m_uiKnockAway_Timer = urand(40000, 60000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 102,
+          "expression": "m_uiKnockAway_Timer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 105,
+          "expression": "if (m_uiYellTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 108,
+          "expression": "m_uiYellTimer = urand(40000, 65000);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 111,
+          "expression": "m_uiYellTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "uint32 m_uiWalkingBombEffectTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 134,
+          "expression": "m_uiWalkingBombEffectTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 143,
+          "expression": "if (m_uiWalkingBombEffectTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 145,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_WALKING_BOMB_EFFECT);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 146,
+          "expression": "m_uiWalkingBombEffectTimer = 15000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 149,
+          "expression": "m_uiWalkingBombEffectTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/gnomeregan/gnomeregan.cpp",
+      "kind": "shared",
+      "bytes": 24585,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [
+        "npc_blastmaster_emi_shortfuse",
+        "npc_blastmaster_emi_shortfuseAI",
+        "npc_escortAI",
+        "npc_kernobee",
+        "npc_kernobeeAI"
+      ],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        6207,
+        6215,
+        7361
+      ],
+      "spell_ids_candidate": [
+        3959,
+        10772,
+        11542,
+        11545,
+        11595,
+        12158,
+        12159
+      ],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_KERNOBEE",
+        "GO_BUTTON_01",
+        "GO_BUTTON_02",
+        "GO_BUTTON_03",
+        "GO_BUTTON_04",
+        "GO_BUTTON_05",
+        "GO_BUTTON_06",
+        "GO_CAVE_IN_1",
+        "GO_CAVE_IN_2",
+        "GO_RED_ROCKET",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_READY",
+        "NPC_CAVERNDEEP_AMBUSHER",
+        "NPC_CHOMPER",
+        "NPC_GRUBBIS",
+        "SPELL_CREATE_PRISMATIC_PUNCH_CARD",
+        "SPELL_DISCOMBOBULATOR_RAY",
+        "SPELL_EXPLOSION",
+        "SPELL_EXPLOSION_",
+        "SPELL_EXPLOSIVE_BARREL",
+        "SPELL_LEARN_DISCOMBOBULATOR_RAY",
+        "SPELL_RED_STREAKS_FIREWORK"
+      ],
+      "cast_calls": 7,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 167,
+          "expression": "uint32 m_uiEventTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 180,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 220,
+          "expression": "m_uiEventTimer = 3500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 224,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSIVE_BARREL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 229,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 233,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSIVE_BARREL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 238,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 245,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 254,
+          "expression": "m_uiEventTimer = 6000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 257,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSIVE_BARREL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 262,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 266,
+          "expression": "DoCastSpellIfCan(m_creature, SPELL_EXPLOSIVE_BARREL);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 271,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 278,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 285,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 332,
+          "expression": "m_uiEventTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 361,
+          "expression": "if (m_uiEventTimer)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "if (m_uiEventTimer <= uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 381,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 385,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 390,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 396,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 409,
+          "expression": "m_uiEventTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 415,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 426,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 430,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 439,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 443,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 447,
+          "expression": "m_uiEventTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 454,
+          "expression": "DoCastSpellIfCan(m_creature->getVictim(), SPELL_EXPLOSION);*/",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 455,
+          "expression": "m_uiEventTimer = 800;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 459,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 470,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 475,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 481,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 495,
+          "expression": "m_uiEventTimer = 2000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 501,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 504,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 515,
+          "expression": "m_uiEventTimer = 3000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 519,
+          "expression": "m_uiEventTimer = 4000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 528,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 532,
+          "expression": "m_uiEventTimer = 5000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 544,
+          "expression": "m_uiEventTimer = 1500;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 554,
+          "expression": "m_uiEventTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 663,
+          "expression": "pPlayer->CastSpell(pPlayer, SPELL_LEARN_DISCOMBOBULATOR_RAY, false);",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 668,
+          "expression": "pPlayer->CastSpell(pPlayer, SPELL_CREATE_PRISMATIC_PUNCH_CARD, false);",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/gnomeregan/gnomeregan.h",
+      "kind": "shared",
+      "bytes": 2904,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [
+        7800,
+        7850,
+        7915
+      ],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "DATA_GO_CAVE_IN_1",
+        "DATA_GO_CAVE_IN_2",
+        "DATA_KERNOBEE",
+        "DATA_THERMAPLUG",
+        "GO_BUTTON_01",
+        "GO_BUTTON_02",
+        "GO_BUTTON_03",
+        "GO_BUTTON_04",
+        "GO_BUTTON_05",
+        "GO_BUTTON_06",
+        "GO_CAVE_IN_1",
+        "GO_CAVE_IN_2",
+        "GO_GNOME_FACE_01",
+        "GO_GNOME_FACE_02",
+        "GO_GNOME_FACE_03",
+        "GO_GNOME_FACE_04",
+        "GO_GNOME_FACE_05",
+        "GO_GNOME_FACE_06",
+        "GO_THE_FINAL_CHAMBER",
+        "GO_WEEGLIS_BARREL",
+        "NPC_KERNOBEE",
+        "NPC_MEKGINEER_THERMAPLUG",
+        "NPC_WALKING_BOMB"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 106,
+          "expression": "uint32 m_uiSummonWalkingBombTimer;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 107,
+          "expression": "uint32 m_uiActivateNewGnomeFaceTimer;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
+      "phase_expression_candidates": [],
+      "timers_verified": [],
+      "phases_verified": [],
+      "variant": "baseline-candidate"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "path": "scripts/eastern_kingdoms/gnomeregan/instance_gnomeregan.cpp",
+      "kind": "instance",
+      "bytes": 13702,
+      "archive_kind": "script",
+      "creature_ai_source_candidate": false,
+      "boss_ai_source_candidate": false,
+      "nonboss_ai_source_candidate": false,
+      "creature_ai_identifiers_candidate": [],
+      "evidence": "source-file-read",
+      "live_reborn_verified": false,
+      "npc_ids_candidate": [],
+      "spell_ids_candidate": [],
+      "sql_entry_ids_candidate": [],
+      "sql_script_names_candidate": [],
+      "identifiers": [
+        "GO_CAVE_IN_1",
+        "GO_CAVE_IN_2",
+        "GO_GNOME_FACE_01",
+        "GO_GNOME_FACE_02",
+        "GO_GNOME_FACE_03",
+        "GO_GNOME_FACE_04",
+        "GO_GNOME_FACE_05",
+        "GO_GNOME_FACE_06",
+        "GO_STATE_ACTIVE",
+        "GO_STATE_ACTIVE_ALTERNATIVE",
+        "GO_STATE_READY",
+        "GO_THE_FINAL_CHAMBER",
+        "GO_WEEGLIS_BARREL",
+        "NPC_KERNOBEE",
+        "NPC_MEKGINEER_THERMAPLUG",
+        "NPC_WALKING_BOMB",
+        "SPELL_DIRECT_DAMAGE",
+        "SPELL_SCHOOL_MASK_NONE"
+      ],
+      "cast_calls": 0,
+      "timing_or_phase_signals": 0,
+      "timer_expression_candidates": [
+        {
+          "line": 28,
+          "expression": "m_uiSummonWalkingBombTimer(0),",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 29,
+          "expression": "m_uiActivateNewGnomeFaceTimer(0)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 138,
+          "expression": "m_uiSummonWalkingBombTimer = 9000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 139,
+          "expression": "m_uiActivateNewGnomeFaceTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 146,
+          "expression": "m_uiSummonWalkingBombTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 147,
+          "expression": "m_uiActivateNewGnomeFaceTimer = 0;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 311,
+          "expression": "if (m_uiSummonWalkingBombTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 317,
+          "expression": "m_uiSummonWalkingBombTimer = 10000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 320,
+          "expression": "m_uiSummonWalkingBombTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 323,
+          "expression": "if (m_uiActivateNewGnomeFaceTimer < uiDiff)",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 360,
+          "expression": "m_uiActivateNewGnomeFaceTimer = 30000;",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 363,
+          "expression": "m_uiActivateNewGnomeFaceTimer -= uiDiff;",
+          "evidence": "source-expression-candidate"
+        }
+      ],
       "phase_expression_candidates": [],
       "timers_verified": [],
       "phases_verified": [],
@@ -688,18 +1756,27 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/instance-scripts/priority/gnomeregan.json",
       "kind": "shared",
-      "bytes": 21169,
+      "bytes": 29929,
       "archive_kind": "research",
-      "creature_ai_source_candidate": false,
-      "boss_ai_source_candidate": false,
+      "creature_ai_source_candidate": true,
+      "boss_ai_source_candidate": true,
       "nonboss_ai_source_candidate": false,
       "creature_ai_identifiers_candidate": [
         "boss_ai_present",
+        "boss_ai_source_candidate",
+        "boss_grubbis",
+        "boss_grubbisAI",
         "boss_thermaplugg",
-        "npc_ids_candidate"
+        "boss_thermapluggAI",
+        "npc_blastmaster_emi_shortfuse",
+        "npc_blastmaster_emi_shortfuseAI",
+        "npc_escortAI",
+        "npc_ids_candidate",
+        "npc_kernobee",
+        "npc_kernobeeAI"
       ],
       "evidence": "source-file-read",
       "live_reborn_verified": false,
@@ -788,22 +1865,137 @@
         "SPELL_TEST_STOP_DANCE",
         "SPELL_WALKING_BOMB_EFFECT"
       ],
-      "cast_calls": 3,
+      "cast_calls": 6,
       "timing_or_phase_signals": 0,
       "timer_expression_candidates": [
         {
-          "line": 168,
+          "line": 26,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 60,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 96,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 130,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 166,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 206,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 209,
           "expression": "\"expression\": \"trigger->CastSpell(trigger, 11542, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 173,
+          "line": 214,
           "expression": "\"expression\": \"trigger->CastSpell(trigger, 35470, true);\",",
           "evidence": "source-expression-candidate"
         },
         {
-          "line": 178,
+          "line": 219,
           "expression": "\"expression\": \"//go->CastSpell(me, 12158); makes all die?!\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 277,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 319,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 358,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 384,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 418,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 454,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 528,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 584,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 636,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 683,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 793,
+          "expression": "\"timer_expression_candidates\": [",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 796,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"trigger->CastSpell(trigger, 11542, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 801,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"trigger->CastSpell(trigger, 35470, true);\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 806,
+          "expression": "\"expression\": \"\\\"expression\\\": \\\"//go->CastSpell(me, 12158); makes all die?!\\\",\",",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 835,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 861,
+          "expression": "\"timer_expression_candidates\": [],",
+          "evidence": "source-expression-candidate"
+        },
+        {
+          "line": 887,
+          "expression": "\"timer_expression_candidates\": [],",
           "evidence": "source-expression-candidate"
         }
       ],
@@ -814,7 +2006,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/dungeons/1004-gnomeregan-launch-bay.json",
       "kind": "shared",
       "bytes": 2413,
@@ -840,7 +2032,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "datasets/upstream/srhinos-coa-datamine/keystones/2704-gnomeregan.json",
       "kind": "shared",
       "bytes": 4160,
@@ -866,7 +2058,7 @@
     },
     {
       "repository": "uncle-bone/CoA-Research",
-      "revision": "b4088794f581efcedbd650e726b9976e2b6920af",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
       "path": "research/dbm/classic-four-additional-dungeons-source-mechanics-sfk-gnomeregan-sunken-temple-scarlet-2026-10-30.json",
       "kind": "shared",
       "bytes": 4460,
@@ -899,25 +2091,33 @@
         "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/gnomeregan/boss_thermaplugg.cpp"
       ],
       "live_reborn_verified": false
+    },
+    "boss_mekgineer_thermaplug": {
+      "name": "boss_mekgineer_thermaplug",
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/gnomeregan/boss_mekgineer_thermaplug.cpp"
+      ],
+      "live_reborn_verified": false
     }
   },
   "coverage": {
-    "source_files": 20,
+    "source_files": 24,
     "by_kind": {
-      "boss": 1,
+      "boss": 2,
       "trash": 0,
-      "instance": 5,
+      "instance": 6,
       "sql": 2,
-      "shared": 12,
+      "shared": 14,
       "other": 0
     },
-    "npc_ids_candidate": 10,
-    "spell_ids_candidate": 25,
-    "encounter_filename_candidates": 1,
+    "npc_ids_candidate": 11,
+    "spell_ids_candidate": 29,
+    "encounter_filename_candidates": 2,
     "boss_ai_present": true,
-    "creature_ai_source_candidates": 3,
+    "creature_ai_source_candidates": 6,
     "nonboss_ai_source_candidates": 2,
-    "shared_creature_ai_source_candidates": 2,
+    "shared_creature_ai_source_candidates": 4,
     "trash_ai_explicitly_identified": false,
     "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
     "script_timers_verified": false,
