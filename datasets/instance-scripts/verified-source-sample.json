@@ -1,0 +1,173 @@
+{
+  "schema": "source-sample-v1",
+  "status": "verified-public-source-not-live-reborn",
+  "source_repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+  "entries": [
+    {
+      "path": "modules/mod-coa-raid-difficulty/src/boss_venoxis_coa.cpp",
+      "sha": "792851789ca93722ecb84e435b68fe92c4b3fdf3",
+      "bytes": 15769,
+      "spell_constants": [
+        "SPELL_THRASH",
+        "SPELL_FRENZY",
+        "SPELL_RENEW",
+        "SPELL_HOLY_NOVA",
+        "SPELL_HOLY_NOVA_HIT",
+        "SPELL_HOLY_NOVA_HEAL",
+        "SPELL_HOLY_FIRE",
+        "SPELL_HOLY_FIRE_DOT",
+        "SPELL_HOLY_FIRE_HIT",
+        "SPELL_HOLY_WRATH",
+        "SPELL_HOLY_WRATH_HIT",
+        "SPELL_DRAIN_POWER",
+        "SPELL_ASPECT_OF_HETHISS",
+        "SPELL_GIFT_OF_THE_BLOOD_GOD",
+        "SPELL_POISONOUS_FANGS",
+        "SPELL_VIRULENT_POISON",
+        "SPELL_VENOM_SPIT",
+        "SPELL_VENOM_SPIT_HIT",
+        "SPELL_TOXIC_BOMBARDEMENT",
+        "SPELL_PARASITIC_POISON",
+        "SPELL_PARASITIC_POISON_DOT",
+        "SPELL_CORPSE_EXPLOSION",
+        "SPELL_ACID_BURST",
+        "SPELL_ACID_POOL",
+        "SPELL_AURA_PERIODIC_DAMAGE"
+      ],
+      "npc_constants": [
+        "NPC_RAZZASHI_COBRA",
+        "NPC_PARASITIC_SERPENT",
+        "NPC_WORLD_TRIGGER",
+        "NPC_AVATAR_OF_HETHISS"
+      ],
+      "event_constants": [
+        "EVENT_THRASH",
+        "EVENT_HOLY_NOVA",
+        "EVENT_RENEW",
+        "EVENT_HOLY_WRATH",
+        "EVENT_HOLY_FIRE",
+        "EVENT_TOXIC_BOMBARDEMENT",
+        "EVENT_PARASITIC_POISON",
+        "EVENT_VENOM_SPIT",
+        "EVENT_CORPSE_EXPLOSION",
+        "EVENT_FIERCE_BLOW"
+      ],
+      "numeric_spell_ids": [
+        "3391",
+        "8269",
+        "2118001",
+        "2118002",
+        "2118003",
+        "2118007",
+        "2118012",
+        "2118013",
+        "2118014",
+        "2118020",
+        "2118021",
+        "2118022",
+        "2118023",
+        "2118024",
+        "2118025",
+        "2118026",
+        "2118030",
+        "2118031",
+        "2118035",
+        "2118040",
+        "2118041",
+        "2118045",
+        "2118078",
+        "2118082"
+      ],
+      "sql_mappings": []
+    },
+    {
+      "path": "modules/mod-coa-raid-difficulty/data/sql/db-world/base/14_zg.sql",
+      "sha": "8ad9de999338e75a8c2b88f75e387184d79f98e0",
+      "bytes": 3063,
+      "spell_constants": [],
+      "npc_constants": [],
+      "event_constants": [],
+      "numeric_spell_ids": [],
+      "sql_mappings": [
+        {
+          "script": "boss_venoxis_coa",
+          "npc_id": 14507
+        },
+        {
+          "script": "boss_jeklik_coa",
+          "npc_id": 14517
+        },
+        {
+          "script": "boss_marli_coa",
+          "npc_id": 14510
+        },
+        {
+          "script": "boss_thekal_coa",
+          "npc_id": 14509
+        },
+        {
+          "script": "boss_arlokk_coa",
+          "npc_id": 14515
+        },
+        {
+          "script": "boss_mandokir_coa",
+          "npc_id": 11382
+        },
+        {
+          "script": "boss_jindo_coa",
+          "npc_id": 11380
+        },
+        {
+          "script": "boss_hakkar_coa",
+          "npc_id": 14834
+        },
+        {
+          "script": "boss_grilek_coa",
+          "npc_id": 15082
+        }
+      ]
+    },
+    {
+      "path": "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
+      "sha": "75b215f726494c60a7723313ffe9571221119f0f",
+      "bytes": 7623,
+      "spell_constants": [
+        "SPELL_HAKKAR_POWER_DOWN"
+      ],
+      "npc_constants": [
+        "NPC_HIGH_PRIEST_THEKAL",
+        "NPC_ZEALOT_LORKHAN",
+        "NPC_ZEALOT_ZATH",
+        "NPC_PRIESTESS_MARLI",
+        "NPC_JINDO_THE_HEXXER",
+        "NPC_VILEBRANCH_SPEAKER",
+        "NPC_ARLOKK",
+        "NPC_HAKKAR",
+        "NPC_SPAWN_OF_MARLI",
+        "NPC_GAHZRANKA",
+        "NPC_GRILEK",
+        "NPC_HAZZARAH",
+        "NPC_RENATAKI",
+        "NPC_WUSHOOLAY"
+      ],
+      "event_constants": [
+        "EVENT_EDGE_OF_MADNESS_GRILEK",
+        "EVENT_EDGE_OF_MADNESS_HAZZARAH",
+        "EVENT_EDGE_OF_MADNESS_RENATAKI",
+        "EVENT_EDGE_OF_MADNESS_WUSHOOLAY"
+      ],
+      "numeric_spell_ids": [],
+      "sql_mappings": []
+    },
+    {
+      "path": "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+      "sha": "cba39a8c20867d57ab3e80e312147881c330fe8b",
+      "bytes": 1383,
+      "spell_constants": [],
+      "npc_constants": [],
+      "event_constants": [],
+      "numeric_spell_ids": [],
+      "sql_mappings": []
+    }
+  ]
+}
