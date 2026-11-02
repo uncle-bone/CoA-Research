@@ -62,18 +62,18 @@ def main():
                     path = info.filename.split("/", 1)[-1]
                     lower = path.lower()
                     is_script = (
-                        (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower)
+                        (path.startswith(SCRIPT_PREFIX) or "/scripts/" in lower or "/scriptdev2/" in lower or (lower.startswith("modules/") and "/src/" in lower))
                         and lower.endswith((".cpp", ".h", ".lua"))
                     )
                     if args.priority_only and is_script:
                         normalized = lower.replace("-", "").replace("_", "").replace(" ", "")
-                        is_script = any(term in normalized for term in PRIORITY_PATH_TERMS)
+                        is_script = any(term in normalized for term in PRIORITY_PATH_TERMS) or (lower.startswith("modules/mod-coa-raid-difficulty/") and "boss_" in lower)
                     is_research = source == "uncle-bone/CoA-Research" and (
                         path.startswith(("datasets/", "research/", "docs/"))
                         and lower.endswith((".json", ".jsonl", ".csv", ".md", ".txt", ".lua", ".sql"))
                     )
                     is_sql = args.include_sql and lower.endswith(".sql") and (
-                        path.startswith(SQL_PREFIX) or "/sql/" in lower
+                        path.startswith(SQL_PREFIX) or "/sql/" in lower or "/data/sql/" in lower
                     )
                     if not (is_script or is_sql or is_research):
                         continue
