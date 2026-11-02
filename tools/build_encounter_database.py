@@ -58,6 +58,16 @@ def parse(archive):
                         "instance" if basename.startswith("instance_") else
                         "sql" if path.lower().endswith(".sql") else
                         "trash" if any(t in basename for t in ("trash","mob_","npc_","creature")) else "shared")
+            timer_lines = []
+            phase_lines = []
+            if category != "sql":
+                for lineno, line in enumerate(data.splitlines(), 1):
+                    if len(timer_lines) < 150 and CAST.search(line):
+                        timer_lines.append({"line":lineno,"expression":line.strip()[:260],"evidence":"source-expression-candidate"})
+                    if len(phase_lines) < 100 and TIMING.search(line) and any(
+                        token in line for token in ("PHASE_", "SetPhase", "GetPhase", "HealthBelowPct", "HealthAbovePct", "HealthPct")
+                    ):
+                        phase_lines.append({"line":lineno,"expression":line.strip()[:260],"evidence":"source-expression-candidate"})
             source = {"repository":item["source"],"revision":item["revision"],"path":path,
                       "kind":category,"bytes":item["bytes"],"evidence":"source-file-read",
                       "live_reborn_verified":False,
@@ -68,6 +78,8 @@ def parse(archive):
                       "identifiers":sorted(set(IDENT.findall(data))),
                       "cast_calls":len(CAST.findall(data)),
                       "timing_or_phase_signals":len(TIMING.findall(data)),
+                      "timer_expression_candidates":timer_lines,
+                      "phase_expression_candidates":phase_lines,
                       "timers_verified":[],
                       "phases_verified":[]}
             # CoA Manastorm is a distinct mode, never silently merge with ordinary dungeon mechanics.
