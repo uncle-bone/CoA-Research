@@ -22,6 +22,13 @@ SQL_PREFIX = "data/sql/"
 EXTENSIONS = (".cpp", ".h", ".sql")
 INSTANCE_WORDS = ("instance_", "boss_", "dungeon", "raid", "creature", "smartai", "waypoint", "areatrigger", "gameobject")
 
+GLOBAL_COA_SCRIPT_PATHS = (
+    "src/server/coa/CoADungeonBossKit.cpp",
+    "src/server/coa/CoADungeonBossSpells.cpp",
+    "src/server/coa/CoADungeonNormal.cpp",
+    "src/server/coa/CoAScriptLoader.cpp",
+)
+GLOBAL_COA_SQL_NAMES = ("boss_kits_scripted.sql", "dungeon_boss_fierce_blow.sql", "dungeon_main_kits_precedence.sql")
 PRIORITY_PATH_TERMS = ['ragefire','wailing','deadmines','shadowfang','blackfathom','stockade','gnomeregan','razorfen','scarlet','uldaman','zulfarrak','maraudon','sunken','atalhakkar','blackrock','blackrockcaverns','diremaul','scholomance','stratholme','zulgurub']
 
 def request(url):
@@ -78,7 +85,7 @@ def main():
                     )
                     if args.priority_only and is_script:
                         normalized = lower.replace("-", "").replace("_", "").replace(" ", "")
-                        is_script = any(term in normalized for term in PRIORITY_PATH_TERMS) or (lower.startswith("modules/mod-coa-raid-difficulty/") and "boss_" in lower)
+                        is_script = any(term in normalized for term in PRIORITY_PATH_TERMS) or (lower.startswith("modules/mod-coa-raid-difficulty/") and "boss_" in lower) or path in GLOBAL_COA_SCRIPT_PATHS
                     is_research = source == "uncle-bone/CoA-Research" and (
                         path.startswith(("datasets/", "research/", "docs/"))
                         and lower.endswith((".json", ".jsonl", ".csv", ".md", ".txt", ".lua", ".sql"))
@@ -88,7 +95,7 @@ def main():
                     )
                     if args.priority_only and is_sql:
                         normalized_sql = lower.replace("-", "").replace("_", "").replace(" ", "")
-                        is_sql = any(term in normalized_sql for term in PRIORITY_PATH_TERMS) or "14_zg.sql" in lower
+                        is_sql = any(term in normalized_sql for term in PRIORITY_PATH_TERMS) or "14_zg.sql" in lower or any(lower.endswith(name) for name in GLOBAL_COA_SQL_NAMES)
                     if not (is_script or is_sql or is_research):
                         continue
                     raw = src.read(info)
