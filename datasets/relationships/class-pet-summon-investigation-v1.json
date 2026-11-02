@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "assessmentDate": "2026-11-01",
+  "game": "Conquest Reborn, client 3.3.5a",
+  "rosterStatus": "21 custom class IDs in archived datamine; NOT proven current playable roster",
+  "sourceIndex": "datasets/upstream/coa-datamine/data-classes-index.json",
+  "classes": [
+    {
+      "classId": 12,
+      "name": "Barbarian",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 13,
+      "name": "Witch Doctor",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 14,
+      "name": "Felsworn",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 15,
+      "name": "Witch Hunter",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 16,
+      "name": "Stormbringer",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 17,
+      "name": "Knight of Xoroth",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 18,
+      "name": "Guardian",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 19,
+      "name": "Templar",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 20,
+      "name": "Bloodmage",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 21,
+      "name": "Ranger",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 22,
+      "name": "Chronomancer",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 23,
+      "name": "Necromancer",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 24,
+      "name": "Pyromancer",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 25,
+      "name": "Cultist",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 26,
+      "name": "Starcaller",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 27,
+      "name": "Sun Cleric",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 28,
+      "name": "Tinker",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 29,
+      "name": "Venomancer",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 30,
+      "name": "Reaper",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 31,
+      "name": "Primalist",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    },
+    {
+      "classId": 32,
+      "name": "Runemaster",
+      "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+      "status": "archived_class_catalog_not_live_verified"
+    }
+  ],
+  "npcInvestigationCandidates": [
+    {
+      "npcId": 50078,
+      "name": "Skeletal Rogue",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 50068,
+      "name": "Abomination",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 50119,
+      "name": "Shadow Effigy",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 1374,
+      "name": "Devilsaur",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 4528,
+      "name": "Summoned Earth Guardian",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 2630,
+      "name": "Earthbind Totem",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    },
+    {
+      "npcId": 6066,
+      "name": "Summoned Earthgrab Totem",
+      "relationshipStatus": "unverified",
+      "possibleOwners": [],
+      "summonSpells": [],
+      "abilities": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported DBM-CoA false-discovery candidate"
+      ],
+      "note": "NPC ID/name pair is user-supplied; no verified ownership mapping in this audit"
+    }
+  ],
+  "spellInvestigationCandidates": [
+    {
+      "spellId": 680388,
+      "name": "Fetid Ward",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ]
+    },
+    {
+      "spellId": 578319,
+      "name": "Disease Cloud",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ]
+    },
+    {
+      "spellId": 805024,
+      "name": "Decaying Poison",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ]
+    },
+    {
+      "spellId": 7947,
+      "name": "Localized Toxin",
+      "relationshipStatus": "unverified",
+      "associatedNpcIds": [],
+      "associatedClasses": [],
+      "classification": "quarantine",
+      "evidence": [
+        "user-reported combat-log candidate"
+      ]
+    }
+  ],
+  "ownershipEdges": [],
+  "note": "Zero verified class-to-summon-to-creature edges at this milestone; must not treat these investigation candidates as a blacklist."
+}
