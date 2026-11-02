@@ -1,0 +1,37 @@
+{
+  "schema": "coa-research.upstream-import.v1",
+  "date": "2026-11-02",
+  "source": "https://github.com/srhinos/coa-datamine",
+  "branch": "master",
+  "mode": "verbatim source file copy; upstream data is not confirmed live Conquest Reborn",
+  "files": [
+    {
+      "sourcePath": "data/mythic/scaling.json",
+      "localPath": "datasets/upstream/srhinos-coa-datamine/scaling.json",
+      "sourceReportedRows": 200
+    },
+    {
+      "sourcePath": "data/mythic/timedDungeons.json",
+      "localPath": "datasets/upstream/srhinos-coa-datamine/timedDungeons.json",
+      "sourceReportedRows": 81
+    },
+    {
+      "sourcePath": "data/mythic/keystones/index.json",
+      "localPath": "datasets/upstream/srhinos-coa-datamine/keystones-index.json",
+      "description": "Index only; referenced dungeon shards not imported"
+    }
+  ],
+  "cautions": [
+    "Client datamine, not server scripts",
+    "Free-Pick area-52 overlay can differ from CoA base-chain",
+    "Some fields fN remain semantically unproven",
+    "Preserve upstream source and license/notice conditions before redistributing further"
+  ],
+  "remainingSources": [
+    "https://github.com/Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+    "https://github.com/Zyth45/azerothcore-wotlk-coa",
+    "https://github.com/Bharph/coa-preservation-data",
+    "https://github.com/Corfirean/mod-coa-playerbots",
+    "https://github.com/Corfirean/mod-coa-content-scaling"
+  ]
+}
