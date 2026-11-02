@@ -57,7 +57,12 @@ def parse(archive):
             if not matches:
                 if path.startswith("src/server/coa/CoADungeon") or path.endswith(("boss_kits_scripted.sql", "dungeon_boss_fierce_blow.sql", "dungeon_main_kits_precedence.sql")):
                     global_data=z.read(name).decode("utf-8",errors="replace")
-                    global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","evidence":"collected-source-file","live_reborn_verified":False,"spell_ids_candidate":sorted(set(map(int,SPELL.findall(global_data)))),"npc_ids_candidate":sorted(set(map(int,NPC.findall(global_data)))),"spell_script_names_candidate":sorted(set(SQL_SCRIPT.findall(global_data))) if path.endswith(".sql") else [],"identifiers_candidate":sorted(set(IDENT.findall(global_data)))})
+                    kit_rows = []
+                    if path.endswith("boss_kits_scripted.sql"):
+                        for match in re.finditer(r"\\(\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)",global_data):
+                            npc, kit_id, spell, event, difficulty, initial_min, initial_max, repeat_min, repeat_max, health_pct = map(int,match.groups())
+                            kit_rows.append({"npc_id_candidate":npc,"kit_id":kit_id,"spell_id_candidate":spell,"event_type":event,"difficulty":difficulty,"initial_min_ms":initial_min,"initial_max_ms":initial_max,"repeat_min_ms":repeat_min,"repeat_max_ms":repeat_max,"health_pct":health_pct,"evidence":"source-sql-kit-row","live_reborn_verified":False})
+                    global_sources.append({"repository":item["source"],"revision":item["revision"],"path":path,"bytes":item["bytes"],"role":"cross-instance-dungeon-reference","boss_kit_rows_candidate":kit_rows,"evidence":"collected-source-file","live_reborn_verified":False,"spell_ids_candidate":sorted(set(map(int,SPELL.findall(global_data)))),"npc_ids_candidate":sorted(set(map(int,NPC.findall(global_data)))),"spell_script_names_candidate":sorted(set(SQL_SCRIPT.findall(global_data))) if path.endswith(".sql") else [],"identifiers_candidate":sorted(set(IDENT.findall(global_data)))})
                 continue
             data = z.read(name).decode("utf-8", errors="replace")
             basename = path.rsplit("/",1)[-1].lower()
