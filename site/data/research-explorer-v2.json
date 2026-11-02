@@ -1,0 +1,5463 @@
+[
+  {
+    "type": "class",
+    "id": 12,
+    "name": "Barbarian",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 13,
+    "name": "Witch Doctor",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 14,
+    "name": "Felsworn",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 15,
+    "name": "Witch Hunter",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 16,
+    "name": "Stormbringer",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 17,
+    "name": "Knight of Xoroth",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 18,
+    "name": "Guardian",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 19,
+    "name": "Templar",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 20,
+    "name": "Bloodmage",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 21,
+    "name": "Ranger",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 22,
+    "name": "Chronomancer",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 23,
+    "name": "Necromancer",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 24,
+    "name": "Pyromancer",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 25,
+    "name": "Cultist",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 26,
+    "name": "Starcaller",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 27,
+    "name": "Sun Cleric",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 28,
+    "name": "Tinker",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 29,
+    "name": "Venomancer",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 30,
+    "name": "Reaper",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 31,
+    "name": "Primalist",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "class",
+    "id": 32,
+    "name": "Runemaster",
+    "source": "datasets/upstream/coa-datamine/data-classes-index.json",
+    "verified": false,
+    "addons": [
+      "WeakAuras-CoA",
+      "Details-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 1,
+    "name": "Headhunting",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 2,
+    "name": "Brutality",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 3,
+    "name": "Ancestry",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 4,
+    "name": "Shadowhunting",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 5,
+    "name": "Voodoo",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 6,
+    "name": "Brewing",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 7,
+    "name": "Infernal",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 8,
+    "name": "Slayer",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 9,
+    "name": "Tyrant",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 10,
+    "name": "Boltslinger",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 11,
+    "name": "Houndmaster",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 12,
+    "name": "Inquisition",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 13,
+    "name": "Wind",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 14,
+    "name": "Maelstrom",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 15,
+    "name": "Lightning",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 16,
+    "name": "Hellfire",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 17,
+    "name": "Defiance",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 18,
+    "name": "War",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 19,
+    "name": "Gladiator",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 20,
+    "name": "Inspiration",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 21,
+    "name": "Vanguard",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 22,
+    "name": "Oathkeeper",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 23,
+    "name": "Zealot",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 24,
+    "name": "Crusader",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 25,
+    "name": "Fleshweaver",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 26,
+    "name": "Sanguine",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 27,
+    "name": "Accursed",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 28,
+    "name": "Archery",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 29,
+    "name": "Farstrider",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 30,
+    "name": "Brigand",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 31,
+    "name": "Time",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 32,
+    "name": "Infinite",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 33,
+    "name": "Artificer",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 34,
+    "name": "Death",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 35,
+    "name": "Animation",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 36,
+    "name": "Rime",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 37,
+    "name": "Flameweaving",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 38,
+    "name": "Incineration",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 39,
+    "name": "Draconic",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 40,
+    "name": "Heretic",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 41,
+    "name": "Corruption",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 42,
+    "name": "Godblade",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 43,
+    "name": "Moon Priest",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 44,
+    "name": "Sentinel",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 45,
+    "name": "Warden",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 46,
+    "name": "Piety",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 47,
+    "name": "Valkyrie",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 48,
+    "name": "Seraphim",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 49,
+    "name": "Demolition",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 50,
+    "name": "Mechanics",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 51,
+    "name": "Invention",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 52,
+    "name": "Fortitude",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 53,
+    "name": "Stalking",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 54,
+    "name": "Rot",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 55,
+    "name": "Soul",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 56,
+    "name": "Harvest",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 57,
+    "name": "Domination",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 58,
+    "name": "Grovekeeper",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 59,
+    "name": "Wildwalker",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 60,
+    "name": "Mountain King",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 61,
+    "name": "Engravement",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 62,
+    "name": "Glyphic",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 63,
+    "name": "Riftblade",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 64,
+    "name": "Arms",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 65,
+    "name": "Fury",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 66,
+    "name": "Protection",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 67,
+    "name": "Holy",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 68,
+    "name": "Protection",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 69,
+    "name": "Retribution",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 70,
+    "name": "Beast Mastery",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 71,
+    "name": "Marksmanship",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 72,
+    "name": "Survival",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 73,
+    "name": "Assassination",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 74,
+    "name": "Combat",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 75,
+    "name": "Subtlety",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 76,
+    "name": "Discipline",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 77,
+    "name": "Holy",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 78,
+    "name": "Shadow",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 79,
+    "name": "Blood",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 80,
+    "name": "Frost",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 81,
+    "name": "Unholy",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 82,
+    "name": "Elemental",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 83,
+    "name": "Enhancement",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 84,
+    "name": "Restoration",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 85,
+    "name": "Arcane",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 86,
+    "name": "Fire",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 87,
+    "name": "Frost",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 88,
+    "name": "Affliction",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 89,
+    "name": "Destruction",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 90,
+    "name": "Demonology",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 91,
+    "name": "Balance",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 92,
+    "name": "Feral",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 93,
+    "name": "Restoration",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 94,
+    "name": "Hero",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 95,
+    "name": "Geomancy",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 96,
+    "name": "Dreadnought",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 97,
+    "name": "Black Knight",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 98,
+    "name": "Blessings",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 99,
+    "name": "Eternal",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 100,
+    "name": "Moon Guard",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "spec",
+    "id": 101,
+    "name": "Vizier",
+    "source": "datasets/upstream/coa-datamine/data-classes-specs.json",
+    "verified": false,
+    "addons": [
+      "WhatsTraining-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1,
+    "name": "Kanrethad's Quest",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1313,
+    "name": "Potions for Sentinel Hill",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 3111,
+    "name": "<UNUSED>",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 8325,
+    "name": "Reclaiming Sunstrider Isle",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 8326,
+    "name": "Unfortunate Measures",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 8328,
+    "name": "Mage Training",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 8330,
+    "name": "Solanian's Belongings",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9392,
+    "name": "Rogue Training",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10068,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10069,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10070,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10071,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10072,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 10073,
+    "name": "Well Watcher Solanian",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 12071,
+    "name": "Attack by Air! ",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 12958,
+    "name": "Shipment: Blood Jade Amulet ",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 12963,
+    "name": "Shipment: Shifting Sun Curio ",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 12996,
+    "name": "The Warm-Up ",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14204,
+    "name": "Hero's Call: Westfall!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14205,
+    "name": "Hero's Call: Northern Stranglethorn!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14206,
+    "name": "Hero's Call: Booty Bay!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14207,
+    "name": "Hero's Call: Blasted Lands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14208,
+    "name": "Hero's Call: Duskwood!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14209,
+    "name": "Hero's Call: Redridge Mountains!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14210,
+    "name": "Hero's Call: Burning Steppes!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14211,
+    "name": "Hero's Call: Searing Gorge!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14212,
+    "name": "Hero's Call: Loch Modan!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14213,
+    "name": "Hero's Call: Wetlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14214,
+    "name": "Hero's Call: Arathi Highlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14215,
+    "name": "Hero's Call: Hillsbrad Foothills!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14216,
+    "name": "Hero's Call: The Hinterlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14218,
+    "name": "Hero's Call: Western Plaguelands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14219,
+    "name": "Hero's Call: Eastern Plaguelands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14220,
+    "name": "Hero's Call: Darkshore!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14221,
+    "name": "Hero's Call: Winterspring!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14222,
+    "name": "Hero's Call: Ashenvale!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14223,
+    "name": "Hero's Call: Desolace!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14224,
+    "name": "Hero's Call: Feralas!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14225,
+    "name": "Hero's Call: Dustwallow Marsh!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14226,
+    "name": "Hero's Call: Tanaris!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14227,
+    "name": "Hero's Call: Un'Goro Crater!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14228,
+    "name": "Hero's Call: Silithus!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14229,
+    "name": "Warchief's Command: Winterspring!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14230,
+    "name": "Warchief's Command: Felwood!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14231,
+    "name": "Warchief's Command: Ashenvale!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14232,
+    "name": "Warchief's Command: The Barrens!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14233,
+    "name": "Warchief's Command: Ratchet!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14234,
+    "name": "Warchief's Command: Stonetalon Mountains!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14235,
+    "name": "Warchief's Command: Desolace!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14236,
+    "name": "Warchief's Command: Dustwallow Marsh!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14237,
+    "name": "Warchief's Command: Feralas!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14238,
+    "name": "Warchief's Command: Thousand Needles!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14239,
+    "name": "Warchief's Command: Tanaris!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14240,
+    "name": "Warchief's Command: Un'Goro Crater!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14241,
+    "name": "Warchief's Command: Silithus!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14242,
+    "name": "Warchief's Command: Silverpine Forest!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14243,
+    "name": "Warchief's Command: Hillsbrad Foothills!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14244,
+    "name": "Warchief's Command: Arathi Highlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14245,
+    "name": "Warchief's Command: The Hinterlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14246,
+    "name": "Warchief's Command: Western Plaguelands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14247,
+    "name": "Warchief's Command: Eastern Plaguelands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14248,
+    "name": "Warchief's Command: Searing Gorge!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14249,
+    "name": "Warchief's Command: Badlands!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14250,
+    "name": "Warchief's Command: Swamp of Sorrows!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14251,
+    "name": "Warchief's Command: Northern Stranglethorn!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 14252,
+    "name": "Warchief's Command: Booty Bay!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17006,
+    "name": "King's Justice",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17007,
+    "name": "Delivery to Lakeshire",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17009,
+    "name": "Sunken Treasure",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17011,
+    "name": "Riverpaw Genocide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17012,
+    "name": "Riverpaw Genocide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17838,
+    "name": "Thinning the Bloodmaul",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 17926,
+    "name": "Winterfall Purge",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18017,
+    "name": "Culling the Felpaw",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18018,
+    "name": "Timber and Blight",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18019,
+    "name": "Demon Dispersal: Exorcising the Jadefire",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18030,
+    "name": "Plague's Predatory Pests",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18034,
+    "name": "Scarlet Sweep: Magic and Might",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18036,
+    "name": "Breaking the Scarlet Elite",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18044,
+    "name": "Quel'Lithien Unrest",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18045,
+    "name": "Crypt Crawler's Demise",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18046,
+    "name": "Hunger of the Damned",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18054,
+    "name": "Echoes of Despair",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18055,
+    "name": "Undying Threats",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18056,
+    "name": "Slimed and Primed for Battle",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18089,
+    "name": "Disciples of Arkkoroc",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18090,
+    "name": "Shadows of the Legashi",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18091,
+    "name": "Elven Intrusion",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18104,
+    "name": "Unraveling the Hive",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18105,
+    "name": "Shadows of the Hammer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18106,
+    "name": "Desert Predators",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18109,
+    "name": "Silencing the Regal Hive",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18110,
+    "name": "Duskfall in Silithus",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 18111,
+    "name": "Release from Agony",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26035,
+    "name": "Field Medic: Netherweave Bandage",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26053,
+    "name": "Turning Up the Heat: Fel Iron Bar",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26993,
+    "name": "The Killing Fields",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26994,
+    "name": "The Killing Fields",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26995,
+    "name": "The Killing Fields",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26996,
+    "name": "The Killing Fields",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 26997,
+    "name": "The Killing Fields",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49976,
+    "name": "Storm Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49977,
+    "name": "Guardian's Oath",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49978,
+    "name": "Templar's Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49979,
+    "name": "Blood Grimoire",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49980,
+    "name": "Ranger's Guide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49981,
+    "name": "Temporal Manuscript",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49982,
+    "name": "Necromantic Journal",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49983,
+    "name": "Flame Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49984,
+    "name": "Forbidden Treatise",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49985,
+    "name": "Engineering Manual",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49986,
+    "name": "Solar Scripture",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49987,
+    "name": "Death Manual",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49988,
+    "name": "Runic Inscription",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49990,
+    "name": "Ancient Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49991,
+    "name": "Tribal Scroll",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 49992,
+    "name": "Sacred Letter",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51000,
+    "name": "Storm Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51001,
+    "name": "Guardian's Oath",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51002,
+    "name": "Templar's Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51003,
+    "name": "Ranger's Guide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51004,
+    "name": "Temporal Manuscript",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51005,
+    "name": "Necromantic Journal",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51006,
+    "name": "Flame Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51007,
+    "name": "Forbidden Treatise",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51008,
+    "name": "Solar Scripture",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51009,
+    "name": "Engineering Manual",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51010,
+    "name": "Runic Inscription",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51011,
+    "name": "Ancient Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51012,
+    "name": "Hunter's Mandate",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51013,
+    "name": "Primal Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 51014,
+    "name": "Death Manual",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52000,
+    "name": "Warrior's Fury",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52001,
+    "name": "Crimson Arts",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52002,
+    "name": "Whispers of the Void",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52003,
+    "name": "Fel Binding",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52004,
+    "name": "Shield of Honor",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52005,
+    "name": "Dark Oath",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52006,
+    "name": "Communion of Souls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52007,
+    "name": "Elemental Fury",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52008,
+    "name": "Path of Flames",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52009,
+    "name": "Call of the Wild",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52010,
+    "name": "Ancient Glyphs",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52011,
+    "name": "Thunder's Voice",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52012,
+    "name": "Solar Blessing",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52013,
+    "name": "Sacred Oaths",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52014,
+    "name": "Mechanical Innovation",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52015,
+    "name": "Toxic Arts",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 52016,
+    "name": "Ancestral Wisdom",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53000,
+    "name": "Fury Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53001,
+    "name": "Crimson Scroll",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53002,
+    "name": "Void Manuscript",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53003,
+    "name": "Fel Contract",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53004,
+    "name": "Guardian Oath",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53005,
+    "name": "Shadow Decree",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53006,
+    "name": "Death Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53007,
+    "name": "Temporal Scroll",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53008,
+    "name": "Seared Tome",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53009,
+    "name": "Hunter's Guide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53010,
+    "name": "Runic Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53011,
+    "name": "Storm Manuscript",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53012,
+    "name": "Solar Scripture",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53013,
+    "name": "Sacred Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53014,
+    "name": "Mechanical Schematic",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53015,
+    "name": "Venom Formula",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53017,
+    "name": "Inquisitor's Letter",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 53201,
+    "name": "Stellar Chart",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55100,
+    "name": "Seared Tome",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55101,
+    "name": "Void Manuscript",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55102,
+    "name": "Celestial Chart",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55103,
+    "name": "Sun Prayer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55104,
+    "name": "Tauren Rune Stone",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55105,
+    "name": "Elemental Totem",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55106,
+    "name": "Earth Shield Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55107,
+    "name": "Thunder Call",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55108,
+    "name": "Ancestral War Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55109,
+    "name": "Sacred Oath",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 55110,
+    "name": "Plains Hunter Guide",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 80651,
+    "name": "Duel!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 81244,
+    "name": "Dungeon Diving",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 81245,
+    "name": "Heroic Dungeon Diving",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 81246,
+    "name": "Mythic Dungeon Diving",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 81260,
+    "name": "Call to Arms: Battleground",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 199999,
+    "name": "The Ranger's Path",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200000,
+    "name": "A Surprise Attack!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200001,
+    "name": "Falcons Are Friends",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200002,
+    "name": "The Ranger's Path",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200003,
+    "name": "A Surprise Attack!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200004,
+    "name": "Falcons Are Friends",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200005,
+    "name": "The Ranger's Path",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200006,
+    "name": "A Surprise Attack!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200007,
+    "name": "Falcons Are Friends",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200008,
+    "name": "The Ranger's Path",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200009,
+    "name": "A Surprise Attack!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200010,
+    "name": "Falcons Are Friends",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200014,
+    "name": "The Ranger's Path",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200015,
+    "name": "A Surprise Attack!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200016,
+    "name": "Falcons Are Friends",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200017,
+    "name": "Blood Is Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200018,
+    "name": "Blood Is Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200020,
+    "name": "Blood Is Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200021,
+    "name": "Coming into Demonhood",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200022,
+    "name": "Coming into Demonhood",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200025,
+    "name": "Poisoning the World",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200026,
+    "name": "Poisoning the World",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200027,
+    "name": "The Doctor Is In!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200028,
+    "name": "Who Called For Da Docta?",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200029,
+    "name": "The Doctor Is In!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200030,
+    "name": "Who Called For Da Docta?",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200031,
+    "name": "Champion of Elune",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200032,
+    "name": "Champion of Mu'sha",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200034,
+    "name": "The Demon Inside",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200036,
+    "name": "The Demon Inside",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200037,
+    "name": "Call of the Shadowlands",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200038,
+    "name": "Call of the Shadowlands",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200039,
+    "name": "Call of the Shadowlands",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200040,
+    "name": "Call of Death",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200041,
+    "name": "Death Calls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200042,
+    "name": "Call of the Dead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200043,
+    "name": "Call of Death",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200044,
+    "name": "Death Calls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200045,
+    "name": "Call of the Dead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200046,
+    "name": "Call of Death",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200047,
+    "name": "Death Calls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200048,
+    "name": "Call of the Dead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200049,
+    "name": "Call of Death",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200050,
+    "name": "Death Calls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200051,
+    "name": "Call of the Dead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200055,
+    "name": "The Hunt Begins",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200056,
+    "name": "The Hunt Begins",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200058,
+    "name": "Lost Pendant",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200060,
+    "name": "Lost Pendant",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200061,
+    "name": "Lost Pendant",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200064,
+    "name": "Lost Pendant",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200065,
+    "name": "Ingenuity At It's Finest!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200066,
+    "name": "Ingenuity At It's Finest!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200067,
+    "name": "Ingenuity At It's Finest!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200068,
+    "name": "Ingenuity At It's Finest!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200071,
+    "name": "Going MAD!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200072,
+    "name": "Going MAD!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200073,
+    "name": "Going MAD!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200074,
+    "name": "Going MAD!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200076,
+    "name": "Going MAD!",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200077,
+    "name": "A Quiet Life",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200079,
+    "name": "A Quiet Life",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200080,
+    "name": "A Quiet Life",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200081,
+    "name": "A Quiet Life",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200083,
+    "name": "A Quiet Life",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200086,
+    "name": "Useful In Your Own Right",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200087,
+    "name": "The Stolen Power Core",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200088,
+    "name": "A Job For A Stormbringer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200089,
+    "name": "Useful In Your Own Right",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200090,
+    "name": "The Stolen Power Core",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200091,
+    "name": "A Job For A Stormbringer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200092,
+    "name": "Useful In Your Own Right",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200093,
+    "name": "The Stolen Power Core",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200094,
+    "name": "A Job For A Stormcaller",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200095,
+    "name": "Useful In Your Own Right",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200096,
+    "name": "The Stolen Power Core",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200097,
+    "name": "A Job For A Stormcaller",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200101,
+    "name": "Useful In Your Own Right",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200102,
+    "name": "The Stolen Power Core",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200103,
+    "name": "A Job For A Stormcaller",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200104,
+    "name": "Welcome to the Warband",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200105,
+    "name": "Welcome to the Warband",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200106,
+    "name": "Welcome to the Warband",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200107,
+    "name": "Welcome to the Warband",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200108,
+    "name": "Welcome to the Warband",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200109,
+    "name": "Runes of Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200110,
+    "name": "Runes of Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200111,
+    "name": "Runes of Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200112,
+    "name": "Runes of Power",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200114,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200115,
+    "name": "Prioritizing Defense",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200116,
+    "name": "Helping A Friend",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200117,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200118,
+    "name": "Prioritizing Defense",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200119,
+    "name": "Helping A Friend",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200120,
+    "name": "The Way of the Pyromancer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200131,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200132,
+    "name": "Prioritizing Defense",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200133,
+    "name": "Helping A Friend",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200134,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200135,
+    "name": "Prioritizing Defense",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200136,
+    "name": "Helping A Friend",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200137,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200138,
+    "name": "Prioritizing Defense",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200139,
+    "name": "Helping A Friend",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200140,
+    "name": "Peace Through Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200143,
+    "name": "The Way of the Pyromancer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200144,
+    "name": "The Way of the Pyromancer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200146,
+    "name": "The Way of the Pyromancer",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200160,
+    "name": "Way of the Bear",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200161,
+    "name": "Way of the Bear",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200162,
+    "name": "Way of the Bear",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200163,
+    "name": "Way of the Bear",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200165,
+    "name": "Perfect Timing",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200166,
+    "name": "Perfect Timing",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200167,
+    "name": "Perfect Timing",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200168,
+    "name": "Perfect Timing",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200199,
+    "name": "Call of the Shadowlands",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 200255,
+    "name": "The Hunt Begins",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254038,
+    "name": "Start Digging",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254041,
+    "name": "Report To The General",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254042,
+    "name": "Wanted: Lenore the Hoarder",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254043,
+    "name": "Take It Back",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254051,
+    "name": "Save The Crocs",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254055,
+    "name": "A Darkhound's Treat",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254059,
+    "name": "Warborn Grounds: \\\"Lowfang\\\"",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254060,
+    "name": "Warborn Grounds: \\\"Deathscreech\\\"",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254061,
+    "name": "Warborn Grounds: \\\"The Masher\\\"",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254062,
+    "name": "Warborn Grounds: \\\"Shadowblood\\\"",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254063,
+    "name": "Warborn Grounds: One Last Battle",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254067,
+    "name": "Minervia's Legacy",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254068,
+    "name": "Minervia's Past",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254069,
+    "name": "Minervia's Fate",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254070,
+    "name": "Lost Secrets",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254071,
+    "name": "The Rookery",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254084,
+    "name": "Fighter Fuel",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254086,
+    "name": "The Interrogation",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254087,
+    "name": "Taken By the Dark",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254088,
+    "name": "Addle's Stead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254089,
+    "name": "Addle's Stead",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254091,
+    "name": "May We Be Reunited",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254095,
+    "name": "Arcane Insight",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254098,
+    "name": "Mixed Reagents",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254099,
+    "name": "Test the Mix",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254106,
+    "name": "Enchant the Mineral",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254107,
+    "name": "Unexpected Results",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 254108,
+    "name": "Final Dig",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255057,
+    "name": "Militia Training",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255067,
+    "name": "Til Undeath Do We Part",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255068,
+    "name": "An Incomplete Order",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255069,
+    "name": "From Death Comes Love",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255070,
+    "name": "Tilling Against the Taint",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255071,
+    "name": "Strangers in Our Midst",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255072,
+    "name": "The Fool and the Foul",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255073,
+    "name": "Skittering Bedfellows",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255074,
+    "name": "Supplies and Safety",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255078,
+    "name": "Play It by Ear",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255079,
+    "name": "Finding the Rhythm",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255080,
+    "name": "Dancing to the Beat",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255081,
+    "name": "Understanding the Scriptures",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255082,
+    "name": "Killing the Competition",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255083,
+    "name": "Annihilating the Competition",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255111,
+    "name": "Alternative Allies",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255112,
+    "name": "Old Mistakes",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255113,
+    "name": "Food Fit for Gnolls",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255114,
+    "name": "Blessings of the Light",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255116,
+    "name": "Reclaiming Alther's Mill",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 255117,
+    "name": "Pefectly Good Planks",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 500004,
+    "name": "The Circle’s Rite",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650141,
+    "name": "Warrior's Letter",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650142,
+    "name": "Blood Mage Letter",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650143,
+    "name": "Temporal Letter",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650144,
+    "name": "Whispered Tome",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650145,
+    "name": "Demonic Pact",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650146,
+    "name": "Sacred Warding",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650147,
+    "name": "Dark Chivalry",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650148,
+    "name": "Deathbound Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650149,
+    "name": "Elemental Calling",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650150,
+    "name": "Warden's Call",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650151,
+    "name": "Soul Harvest",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650152,
+    "name": "Inscribed Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650153,
+    "name": "Celestial Guidance",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650154,
+    "name": "Thunder's Call",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650155,
+    "name": "Solar Benediction",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650156,
+    "name": "Sacred Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650157,
+    "name": "Mechanical Schematics",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650158,
+    "name": "Toxic Formulae",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 650159,
+    "name": "Inquisitor's Mandate",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 999913,
+    "name": "The Missing Report",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 999914,
+    "name": "The Half-Detailed Report",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 999933,
+    "name": "The Spit-Soaked Report",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005092,
+    "name": "A Delicate Situation: Arcane Crystal",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005124,
+    "name": "A Delicate Situation: Ghost Mushroom",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005170,
+    "name": "A Delicate Situation: Deviate Scale",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005259,
+    "name": "A Delicate Situation: Ironweb Spider Silk",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005301,
+    "name": "Short on Supplies: Minor Mana Potion",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005468,
+    "name": "Short on Supplies: Dense Blasting Powder",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005474,
+    "name": "Short on Supplies: Thorium Shells",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005647,
+    "name": "Making Ends Meat: Crab Cake",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005660,
+    "name": "Wrapping Things Up: Runecloth Bandage",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1005664,
+    "name": "A Thin Line: Raw Sagefish",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1007453,
+    "name": "Dishonest Intentions: Leatherworker's Satchel",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1007496,
+    "name": "Natural Blend: Adept's Elixir",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1038797,
+    "name": "Short on Supplies: Scroll of Enchant Bracer - Lesser Strength",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1038884,
+    "name": "Short on Supplies: Scroll of Enchant Weapon - Mighty Intellect",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1660004,
+    "name": "Words that Shepherd Madness",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 1660040,
+    "name": "Restless Entrails",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302114,
+    "name": "Fel-Seared Pact",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302116,
+    "name": "Storm-Touched Missive",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302117,
+    "name": "Oath of Xoroth",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302118,
+    "name": "Warden's Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302119,
+    "name": "Vow of Radiance",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302120,
+    "name": "Sanguine Scroll",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302121,
+    "name": "Farstrider's Call",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302122,
+    "name": "Timeworn Scroll",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302123,
+    "name": "Bone-Bound Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302124,
+    "name": "Ember-Scorched Tome",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302125,
+    "name": "Whispering Parchment",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302126,
+    "name": "Star Chart",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302127,
+    "name": "Sunlit Scripture",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302128,
+    "name": "Arcane Schematic",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302130,
+    "name": "Ashen Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302132,
+    "name": "Runed Tablet",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302214,
+    "name": "Pact of Green Fire",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302216,
+    "name": "The Storm's Voice",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302217,
+    "name": "Oath of Shadow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302218,
+    "name": "The Shield's Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302219,
+    "name": "Light-Blessed Vow",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302222,
+    "name": "A Glimpse of What Will Be",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302223,
+    "name": "The Auchenai Codex",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302224,
+    "name": "Embers of the Exodar",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302225,
+    "name": "Whispers in the Wreckage",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302226,
+    "name": "Charts of the Great Dark",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302228,
+    "name": "Salvage and Schematics",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302230,
+    "name": "The Silent Harvest",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302231,
+    "name": "The Elements Obey",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302232,
+    "name": "Runes Older Than Argus",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302430,
+    "name": "Soul Harvest",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  },
+  {
+    "type": "quest",
+    "id": 9302431,
+    "name": "Call of the Shadowlands",
+    "source": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/quests.jsonl",
+    "verified": false,
+    "addons": [
+      "pfQuest-CoA"
+    ]
+  }
+]
