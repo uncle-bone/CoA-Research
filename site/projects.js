@@ -26,10 +26,10 @@
       text: 'Connect the guide viewer more deeply with Conquest Reborn’s custom classes and quest data. Audit bundled guides and build verified custom routes, starting with Pale Reach.'
     },
     {
-      name: 'Questie-X',
-      status: 'Quest learning · memory + sharing',
-      repo: 'https://github.com/uncle-bone/Questie-X',
-      text: 'Support quest maps and custom CoA quest discovery, make community transfers more reliable, and reduce memory use without dropping the databases or map features players rely on.'
+      name: 'pfQuest-CoA',
+      status: 'Active replacement · quest discovery + sharing',
+      repo: 'https://github.com/uncle-bone/pfQuest-CoA',
+      text: 'Maintain pfQuest-CoA as the replacement for discontinued Questie-X, with CoA quest discovery, shared-channel compatibility, and accessible in-game sync controls.'
     },
     {
       name: 'LootCollector',
@@ -62,7 +62,7 @@
     ]],
     ['Map and compatibility addons', [
       ['Mapster-CoA', 'Customize the world map with scaling, coordinates, group icons, fog-of-war, instance maps, and integrated zoom. Review README compatibility notes for your UI setup.', 'https://github.com/uncle-bone/Mapster-CoA', 'v1.1.1 · ElvUI compatibility update'],
-      ['ConquestWorldMapImprovement', 'Compatibility layer for world-map zoom and marker rendering alongside Mapster, Magnify, Questie-X, LootCollector, and map overlays. Check release notes for addon combinations.', 'https://github.com/uncle-bone/ConquestWorldMapImprovement', 'v0.15.1 · compatibility update']
+      ['ConquestWorldMapImprovement', 'Compatibility layer for world-map zoom and marker rendering alongside Mapster, Magnify, pfQuest-CoA, LootCollector, and map overlays. Check release notes for addon combinations.', 'https://github.com/uncle-bone/ConquestWorldMapImprovement', 'v0.15.1 · compatibility update']
     ]],
     ['Tracking, utilities, and experiments', [
       ['SilverDragon', 'Adapt rare alerts and sighting history for Conquest Reborn, including optional map integrations.', 'https://github.com/uncle-bone/SilverDragon', 'v1.0.1-CoA · testing'],
