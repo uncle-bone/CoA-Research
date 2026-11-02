@@ -36,6 +36,7 @@ jobs:
               assert any(s.get('repository')=='Conquest-of-AzerothCore/azerothcore-wotlk-coa' and s.get('status')=='collected' for s in m['sources']), 'Primary CoA source unavailable'
           d=json.load(open('dbm-priority-encounters.json'))
           assert len(d['instances'])==22, 'Wrong priority scope'
+          assert d.get('cross_instance_sources'), 'Missing global CoA boss references'
           print('Verified archive integrity and',len(m['files']),'source entries across',len(d['instances']),'instances')
           PY
       - name: Publish per-instance research and coverage report
