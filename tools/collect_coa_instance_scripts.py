@@ -20,7 +20,7 @@ SQL_PREFIX = "data/sql/"
 EXTENSIONS = (".cpp", ".h", ".sql")
 INSTANCE_WORDS = ("instance_", "boss_", "dungeon", "raid", "creature", "smartai", "waypoint", "areatrigger", "gameobject")
 
-PRIORITY_PATH_TERMS = ['ragefire','wailing','deadmines','shadowfang','blackfathom','stockade','gnomeregan','razorfen','scarlet','uldaman','zulfarrak','maraudon','sunken','atalhakkar','blackrock','diremaul','scholomance','stratholme','zulgurub']
+PRIORITY_PATH_TERMS = ['ragefire','wailing','deadmines','shadowfang','blackfathom','stockade','gnomeregan','razorfen','scarlet','uldaman','zulfarrak','maraudon','sunken','atalhakkar','blackrock','blackrockcaverns','diremaul','scholomance','stratholme','zulgurub']
 
 def request(url):
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "CoA-Research-instance-script-collector"}
