@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "domain": "quests_and_npcs",
+  "generatedFromRepository": "uncle-bone/CoA-Research",
+  "researchDate": "2026-11-02",
+  "liveRebornVerified": false,
+  "recordCount": 1,
+  "records": [
+    {
+      "recordType": "source_inventory",
+      "questCount": 931,
+      "npcCount": 786,
+      "objectCount": 135,
+      "coordinatesExtracted": false,
+      "sourcePath": "research/local-client-extracts/2026-10-31/Questie-X-Full-Extracted-Data/extraction-summary.json",
+      "sourceExtractionDate": "2026-10-31",
+      "confidence": "archived_source",
+      "liveRebornVerified": false
+    }
+  ],
+  "limitations": [
+    "Counts are source inventory, not normalized quest/NPC edges; location data incomplete"
+  ]
+}
