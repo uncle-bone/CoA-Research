@@ -1,0 +1,38 @@
+{
+  "schema": "coa-research.priority-instance-scope.v1",
+  "date": "2026-11-02",
+  "priority": "Classic Azeroth dungeon baseline plus Zul'Gurub",
+  "note": "The count depends on whether Blackrock Spire and Scarlet Monastery wings are counted separately. These 20 dungeon names are a working scope, not a confirmed realm-specific 19-item queue.",
+  "dungeons": [
+    "Ragefire Chasm",
+    "Wailing Caverns",
+    "The Deadmines",
+    "Shadowfang Keep",
+    "Blackfathom Deeps",
+    "The Stockade",
+    "Gnomeregan",
+    "Razorfen Kraul",
+    "Scarlet Monastery",
+    "Razorfen Downs",
+    "Uldaman",
+    "Zul'Farrak",
+    "Maraudon",
+    "The Temple of Atal'Hakkar",
+    "Blackrock Depths",
+    "Lower Blackrock Spire",
+    "Upper Blackrock Spire",
+    "Dire Maul",
+    "Scholomance",
+    "Stratholme"
+  ],
+  "raid": [
+    "Zul'Gurub"
+  ],
+  "custom_dungeon_deferred": [
+    "Blackrock Caverns",
+    "Shadowbone Depths"
+  ],
+  "other_raids_deferred": true,
+  "coverage_status": "not_yet_verified",
+  "source_strategy": "Conquest-of-AzerothCore assumed baseline; other cores reference only"
+}
