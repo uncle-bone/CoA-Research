@@ -9,7 +9,6 @@ import io
 import json
 import os
 import pathlib
-import re
 import urllib.request
 import zipfile
 
@@ -36,40 +35,33 @@ def main():
     args = ap.parse_args()
     ref = json.loads(request(f"{API}/repos/{SOURCE}/commits/{args.ref}"))
     sha = ref["sha"]
-    tree = json.loads(request(f"{API}/repos/{SOURCE}/git/trees/{sha}?recursive=1"))
-    if tree.get("truncated"):
-        raise RuntimeError("GitHub tree was truncated; refusing to produce an incomplete archive")
-    entries = []
-    for node in tree["tree"]:
-        if node["type"] != "blob":
-            continue
-        path = node["path"]
-        if path.startswith(SCRIPT_PREFIX + REGIONS) and path.endswith((".cpp", ".h")):
-            entries.append(path)
-        elif args.include_sql and path.startswith(SQL_PREFIX) and path.endswith(".sql"):
-            if any(word in path.lower() for word in INSTANCE_WORDS):
-                entries.append(path)
-    if not entries:
-        raise RuntimeError("No matching files: check source tree or ref")
+    # Download a single pinned source archive instead of making thousands of API calls.
+    # This avoids GitHub's per-hour API rate limit for individual file contents.
+    archive = request(f"https://codeload.github.com/{SOURCE}/zip/{sha}")
     output = pathlib.Path(args.output)
     manifest = {"source": f"https://github.com/{SOURCE}", "revision": sha,
                 "evidence": "assumed-coa-core", "verified_on_conquest_reborn": False,
                 "scripts": [], "sql_filter": "filename-based only; not exhaustive" if args.include_sql else "not included"}
-    with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
-        for i, path in enumerate(entries, 1):
-            data = request(f"{API}/repos/{SOURCE}/contents/{path}?ref={sha}")
-            # Contents API defaults to base64; prefer the raw download URL via the blob API.
-            obj = json.loads(data)
-            import base64
-            if obj.get("encoding") != "base64":
-                raise RuntimeError(f"Unexpected content encoding for {path}")
-            raw = base64.b64decode(obj["content"])
+    with zipfile.ZipFile(io.BytesIO(archive)) as source_zip, zipfile.ZipFile(
+        output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6
+    ) as z:
+        for info in source_zip.infolist():
+            if info.is_dir():
+                continue
+            path = info.filename.split("/", 1)[-1]
+            selected = (path.startswith(SCRIPT_PREFIX + REGIONS) and path.endswith((".cpp", ".h")))
+            if args.include_sql and path.startswith(SQL_PREFIX) and path.endswith(".sql"):
+                selected = selected or any(word in path.lower() for word in INSTANCE_WORDS)
+            if not selected:
+                continue
+            raw = source_zip.read(info)
             z.writestr("source/" + path, raw)
-            manifest["scripts"].append({"path": path, "blob_sha": obj["sha"], "bytes": len(raw)})
-            if i % 100 == 0:
-                print(f"Collected {i}/{len(entries)} files", flush=True)
-        z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\n")
-        z.writestr("README.txt", "Public CoA/AzerothCore reference scripts, NOT verified Conquest Reborn scripts. Original licensing applies; see source repository LICENSE (GPL-2.0).\n")
+            manifest["scripts"].append({"path": path, "bytes": len(raw)})
+        if not manifest["scripts"]:
+            raise RuntimeError("No matching files: check source tree or ref")
+        z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\\n")
+        z.writestr("README.txt", "Public CoA/AzerothCore reference scripts, NOT verified Conquest Reborn scripts. Original licensing applies; see source repository LICENSE (GPL-2.0).\\n")
+    entries = manifest["scripts"]
     print(f"Saved {output} with {len(entries)} files at {sha}")
 
 if __name__ == "__main__":
