@@ -14,7 +14,6 @@ const ADDON_REPOS = new Set([
   "MRT-CoA",
   "Nameplates",
   "NovaInstanceTracker",
-  "Questie-X",
   "Refactor-CoA",
   "SexyMap-CoA",
   "SilverDragon",
