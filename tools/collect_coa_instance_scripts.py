@@ -9,6 +9,8 @@ import io
 import json
 import os
 import pathlib
+import shutil
+import tempfile
 import urllib.request
 import zipfile
 
@@ -54,13 +56,17 @@ def main():
             try:
                 revision = args.ref or json.loads(request(f"{API}/repos/{source}"))["default_branch"]
                 sha = json.loads(request(f"{API}/repos/{source}/commits/{revision}"))["sha"]
-                archive = request(f"https://codeload.github.com/{source}/zip/{sha}")
+                archive = tempfile.TemporaryFile()
+                req = urllib.request.Request(f"https://codeload.github.com/{source}/zip/{sha}", headers={"User-Agent": "CoA-Research-instance-script-collector"})
+                with urllib.request.urlopen(req, timeout=180) as response:
+                    shutil.copyfileobj(response, archive, length=1024*1024)
+                archive.seek(0)
             except Exception as exc:
                 manifest["sources"].append({"repository": source, "status": "failed", "error": str(exc)})
                 print(f"WARNING: skipped {source}: {exc}", flush=True)
                 continue
             count = 0
-            with zipfile.ZipFile(io.BytesIO(archive)) as src:
+            with archive, zipfile.ZipFile(archive) as src:
                 for info in src.infolist():
                     if info.is_dir():
                         continue
@@ -80,6 +86,9 @@ def main():
                     is_sql = args.include_sql and lower.endswith(".sql") and (
                         path.startswith(SQL_PREFIX) or "/sql/" in lower or "/data/sql/" in lower
                     )
+                    if args.priority_only and is_sql:
+                        normalized_sql = lower.replace("-", "").replace("_", "").replace(" ", "")
+                        is_sql = any(term in normalized_sql for term in PRIORITY_PATH_TERMS) or "14_zg.sql" in lower
                     if not (is_script or is_sql or is_research):
                         continue
                     raw = src.read(info)
