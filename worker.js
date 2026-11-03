@@ -28,7 +28,8 @@ const ADDON_REPOS = new Set([
   "RetailGuildPane-CoA",
   "RXPGuides-CoA",
   "BoneProfiler",
-  "pfQuest-CoA"
+  "pfQuest-CoA",
+  "Questie-X"
 ]);
 const RECENT_ADDON_REPOS = new Set([...ADDON_REPOS].filter(repo => repo !== "VeilForge-CoA"));
 
