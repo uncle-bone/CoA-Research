@@ -1,6 +1,6 @@
 const PAGES_ORIGIN = "https://uncle-bone.github.io";
 const PAGES_PREFIX = "/CoA-Research";
-const STATIC_RELEASE = "20261103-2";
+const STATIC_RELEASE = "20261103-3";
 const ADDON_REPOS = new Set([
   "AtlasLoot-CoA",
   "BoneUI",

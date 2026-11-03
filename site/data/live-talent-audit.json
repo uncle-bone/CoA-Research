@@ -1,0 +1,646 @@
+{
+  "source": "https://conquestreborn.com/gear.html#talents",
+  "catalogueBuild": "2ccc87e731031cc4",
+  "capturedAt": "2026-11-03T19:04:17.396Z",
+  "verifiedSpecializations": 70,
+  "scope": "Specialization talent node IDs, planner-displayed names, positions, and connection geometry. Live spell IDs and full descriptions were not exposed for bulk export; existing research descriptions were preserved except the current Mercy description read from the planner.",
+  "findings": [
+    "After sync, all 70 specialization trees match the live planner on node IDs, positions, and connection geometry.",
+    "Live node labels were synced wherever the planner supplied a specific talent name; the site retained its existing label where the planner only displayed “Unknown ability.”",
+    "Sun Cleric Blessings had three obsolete entries and one current Mercy entry; talent names, the 39-node count, and connections were updated.",
+    "Starcaller Moon Priest had two missing connections; both were added.",
+    "Class-wide trees and full effect descriptions were not covered by this structural comparison."
+  ],
+  "trees": [
+    {
+      "class": "Barbarian",
+      "specialization": "Headhunting",
+      "liveSpecId": 1,
+      "nodes": 38,
+      "nodeGeometryHash": "01ced6b8",
+      "edges": 55,
+      "edgeGeometryHash": "d74e4806"
+    },
+    {
+      "class": "Barbarian",
+      "specialization": "Brutality",
+      "liveSpecId": 2,
+      "nodes": 40,
+      "nodeGeometryHash": "760b1da5",
+      "edges": 45,
+      "edgeGeometryHash": "906a5b8e"
+    },
+    {
+      "class": "Barbarian",
+      "specialization": "Ancestry",
+      "liveSpecId": 3,
+      "nodes": 43,
+      "nodeGeometryHash": "7e479b5b",
+      "edges": 54,
+      "edgeGeometryHash": "7947bca6"
+    },
+    {
+      "class": "Bloodmage",
+      "specialization": "Fleshweaver",
+      "liveSpecId": 25,
+      "nodes": 44,
+      "nodeGeometryHash": "bc27d36e",
+      "edges": 52,
+      "edgeGeometryHash": "d187147d"
+    },
+    {
+      "class": "Bloodmage",
+      "specialization": "Sanguine",
+      "liveSpecId": 26,
+      "nodes": 40,
+      "nodeGeometryHash": "861463dd",
+      "edges": 53,
+      "edgeGeometryHash": "90e149d3"
+    },
+    {
+      "class": "Bloodmage",
+      "specialization": "Accursed",
+      "liveSpecId": 27,
+      "nodes": 43,
+      "nodeGeometryHash": "dbc51137",
+      "edges": 55,
+      "edgeGeometryHash": "f542c438"
+    },
+    {
+      "class": "Bloodmage",
+      "specialization": "Eternal",
+      "liveSpecId": 99,
+      "nodes": 41,
+      "nodeGeometryHash": "7274a3ab",
+      "edges": 53,
+      "edgeGeometryHash": "752a8fc0"
+    },
+    {
+      "class": "Chronomancer",
+      "specialization": "Time",
+      "liveSpecId": 31,
+      "nodes": 39,
+      "nodeGeometryHash": "1efd917f",
+      "edges": 50,
+      "edgeGeometryHash": "c6b3e64a"
+    },
+    {
+      "class": "Chronomancer",
+      "specialization": "Infinite",
+      "liveSpecId": 32,
+      "nodes": 39,
+      "nodeGeometryHash": "2e5f4b48",
+      "edges": 51,
+      "edgeGeometryHash": "25e2c550"
+    },
+    {
+      "class": "Chronomancer",
+      "specialization": "Artificer",
+      "liveSpecId": 33,
+      "nodes": 41,
+      "nodeGeometryHash": "12e358eb",
+      "edges": 49,
+      "edgeGeometryHash": "cb7d6fc8"
+    },
+    {
+      "class": "Cultist",
+      "specialization": "Heretic",
+      "liveSpecId": 40,
+      "nodes": 42,
+      "nodeGeometryHash": "7f849167",
+      "edges": 49,
+      "edgeGeometryHash": "ba9b809a"
+    },
+    {
+      "class": "Cultist",
+      "specialization": "Corruption",
+      "liveSpecId": 41,
+      "nodes": 40,
+      "nodeGeometryHash": "a0c2bb39",
+      "edges": 54,
+      "edgeGeometryHash": "3fc27d77"
+    },
+    {
+      "class": "Cultist",
+      "specialization": "Godblade",
+      "liveSpecId": 42,
+      "nodes": 37,
+      "nodeGeometryHash": "2840b30d",
+      "edges": 47,
+      "edgeGeometryHash": "c696adee"
+    },
+    {
+      "class": "Cultist",
+      "specialization": "Dreadnought",
+      "liveSpecId": 96,
+      "nodes": 38,
+      "nodeGeometryHash": "f8bd1266",
+      "edges": 55,
+      "edgeGeometryHash": "fed08d2e"
+    },
+    {
+      "class": "Felsworn",
+      "specialization": "Infernal",
+      "liveSpecId": 7,
+      "nodes": 39,
+      "nodeGeometryHash": "5e6d1007",
+      "edges": 49,
+      "edgeGeometryHash": "06125f64"
+    },
+    {
+      "class": "Felsworn",
+      "specialization": "Slayer",
+      "liveSpecId": 8,
+      "nodes": 39,
+      "nodeGeometryHash": "34039ce3",
+      "edges": 50,
+      "edgeGeometryHash": "0a564895"
+    },
+    {
+      "class": "Felsworn",
+      "specialization": "Tyrant",
+      "liveSpecId": 9,
+      "nodes": 43,
+      "nodeGeometryHash": "b8d1907f",
+      "edges": 51,
+      "edgeGeometryHash": "03e0b2b4"
+    },
+    {
+      "class": "Guardian",
+      "specialization": "Gladiator",
+      "liveSpecId": 19,
+      "nodes": 38,
+      "nodeGeometryHash": "ebdfcfe6",
+      "edges": 49,
+      "edgeGeometryHash": "4e34f96a"
+    },
+    {
+      "class": "Guardian",
+      "specialization": "Inspiration",
+      "liveSpecId": 20,
+      "nodes": 45,
+      "nodeGeometryHash": "d10fb82c",
+      "edges": 55,
+      "edgeGeometryHash": "25573620"
+    },
+    {
+      "class": "Guardian",
+      "specialization": "Vanguard",
+      "liveSpecId": 21,
+      "nodes": 38,
+      "nodeGeometryHash": "0d3caec9",
+      "edges": 49,
+      "edgeGeometryHash": "23663a36"
+    },
+    {
+      "class": "Knight of Xoroth",
+      "specialization": "Hellfire",
+      "liveSpecId": 16,
+      "nodes": 38,
+      "nodeGeometryHash": "ef10ad02",
+      "edges": 45,
+      "edgeGeometryHash": "40c1f6f0"
+    },
+    {
+      "class": "Knight of Xoroth",
+      "specialization": "Defiance",
+      "liveSpecId": 17,
+      "nodes": 42,
+      "nodeGeometryHash": "f25e8e22",
+      "edges": 50,
+      "edgeGeometryHash": "15357c59"
+    },
+    {
+      "class": "Knight of Xoroth",
+      "specialization": "War",
+      "liveSpecId": 18,
+      "nodes": 39,
+      "nodeGeometryHash": "73cb81c2",
+      "edges": 53,
+      "edgeGeometryHash": "7dd76bbc"
+    },
+    {
+      "class": "Necromancer",
+      "specialization": "Death",
+      "liveSpecId": 34,
+      "nodes": 39,
+      "nodeGeometryHash": "ac9dae38",
+      "edges": 49,
+      "edgeGeometryHash": "15e753c8"
+    },
+    {
+      "class": "Necromancer",
+      "specialization": "Animation",
+      "liveSpecId": 35,
+      "nodes": 42,
+      "nodeGeometryHash": "81dd2065",
+      "edges": 49,
+      "edgeGeometryHash": "55becd57"
+    },
+    {
+      "class": "Necromancer",
+      "specialization": "Rime",
+      "liveSpecId": 36,
+      "nodes": 41,
+      "nodeGeometryHash": "ac2dda5e",
+      "edges": 53,
+      "edgeGeometryHash": "6b8c1df0"
+    },
+    {
+      "class": "Primalist",
+      "specialization": "Grovekeeper",
+      "liveSpecId": 58,
+      "nodes": 46,
+      "nodeGeometryHash": "639c51d5",
+      "edges": 54,
+      "edgeGeometryHash": "67371597"
+    },
+    {
+      "class": "Primalist",
+      "specialization": "Wildwalker",
+      "liveSpecId": 59,
+      "nodes": 40,
+      "nodeGeometryHash": "3fb15dda",
+      "edges": 51,
+      "edgeGeometryHash": "c60543e0"
+    },
+    {
+      "class": "Primalist",
+      "specialization": "Mountain King",
+      "liveSpecId": 60,
+      "nodes": 40,
+      "nodeGeometryHash": "46ded894",
+      "edges": 46,
+      "edgeGeometryHash": "dd96cc2e"
+    },
+    {
+      "class": "Primalist",
+      "specialization": "Geomancy",
+      "liveSpecId": 95,
+      "nodes": 40,
+      "nodeGeometryHash": "505ec532",
+      "edges": 53,
+      "edgeGeometryHash": "efca618e"
+    },
+    {
+      "class": "Pyromancer",
+      "specialization": "Flameweaving",
+      "liveSpecId": 37,
+      "nodes": 40,
+      "nodeGeometryHash": "e7aae27c",
+      "edges": 53,
+      "edgeGeometryHash": "349aa812"
+    },
+    {
+      "class": "Pyromancer",
+      "specialization": "Incineration",
+      "liveSpecId": 38,
+      "nodes": 38,
+      "nodeGeometryHash": "1afa1b73",
+      "edges": 52,
+      "edgeGeometryHash": "88f03d38"
+    },
+    {
+      "class": "Pyromancer",
+      "specialization": "Draconic",
+      "liveSpecId": 39,
+      "nodes": 41,
+      "nodeGeometryHash": "6e19aaa9",
+      "edges": 49,
+      "edgeGeometryHash": "bba6a3c6"
+    },
+    {
+      "class": "Ranger",
+      "specialization": "Archery",
+      "liveSpecId": 28,
+      "nodes": 40,
+      "nodeGeometryHash": "789a946f",
+      "edges": 50,
+      "edgeGeometryHash": "65cff229"
+    },
+    {
+      "class": "Ranger",
+      "specialization": "Farstrider",
+      "liveSpecId": 29,
+      "nodes": 45,
+      "nodeGeometryHash": "e77a2924",
+      "edges": 51,
+      "edgeGeometryHash": "f830f652"
+    },
+    {
+      "class": "Ranger",
+      "specialization": "Brigand",
+      "liveSpecId": 30,
+      "nodes": 41,
+      "nodeGeometryHash": "3a5a3c04",
+      "edges": 52,
+      "edgeGeometryHash": "acee82af"
+    },
+    {
+      "class": "Reaper",
+      "specialization": "Soul",
+      "liveSpecId": 55,
+      "nodes": 39,
+      "nodeGeometryHash": "862260cc",
+      "edges": 48,
+      "edgeGeometryHash": "5ce13d56"
+    },
+    {
+      "class": "Reaper",
+      "specialization": "Harvest",
+      "liveSpecId": 56,
+      "nodes": 40,
+      "nodeGeometryHash": "d05a3548",
+      "edges": 52,
+      "edgeGeometryHash": "4752c3f3"
+    },
+    {
+      "class": "Reaper",
+      "specialization": "Domination",
+      "liveSpecId": 57,
+      "nodes": 39,
+      "nodeGeometryHash": "c5d111f9",
+      "edges": 50,
+      "edgeGeometryHash": "982f073c"
+    },
+    {
+      "class": "Runemaster",
+      "specialization": "Engravement",
+      "liveSpecId": 61,
+      "nodes": 41,
+      "nodeGeometryHash": "2e5372f9",
+      "edges": 52,
+      "edgeGeometryHash": "80e65c04"
+    },
+    {
+      "class": "Runemaster",
+      "specialization": "Glyphic",
+      "liveSpecId": 62,
+      "nodes": 41,
+      "nodeGeometryHash": "ad74bbbf",
+      "edges": 53,
+      "edgeGeometryHash": "a1b31e36"
+    },
+    {
+      "class": "Runemaster",
+      "specialization": "Riftblade",
+      "liveSpecId": 63,
+      "nodes": 41,
+      "nodeGeometryHash": "d9c1fead",
+      "edges": 51,
+      "edgeGeometryHash": "c47553f6"
+    },
+    {
+      "class": "Starcaller",
+      "specialization": "Moon Priest",
+      "liveSpecId": 43,
+      "nodes": 39,
+      "nodeGeometryHash": "42a16569",
+      "edges": 53,
+      "edgeGeometryHash": "8b728070"
+    },
+    {
+      "class": "Starcaller",
+      "specialization": "Sentinel",
+      "liveSpecId": 44,
+      "nodes": 38,
+      "nodeGeometryHash": "3e255c22",
+      "edges": 50,
+      "edgeGeometryHash": "40d5fbc8"
+    },
+    {
+      "class": "Starcaller",
+      "specialization": "Warden",
+      "liveSpecId": 45,
+      "nodes": 40,
+      "nodeGeometryHash": "6d069933",
+      "edges": 51,
+      "edgeGeometryHash": "271ab0e8"
+    },
+    {
+      "class": "Starcaller",
+      "specialization": "Moon Guard",
+      "liveSpecId": 100,
+      "nodes": 36,
+      "nodeGeometryHash": "fd8328b6",
+      "edges": 48,
+      "edgeGeometryHash": "ec3c084a"
+    },
+    {
+      "class": "Stormbringer",
+      "specialization": "Wind",
+      "liveSpecId": 13,
+      "nodes": 43,
+      "nodeGeometryHash": "cbe2a7f1",
+      "edges": 49,
+      "edgeGeometryHash": "d950a9b2"
+    },
+    {
+      "class": "Stormbringer",
+      "specialization": "Maelstrom",
+      "liveSpecId": 14,
+      "nodes": 37,
+      "nodeGeometryHash": "ff8e4ae0",
+      "edges": 49,
+      "edgeGeometryHash": "3ea55572"
+    },
+    {
+      "class": "Stormbringer",
+      "specialization": "Lightning",
+      "liveSpecId": 15,
+      "nodes": 37,
+      "nodeGeometryHash": "95b933bc",
+      "edges": 51,
+      "edgeGeometryHash": "ffcbe61a"
+    },
+    {
+      "class": "Sun Cleric",
+      "specialization": "Piety",
+      "liveSpecId": 46,
+      "nodes": 39,
+      "nodeGeometryHash": "40d6823c",
+      "edges": 51,
+      "edgeGeometryHash": "8d937598"
+    },
+    {
+      "class": "Sun Cleric",
+      "specialization": "Valkyrie",
+      "liveSpecId": 47,
+      "nodes": 42,
+      "nodeGeometryHash": "87c36a2b",
+      "edges": 52,
+      "edgeGeometryHash": "16554879"
+    },
+    {
+      "class": "Sun Cleric",
+      "specialization": "Seraphim",
+      "liveSpecId": 48,
+      "nodes": 41,
+      "nodeGeometryHash": "95349dbc",
+      "edges": 53,
+      "edgeGeometryHash": "1a3cbdda"
+    },
+    {
+      "class": "Sun Cleric",
+      "specialization": "Blessings",
+      "liveSpecId": 98,
+      "nodes": 39,
+      "nodeGeometryHash": "7201e488",
+      "edges": 57,
+      "edgeGeometryHash": "15c75858"
+    },
+    {
+      "class": "Templar",
+      "specialization": "Oathkeeper",
+      "liveSpecId": 22,
+      "nodes": 41,
+      "nodeGeometryHash": "b9b0dc01",
+      "edges": 51,
+      "edgeGeometryHash": "1f9e78a6"
+    },
+    {
+      "class": "Templar",
+      "specialization": "Zealot",
+      "liveSpecId": 23,
+      "nodes": 40,
+      "nodeGeometryHash": "9594ab4d",
+      "edges": 50,
+      "edgeGeometryHash": "c3939a5a"
+    },
+    {
+      "class": "Templar",
+      "specialization": "Crusader",
+      "liveSpecId": 24,
+      "nodes": 38,
+      "nodeGeometryHash": "fac96755",
+      "edges": 49,
+      "edgeGeometryHash": "a254785e"
+    },
+    {
+      "class": "Tinker",
+      "specialization": "Demolition",
+      "liveSpecId": 49,
+      "nodes": 40,
+      "nodeGeometryHash": "49a1e296",
+      "edges": 48,
+      "edgeGeometryHash": "b652ee5c"
+    },
+    {
+      "class": "Tinker",
+      "specialization": "Mechanics",
+      "liveSpecId": 50,
+      "nodes": 43,
+      "nodeGeometryHash": "c9fb3a9b",
+      "edges": 56,
+      "edgeGeometryHash": "44b6be7b"
+    },
+    {
+      "class": "Tinker",
+      "specialization": "Invention",
+      "liveSpecId": 51,
+      "nodes": 39,
+      "nodeGeometryHash": "90ce7a51",
+      "edges": 52,
+      "edgeGeometryHash": "304896c2"
+    },
+    {
+      "class": "Venomancer",
+      "specialization": "Fortitude",
+      "liveSpecId": 52,
+      "nodes": 43,
+      "nodeGeometryHash": "abe2a874",
+      "edges": 52,
+      "edgeGeometryHash": "a28478cf"
+    },
+    {
+      "class": "Venomancer",
+      "specialization": "Stalking",
+      "liveSpecId": 53,
+      "nodes": 42,
+      "nodeGeometryHash": "c1831d11",
+      "edges": 56,
+      "edgeGeometryHash": "9dcf16ef"
+    },
+    {
+      "class": "Venomancer",
+      "specialization": "Rot",
+      "liveSpecId": 54,
+      "nodes": 39,
+      "nodeGeometryHash": "ff34bb2d",
+      "edges": 51,
+      "edgeGeometryHash": "889d4ace"
+    },
+    {
+      "class": "Venomancer",
+      "specialization": "Vizier",
+      "liveSpecId": 101,
+      "nodes": 41,
+      "nodeGeometryHash": "bc111ad1",
+      "edges": 54,
+      "edgeGeometryHash": "8f4e277c"
+    },
+    {
+      "class": "Witch Doctor",
+      "specialization": "Shadowhunting",
+      "liveSpecId": 4,
+      "nodes": 43,
+      "nodeGeometryHash": "5f2c43df",
+      "edges": 49,
+      "edgeGeometryHash": "9dc50376"
+    },
+    {
+      "class": "Witch Doctor",
+      "specialization": "Voodoo",
+      "liveSpecId": 5,
+      "nodes": 37,
+      "nodeGeometryHash": "1c54479e",
+      "edges": 53,
+      "edgeGeometryHash": "290c9cd6"
+    },
+    {
+      "class": "Witch Doctor",
+      "specialization": "Brewing",
+      "liveSpecId": 6,
+      "nodes": 41,
+      "nodeGeometryHash": "995a7c55",
+      "edges": 50,
+      "edgeGeometryHash": "33b3a863"
+    },
+    {
+      "class": "Witch Hunter",
+      "specialization": "Boltslinger",
+      "liveSpecId": 10,
+      "nodes": 39,
+      "nodeGeometryHash": "022fd605",
+      "edges": 46,
+      "edgeGeometryHash": "fbbc9f7c"
+    },
+    {
+      "class": "Witch Hunter",
+      "specialization": "Houndmaster",
+      "liveSpecId": 11,
+      "nodes": 39,
+      "nodeGeometryHash": "4e2cca1a",
+      "edges": 51,
+      "edgeGeometryHash": "4872db58"
+    },
+    {
+      "class": "Witch Hunter",
+      "specialization": "Inquisition",
+      "liveSpecId": 12,
+      "nodes": 40,
+      "nodeGeometryHash": "4b70d010",
+      "edges": 47,
+      "edgeGeometryHash": "ef813e2e"
+    },
+    {
+      "class": "Witch Hunter",
+      "specialization": "Black Knight",
+      "liveSpecId": 97,
+      "nodes": 38,
+      "nodeGeometryHash": "10ac1adc",
+      "edges": 44,
+      "edgeGeometryHash": "8bd0f4de"
+    }
+  ]
+}

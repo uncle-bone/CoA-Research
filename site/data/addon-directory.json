@@ -42,7 +42,7 @@
     {
       "name": "CoA-Item-Search",
       "category": "Item research",
-      "summary": "WoW 3.3.5a / Conquest Reborn item search and data-harvesting addon.",
+      "summary": "CoA 3.3.5a / Conquest Reborn item search and data-harvesting addon.",
       "url": "https://github.com/uncle-bone/CoA-Item-Search",
       "hasRelease": true,
       "projectType": "addon"

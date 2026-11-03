@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "Class identities and Retail WoW playstyle references",
+  "title": "Class identities and CoA playstyle references",
   "method": "Original BoneArchive summaries synthesized from the archived CoA class and specialization trees, their recorded abilities and roles, and Blizzard's Retail class overview. Retail comparisons are broad playstyle signposts, not claims of shared rotations, abilities, balance, or resource rules.",
   "retailSource": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
   "classes": {
@@ -74,7 +74,7 @@
     },
     "Tinker": {
       "description": "Tinker solves combat problems with machinery: explosives, a powered suit, and restorative inventions. Its ranged damage and healer paths are for players who prefer gadgets, constructs, and field engineering over a traditional spellbook.",
-      "retailComparison": "Retail WoW has no direct engineer class. Hunter is a useful reference for ranged weapon play, while Mage or Shaman can help frame some area effects and healing roles; Tinker's gadgets and powered-suit identity are CoA-specific."
+      "retailComparison": "The traditional class roster has no direct engineer equivalent. Hunter is a useful reference for ranged weapon play, while Mage or Shaman can help frame some area effects and healing roles; Tinker's gadgets and powered-suit identity are CoA-specific."
     },
     "Venomancer": {
       "description": "Venomancer builds its identity around toxins, spores, and a living carapace. Its paths include ranged corruption, close-range stalking, fungal healing, and an insectoid tank, all tied to a biological theme.",
