@@ -6,6 +6,7 @@ on:
     paths:
       - 'site/**'
       - 'wrangler.jsonc'
+      - 'worker.js'
       - '.github/workflows/workers.yml'
   workflow_dispatch:
 
