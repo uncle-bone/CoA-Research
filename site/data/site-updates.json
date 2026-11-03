@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-03",
   "updates": [
+    {
+      "date": "Nov 3, 2026",
+      "status": "Added",
+      "title": "Build paths checked for every specialization",
+      "summary": "Added one source-backed, loadable talent path for each of the 70 specializations. We cross-checked Sidekick paths against current trees, used updated embedded guide paths or a community archive build where Sidekick’s July snapshot no longer matched, and left Sidekick stat and tier claims out.",
+      "url": "?view=builder",
+      "linkLabel": "Browse all specialization builds"
+    },
+    {
+      "date": "Nov 3, 2026",
+      "status": "Expanded",
+      "title": "More CoA research is searchable",
+      "summary": "Added 239 Vaults of the Inquisition SQL creature-loot candidate rows across 16 NPCs to the Research Explorer. They are source-derived candidates, not verified live drops. The latest v2.0.1 release also documents the trainer-rank audit and open evidence gaps.",
+      "url": "./research-explorer.html",
+      "linkLabel": "Search research evidence"
+    },
+    {
+      "date": "Nov 3, 2026",
+      "status": "Updated",
+      "title": "Addons and WeakAuras refreshed",
+      "summary": "Added NecroMinions-CoA and refreshed WeakAuras-CoA to v1.0.7. The community WeakAura pack index still reflects its latest available Aug 8 snapshot.",
+      "url": "?view=addons",
+      "linkLabel": "Browse addons & WeakAuras"
+    },
+    {
+      "date": "Nov 3, 2026",
+      "status": "Clarified",
+      "title": "Build archive coverage made explicit",
+      "summary": "The verified community archive now offers 63 of 128 captured builds across 36 specializations. Unmapped or rule-invalid records stay out of the calculator until their allocations are reconciled.",
+      "url": "?view=builder",
+      "linkLabel": "Browse build archive"
+    },
     {
       "date": "Oct 30, 2026",
       "status": "Updated",
@@ -13,7 +45,7 @@
       "date": "Oct 30, 2026",
       "status": "Updated",
       "title": "Community builds added",
-      "summary": "The talent builder now includes 73 archived community builds matched to current trees across 39 specializations. Listings use archived votes and views, not combat rankings; more records are being reviewed.",
+      "summary": "The talent builder includes 63 community builds that pass current tree and calculator rules across 36 specializations. Archived votes and views indicate community activity, not combat rankings.",
       "url": "?view=builder",
       "linkLabel": "Browse community builds"
     },

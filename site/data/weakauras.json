@@ -1,7 +1,7 @@
 {
   "source": "JesterCharles/coa-weakauras",
   "sourceUpdated": "2026-08-08",
-  "sourceStatus": "The class/spec export index contains 91 entries, but author review state varies; inspect each author page for draft, test, and compatibility notes.",
+  "sourceStatus": "The external CoA class/spec pack source remains at its 2026-08-08 snapshot (91 entries); no newer pack snapshot was found. Author review state varies, so inspect each source page for draft, test, and compatibility notes.",
   "entries": [
     {
       "class": "Barbarian",
@@ -945,5 +945,22 @@
       "summary": "Player-submitted Runemaster rotation-helper pack from the CoA community WeakAuras page.",
       "status": "CoA-specific community submission; inspect source for scope, latest export, and update notes."
     }
-  ]
+  ],
+  "ownedDistribution": {
+    "name": "WeakAuras-CoA",
+    "version": "v1.0.7",
+    "releasedAt": "2026-11-03T03:45:20Z",
+    "summary": "Current stable distribution. Fixes the repeated Options version warning and packages WeakAuras plus five companion folders. GitHub Actions packaging validation passed; in-game testing is not claimed.",
+    "download": "/download/WeakAuras-CoA",
+    "release": "https://github.com/uncle-bone/WeakAuras-CoA/releases/tag/v1.0.7",
+    "repository": "https://github.com/uncle-bone/WeakAuras-CoA",
+    "folders": [
+      "WeakAuras",
+      "WeakAurasArchive",
+      "WeakAurasModelPaths",
+      "WeakAurasOptions",
+      "WeakAurasStopMotion",
+      "WeakAurasTemplates"
+    ]
+  }
 }

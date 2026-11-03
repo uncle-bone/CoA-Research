@@ -3,7 +3,7 @@
   "source": "https://ascensionsidekick.com/tiers",
   "sourceName": "Ascension Sidekick",
   "captured": "2026-10-30",
-  "method": "Sidekick community estimates by content type. Popularity is stated by Sidekick as community interest, not in-game pick rate. These are comparisons, not verified game data. BoneArchive roles are cross-referenced from the preserved CoA role guide.",
+  "method": "Ascension Sidekick community estimates by content type. Sidekick identifies itself as a fan-made planning companion and says CoA is pre-meta. Its public data.js source has not changed since 2026-07-23; ratings, popularity, and difficulty are displayed only as dated historical community estimates, not current verified game data. Popularity is community interest, not in-game pick rate. BoneArchive roles are cross-referenced from the preserved CoA role guide.",
   "columns": [
     "dungeon",
     "raid",
@@ -1379,5 +1379,7 @@
       "sourceUrl": "https://ascensionsidekick.com/witch-hunter"
     }
   ],
-  "difficultySource": "https://ascensionsidekick.com/skill"
+  "difficultySource": "https://ascensionsidekick.com/skill",
+  "retrieved": "2026-10-30",
+  "sourceLastModified": "2026-07-23"
 }

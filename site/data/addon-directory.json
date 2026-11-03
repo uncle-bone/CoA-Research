@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "compatibilityNotes": [
     "CoA-specific means the project README explicitly targets Conquest of Azeroth or its 21 custom classes; it is not a claim that every release was tested by BoneArchive.",
     "Wrath 3.3.5a means the addon or profile targets the client generation used by Ascension. Class-aware functions and encounter timers may still need CoA-specific checks.",
@@ -12,6 +12,14 @@
       "category": "Loot tables",
       "summary": "AtlasLoot adaptation with a CoA Best-in-Slot browser framework; phase recommendations are not populated yet.",
       "url": "https://github.com/uncle-bone/AtlasLoot-CoA",
+      "hasRelease": true,
+      "projectType": "addon"
+    },
+    {
+      "name": "BoneProfiler",
+      "category": "Performance & diagnostics",
+      "summary": "Standalone in-game FPS, stutter, addon memory, and CPU diagnostic tool with copyable reports. See the current release notes for version and test status; CPU profiling adds overhead and high memory alone does not prove cause.",
+      "url": "https://github.com/uncle-bone/BoneProfiler",
       "hasRelease": true,
       "projectType": "addon"
     },
@@ -104,6 +112,14 @@
       "projectType": "addon"
     },
     {
+      "name": "NecroMinions-CoA",
+      "category": "Minion tools",
+      "summary": "Necromancer minion HUD for CoA 3.3.5a with combat-log estimates and current minion tracking. v0.8.6 is the current stable release; per-minion dismissal is not enabled because the client has no verified targeted dismissal API.",
+      "url": "https://github.com/uncle-bone/NecroMinions-CoA",
+      "hasRelease": true,
+      "projectType": "addon"
+    },
+    {
       "name": "NovaInstanceTracker",
       "category": "Instance tracking",
       "summary": "Repository shell for an instance-tracking addon; no source files or release details are published yet.",
@@ -112,9 +128,17 @@
       "projectType": "addon"
     },
     {
+      "name": "pfQuest-CoA",
+      "category": "Questing",
+      "summary": "Quest helper and Conquest Reborn database addon for Ascension. Current release includes pfQuest and pfQuest-ascension side by side, plus CoASync discovery sharing. Recommended questing addon; shared discovery sync still needs in-game validation.",
+      "url": "https://github.com/uncle-bone/pfQuest-CoA",
+      "hasRelease": true,
+      "projectType": "addon"
+    },
+    {
       "name": "Questie-X",
       "category": "Questing",
-      "summary": "DISCONTINUED: I no longer provide service or support for Questie-X. Use pfQuest-CoA instead for questing. The old repository is retained for reference; its release is not recommended.",
+      "summary": "DISCONTINUED: Uncle Bone no longer provides Questie-X service or support. Use pfQuest-CoA for questing; the old repository is retained for reference and its release is not recommended.",
       "url": "https://github.com/uncle-bone/Questie-X",
       "hasRelease": false,
       "projectType": "addon",
@@ -127,6 +151,22 @@
       "summary": "Conquest Reborn Refactor addon project; feature and installation details are not yet documented.",
       "url": "https://github.com/uncle-bone/Refactor-CoA",
       "hasRelease": true,
+      "projectType": "addon"
+    },
+    {
+      "name": "RetailGuildPane-CoA",
+      "category": "Guild & social",
+      "summary": "Retail-inspired guild interface for the 3.3.5a client. The current repository describes a v1.2.0 visual preview; in-game functionality and compatibility are not yet verified, and no stable release is published.",
+      "url": "https://github.com/uncle-bone/RetailGuildPane-CoA",
+      "hasRelease": false,
+      "projectType": "addon"
+    },
+    {
+      "name": "RXPGuides-CoA",
+      "category": "Guides",
+      "summary": "RestedXP-inspired leveling guide research and compatibility project for CoA. Includes early Pale Reach quest research; a playable, fully tested addon has not been released.",
+      "url": "https://github.com/uncle-bone/RXPGuides-CoA",
+      "hasRelease": false,
       "projectType": "addon"
     },
     {
@@ -162,22 +202,6 @@
       "projectType": "addon"
     },
     {
-      "name": "WeakAuras-CoA",
-      "category": "WeakAuras",
-      "summary": "Repository for a Conquest Reborn WeakAuras adaptation; source and release details are not documented yet.",
-      "url": "https://github.com/uncle-bone/WeakAuras-CoA",
-      "hasRelease": true,
-      "projectType": "addon"
-    },
-    {
-      "name": "Zygor-CoA",
-      "category": "Guides",
-      "summary": "Uncle Bone's CoA guide integration project.",
-      "url": "https://github.com/uncle-bone/Zygor-CoA",
-      "hasRelease": true,
-      "projectType": "addon"
-    },
-    {
       "name": "VeilForge-CoA",
       "category": "Graphics mod",
       "summary": "Independent Lumenveil graphics-mod adaptation for Conquest Reborn. The v1.0.1 package includes a renderer/DXVK and a local data setup helper; back up game files first. Windows and in-game compatibility still need testing.",
@@ -186,42 +210,26 @@
       "projectType": "game-enhancement"
     },
     {
-      "name": "WhatsTraining-CoA",
-      "category": "Class & trainer tools",
-      "summary": "Trainer tracker for Conquest Reborn. Captures services observed at trainers and builds a local catalog by custom class. Trainer assignments and costs remain unverified until observed in-game.",
-      "url": "https://github.com/uncle-bone/WhatsTraining-CoA",
-      "hasRelease": false,
-      "projectType": "addon"
-    },
-    {
-      "name": "RetailGuildPane-CoA",
-      "category": "Guild & social",
-      "summary": "Retail-inspired guild interface for the 3.3.5a client. The current repository describes a v1.2.0 visual preview; in-game functionality and compatibility are not yet verified, and no stable release is published.",
-      "url": "https://github.com/uncle-bone/RetailGuildPane-CoA",
-      "hasRelease": false,
-      "projectType": "addon"
-    },
-    {
-      "name": "RXPGuides-CoA",
-      "category": "Guides",
-      "summary": "RestedXP-inspired leveling guide research and compatibility project for CoA. Includes early Pale Reach quest research; a playable, fully tested addon has not been released.",
-      "url": "https://github.com/uncle-bone/RXPGuides-CoA",
-      "hasRelease": false,
-      "projectType": "addon"
-    },
-    {
-      "name": "BoneProfiler",
-      "category": "Performance & diagnostics",
-      "summary": "Standalone in-game diagnostic addon for FPS drops, addon CPU and memory usage, stutter history, and copyable troubleshooting reports.",
-      "url": "https://github.com/uncle-bone/BoneProfiler",
+      "name": "WeakAuras-CoA",
+      "category": "WeakAuras",
+      "summary": "Maintained WeakAuras distribution for CoA 3.3.5a. Current release v1.0.7 fixes the Options version warning and packages six addon folders together; packaging passed, in-game validation is not claimed.",
+      "url": "https://github.com/uncle-bone/WeakAuras-CoA",
       "hasRelease": true,
       "projectType": "addon"
     },
     {
-      "name": "pfQuest-CoA",
-      "category": "Questing",
-      "summary": "Quest helper and Conquest Reborn database addon for Ascension. Current release includes pfQuest and pfQuest-ascension side by side, plus CoASync discovery sharing. Recommended questing addon; shared discovery sync still needs in-game validation.",
-      "url": "https://github.com/uncle-bone/pfQuest-CoA",
+      "name": "WhatsTraining-CoA",
+      "category": "Class & trainer tools",
+      "summary": "Conquest Reborn trainer tracker with spellbook-attached search, per-character status, and an offline catalog built from trainer services actually observed. Current release is available; trainer assignments and UI compatibility still need in-game validation.",
+      "url": "https://github.com/uncle-bone/WhatsTraining-CoA",
+      "hasRelease": true,
+      "projectType": "addon"
+    },
+    {
+      "name": "Zygor-CoA",
+      "category": "Guides",
+      "summary": "Uncle Bone's CoA guide integration project.",
+      "url": "https://github.com/uncle-bone/Zygor-CoA",
       "hasRelease": true,
       "projectType": "addon"
     }

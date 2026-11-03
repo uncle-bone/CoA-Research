@@ -5,7 +5,7 @@
       name: 'BoneArchive & CoA Research',
       status: 'Ongoing · research + website',
       repo: 'https://github.com/uncle-bone/CoA-Research',
-      text: 'Growing the source-backed class, spec, gear, and performance archive while improving the site: real BiS gear and set details, clearer stat data, builds, and visible progress.'
+      text: 'Expand the CoA source archive and turn it into useful, searchable class/spec, spell, talent, gear, loot, performance, build, and addon research—keeping archived candidates separate from facts verified in the live client.'
     },
     {
       name: 'DBM-CoA',
@@ -15,7 +15,7 @@
     },
     {
       name: 'WeakAuras-CoA',
-      status: 'Memory · in-game test pending',
+      status: 'v1.0.7 · memory work ongoing',
       repo: 'https://github.com/uncle-bone/WeakAuras-CoA',
       text: 'Reduce memory retained by the options editor safely. Test clearing temporary editor caches while preserving saved auras, imports, triggers, animations, and supported UI setups.'
     },
@@ -65,11 +65,17 @@
       ['ConquestWorldMapImprovement', 'Compatibility layer for world-map zoom and marker rendering alongside Mapster, Magnify, pfQuest-CoA, LootCollector, and map overlays. Check release notes for addon combinations.', 'https://github.com/uncle-bone/ConquestWorldMapImprovement', 'v0.15.1 · compatibility update']
     ]],
     ['Tracking, utilities, and experiments', [
+      ['NecroMinions-CoA', 'Necromancer minion HUD, current-minion tracking, and combat-log estimates. v0.8.6 is stable; generic per-minion dismissal remains unavailable until the client exposes a verified targeted operation.', 'https://github.com/uncle-bone/NecroMinions-CoA', 'v0.8.6 · stable'],
       ['SilverDragon', 'Adapt rare alerts and sighting history for Conquest Reborn, including optional map integrations.', 'https://github.com/uncle-bone/SilverDragon', 'v1.0.1-CoA · testing'],
       ['UnclePlus-CoA', 'A separate Conquest Reborn utility-addon package, tracked independently from the larger UI ports.', 'https://github.com/uncle-bone/UnclePlus-CoA', 'CR test build'],
       ['Refactor-CoA', 'Keep addon refactor and packaging experiments in their own repository.', 'https://github.com/uncle-bone/Refactor-CoA', 'Separate workstream'],
       ['UncleTranslate-CoA', 'Paused at v1.3.0 after tests exposed missed Chinese and romanized chat; the next step needs real unseen-message translation.', 'https://github.com/uncle-bone/UncleTranslate-CoA', 'Paused · v1.3.0'],
-      ['NovaInstanceTracker', 'Repository scaffold is present; public source and project notes have not been added yet.', 'https://github.com/uncle-bone/NovaInstanceTracker', 'Scaffold · details pending']
+      ['NovaInstanceTracker', 'Repository scaffold is present; public source and project notes have not been added yet.', 'https://github.com/uncle-bone/NovaInstanceTracker', 'Scaffold · details pending'],
+      ['Questie-X', 'Discontinued: Uncle Bone no longer provides service or support. Direct questing users to pfQuest-CoA; the old repository is retained for reference.', 'https://github.com/uncle-bone/Questie-X', 'Discontinued · pfQuest-CoA recommended'],
+      ['WhatsTraining-CoA', 'Trainer tracker with a spellbook-attached page and a catalog built from services actually observed at trainers. Historical spell-rank data is not treated as proof of trainer availability; current UI compatibility still needs in-game checks.', 'https://github.com/uncle-bone/WhatsTraining-CoA', 'Current release · trainer evidence only'],
+      ['RetailGuildPane-CoA', 'Retail-inspired guild window in visual-preview stage. Roster, chat, custom-class behavior, and UI compatibility are not yet validated in game.', 'https://github.com/uncle-bone/RetailGuildPane-CoA', 'v1.2.0 · visual preview'],
+      ['RXPGuides-CoA', 'Leveling-guide engine and CoA route research, beginning with Pale Reach. No playable, fully tested addon release is published yet.', 'https://github.com/uncle-bone/RXPGuides-CoA', 'Research · no tested release'],
+      ['BoneProfiler', 'Standalone diagnostic for FPS drops, stutter, addon memory and CPU sampling, with copyable reports. Read its current release notes; CPU profiling adds overhead.', 'https://github.com/uncle-bone/BoneProfiler', 'Performance diagnostics']
     ]]
   ];
 
@@ -98,13 +104,13 @@
     const section = document.createElement('section');
     section.className = 'home-projects';
     section.innerHTML =
-      '<div class="sectionline"><div><span class="eyebrow">THE WORKSHOP · 21 ADDONS · 1 GAME ENHANCEMENT + RESEARCH HUB</span><h2>What I’m working on</h2></div><span class="archive-wordmark">CoA addons · research · experiments</span></div>' +
+      '<div class="sectionline"><div><span class="eyebrow">THE WORKSHOP · 27 ADDONS · 1 GAME ENHANCEMENT · COA RESEARCH HUB</span><h2>What I’m working on</h2></div><span class="archive-wordmark">CoA addons · research · experiments</span></div>' +
       '<p class="work-intro">A snapshot of the bigger efforts and the wider addon lineup. Test builds and research are labeled honestly; a repository or release does not mean every feature has been validated in game.</p>' +
       '<div class="work-focus-grid">' + focus.map(renderCard).join('') + '</div>' +
-      '<details class="work-more"><summary><span>Browse the rest of the workshop</span><b>16 more repositories · one paused · one scaffold</b></summary>' +
+      '<details class="work-more"><summary><span>Browse the rest of the workshop</span><b>22 more repositories · one discontinued · one scaffold</b></summary>' +
       '<div class="work-more-body">' + more.map(renderMore).join('') +
       '<aside class="work-research"><strong>Client modernization research</strong><p>Separately comparing newer Wrath client paths, including 3.4.3, as research. This is exploratory work—not a claim that Conquest Reborn runs on a newer client.</p><a href="https://github.com/uncle-bone/CoA-Research" target="_blank" rel="noopener noreferrer">Research hub ↗</a></aside>' +
-      '<p class="work-footnote">Project notes checked against the public repositories and recent development chats on October 31, 2026. For current downloads and exact release status, open each repository.</p></div></details>';
+      '<p class="work-footnote">Project notes checked against the public repositories and recent development chats on November 3, 2026. For current downloads and exact release status, open each repository.</p></div></details>';
     updates.insertAdjacentElement('afterend', section);
   }
 
