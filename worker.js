@@ -1,5 +1,6 @@
 const PAGES_ORIGIN = "https://uncle-bone.github.io";
 const PAGES_PREFIX = "/CoA-Research";
+const STATIC_RELEASE = "20261103-2";
 const ADDON_REPOS = new Set([
   "AtlasLoot-CoA",
   "BoneUI",
@@ -175,7 +176,7 @@ export default {
 
     const target = new URL(PAGES_PREFIX + (pathname === "/" ? "/" : pathname), PAGES_ORIGIN);
     target.search = incoming.search;
-    if (pathname === "/" || pathname.endsWith(".html")) target.searchParams.set("_bonearchive_release", "20261030-24");
+    target.searchParams.set("_bonearchive_release", STATIC_RELEASE);
 
     const headers = new Headers(request.headers);
     headers.delete("host");
@@ -187,7 +188,7 @@ export default {
     if (upstream.status === 404 && method === "GET" &&
         (request.headers.get("accept") || "").includes("text/html")) {
       const fallback = new URL(PAGES_PREFIX + "/index.html", PAGES_ORIGIN);
-      fallback.searchParams.set("_bonearchive_release", "20261030-24");
+      fallback.searchParams.set("_bonearchive_release", STATIC_RELEASE);
       upstream = await fetch(new Request(fallback, { method, headers, redirect: "manual" }), {
         cf: { cacheEverything: true, cacheTtl: 60 }
       });
