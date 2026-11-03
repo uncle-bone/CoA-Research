@@ -1,0 +1,70 @@
+{
+  "schema": "dbm-coa-v6-provenance-v1",
+  "generated": "2026-11-03",
+  "repositories": [
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "url": "https://github.com/uncle-bone/CoA-Research",
+      "revision": "acff72745a107407812e76ddea4efffbef844f71",
+      "retrieval_date": "2026-11-03",
+      "status": "checked-in research baseline"
+    },
+    {
+      "repository": "uncle-bone/DBM-CoA",
+      "url": "https://github.com/uncle-bone/DBM-CoA",
+      "revision": "ba9d91fb44dbd26d2755682279962a5cfe407787",
+      "retrieval_date": "2026-11-03",
+      "status": "default-branch source checkout; no production files changed"
+    },
+    {
+      "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+      "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+      "file_count": 325,
+      "status": "collected"
+    },
+    {
+      "repository": "azerothcore/azerothcore-wotlk",
+      "revision": "2bff38fa229cf8fff3ee86ada834bef6fcd91c1e",
+      "file_count": 122,
+      "status": "collected"
+    },
+    {
+      "repository": "TrinityCore/TrinityCore",
+      "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+      "file_count": 191,
+      "status": "collected"
+    },
+    {
+      "repository": "Zyth45/azerothcore-wotlk-coa",
+      "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+      "file_count": 304,
+      "status": "collected"
+    },
+    {
+      "repository": "cmangos/mangos-wotlk",
+      "revision": "c2ec7ff74eae8f54c9ef6167d7a6d5c982615a93",
+      "file_count": 89,
+      "status": "collected"
+    },
+    {
+      "repository": "Lennix/scriptdev0",
+      "revision": "166c7d3740e1582c28683fd15de3cac8c915d162",
+      "file_count": 161,
+      "status": "collected"
+    },
+    {
+      "repository": "uncle-bone/CoA-Research",
+      "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+      "file_count": 560,
+      "status": "collected"
+    }
+  ],
+  "evidence_classes": [
+    "live-verified",
+    "source-verified",
+    "historical",
+    "inferred",
+    "unresolved"
+  ],
+  "rule": "Repository source revisions identify where evidence was found; they do not establish deployment in the live Conquest Reborn realm."
+}

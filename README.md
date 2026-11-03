@@ -52,6 +52,10 @@ See [BisBeard preservation](research/BISBEARD.md), the [data provenance notes](r
 
 See [combat and addon engineering](research/COMBAT-AND-ADDONS.md), [Ascension Logs research](research/ASCENSIONLOGS.md), and [log archive status](research/LOGS-ARCHIVE-STATUS.md).
 
+### DBM-CoA v6 research baseline
+
+The evidence-first v6 research package is in [`research/dbm/v6/`](research/dbm/v6/MASTER-RESEARCH-REPORT.md). It indexes the priority seven custom dungeon targets, the 22-instance collected source corpus, native DBM integration requirements, learner/SmartSync constraints, test plans, provenance, and unresolved evidence. Public or historical scripts are labeled as candidates; they are not treated as proof of live Conquest Reborn behavior. Regenerate the checked-in research projections with [`tools/build_dbm_v6_research.py`](tools/build_dbm_v6_research.py); its native module inventory also needs the matching DBM-CoA checkout at `../work/DBM-CoA-current`. No DBM-CoA production addon files were changed as part of this research update.
+
 ### Sources, archives, and collection tools
 
 The [source index](sources/INDEX.md) catalogs official and community repositories, server and client references, converted databases, class research, combat tools, and historic projects. The [archive inventory](archives/INVENTORY.md) records what was supplied, what is only linked, and why large or private files are not mirrored here.

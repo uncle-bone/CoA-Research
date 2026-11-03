@@ -1,0 +1,4041 @@
+{
+  "schema": "dbm-coa-v6-priority-seven-v1",
+  "generated": "2026-11-03",
+  "evidence_policy": "source-derived candidates remain distinct from live verification",
+  "dungeons": [
+    {
+      "id": "manastorm",
+      "name": "Manastorm",
+      "kind": "mode-or-progression-system",
+      "map_id_candidate": null,
+      "map_id_status": "unknown",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "mode-and-reward-system-evidence; do-not-model-as-a-distinct-instance-without-map-evidence",
+      "coverage": {},
+      "bosses": [],
+      "additional_evidence": {},
+      "source_references": [
+        "research/dungeons/manastorm-dungeon-cache-mappings-all-modes-2026-10-30.json",
+        "research/dbm/dungeon-research-consolidation-2026-10-30.md"
+      ],
+      "source_files": [
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/100_manastorm_dire_maul_magister_kalendris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/101_manastorm_dire_maul_immolthar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/102_manastorm_dire_maul_lord_helnurath.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/103_manastorm_dire_maul_guard_moldar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/104_manastorm_dire_maul_guard_fengus.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/105_manastorm_dire_maul_guard_slipkik.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/106_manastorm_dire_maul_captain_kromcrush.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/107_manastorm_dire_maul_king_gordok.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/108_manastorm_zul_farrak_antusul.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/109_manastorm_zul_farrak_witch_doctor_zumrah.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/110_manastorm_zul_farrak_gahzrilla.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/111_manastorm_zul_farrak_hydromancer_velratha.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/112_manastorm_zul_farrak_chief_ukorz_sandscalp.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/113_manastorm_zul_farrak_velratha_self_link_repair.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/114_manastorm_blackfathom_deeps_ghamoo_ra.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/115_manastorm_blackfathom_deeps_lady_sarevess.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/116_manastorm_blackfathom_deeps_gelihast.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/117_manastorm_blackfathom_deeps_lorgus_jett.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/118_manastorm_blackfathom_deeps_twilight_lord_kelris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/119_manastorm_blackfathom_deeps_akumai.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/127_manastorm_uldaman_ancient_stone_keeper.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/128_manastorm_uldaman_archaedas.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/129_manastorm_uldaman_grimlok.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/130_manastorm_uldaman_galgann_firehammer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/131_manastorm_uldaman_revelosh.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/132_manastorm_uldaman_obsidian_sentinel.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/133_manastorm_uldaman_ironaya.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/134_manastorm_maraudon_lord_vyletongue.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/135_manastorm_maraudon_noxxion.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/136_manastorm_maraudon_razorlash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/137_manastorm_maraudon_celebras_the_cursed.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/138_manastorm_maraudon_landslide.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/139_manastorm_maraudon_princess_theradras.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/140_manastorm_maraudon_tinkerer_gizlock.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/141_manastorm_maraudon_meshlok_the_harvester.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/142_manastorm_blackrock_depths_high_interrogator_gerstahn.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/143_manastorm_blackrock_depths_baelgar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/144_manastorm_blackrock_depths_houndmaster_grebmar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/145_manastorm_blackrock_depths_pyromancer_loregrain.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/146_manastorm_blackrock_depths_general_angerforge.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/147_manastorm_blackrock_depths_golem_lord_argelmach.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/148_manastorm_blackrock_depths_lord_incendius.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/149_manastorm_blackrock_depths_ambassador_flamelash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/150_manastorm_blackrock_depths_magmus.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/151_manastorm_blackrock_depths_emperor_dagran_thaurissan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/152_manastorm_blackrock_depths_lord_roccor.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/153_manastorm_blackrock_depths_warder_stilgiss.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/154_manastorm_blackrock_depths_fineous_darkvire.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/155_manastorm_stratholme_the_unforgiven.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/156_manastorm_stratholme_magistrate_barthilas.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/157_manastorm_stratholme_nerubenkan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/158_manastorm_stratholme_maleki_the_pallid.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/159_manastorm_stratholme_baroness_anastari.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/160_manastorm_stratholme_malor_the_zealous.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/161_manastorm_stratholme_cannon_master_willey.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/162_manastorm_stratholme_archivist_galford.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/163_manastorm_stratholme_balnazzar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/54_manastorm_classic_zulgurub_caches.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/69_manastorm_shadowfang_keep_rethilgore_route_a.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/70_manastorm_shadowfang_keep_baron_silverlaine.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/71_manastorm_shadowfang_keep_commander_springvale.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/72_manastorm_shadowfang_keep_odo_the_blindwatcher.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/73_manastorm_shadowfang_keep_fenrus_the_devourer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/74_manastorm_shadowfang_keep_wolf_master_nandos.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/75_manastorm_shadowfang_keep_archmage_arugal.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/76_manastorm_deadmines_rhahk_zor.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/77_manastorm_deadmines_sneeds_shredder.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/78_manastorm_deadmines_gilnid.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/79_manastorm_deadmines_mr_smite.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/80_manastorm_deadmines_captain_greenskin.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/81_manastorm_deadmines_cookie.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/82_manastorm_deadmines_edwin_vancleef.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/84_manastorm_razorfen_kraul_roogug.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/85_manastorm_razorfen_kraul_aggem_thorncurse.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/86_manastorm_razorfen_kraul_death_speaker_jargba.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/87_manastorm_razorfen_kraul_overlord_ramtusk.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/88_manastorm_razorfen_kraul_agathelos_the_raging.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/89_manastorm_razorfen_kraul_charlga_razorflank.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/90_manastorm_razorfen_kraul_earthcaller_halmgar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/96_manastorm_dire_maul_zevrim_thornhoof.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/97_manastorm_dire_maul_hydrospawn.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/98_manastorm_dire_maul_lethtendris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/99_manastorm_dire_maul_illyanna_ravenoak.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormBlackfathomDeepsCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormBlackrockSpireCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormDeadminesCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormDireMaulCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormRazorfenKraulCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormShadowfangKeepCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormSunkenTempleCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+          "revision": "49865d5a8f9932ddec3ab63f867c214608b18c13",
+          "path": "modules/mod-manastorm-endless/src/ManastormZulFarrakCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/100_manastorm_dire_maul_magister_kalendris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/101_manastorm_dire_maul_immolthar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/102_manastorm_dire_maul_lord_helnurath.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/103_manastorm_dire_maul_guard_moldar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/104_manastorm_dire_maul_guard_fengus.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/105_manastorm_dire_maul_guard_slipkik.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/106_manastorm_dire_maul_captain_kromcrush.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/107_manastorm_dire_maul_king_gordok.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/108_manastorm_zul_farrak_antusul.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/109_manastorm_zul_farrak_witch_doctor_zumrah.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/110_manastorm_zul_farrak_gahzrilla.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/111_manastorm_zul_farrak_hydromancer_velratha.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/112_manastorm_zul_farrak_chief_ukorz_sandscalp.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/113_manastorm_zul_farrak_velratha_self_link_repair.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/114_manastorm_blackfathom_deeps_ghamoo_ra.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/115_manastorm_blackfathom_deeps_lady_sarevess.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/116_manastorm_blackfathom_deeps_gelihast.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/117_manastorm_blackfathom_deeps_lorgus_jett.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/118_manastorm_blackfathom_deeps_twilight_lord_kelris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/119_manastorm_blackfathom_deeps_akumai.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/120_manastorm_razorfen_downs_tuten_kash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/121_manastorm_razorfen_downs_mordresh_fire_eye.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/122_manastorm_razorfen_downs_glutton.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/123_manastorm_razorfen_downs_amnennar_the_coldbringer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/124_manastorm_razorfen_downs_plaguemaw_the_rotting.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/125_manastorm_razorfen_downs_ragglesnout.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/127_manastorm_uldaman_ancient_stone_keeper.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/128_manastorm_uldaman_archaedas.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/129_manastorm_uldaman_grimlok.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/130_manastorm_uldaman_galgann_firehammer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/131_manastorm_uldaman_revelosh.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/132_manastorm_uldaman_obsidian_sentinel.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/133_manastorm_uldaman_ironaya.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/134_manastorm_maraudon_lord_vyletongue.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/135_manastorm_maraudon_noxxion.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/136_manastorm_maraudon_razorlash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/137_manastorm_maraudon_celebras_the_cursed.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/138_manastorm_maraudon_landslide.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/139_manastorm_maraudon_princess_theradras.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/140_manastorm_maraudon_tinkerer_gizlock.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/141_manastorm_maraudon_meshlok_the_harvester.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/142_manastorm_blackrock_depths_high_interrogator_gerstahn.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/143_manastorm_blackrock_depths_baelgar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/144_manastorm_blackrock_depths_houndmaster_grebmar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/145_manastorm_blackrock_depths_pyromancer_loregrain.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/146_manastorm_blackrock_depths_general_angerforge.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/147_manastorm_blackrock_depths_golem_lord_argelmach.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/148_manastorm_blackrock_depths_lord_incendius.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/149_manastorm_blackrock_depths_ambassador_flamelash.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/150_manastorm_blackrock_depths_magmus.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/151_manastorm_blackrock_depths_emperor_dagran_thaurissan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/152_manastorm_blackrock_depths_lord_roccor.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/153_manastorm_blackrock_depths_warder_stilgiss.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/154_manastorm_blackrock_depths_fineous_darkvire.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/155_manastorm_stratholme_the_unforgiven.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/156_manastorm_stratholme_magistrate_barthilas.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/157_manastorm_stratholme_nerubenkan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/158_manastorm_stratholme_maleki_the_pallid.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/159_manastorm_stratholme_baroness_anastari.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/160_manastorm_stratholme_malor_the_zealous.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/161_manastorm_stratholme_cannon_master_willey.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/162_manastorm_stratholme_archivist_galford.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/163_manastorm_stratholme_balnazzar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/54_manastorm_classic_zulgurub_caches.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/69_manastorm_shadowfang_keep_rethilgore_route_a.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/70_manastorm_shadowfang_keep_baron_silverlaine.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/71_manastorm_shadowfang_keep_commander_springvale.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/72_manastorm_shadowfang_keep_odo_the_blindwatcher.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/73_manastorm_shadowfang_keep_fenrus_the_devourer.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/74_manastorm_shadowfang_keep_wolf_master_nandos.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/75_manastorm_shadowfang_keep_archmage_arugal.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/76_manastorm_deadmines_rhahk_zor.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/77_manastorm_deadmines_sneeds_shredder.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/78_manastorm_deadmines_gilnid.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/79_manastorm_deadmines_mr_smite.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/80_manastorm_deadmines_captain_greenskin.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/81_manastorm_deadmines_cookie.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/82_manastorm_deadmines_edwin_vancleef.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/84_manastorm_razorfen_kraul_roogug.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/85_manastorm_razorfen_kraul_aggem_thorncurse.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/86_manastorm_razorfen_kraul_death_speaker_jargba.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/87_manastorm_razorfen_kraul_overlord_ramtusk.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/88_manastorm_razorfen_kraul_agathelos_the_raging.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/89_manastorm_razorfen_kraul_charlga_razorflank.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/90_manastorm_razorfen_kraul_earthcaller_halmgar.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/91_manastorm_scarlet_monastery_bloodmage_thalnos.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/92_manastorm_scarlet_monastery_houndmaster_loksey.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/93_manastorm_scarlet_monastery_arcanist_doan.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/94_manastorm_scarlet_monastery_herod.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/95_manastorm_scarlet_monastery_high_inquisitor_whitemane.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/96_manastorm_dire_maul_zevrim_thornhoof.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/97_manastorm_dire_maul_hydrospawn.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/98_manastorm_dire_maul_lethtendris.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/data/sql/db-world/base/99_manastorm_dire_maul_illyanna_ravenoak.sql",
+          "kind": "sql",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormBlackfathomDeepsCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormBlackrockSpireCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormDeadminesCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormDireMaulCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormRazorfenKraulCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormScarletMonasteryCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "Zyth45/azerothcore-wotlk-coa",
+          "revision": "86ed457692a52d502c62c7afff35626cc4c274dc",
+          "path": "modules/mod-manastorm-endless/src/ManastormZulFarrakCompat.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "uncle-bone/CoA-Research",
+          "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+          "path": "research/dungeons/manastorm-dungeon-cache-mappings-all-modes-2026-10-30.json",
+          "kind": "research",
+          "live_verified": false
+        }
+      ],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "shadowbone-depths",
+      "name": "Shadowbone Depths",
+      "kind": "custom-instance",
+      "map_id_candidate": null,
+      "map_id_status": "unknown",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "quest-and-narrative-source-evidence; encounter identity unresolved",
+      "coverage": {},
+      "bosses": [],
+      "additional_evidence": {
+        "quest_id_candidate": 175126,
+        "quest_name": "Shadowbone Depths",
+        "quest_target_name": "Morgwena",
+        "quest_target_npc_id": null,
+        "quest_giver": {
+          "name": "Deirdre",
+          "npc_id": 164355,
+          "role": "quest giver/ender; not a verified boss"
+        },
+        "boss_roster": "unknown",
+        "map_id": null,
+        "availability": "public roadmap snapshot said coming/in progress on 2026-10-30; current launch state not verified",
+        "source_note": "Quest SQL and narrative establish a dungeon quest target, not a boss creature ID or mechanics."
+      },
+      "source_references": [
+        "research/dbm/shadowbone-depths-source-dossier-2026-10-30.md",
+        "research/dbm/shadowbone-depths-consolidated-gap-analysis-2026-10-30.md",
+        "research/dbm/shadowbone-depths-quest-chain-evidence-audit-2026-10-30.md"
+      ],
+      "source_files": [],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "temple-of-embers",
+      "name": "The Temple of Embers",
+      "kind": "custom-instance",
+      "map_id_candidate": null,
+      "map_id_status": "unknown",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "no-instance-script-evidence-indexed",
+      "coverage": {},
+      "bosses": [],
+      "additional_evidence": {},
+      "source_references": [],
+      "source_files": [],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "radiant-spring",
+      "name": "The Radiant Spring",
+      "kind": "custom-instance",
+      "map_id_candidate": null,
+      "map_id_status": "unknown",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "name-only-content-scope-evidence; encounter evidence absent",
+      "coverage": {},
+      "bosses": [],
+      "additional_evidence": {
+        "source_note": "Name appears in an AtlasLoot content-scope record based on user-provided screenshot; no boss/instance data in inspected source corpus."
+      },
+      "source_references": [
+        "research/dbm/atlasloot-coa-authoritative-content-scope-2026-10-30.json"
+      ],
+      "source_files": [],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "road-to-the-other-side",
+      "name": "Road to the Other Side",
+      "kind": "custom-instance",
+      "map_id_candidate": 937,
+      "map_id_status": "candidate-needs-client-or-server-map-confirmation",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "source-candidates-found",
+      "coverage": {},
+      "bosses": [
+        {
+          "name": "Chimeric Embryo",
+          "npc_id": 162716,
+          "difficulty_npc_ids": {
+            "heroic": 262716,
+            "mythic": 362716
+          },
+          "mechanics_source": "CoAOtherSideEmbryo.cpp",
+          "timing_record": {
+            "npcId": 162716,
+            "name": "Chimeric Embryo",
+            "phaseTrigger": "crossing 50% health during ground phase",
+            "eggPhase": {
+              "novaStartMs": 0,
+              "swirlsMs": 7000,
+              "ritualMs": 7000,
+              "blobsMs": 9000,
+              "eggRainMs": 10000,
+              "eggRainRepeatMs": 3000,
+              "phaseStopMs": 47000,
+              "lastRainMs": 50000,
+              "hatchMs": 51000,
+              "spidersRunMs": 52000,
+              "landMs": 53000,
+              "ritualChannelMs": 30000
+            },
+            "postLanding": {
+              "spikesMs": 5000,
+              "webLinesMs": 3000,
+              "poisonBoltMs": 8000,
+              "fierceBlowMs": 10000
+            },
+            "source": "CoAOtherSideEmbryo.cpp"
+          },
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        },
+        {
+          "name": "Drak'math",
+          "npc_id": 162715,
+          "difficulty_npc_ids": {
+            "heroic": 262715,
+            "mythic": 362715
+          },
+          "mechanics_source": "CoAOtherSideDrakmath.cpp",
+          "timing_record": {
+            "npcId": 162715,
+            "name": "Drak'math",
+            "phase": {
+              "firstSinkAfterEngageMs": 15000,
+              "submergedEventDelayMs": 600,
+              "sidePillarsAfterSubmergedMs": 2000,
+              "sidePillarsFadeAfterSpawnMs": 4000,
+              "riseAfterSubmergedMs": 10000,
+              "beamAfterRiseMs": 1000,
+              "beamChannelMs": 30000,
+              "beamWalkerAfterBeamStartMs": 5000,
+              "beamPillarsAfterBeamStartMs": 5000,
+              "beamPillarRepeatMs": 3000,
+              "deathMissileRepeatMs": 1000,
+              "beamTickMs": 500,
+              "beamEndAfterBeamStartMs": 35200,
+              "nextSinkAfterEndBeamMs": 25000
+            },
+            "source": "CoAOtherSideDrakmath.cpp",
+            "caveat": "Beam phase may have interruptions or implementation-dependent delays; next sink scheduled in EndBeam."
+          },
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        },
+        {
+          "name": "Muzah",
+          "npc_id": 162711,
+          "difficulty_npc_ids": {
+            "heroic": 262711,
+            "mythic": 362711
+          },
+          "mechanics_source": "CoAOtherSideMuzah.cpp",
+          "timing_record": {
+            "npcId": 162711,
+            "name": "Muzah",
+            "pull": {
+              "whirlingGlaivesMs": 0,
+              "glaiveCastMs": 2000,
+              "glaivesLandMs": 2100,
+              "firstLeapMs": 7000,
+              "leapRepeatMs": 25000,
+              "firstWebMs": 20000,
+              "webRepeatMs": 20000,
+              "firstGlaiveStrikeMs": 15000,
+              "glaiveStrikeRepeatMs": 20000,
+              "mythicOnly": true
+            },
+            "cobra": {
+              "castMs": 2000,
+              "gapMs": 2500,
+              "randomExtraAfterCastMs": 2000,
+              "seriesEndAfterCastMs": 2600
+            },
+            "helpers": {
+              "swirlLifeMs": 2500,
+              "batFallMs": 1800,
+              "webCocoonMs": 4000,
+              "strikerLifeMs": 4000
+            },
+            "source": "CoAOtherSideMuzah.cpp"
+          },
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        }
+      ],
+      "additional_evidence": {
+        "source_schedule_index": {
+          "schema": "coa-research.road-boss-source-index.v1",
+          "date": "2026-10-30",
+          "bosses": [
+            {
+              "boss": "Muzah",
+              "source": "src/server/coa/CoAOtherSideMuzah.cpp",
+              "npcConstants": {
+                "NPC_MUZAH": 162711,
+                "NPC_GLAIVE": 162744,
+                "NPC_SWIRL": 162779,
+                "NPC_BAT_A": 162777,
+                "NPC_BAT_B": 162778
+              },
+              "spellConstants": {
+                "SPELL_WHIRLING_GLAIVES": 256887,
+                "SPELL_GLAIVE_VISUAL": 256886,
+                "SPELL_RIPPED_BY_THE_GLAIVES": 256888,
+                "SPELL_RIPPED_BY_THE_GLAIVES_HC": 257036,
+                "SPELL_RIPPED_BY_THE_GLAIVES_MYTHIC": 257037,
+                "SPELL_COBRA_SHOT": 256929,
+                "SPELL_COBRA_SHOT_HC": 257030,
+                "SPELL_COBRA_SHOT_MYTHIC": 257031,
+                "SPELL_ENTANGLING_WEB_HC": 257039,
+                "SPELL_ENTANGLING_WEB_MYTHIC": 257040,
+                "SPELL_BLOOD_EXPLOSION_HC": 257042,
+                "SPELL_BLOOD_EXPLOSION_MYTHIC": 257043,
+                "SPELL_MUZAHS_TARGET": 256964,
+                "SPELL_ENTANGLING_WEB": 256834,
+                "SPELL_GROUND_SWIRL": 256852,
+                "SPELL_BAT_FLY_DOWN": 256896,
+                "SPELL_BLOOD_EXPLOSION": 256903,
+                "SPELL_SUMMON_BATS": 256904,
+                "SPELL_FIERCE_BLOW": 975011,
+                "SPELL_GLAIVE_STRIKE": 257029
+              },
+              "healthConditions": [
+                "if (_nextSay >= SAY_90 && _nextSay <= SAY_10 && me->HealthBelowPctDamaged(thresholds[_nextSay - SAY_90], damage))"
+              ],
+              "schedulingCalls": [
+                "_events.ScheduleEvent(EVENT_GLAIVES_LAND, Milliseconds(GlaiveCastMs + 100));",
+                "_events.ScheduleEvent(EVENT_LEAP, Milliseconds(GlaiveCastMs + 5000));",
+                "_events.ScheduleEvent(EVENT_WEB, 20s);",
+                "_events.ScheduleEvent(EVENT_WEB_TICK, 1s);",
+                "_events.ScheduleEvent(EVENT_FIERCE_BLOW, 10s, 15s);",
+                "_events.ScheduleEvent(EVENT_GLAIVE_STRIKE, 15s);",
+                "_events.Repeat(1s);",
+                "_events.Repeat(25s);",
+                "_events.ScheduleEvent(EVENT_COBRA_TANK_1, 200ms);",
+                "_events.ScheduleEvent(EVENT_SWIRLS, 10s);",
+                "_events.ScheduleEvent(EVENT_GLAIVE_STRIKE_SECOND, 3s);",
+                "_events.Repeat(20s);",
+                "_events.ScheduleEvent(eventId == EVENT_COBRA_TANK_1 ? EVENT_COBRA_TANK_2 : EVENT_COBRA_RANDOM, Milliseconds(CobraGapMs));",
+                "_events.ScheduleEvent(EVENT_COBRA_RANDOM_EXTRA, Milliseconds(CobraCastMs));",
+                "_events.ScheduleEvent(EVENT_SERIES_END, Milliseconds(CobraCastMs + 600));",
+                "_events.ScheduleEvent(EVENT_BATS_RETURN, 5100ms);",
+                "_events.Repeat(10s);",
+                "_events.Repeat(1s);",
+                "_events.Repeat(20s);",
+                "_events.Repeat(1s);",
+                "_events.Repeat(20s, 30s);",
+                "_events.ScheduleEvent(EVENT_LANDED, Milliseconds(uint32(me->GetExactDist2d(&spot) / JumpSpeed * 1000.0f) + 400));"
+              ]
+            },
+            {
+              "boss": "Drakmath",
+              "source": "src/server/coa/CoAOtherSideDrakmath.cpp",
+              "npcConstants": {
+                "NPC_DRAKMATH": 162715,
+                "NPC_PILLAR": 162727,
+                "NPC_ORB": 162728,
+                "NPC_VOLZEEN": 162988
+              },
+              "spellConstants": {
+                "SPELL_ENCHANTED": 256839,
+                "SPELL_PARASITISM": 256867,
+                "SPELL_PARASITISM_HC": 257054,
+                "SPELL_PARASITISM_MYTHIC": 257055,
+                "SPELL_SUBMERGED": 256850,
+                "SPELL_PILLAR_VISUAL": 256854,
+                "SPELL_NECROTIC_EMERGE": 256021,
+                "SPELL_ORB_VISUAL": 256853,
+                "SPELL_ORB_CIRCLE": 256865,
+                "SPELL_NECROTIC_EXPLOSION": 256857,
+                "SPELL_NECROTIC_EXPLOSION_HC": 257057,
+                "SPELL_NECROTIC_EXPLOSION_MYTHIC": 257058,
+                "SPELL_DEATH_BEAM": 256858,
+                "SPELL_DEATH_BEAM_HIT": 256859,
+                "SPELL_DEATH_MISSILE": 256863,
+                "SPELL_DEATH_MISSILE_HIT": 256864,
+                "SPELL_DEATH_MISSILE_HIT_HC": 257051,
+                "SPELL_DEATH_MISSILE_HIT_MYTHIC": 257052,
+                "SPELL_IMPACT_ZONE": 256865,
+                "SPELL_FIERCE_BLOW": 975011,
+                "SPELL_COLOSSAL_SMASH": 256959
+              },
+              "healthConditions": [],
+              "schedulingCalls": [
+                "_events.ScheduleEvent(EVENT_PARASITISM, 7s);",
+                "_events.ScheduleEvent(EVENT_FIERCE_BLOW, 9s);",
+                "_events.ScheduleEvent(EVENT_SINK, 15s);",
+                "_events.Repeat(1s);",
+                "_events.Repeat(55s);",
+                "_events.Repeat(45s);",
+                "_events.Repeat(500ms);",
+                "_events.Repeat(500ms);",
+                "_events.ScheduleEvent(EVENT_SIDE_PILLARS, 2s);",
+                "_events.ScheduleEvent(EVENT_RISE, 10s);",
+                "_events.ScheduleEvent(EVENT_SIDE_PILLARS_FADE, 4s);",
+                "_events.ScheduleEvent(EVENT_BEAM_WALK, 5s);",
+                "_events.ScheduleEvent(EVENT_BEAM_PILLAR, 5s);",
+                "_events.ScheduleEvent(EVENT_BEAM_END, Milliseconds(5000 + BeamChannelMs + 200));",
+                "_events.ScheduleEvent(EVENT_DEATH_MISSILE, 0ms);",
+                "_events.Repeat(3s);",
+                "_events.Repeat(1s);",
+                "_events.ScheduleEvent(EVENT_SINK, 500ms);",
+                "_events.ScheduleEvent(EVENT_SUBMERGED, 600ms);",
+                "_events.ScheduleEvent(EVENT_BEAM, 1s);",
+                "_events.CancelEvent(EVENT_BEAM_PILLAR);",
+                "_events.CancelEvent(EVENT_DEATH_MISSILE);",
+                "_events.ScheduleEvent(EVENT_SINK, 25s);"
+              ]
+            },
+            {
+              "boss": "Chimeric Embryo",
+              "source": "src/server/coa/CoAOtherSideEmbryo.cpp",
+              "npcConstants": {
+                "NPC_CONTROLLER": 162731,
+                "NPC_POISON_ZONE": 162739,
+                "NPC_WEB_MARK": 162740,
+                "NPC_WEB": 162741,
+                "NPC_SPIDER": 162743,
+                "NPC_SPIKE": 162973,
+                "NPC_EGG": 9370010,
+                "NPC_BODY_OF_OFFERING": 162972
+              },
+              "spellConstants": {
+                "SPELL_SPIKES": 256878,
+                "SPELL_SPIKES_HC": 257182,
+                "SPELL_SPIKES_MYTHIC": 257183,
+                "SPELL_SPIKE_MARK": 256852,
+                "SPELL_SPIKE_VISUAL": 256922,
+                "SPELL_SPIKE_HIT": 257161,
+                "SPELL_POISON_BOLT": 256882,
+                "SPELL_POISON_BOLT_HC": 257063,
+                "SPELL_POISON_BOLT_MYTHIC": 257064,
+                "SPELL_RITUAL": 256872,
+                "SPELL_RITUAL_HC": 256965,
+                "SPELL_RITUAL_MYTHIC": 256967,
+                "SPELL_NOVA": 256873,
+                "SPELL_CIRCLE": 256875,
+                "SPELL_SWIRL": 256883,
+                "SPELL_BLOB": 256874,
+                "SPELL_WEB_MARK_VISUAL": 256879,
+                "SPELL_WEB_ACTIVE": 256880,
+                "SPELL_WEB_SHOT": 257135,
+                "SPELL_POISON_WAVE": 256877,
+                "SPELL_FIERCE_BLOW": 975011
+              },
+              "healthConditions": [
+                "if (_phase == Phase::Ground && !_eggPhasePending && me->HealthBelowPctDamaged(50, damage))"
+              ],
+              "schedulingCalls": [
+                "_events.ScheduleEvent(EVENT_SPIKES, 5s);",
+                "_events.ScheduleEvent(EVENT_FIERCE_BLOW, 10s);",
+                "_events.Repeat(20s);",
+                "_events.Repeat(10s);",
+                "_events.Repeat(14s);",
+                "_events.Repeat(10s);",
+                "_events.Repeat(3s);",
+                "_events.CancelEvent(EVENT_EGG_PHASE_NOVA);",
+                "_events.Repeat(Milliseconds(RitualChannelMs));",
+                "_events.Repeat(3s);",
+                "_events.CancelEvent(EVENT_SPIKES);",
+                "_events.CancelEvent(EVENT_FIERCE_BLOW);",
+                "_events.ScheduleEvent(EVENT_EGG_PHASE_NOVA, 0ms);",
+                "_events.ScheduleEvent(EVENT_EGG_PHASE_RITUAL, Milliseconds(SwirlsAtMs));",
+                "_events.ScheduleEvent(EVENT_EGG_PHASE_SWIRLS, Milliseconds(SwirlsAtMs));",
+                "_events.ScheduleEvent(EVENT_EGG_PHASE_BLOBS, Milliseconds(BlobsAtMs));",
+                "_events.ScheduleEvent(EVENT_EGG_RAIN, Milliseconds(EggsAtMs));",
+                "_events.ScheduleEvent(EVENT_EGG_PHASE_STOP, Milliseconds(PhaseStopMs));",
+                "_events.ScheduleEvent(EVENT_EGG_LAST_RAIN, Milliseconds(LastRainMs));",
+                "_events.ScheduleEvent(EVENT_EGG_HATCH, Milliseconds(HatchMs));",
+                "_events.ScheduleEvent(EVENT_SPIDERS_RUN, Milliseconds(SpidersRunMs));",
+                "_events.ScheduleEvent(EVENT_LAND, Milliseconds(LandMs));",
+                "_events.CancelEvent(EVENT_EGG_PHASE_NOVA);",
+                "_events.CancelEvent(EVENT_EGG_PHASE_RITUAL);",
+                "_events.CancelEvent(EVENT_EGG_RAIN);",
+                "_events.ScheduleEvent(EVENT_SPIKES, 5s);",
+                "_events.ScheduleEvent(EVENT_WEB_LINES, 3s);",
+                "_events.ScheduleEvent(EVENT_POISON_BOLT, 8s);",
+                "_events.ScheduleEvent(EVENT_FIERCE_BLOW, 10s);"
+              ]
+            }
+          ],
+          "warnings": [
+            "Schedule calls are in source order, not chronological fight order",
+            "Schedules are conditional; not yet live-validated",
+            "Spell constants include visual and helper spells, not just warnings"
+          ]
+        },
+        "warning": "NPC/spell constants are source-index evidence; do not assume every defined constant is cast in every difficulty."
+      },
+      "source_references": [
+        "research/dbm/road-to-de-other-side-three-boss-source-audit-2026-10-30.md",
+        "research/dbm/road-to-de-other-side-phase-timelines-v1-2026-10-30.json",
+        "research/dbm/road-to-de-other-side-sql-difficulty-fixes-2026-10-30.md",
+        "research/dbm/road-boss-complete-scheduling-and-spell-index-2026-10-30.json"
+      ],
+      "source_files": [],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "vaults-of-inquisition",
+      "name": "Vaults of Inquisition",
+      "kind": "custom-instance",
+      "map_id_candidate": 936,
+      "map_id_status": "candidate-needs-client-or-server-map-confirmation",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "source-candidates-found",
+      "coverage": {},
+      "bosses": [
+        {
+          "name": "Merciless Echo",
+          "npc_id": 162700,
+          "difficulty_npc_ids": {
+            "heroic": 262700,
+            "mythic": 362700
+          },
+          "mechanics_source": "src/server/coa/CoAVaults.cpp",
+          "mechanics": [
+            {
+              "spellId": 256975,
+              "name": "Spectral Strike",
+              "firstMs": 15000,
+              "repeatMs": 37000
+            },
+            {
+              "spellId": 256805,
+              "name": "Spectral Destruction",
+              "firstMs": 25000,
+              "repeatMs": 37000
+            },
+            {
+              "spellId": 975011,
+              "name": "Fierce Blow",
+              "firstMs": 6000,
+              "repeatMinMs": 9000,
+              "repeatMaxMs": 11000
+            }
+          ],
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        },
+        {
+          "name": "Darkandle",
+          "npc_id": 162703,
+          "difficulty_npc_ids": {
+            "heroic": 262703,
+            "mythic": 362703
+          },
+          "mechanics_source": "src/server/coa/CoAVaults.cpp",
+          "mechanics": [
+            {
+              "spellId": 256814,
+              "name": "More Fire",
+              "firstMs": 5000,
+              "repeatMs": 20000,
+              "fireCirclesDelayMs": 3000
+            },
+            {
+              "spellId": 256819,
+              "name": "Earthquake",
+              "firstMs": 18500,
+              "repeatMs": 20000,
+              "cleanupDelayMs": 7000
+            },
+            {
+              "spellId": 975011,
+              "name": "Fierce Blow",
+              "firstMs": 9000,
+              "repeatMinMs": 6000,
+              "repeatMaxMs": 8000
+            }
+          ],
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        },
+        {
+          "name": "Deceiver",
+          "npc_id": 162704,
+          "difficulty_npc_ids": {
+            "heroic": 262704,
+            "mythic": 362704
+          },
+          "mechanics_source": "src/server/coa/CoAVaults.cpp",
+          "mechanics": [
+            {
+              "spellId": 256927,
+              "name": "Voidflare",
+              "firstMs": 7000
+            },
+            {
+              "name": "Inner Ring",
+              "firstMs": 20000,
+              "burstDelayMs": 5000
+            },
+            {
+              "name": "Outer Ring",
+              "firstMs": 25000,
+              "burstDelayMs": 5000
+            },
+            {
+              "name": "Soak",
+              "firstMs": 30000
+            },
+            {
+              "name": "Holy Crystal",
+              "firstMs": 35000
+            },
+            {
+              "spellId": 256844,
+              "name": "Void Wrath",
+              "firstMs": 40000
+            },
+            {
+              "spellId": 975011,
+              "name": "Fierce Blow",
+              "firstMs": 10000,
+              "repeatMinMs": 10000,
+              "repeatMaxMs": 12000
+            }
+          ],
+          "evidence": "historical-upstream-source-derived",
+          "live_verified": false
+        }
+      ],
+      "additional_evidence": {
+        "mechanics_source_index": {
+          "schema": "coa-research.vaults-mechanics-source-evidence.v1",
+          "source": "src/server/coa/CoAVaults.cpp",
+          "date": "2026-10-30",
+          "npcConstants": {
+            "NPC_MERCILESS_ECHO": 162700,
+            "NPC_ECHO_IMAGE": 162701,
+            "NPC_CHAIN_ZONE": 162702,
+            "NPC_DARKANDLE": 162703,
+            "NPC_DECEIVER": 162704,
+            "NPC_HOLY_CRYSTAL_SEAL": 162705,
+            "NPC_CANDLE_FLAME": 162706,
+            "NPC_CANDLE_ZONE": 162707,
+            "NPC_VOIDFLARE": 162710,
+            "NPC_HOLY_CRYSTAL_FIGHT": 162723,
+            "NPC_SHIELD_ZONE": 162724,
+            "NPC_TORTURER": 162733,
+            "NPC_PHANTASMAL_BOUND": 162734,
+            "NPC_FREED_PRISONER": 162735,
+            "NPC_WRATHFUL_TORMENT": 162736,
+            "NPC_KOBOLD": 162737,
+            "NPC_BRUTE": 162738,
+            "NPC_SOUND_HELPER": 162745,
+            "NPC_SHADOW_PROJECTION": 162748,
+            "NPC_KOBOLD_NORMAL": 162759,
+            "NPC_CORPOREAL_SHADOW": 162761,
+            "NPC_KOBOLD_ELITE": 162762,
+            "NPC_BRUTE_ELITE": 162763,
+            "NPC_CONFESSOR_KONRAD": 162999,
+            "NPC_KOBOLD_FLAME": 163813,
+            "NPC_RP_TORTURER": 162984,
+            "NPC_RP_TORMENT": 162985,
+            "NPC_RP_PHANTASM": 162986,
+            "NPC_TRAP_CONTROLLER": 162978
+          },
+          "spellConstants": {
+            "SPELL_FIERCE_BLOW": 975011,
+            "SPELL_SPECTRAL_DESTRUCTION": 256805,
+            "SPELL_SPECTRAL_DESTRUCTION_RP": 256937,
+            "SPELL_RP_SHADOWBOLT": 256936,
+            "SPELL_VOID_ESCAPE": 256811,
+            "SPELL_CANDLE_HIT_ZONE": 256815,
+            "SPELL_CANDLE_FIREBALL_HIT": 256817,
+            "SPELL_HOLY_RING": 256806,
+            "SPELL_HOLY_CHANNEL_LOOK": 47540,
+            "SPELL_COSMETIC_CHAINS": 256843,
+            "SPELL_GROUND_ZONE": 256852,
+            "SPELL_QUAKE_ZONE": 256917,
+            "SPELL_SPECTRAL_STRIKE": 256975,
+            "SPELL_CHAIN_ZONE": 256803,
+            "SPELL_SUBJUGATING_CHAINS": 256804,
+            "SPELL_VISUAL_CANDLE_FLAME": 256812,
+            "SPELL_CANDLES": 256813,
+            "SPELL_MORE_FIRE": 256814,
+            "SPELL_CANDLE_FIREBALL": 256816,
+            "SPELL_DARKANDLE_FLAME": 256818,
+            "SPELL_EARTHQUAKE": 256819,
+            "SPELL_ABYSSAL_DEVOUR": 256820,
+            "SPELL_SHADOWY_RING_VISUAL": 256822,
+            "SPELL_SHADOWY_RING": 256823,
+            "SPELL_VOID_PUNISHMENT": 256831,
+            "SPELL_ENDLESS_AFFLICTION_BOSS": 256832,
+            "SPELL_VOID_WRATH": 256844,
+            "SPELL_GROUND_CRACKS": 255878,
+            "SPELL_ECHO_GLOW": 256916,
+            "SPELL_HOLY_SHELTER_ZONE": 256846,
+            "SPELL_SHADOWY_RINGS": 256825,
+            "SPELL_SHADOWY_RING_INNER": 256821,
+            "SPELL_SHADOWY_RING_OUTER": 256824,
+            "SPELL_VOID_CONSUMPTION": 257219,
+            "SPELL_SOAK_ERUPTION": 256925,
+            "SPELL_VOID_WRATH_TICK": 256926,
+            "SPELL_HOLY_SHELTER": 256847,
+            "SPELL_VOID_ZONE": 256827,
+            "SPELL_VOIDFLARE": 256927,
+            "SPELL_SWORD_STRIKE": 256918,
+            "SPELL_MANA_BURN": 267007,
+            "SPELL_SILENCE": 267008,
+            "SPELL_PSYCHIC_SCREAM": 257166,
+            "SPELL_MANIFEST": 257167,
+            "SPELL_ENDLESS_AFFLICTION": 256891,
+            "SPELL_HAUNTING_WRATH": 257171,
+            "SPELL_PICKAXE_STRIKE": 257175,
+            "SPELL_DARK_WAX_EXPLOSION": 256893,
+            "SPELL_CHARGE_IMPACT": 257186,
+            "SPELL_KOBOLD_FLAME": 256892,
+            "SPELL_LASH_OF_THE_VOID": 256895,
+            "SPELL_SHADOWFURY": 256491,
+            "SPELL_MIND_BLAST": 256962,
+            "SPELL_ABYSSAL_CRY": 256963
+          },
+          "sourceEvidence": [
+            {
+              "line": 41,
+              "text": "NPC_MERCILESS_ECHO = 162700,"
+            },
+            {
+              "line": 42,
+              "text": "NPC_ECHO_IMAGE = 162701,"
+            },
+            {
+              "line": 43,
+              "text": "NPC_CHAIN_ZONE = 162702,"
+            },
+            {
+              "line": 44,
+              "text": "NPC_DARKANDLE = 162703,"
+            },
+            {
+              "line": 45,
+              "text": "NPC_DECEIVER = 162704,"
+            },
+            {
+              "line": 46,
+              "text": "NPC_HOLY_CRYSTAL_SEAL = 162705,"
+            },
+            {
+              "line": 47,
+              "text": "NPC_CANDLE_FLAME = 162706,"
+            },
+            {
+              "line": 48,
+              "text": "NPC_CANDLE_ZONE = 162707,"
+            },
+            {
+              "line": 49,
+              "text": "NPC_VOIDFLARE = 162710,"
+            },
+            {
+              "line": 50,
+              "text": "NPC_HOLY_CRYSTAL_FIGHT = 162723,"
+            },
+            {
+              "line": 51,
+              "text": "NPC_SHIELD_ZONE = 162724,"
+            },
+            {
+              "line": 52,
+              "text": "NPC_TORTURER = 162733,"
+            },
+            {
+              "line": 53,
+              "text": "NPC_PHANTASMAL_BOUND = 162734,"
+            },
+            {
+              "line": 54,
+              "text": "NPC_FREED_PRISONER = 162735,"
+            },
+            {
+              "line": 55,
+              "text": "NPC_WRATHFUL_TORMENT = 162736,"
+            },
+            {
+              "line": 56,
+              "text": "NPC_KOBOLD = 162737,"
+            },
+            {
+              "line": 57,
+              "text": "NPC_BRUTE = 162738,"
+            },
+            {
+              "line": 58,
+              "text": "NPC_SOUND_HELPER = 162745,"
+            },
+            {
+              "line": 59,
+              "text": "NPC_SHADOW_PROJECTION = 162748,"
+            },
+            {
+              "line": 60,
+              "text": "NPC_KOBOLD_NORMAL = 162759,"
+            },
+            {
+              "line": 61,
+              "text": "NPC_CORPOREAL_SHADOW = 162761,"
+            },
+            {
+              "line": 62,
+              "text": "NPC_KOBOLD_ELITE = 162762,"
+            },
+            {
+              "line": 63,
+              "text": "NPC_BRUTE_ELITE = 162763,"
+            },
+            {
+              "line": 64,
+              "text": "NPC_CONFESSOR_KONRAD = 162999,"
+            },
+            {
+              "line": 65,
+              "text": "NPC_KOBOLD_FLAME = 163813,"
+            },
+            {
+              "line": 66,
+              "text": "NPC_RP_TORTURER = 162984,"
+            },
+            {
+              "line": 67,
+              "text": "NPC_RP_TORMENT = 162985,"
+            },
+            {
+              "line": 68,
+              "text": "NPC_RP_PHANTASM = 162986,"
+            },
+            {
+              "line": 69,
+              "text": "NPC_TRAP_CONTROLLER = 162978,"
+            },
+            {
+              "line": 74,
+              "text": "SPELL_FIERCE_BLOW = 975011,"
+            },
+            {
+              "line": 75,
+              "text": "SPELL_SPECTRAL_DESTRUCTION = 256805,"
+            },
+            {
+              "line": 76,
+              "text": "SPELL_SPECTRAL_DESTRUCTION_RP = 256937,"
+            },
+            {
+              "line": 77,
+              "text": "SPELL_RP_SHADOWBOLT = 256936,"
+            },
+            {
+              "line": 78,
+              "text": "SPELL_VOID_ESCAPE = 256811,"
+            },
+            {
+              "line": 79,
+              "text": "SPELL_CANDLE_HIT_ZONE = 256815,"
+            },
+            {
+              "line": 80,
+              "text": "SPELL_CANDLE_FIREBALL_HIT = 256817,"
+            },
+            {
+              "line": 81,
+              "text": "SPELL_HOLY_RING = 256806,"
+            },
+            {
+              "line": 82,
+              "text": "SPELL_HOLY_CHANNEL_LOOK = 47540,"
+            },
+            {
+              "line": 83,
+              "text": "SPELL_COSMETIC_CHAINS = 256843,"
+            },
+            {
+              "line": 84,
+              "text": "SPELL_GROUND_ZONE = 256852,"
+            },
+            {
+              "line": 85,
+              "text": "SPELL_QUAKE_ZONE = 256917,"
+            },
+            {
+              "line": 86,
+              "text": "SPELL_SPECTRAL_STRIKE = 256975,"
+            },
+            {
+              "line": 87,
+              "text": "SPELL_CHAIN_ZONE = 256803,"
+            },
+            {
+              "line": 88,
+              "text": "SPELL_SUBJUGATING_CHAINS = 256804,"
+            },
+            {
+              "line": 89,
+              "text": "SPELL_VISUAL_CANDLE_FLAME = 256812,"
+            },
+            {
+              "line": 90,
+              "text": "SPELL_CANDLES = 256813,"
+            },
+            {
+              "line": 91,
+              "text": "SPELL_MORE_FIRE = 256814,"
+            },
+            {
+              "line": 92,
+              "text": "SPELL_CANDLE_FIREBALL = 256816,"
+            },
+            {
+              "line": 93,
+              "text": "SPELL_DARKANDLE_FLAME = 256818,"
+            },
+            {
+              "line": 94,
+              "text": "SPELL_EARTHQUAKE = 256819,"
+            },
+            {
+              "line": 95,
+              "text": "SPELL_ABYSSAL_DEVOUR = 256820,"
+            },
+            {
+              "line": 96,
+              "text": "SPELL_SHADOWY_RING_VISUAL = 256822,"
+            },
+            {
+              "line": 97,
+              "text": "SPELL_SHADOWY_RING = 256823,"
+            },
+            {
+              "line": 98,
+              "text": "SPELL_VOID_PUNISHMENT = 256831,"
+            },
+            {
+              "line": 99,
+              "text": "SPELL_ENDLESS_AFFLICTION_BOSS = 256832,"
+            },
+            {
+              "line": 100,
+              "text": "SPELL_VOID_WRATH = 256844,"
+            },
+            {
+              "line": 101,
+              "text": "SPELL_GROUND_CRACKS = 255878,"
+            },
+            {
+              "line": 102,
+              "text": "SPELL_ECHO_GLOW = 256916,"
+            },
+            {
+              "line": 103,
+              "text": "SPELL_HOLY_SHELTER_ZONE = 256846,"
+            },
+            {
+              "line": 104,
+              "text": "SPELL_SHADOWY_RINGS = 256825,"
+            },
+            {
+              "line": 105,
+              "text": "SPELL_SHADOWY_RING_INNER = 256821,"
+            },
+            {
+              "line": 106,
+              "text": "SPELL_SHADOWY_RING_OUTER = 256824,"
+            },
+            {
+              "line": 107,
+              "text": "SPELL_VOID_CONSUMPTION = 257219,"
+            },
+            {
+              "line": 108,
+              "text": "SPELL_SOAK_ERUPTION = 256925,"
+            },
+            {
+              "line": 109,
+              "text": "SPELL_VOID_WRATH_TICK = 256926,"
+            },
+            {
+              "line": 110,
+              "text": "SPELL_HOLY_SHELTER = 256847,"
+            },
+            {
+              "line": 111,
+              "text": "SPELL_VOID_ZONE = 256827,"
+            },
+            {
+              "line": 112,
+              "text": "SPELL_VOIDFLARE = 256927,"
+            },
+            {
+              "line": 113,
+              "text": "SPELL_SWORD_STRIKE = 256918,"
+            },
+            {
+              "line": 114,
+              "text": "SPELL_MANA_BURN = 267007,"
+            },
+            {
+              "line": 115,
+              "text": "SPELL_SILENCE = 267008,"
+            },
+            {
+              "line": 116,
+              "text": "SPELL_PSYCHIC_SCREAM = 257166,"
+            },
+            {
+              "line": 117,
+              "text": "SPELL_MANIFEST = 257167,"
+            },
+            {
+              "line": 118,
+              "text": "SPELL_ENDLESS_AFFLICTION = 256891,"
+            },
+            {
+              "line": 119,
+              "text": "SPELL_HAUNTING_WRATH = 257171,"
+            },
+            {
+              "line": 120,
+              "text": "SPELL_PICKAXE_STRIKE = 257175,"
+            },
+            {
+              "line": 121,
+              "text": "SPELL_DARK_WAX_EXPLOSION = 256893,"
+            },
+            {
+              "line": 122,
+              "text": "SPELL_CHARGE_IMPACT = 257186,"
+            },
+            {
+              "line": 123,
+              "text": "SPELL_KOBOLD_FLAME = 256892,"
+            },
+            {
+              "line": 124,
+              "text": "SPELL_LASH_OF_THE_VOID = 256895,"
+            },
+            {
+              "line": 125,
+              "text": "SPELL_SHADOWFURY = 256491,"
+            },
+            {
+              "line": 126,
+              "text": "SPELL_MIND_BLAST = 256962,"
+            },
+            {
+              "line": 127,
+              "text": "SPELL_ABYSSAL_CRY = 256963,"
+            },
+            {
+              "line": 266,
+              "text": "{ SPELL_SPECTRAL_DESTRUCTION, { { 289, 2103 }, { 0, 0 } } },"
+            },
+            {
+              "line": 267,
+              "text": "{ SPELL_SUBJUGATING_CHAINS, { { 200, 989 }, { 0, 0 } } },"
+            },
+            {
+              "line": 268,
+              "text": "{ SPELL_DARKANDLE_FLAME, { { 79, 495 }, { 0, 0 } } },"
+            },
+            {
+              "line": 269,
+              "text": "{ SPELL_EARTHQUAKE, { { 300, 1500 }, { 100, 500 } } },"
+            },
+            {
+              "line": 270,
+              "text": "{ SPELL_ENDLESS_AFFLICTION_BOSS, { { 185, 709 }, { 0, 0 } } },"
+            },
+            {
+              "line": 271,
+              "text": "{ SPELL_VOIDFLARE, { { 170, 842 }, { 0, 0 } } },"
+            },
+            {
+              "line": 272,
+              "text": "{ SPELL_VOID_PUNISHMENT, { { 170, 841 }, { 0, 0 } } },"
+            },
+            {
+              "line": 273,
+              "text": "{ SPELL_ENDLESS_AFFLICTION, { { 142, 1111 }, { 0, 0 } } },"
+            },
+            {
+              "line": 274,
+              "text": "{ SPELL_PICKAXE_STRIKE, { { 59, 197 }, { 0, 0 } } },"
+            },
+            {
+              "line": 275,
+              "text": "{ SPELL_DARK_WAX_EXPLOSION, { { 410, 1600 }, { 0, 0 } } },"
+            },
+            {
+              "line": 276,
+              "text": "{ SPELL_CHARGE_IMPACT, { { 80, 400 }, { 0, 0 } } },"
+            },
+            {
+              "line": 277,
+              "text": "{ SPELL_KOBOLD_FLAME, { { 246, 600 }, { 0, 0 } } },"
+            },
+            {
+              "line": 278,
+              "text": "{ SPELL_LASH_OF_THE_VOID, { { 61, 206 }, { 0, 0 } } },"
+            },
+            {
+              "line": 279,
+              "text": "{ SPELL_SHADOWFURY, { { 89, 357 }, { 0, 0 } } },"
+            },
+            {
+              "line": 280,
+              "text": "{ SPELL_ABYSSAL_CRY, { { 110, 559 }, { 0, 0 } } },"
+            },
+            {
+              "line": 295,
+              "text": "uint32 const amount = target->SpellDamageBonusTaken(caster, info, uint32(Rolled(caster, target, value, info)), SPELL_DIRECT_DAMAGE);"
+            },
+            {
+              "line": 321,
+              "text": "if (Creature* fx = crystal->SummonCreature(NPC_SOUND_HELPER, crystal->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, ShatterFxMs))"
+            },
+            {
+              "line": 361,
+              "text": "if (data.mapid == VAULTS_MAP_ID && (data.id == NPC_MERCILESS_ECHO || data.id == NPC_DARKANDLE))"
+            },
+            {
+              "line": 395,
+              "text": "return NPC_MERCILESS_ECHO;"
+            },
+            {
+              "line": 397,
+              "text": "return NPC_DARKANDLE;"
+            },
+            {
+              "line": 501,
+              "text": "KeepAura(me, SPELL_ECHO_GLOW);"
+            },
+            {
+              "line": 511,
+              "text": "_events.ScheduleEvent(EVENT_ECHO_SECOND_LINE, 6s);"
+            },
+            {
+              "line": 512,
+              "text": "_events.ScheduleEvent(EVENT_ECHO_CHAINS, 5s);"
+            },
+            {
+              "line": 513,
+              "text": "_events.ScheduleEvent(EVENT_ECHO_FIERCE_BLOW, 6s);"
+            },
+            {
+              "line": 514,
+              "text": "_events.ScheduleEvent(EVENT_ECHO_STRIKE, 15s);"
+            },
+            {
+              "line": 515,
+              "text": "_events.ScheduleEvent(EVENT_ECHO_DESTRUCTION, 25s);"
+            },
+            {
+              "line": 523,
+              "text": "if (baseId == SPELL_SPECTRAL_DESTRUCTION_RP && _rpTriggered)"
+            },
+            {
+              "line": 525,
+              "text": "else if (baseId == SPELL_SPECTRAL_DESTRUCTION)"
+            },
+            {
+              "line": 590,
+              "text": "me->SummonCreature(NPC_CHAIN_ZONE, player->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, 5000);"
+            },
+            {
+              "line": 591,
+              "text": "_events.Repeat(ByDifficulty(me->GetMap(), 10s, 4s, 2s));"
+            },
+            {
+              "line": 594,
+              "text": "DoCastVictim(SPELL_FIERCE_BLOW);"
+            },
+            {
+              "line": 595,
+              "text": "_events.Repeat(9s, 11s);"
+            },
+            {
+              "line": 600,
+              "text": "DoCastVictim(SPELL_SPECTRAL_STRIKE);"
+            },
+            {
+              "line": 601,
+              "text": "_events.Repeat(37s);"
+            },
+            {
+              "line": 605,
+              "text": "me->AddAura(SPELL_ECHO_GLOW, me);"
+            },
+            {
+              "line": 607,
+              "text": "DoCastAOE(SPELL_SPECTRAL_DESTRUCTION);"
+            },
+            {
+              "line": 608,
+              "text": "_events.Repeat(37s);"
+            },
+            {
+              "line": 636,
+              "text": "DoCastSelf(SPELL_SPECTRAL_DESTRUCTION_RP);"
+            },
+            {
+              "line": 648,
+              "text": "DoCastSelf(SPELL_SPECTRAL_DESTRUCTION_RP);"
+            },
+            {
+              "line": 658,
+              "text": "me->RemoveAurasDueToSpell(SPELL_ECHO_GLOW);"
+            },
+            {
+              "line": 660,
+              "text": "me->GetCreatureListWithEntryInGrid(mobs, { NPC_RP_TORTURER, NPC_RP_TORMENT, NPC_RP_PHANTASM }, EchoRpRange);"
+            },
+            {
+              "line": 677,
+              "text": "me->RemoveAurasDueToSpell(SPELL_ECHO_GLOW);"
+            },
+            {
+              "line": 696,
+              "text": "if (Creature* image = me->SummonCreature(NPC_ECHO_IMAGE, pos, TEMPSUMMON_TIMED_DESPAWN, 5000))"
+            },
+            {
+              "line": 724,
+              "text": "if (me->GetEntry() != NPC_RP_PHANTASM)"
+            },
+            {
+              "line": 725,
+              "text": "me->SetUInt32Value(UNIT_NPC_EMOTESTATE, EMOTE_STATE_READY1H);"
+            },
+            {
+              "line": 742,
+              "text": "Creature* echo = me->FindNearestCreature(NPC_MERCILESS_ECHO, EchoRpRange);"
+            },
+            {
+              "line": 746,
+              "text": "if (me->GetEntry() == NPC_RP_PHANTASM)"
+            },
+            {
+              "line": 748,
+              "text": "DoCast(echo, SPELL_RP_SHADOWBOLT);"
+            },
+            {
+              "line": 752,
+              "text": "if (me->GetEntry() == NPC_RP_TORMENT && !_spellMs && !AnyPlayerNear(me->GetMap(), me->GetPosition(), 20.0f))"
+            },
+            {
+              "line": 754,
+              "text": "DoCastSelf(SPELL_ENDLESS_AFFLICTION);"
+            },
+            {
+              "line": 836,
+              "text": "_events.ScheduleEvent(EVENT_DARK_MORE_FIRE, 5s);"
+            },
+            {
+              "line": 837,
+              "text": "_events.ScheduleEvent(EVENT_DARK_EARTHQUAKE, 18500ms);"
+            },
+            {
+              "line": 838,
+              "text": "_events.ScheduleEvent(EVENT_DARK_FIERCE_BLOW, 9s);"
+            },
+            {
+              "line": 843,
+              "text": "if (summon->GetEntry() == NPC_CANDLE_FLAME)"
+            },
+            {
+              "line": 916,
+              "text": "DoCastSelf(SPELL_MORE_FIRE);"
+            },
+            {
+              "line": 917,
+              "text": "_events.ScheduleEvent(EVENT_DARK_FIRE_CIRCLES, 3s);"
+            },
+            {
+              "line": 918,
+              "text": "_events.Repeat(20s);"
+            },
+            {
+              "line": 922,
+              "text": "_events.ScheduleEvent(EVENT_DARK_FIRE_LINE, 4s);"
+            },
+            {
+              "line": 930,
+              "text": "DoCastAOE(SPELL_EARTHQUAKE);"
+            },
+            {
+              "line": 931,
+              "text": "_events.ScheduleEvent(EVENT_DARK_QUAKE_END, 7s);"
+            },
+            {
+              "line": 932,
+              "text": "_events.Repeat(20s);"
+            },
+            {
+              "line": 938,
+              "text": "DoCastVictim(SPELL_FIERCE_BLOW);"
+            },
+            {
+              "line": 939,
+              "text": "_events.Repeat(6s, 8s);"
+            },
+            {
+              "line": 958,
+              "text": "DoCastSelf(SPELL_VOID_ESCAPE);"
+            },
+            {
+              "line": 959,
+              "text": "_events.ScheduleEvent(EVENT_DARK_APPEAR, DarkandleTeleportDelay);"
+            },
+            {
+              "line": 969,
+              "text": "_events.ScheduleEvent(EVENT_DARK_CANDLES, DarkandleAfterTeleport);"
+            },
+            {
+              "line": 973,
+              "text": "DoCastSelf(SPELL_CANDLES);"
+            },
+            {
+              "line": 974,
+              "text": "_events.ScheduleEvent(EVENT_DARK_INTRO_LINE, 4500ms);"
+            },
+            {
+              "line": 975,
+              "text": "_events.ScheduleEvent(EVENT_DARK_READY, 6500ms);"
+            },
+            {
+              "line": 1001,
+              "text": "Creature* marker = me->SummonCreature(NPC_SOUND_HELPER, me->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, EarthquakeMarkerMs);"
+            },
+            {
+              "line": 1004,
+              "text": "marker->AddAura(SPELL_QUAKE_ZONE, marker);"
+            },
+            {
+              "line": 1017,
+              "text": "DoCastSelf(SPELL_VOID_ESCAPE);"
+            },
+            {
+              "line": 1033,
+              "text": "DoCastAOE(SPELL_ABYSSAL_DEVOUR);"
+            },
+            {
+              "line": 1040,
+              "text": "me->GetCreatureListWithEntryInGrid(placed, NPC_CANDLE_FLAME, DarkandleCandleRange);"
+            },
+            {
+              "line": 1046,
+              "text": "me->SummonCreature(NPC_CANDLE_FLAME, pos, TEMPSUMMON_MANUAL_DESPAWN);"
+            },
+            {
+              "line": 1078,
+              "text": "Creature* zone = me->SummonCreature(NPC_CANDLE_ZONE, spots[i], TEMPSUMMON_TIMED_DESPAWN, CandleZoneLifeMs);"
+            },
+            {
+              "line": 1145,
+              "text": "me->RemoveAurasDueToSpell(SPELL_SHADOWY_RING_INNER);"
+            },
+            {
+              "line": 1162,
+              "text": "_events.ScheduleEvent(EVENT_DEC_VOIDFLARE, 7s);"
+            },
+            {
+              "line": 1163,
+              "text": "_events.ScheduleEvent(EVENT_DEC_INNER_RING, 20s);"
+            },
+            {
+              "line": 1164,
+              "text": "_events.ScheduleEvent(EVENT_DEC_OUTER_RING, 25s);"
+            },
+            {
+              "line": 1165,
+              "text": "_events.ScheduleEvent(EVENT_DEC_SOAK, 30s);"
+            },
+            {
+              "line": 1166,
+              "text": "_events.ScheduleEvent(EVENT_DEC_CRYSTAL, 35s);"
+            },
+            {
+              "line": 1167,
+              "text": "_events.ScheduleEvent(EVENT_DEC_VOID_WRATH, 40s);"
+            },
+            {
+              "line": 1168,
+              "text": "_events.ScheduleEvent(EVENT_DEC_FIERCE_BLOW, 10s);"
+            },
+            {
+              "line": 1177,
+              "text": "_summons.DespawnEntry(NPC_SHIELD_ZONE);"
+            },
+            {
+              "line": 1178,
+              "text": "_summons.DespawnEntry(NPC_HOLY_CRYSTAL_FIGHT);"
+            },
+            {
+              "line": 1228,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1231,
+              "text": "DoCastSelf(SPELL_SHADOWY_RINGS, true);"
+            },
+            {
+              "line": 1232,
+              "text": "_innerGuid = ShowRing(SPELL_SHADOWY_RING_INNER);"
+            },
+            {
+              "line": 1233,
+              "text": "_events.ScheduleEvent(EVENT_DEC_INNER_BURST, DeceiverRingDelay);"
+            },
+            {
+              "line": 1234,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1237,
+              "text": "BurstRing(_innerGuid, 0.0f, InnerRingRadius, SPELL_SHADOWY_RING, InnerRingDamage, KIT_INNER_RING_BURST);"
+            },
+            {
+              "line": 1240,
+              "text": "_outerGuid = ShowRing(SPELL_SHADOWY_RING_VISUAL);"
+            },
+            {
+              "line": 1241,
+              "text": "_events.ScheduleEvent(EVENT_DEC_OUTER_BURST, DeceiverRingDelay);"
+            },
+            {
+              "line": 1242,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1245,
+              "text": "BurstRing(_outerGuid, InnerRingRadius, OuterRingRadius, SPELL_SHADOWY_RING_OUTER, OuterRingDamage, KIT_OUTER_RING_BURST);"
+            },
+            {
+              "line": 1249,
+              "text": "me->SummonCreature(NPC_TRAP_CONTROLLER, player->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, SoakLifeMs);"
+            },
+            {
+              "line": 1250,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1254,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1258,
+              "text": "DoCastSelf(SPELL_VOID_WRATH);"
+            },
+            {
+              "line": 1259,
+              "text": "_events.Repeat(DeceiverCycle);"
+            },
+            {
+              "line": 1262,
+              "text": "DoCastVictim(SPELL_FIERCE_BLOW);"
+            },
+            {
+              "line": 1263,
+              "text": "_events.Repeat(10s, 12s);"
+            },
+            {
+              "line": 1291,
+              "text": "DoCastSelf(SPELL_VOID_CONSUMPTION);"
+            },
+            {
+              "line": 1300,
+              "text": "me->GetCreatureListWithEntryInGrid(crystals, NPC_HOLY_CRYSTAL_SEAL, SealRange);"
+            },
+            {
+              "line": 1310,
+              "text": "_events.ScheduleEvent(EVENT_DEC_ERUPTION, at);"
+            },
+            {
+              "line": 1311,
+              "text": "_events.ScheduleEvent(EVENT_DEC_HOLY_CRACKS, DeceiverHolyCracksAt);"
+            },
+            {
+              "line": 1312,
+              "text": "_events.ScheduleEvent(EVENT_DEC_SEAL_RING, DeceiverSealRingAt);"
+            },
+            {
+              "line": 1313,
+              "text": "_events.ScheduleEvent(EVENT_DEC_ROAR, DeceiverRoarAt);"
+            },
+            {
+              "line": 1314,
+              "text": "_events.ScheduleEvent(EVENT_DEC_AWAKE, DeceiverAwakeAt);"
+            },
+            {
+              "line": 1320,
+              "text": "if (Creature* holy = me->SummonCreature(NPC_SOUND_HELPER, center, TEMPSUMMON_MANUAL_DESPAWN))"
+            },
+            {
+              "line": 1323,
+              "text": "KeepAura(holy, SPELL_HOLY_RING);"
+            },
+            {
+              "line": 1325,
+              "text": "if (Creature* shadow = me->SummonCreature(NPC_SOUND_HELPER, center, TEMPSUMMON_MANUAL_DESPAWN))"
+            },
+            {
+              "line": 1328,
+              "text": "KeepAura(shadow, SPELL_VOID_ZONE);"
+            },
+            {
+              "line": 1350,
+              "text": "KeepAura(me, SPELL_SHADOWY_RING_INNER);"
+            },
+            {
+              "line": 1356,
+              "text": "me->RemoveAurasDueToSpell(SPELL_SHADOWY_RING_INNER);"
+            },
+            {
+              "line": 1373,
+              "text": "if (Creature* cracks = me->SummonCreature(NPC_SOUND_HELPER, me->GetHomePosition(), TEMPSUMMON_MANUAL_DESPAWN))"
+            },
+            {
+              "line": 1376,
+              "text": "KeepAura(cracks, SPELL_GROUND_CRACKS);"
+            },
+            {
+              "line": 1390,
+              "text": "DoCastSelf(SPELL_VOIDFLARE);"
+            },
+            {
+              "line": 1397,
+              "text": "Creature* ring = me->SummonCreature(NPC_SOUND_HELPER, me->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, RingLifeMs);"
+            },
+            {
+              "line": 1429,
+              "text": "if (Creature* crystal = me->SummonCreature(NPC_HOLY_CRYSTAL_FIGHT, { x, y, z, 0.0f }, TEMPSUMMON_MANUAL_DESPAWN))"
+            },
+            {
+              "line": 1472,
+              "text": "case NPC_CHAIN_ZONE:"
+            },
+            {
+              "line": 1473,
+              "text": "DoCastSelf(SPELL_CHAIN_ZONE, true);"
+            },
+            {
+              "line": 1475,
+              "text": "case NPC_CANDLE_FLAME:"
+            },
+            {
+              "line": 1476,
+              "text": "case NPC_SOUND_HELPER:"
+            },
+            {
+              "line": 1479,
+              "text": "case NPC_CANDLE_ZONE:"
+            },
+            {
+              "line": 1480,
+              "text": "me->AddAura(SPELL_CANDLE_HIT_ZONE, me);"
+            },
+            {
+              "line": 1482,
+              "text": "case NPC_VOIDFLARE:"
+            },
+            {
+              "line": 1483,
+              "text": "DoCastSelf(SPELL_VOID_ZONE, true);"
+            },
+            {
+              "line": 1485,
+              "text": "case NPC_SHIELD_ZONE:"
+            },
+            {
+              "line": 1486,
+              "text": "KeepAura(me, SPELL_HOLY_SHELTER_ZONE);"
+            },
+            {
+              "line": 1488,
+              "text": "case NPC_TRAP_CONTROLLER:"
+            },
+            {
+              "line": 1505,
+              "text": "if (me->GetEntry() != NPC_CANDLE_FLAME || me->HasAura(SPELL_VISUAL_CANDLE_FLAME))"
+            },
+            {
+              "line": 1508,
+              "text": "me->CastSpell(me, SPELL_VISUAL_CANDLE_FLAME, false);"
+            },
+            {
+              "line": 1510,
+              "text": "me->AddAura(SPELL_VISUAL_CANDLE_FLAME, me);"
+            },
+            {
+              "line": 1525,
+              "text": "if (!player || me->GetEntry() != NPC_HOLY_CRYSTAL_FIGHT || _fired)"
+            },
+            {
+              "line": 1529,
+              "text": "player->KilledMonsterCredit(NPC_HOLY_CRYSTAL_SEAL);"
+            },
+            {
+              "line": 1533,
+              "text": "boss->SummonCreature(NPC_SHIELD_ZONE, me->GetPosition(), TEMPSUMMON_MANUAL_DESPAWN);"
+            },
+            {
+              "line": 1554,
+              "text": "case NPC_CHAIN_ZONE:"
+            },
+            {
+              "line": 1558,
+              "text": "DoCastSelf(SPELL_SUBJUGATING_CHAINS, true);"
+            },
+            {
+              "line": 1561,
+              "text": "case NPC_VOIDFLARE:"
+            },
+            {
+              "line": 1565,
+              "text": "DoCastSelf(SPELL_VOIDFLARE, true);"
+            },
+            {
+              "line": 1568,
+              "text": "case NPC_CANDLE_ZONE:"
+            },
+            {
+              "line": 1571,
+              "text": "case NPC_ECHO_IMAGE:"
+            },
+            {
+              "line": 1581,
+              "text": "DoCast(player, SPELL_SPECTRAL_STRIKE);"
+            },
+            {
+              "line": 1585,
+              "text": "case NPC_SHIELD_ZONE:"
+            },
+            {
+              "line": 1587,
+              "text": "me->AddAura(SPELL_HOLY_SHELTER, player);"
+            },
+            {
+              "line": 1589,
+              "text": "case NPC_TRAP_CONTROLLER:"
+            },
+            {
+              "line": 1602,
+              "text": "if (Creature* ring = me->SummonCreature(NPC_SOUND_HELPER, me->GetPosition(), TEMPSUMMON_TIMED_DESPAWN, SoakLifeMs))"
+            },
+            {
+              "line": 1634,
+              "text": "DealLogged(me, soaker, SPELL_SOAK_ERUPTION, SoakEruptionDamage);"
+            },
+            {
+              "line": 1641,
+              "text": "DealLogged(me, player, SPELL_VOID_WRATH_TICK, SoakFailDamage);"
+            },
+            {
+              "line": 1652,
+              "text": "candle->CastSpell(me, SPELL_CANDLE_FIREBALL, true);"
+            },
+            {
+              "line": 1657,
+              "text": "me->RemoveAurasDueToSpell(SPELL_CANDLE_HIT_ZONE);"
+            },
+            {
+              "line": 1660,
+              "text": "DealLogged(me, player, SPELL_CANDLE_FIREBALL_HIT, CandleFireballDamage);"
+            },
+            {
+              "line": 1724,
+              "text": "player->SetUInt32Value(UNIT_CHANNEL_SPELL, SPELL_HOLY_CHANNEL_LOOK);"
+            },
+            {
+              "line": 1745,
+              "text": "me->GetCreatureListWithEntryInGrid(helpers, NPC_SOUND_HELPER, SealRange);"
+            },
+            {
+              "line": 1747,
+              "text": "if (helper->HasAura(SPELL_HOLY_RING))"
+            },
+            {
+              "line": 1749,
+              "text": "me->CastSpell(helper, SPELL_COSMETIC_CHAINS, true);"
+            },
+            {
+              "line": 1759,
+              "text": "if (player && player->GetUInt32Value(UNIT_CHANNEL_SPELL) == SPELL_HOLY_CHANNEL_LOOK)"
+            },
+            {
+              "line": 1787,
+              "text": "struct Ability"
+            },
+            {
+              "line": 1796,
+              "text": "Ability const FierceBlow = { SPELL_FIERCE_BLOW, 7000, 9000, Aim::Victim };"
+            },
+            {
+              "line": 1798,
+              "text": "std::unordered_map<uint32, std::vector<Ability>> const Abilities ="
+            },
+            {
+              "line": 1800,
+              "text": "{ NPC_TORTURER, { { SPELL_SWORD_STRIKE, 1000, 6500, Aim::Victim }, FierceBlow } },"
+            },
+            {
+              "line": 1801,
+              "text": "{ NPC_PHANTASMAL_BOUND, { { SPELL_MANA_BURN, 2500, 16000, Aim::Random }, { SPELL_SILENCE, 7500, 16000, Aim::Self },"
+            },
+            {
+              "line": 1802,
+              "text": "{ SPELL_PSYCHIC_SCREAM, 13000, 16000, Aim::Self, 1 }, FierceBlow } },"
+            },
+            {
+              "line": 1803,
+              "text": "{ NPC_FREED_PRISONER, { { SPELL_MANIFEST, 4000, 600000, Aim::Self }, FierceBlow } },"
+            },
+            {
+              "line": 1804,
+              "text": "{ NPC_WRATHFUL_TORMENT, { { SPELL_ENDLESS_AFFLICTION, 4500, 8000, Aim::Self }, { SPELL_HAUNTING_WRATH, 9500, 8000, Aim::Self, 1 }, FierceBlow } },"
+            },
+            {
+              "line": 1805,
+              "text": "{ NPC_KOBOLD, { { SPELL_PICKAXE_STRIKE, 4300, 10000, Aim::Self }, FierceBlow } },"
+            },
+            {
+              "line": 1806,
+              "text": "{ NPC_KOBOLD_NORMAL, { { SPELL_PICKAXE_STRIKE, 4300, 10000, Aim::Self }, FierceBlow } },"
+            },
+            {
+              "line": 1807,
+              "text": "{ NPC_KOBOLD_ELITE, { { SPELL_PICKAXE_STRIKE, 4700, 10000, Aim::Self }, FierceBlow } },"
+            },
+            {
+              "line": 1808,
+              "text": "{ NPC_BRUTE, { { SPELL_DARK_WAX_EXPLOSION, 4500, 19500, Aim::Self }, { SPELL_CHARGE_IMPACT, 12500, 19300, Aim::Charge, 1 }, FierceBlow } },"
+            },
+            {
+              "line": 1809,
+              "text": "{ NPC_BRUTE_ELITE, { { SPELL_DARK_WAX_EXPLOSION, 4500, 19500, Aim::Self }, { SPELL_CHARGE_IMPACT, 9000, 19300, Aim::Charge, 1 }, FierceBlow } },"
+            },
+            {
+              "line": 1810,
+              "text": "{ NPC_KOBOLD_FLAME, { { SPELL_KOBOLD_FLAME, 200, 2000, Aim::Victim }, FierceBlow } },"
+            },
+            {
+              "line": 1811,
+              "text": "{ NPC_SHADOW_PROJECTION, { { SPELL_LASH_OF_THE_VOID, 500, 5000, Aim::Near } } },"
+            },
+            {
+              "line": 1812,
+              "text": "{ NPC_CORPOREAL_SHADOW, { { SPELL_SHADOWFURY, 5000, 16500, Aim::Random }, FierceBlow } },"
+            },
+            {
+              "line": 1813,
+              "text": "{ NPC_CONFESSOR_KONRAD, { { SPELL_MIND_BLAST, 2000, 13000, Aim::Victim }, { SPELL_ABYSSAL_CRY, 7000, 13000, Aim::Self }, FierceBlow } },"
+            },
+            {
+              "line": 1824,
+              "text": "{ NPC_PHANTASMAL_BOUND, { 7, 20 } },"
+            },
+            {
+              "line": 1825,
+              "text": "{ NPC_WRATHFUL_TORMENT, { 100, 10 } },"
+            },
+            {
+              "line": 1826,
+              "text": "{ NPC_KOBOLD, { 7, 10 } },"
+            },
+            {
+              "line": 1827,
+              "text": "{ NPC_KOBOLD_NORMAL, { 7, 10 } },"
+            },
+            {
+              "line": 1828,
+              "text": "{ NPC_KOBOLD_ELITE, { 7, 10 } },"
+            },
+            {
+              "line": 1829,
+              "text": "{ NPC_KOBOLD_FLAME, { 7, 10 } },"
+            },
+            {
+              "line": 1830,
+              "text": "{ NPC_BRUTE, { 33, 33 } },"
+            },
+            {
+              "line": 1831,
+              "text": "{ NPC_BRUTE_ELITE, { 33, 33 } },"
+            },
+            {
+              "line": 1832,
+              "text": "{ NPC_CORPOREAL_SHADOW, { 100, 0 } },"
+            },
+            {
+              "line": 1843,
+              "text": "if (me->GetEntry() == NPC_SHADOW_PROJECTION && !me->GetVehicle())"
+            },
+            {
+              "line": 1849,
+              "text": "for (Ability const& ability : itr->second)"
+            },
+            {
+              "line": 1877,
+              "text": "if (me->GetEntry() == NPC_SHADOW_PROJECTION)"
+            },
+            {
+              "line": 1887,
+              "text": "if (spell->Id != SPELL_MANIFEST || !me->IsAlive())"
+            },
+            {
+              "line": 1890,
+              "text": "if (Creature* phantasm = me->SummonCreature(NPC_PHANTASMAL_BOUND, me->GetPosition(), TEMPSUMMON_CORPSE_TIMED_DESPAWN, 60000))"
+            },
+            {
+              "line": 1898,
+              "text": "if (me->GetEntry() == NPC_SHADOW_PROJECTION)"
+            },
+            {
+              "line": 1918,
+              "text": "Ability const& ability = *timer.ability;"
+            },
+            {
+              "line": 1923,
+              "text": "DoCastVictim(ability.spell);"
+            },
+            {
+              "line": 1926,
+              "text": "DoCastSelf(ability.spell);"
+            },
+            {
+              "line": 1930,
+              "text": "DoCast(target, ability.spell);"
+            },
+            {
+              "line": 1943,
+              "text": "SpellCastResult const result = me->CastSpell(target, ability.spell, RelaxedCast);"
+            },
+            {
+              "line": 1944,
+              "text": "if (result == SPELL_CAST_OK)"
+            },
+            {
+              "line": 1964,
+              "text": "DoCastSelf(SPELL_CHARGE_IMPACT, true);"
+            },
+            {
+              "line": 1989,
+              "text": "Ability const* ability;"
+            },
+            {
+              "line": 2033,
+              "text": "DoEffectCalcAmount += AuraEffectCalcAmountFn(spell_coa_vaults_damage_aura::CalcTick, EFFECT_ALL, SPELL_AURA_PERIODIC_DAMAGE);"
+            },
+            {
+              "line": 2049,
+              "text": "AfterEffectRemove += AuraEffectRemoveFn(spell_coa_vaults_void_wrath::HandleRemove, EFFECT_0, SPELL_AURA_PERIODIC_TRIGGER_SPELL, AURA_EFFECT_HANDLE_REAL);"
+            },
+            {
+              "line": 2062,
+              "text": "return !unit || unit->HasAura(SPELL_HOLY_SHELTER);"
+            },
+            {
+              "line": 2094,
+              "text": "blow = caster->MeleeDamageBonusDone(target, blow, BASE_ATTACK, nullptr, SPELL_SCHOOL_MASK_NORMAL);"
+            },
+            {
+              "line": 2095,
+              "text": "blow = target->MeleeDamageBonusTaken(caster, blow, BASE_ATTACK, nullptr, SPELL_SCHOOL_MASK_NORMAL);"
+            },
+            {
+              "line": 2098,
+              "text": "DamageInfo absorb(caster, target, mitigated, GetSpellInfo(), SPELL_SCHOOL_MASK_NORMAL, SPELL_DIRECT_DAMAGE, blow - mitigated);"
+            },
+            {
+              "line": 2100,
+              "text": "SpellNonMeleeDamage damage(caster, target, GetSpellInfo(), SPELL_SCHOOL_MASK_NORMAL);"
+            },
+            {
+              "line": 2118,
+              "text": "vaults_spell_attributes() : GlobalScript(\"vaults_spell_attributes\", { GLOBALHOOK_ON_LOAD_SPELL_CUSTOM_ATTR }) { }"
+            },
+            {
+              "line": 2130,
+              "text": "info->AttributesEx2 |= SPELL_ATTR2_IGNORE_LINE_OF_SIGHT;"
+            }
+          ],
+          "warnings": [
+            "Source evidence includes boss and trash code, visuals, and helper spells",
+            "Line numbers refer to upstream file at research time",
+            "Not a validated warning/timer list"
+          ]
+        },
+        "spell_binding_index": {
+          "schema": "coa-research.vaults-spell-bindings.v1",
+          "date": "2026-10-30",
+          "sourceSql": "data/sql/updates/pending_db_world/rev_20261028_60_vaults_of_the_inquisition.sql",
+          "sourceCpp": "src/server/coa/CoAVaults.cpp",
+          "spellScriptBindings": [
+            {
+              "spellId": 256491,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256499,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256500,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256501,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256804,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256805,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256818,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256819,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256831,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256832,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256844,
+              "script": "spell_coa_vaults_void_wrath"
+            },
+            {
+              "spellId": 256848,
+              "script": "spell_coa_vaults_void_wrath_tick"
+            },
+            {
+              "spellId": 256891,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256892,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256893,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256895,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256927,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 256963,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257102,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257103,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257104,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257105,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257106,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257107,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257111,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257112,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257113,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257114,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257115,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257116,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257120,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257121,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257122,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257126,
+              "script": "spell_coa_vaults_void_wrath_tick"
+            },
+            {
+              "spellId": 257127,
+              "script": "spell_coa_vaults_void_wrath_tick"
+            },
+            {
+              "spellId": 257128,
+              "script": "spell_coa_vaults_void_wrath_tick"
+            },
+            {
+              "spellId": 257142,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257143,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257144,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257168,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257169,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257170,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257172,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257173,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257174,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257175,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257176,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257177,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257178,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257179,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257180,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257181,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257186,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257187,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257188,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257189,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257195,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257196,
+              "script": "spell_coa_vaults_damage"
+            },
+            {
+              "spellId": 257197,
+              "script": "spell_coa_vaults_damage"
+            }
+          ],
+          "damageMultiplierRows": [
+            {
+              "spellId": 256891,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Endless Affliction (Wrathful Torment), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 256892,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Darkandle Flame (Darkandle Kobold), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 256893,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Dark Wax Explosion (Darkandle Brute), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257168,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Endless Affliction (Wrathful Torment), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257169,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Endless Affliction (Wrathful Torment), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257170,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Endless Affliction (Wrathful Torment), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257172,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Darkandle Flame (Darkandle Kobold), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257173,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Darkandle Flame (Darkandle Kobold), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257174,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Darkandle Flame (Darkandle Kobold), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257179,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Dark Wax Explosion (Darkandle Brute), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257180,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Dark Wax Explosion (Darkandle Brute), values from the logs, no trash cap"
+            },
+            {
+              "spellId": 257181,
+              "multiplier": 1,
+              "comment": "Vaults of the Inquisition: Dark Wax Explosion (Darkandle Brute), values from the logs, no trash cap"
+            }
+          ],
+          "cppSpellConstants": {
+            "SPELL_FIERCE_BLOW": 975011,
+            "SPELL_SPECTRAL_DESTRUCTION": 256805,
+            "SPELL_SPECTRAL_DESTRUCTION_RP": 256937,
+            "SPELL_RP_SHADOWBOLT": 256936,
+            "SPELL_VOID_ESCAPE": 256811,
+            "SPELL_CANDLE_HIT_ZONE": 256815,
+            "SPELL_CANDLE_FIREBALL_HIT": 256817,
+            "SPELL_HOLY_RING": 256806,
+            "SPELL_HOLY_CHANNEL_LOOK": 47540,
+            "SPELL_COSMETIC_CHAINS": 256843,
+            "SPELL_GROUND_ZONE": 256852,
+            "SPELL_QUAKE_ZONE": 256917,
+            "SPELL_SPECTRAL_STRIKE": 256975,
+            "SPELL_CHAIN_ZONE": 256803,
+            "SPELL_SUBJUGATING_CHAINS": 256804,
+            "SPELL_VISUAL_CANDLE_FLAME": 256812,
+            "SPELL_CANDLES": 256813,
+            "SPELL_MORE_FIRE": 256814,
+            "SPELL_CANDLE_FIREBALL": 256816,
+            "SPELL_DARKANDLE_FLAME": 256818,
+            "SPELL_EARTHQUAKE": 256819,
+            "SPELL_ABYSSAL_DEVOUR": 256820,
+            "SPELL_SHADOWY_RING_VISUAL": 256822,
+            "SPELL_SHADOWY_RING": 256823,
+            "SPELL_VOID_PUNISHMENT": 256831,
+            "SPELL_ENDLESS_AFFLICTION_BOSS": 256832,
+            "SPELL_VOID_WRATH": 256844,
+            "SPELL_GROUND_CRACKS": 255878,
+            "SPELL_ECHO_GLOW": 256916,
+            "SPELL_HOLY_SHELTER_ZONE": 256846,
+            "SPELL_SHADOWY_RINGS": 256825,
+            "SPELL_SHADOWY_RING_INNER": 256821,
+            "SPELL_SHADOWY_RING_OUTER": 256824,
+            "SPELL_VOID_CONSUMPTION": 257219,
+            "SPELL_SOAK_ERUPTION": 256925,
+            "SPELL_VOID_WRATH_TICK": 256926,
+            "SPELL_HOLY_SHELTER": 256847,
+            "SPELL_VOID_ZONE": 256827,
+            "SPELL_VOIDFLARE": 256927,
+            "SPELL_SWORD_STRIKE": 256918,
+            "SPELL_MANA_BURN": 267007,
+            "SPELL_SILENCE": 267008,
+            "SPELL_PSYCHIC_SCREAM": 257166,
+            "SPELL_MANIFEST": 257167,
+            "SPELL_ENDLESS_AFFLICTION": 256891,
+            "SPELL_HAUNTING_WRATH": 257171,
+            "SPELL_PICKAXE_STRIKE": 257175,
+            "SPELL_DARK_WAX_EXPLOSION": 256893,
+            "SPELL_CHARGE_IMPACT": 257186,
+            "SPELL_KOBOLD_FLAME": 256892,
+            "SPELL_LASH_OF_THE_VOID": 256895,
+            "SPELL_SHADOWFURY": 256491,
+            "SPELL_MIND_BLAST": 256962,
+            "SPELL_ABYSSAL_CRY": 256963
+          },
+          "cppNpcConstants": {
+            "NPC_MERCILESS_ECHO": 162700,
+            "NPC_ECHO_IMAGE": 162701,
+            "NPC_CHAIN_ZONE": 162702,
+            "NPC_DARKANDLE": 162703,
+            "NPC_DECEIVER": 162704,
+            "NPC_HOLY_CRYSTAL_SEAL": 162705,
+            "NPC_CANDLE_FLAME": 162706,
+            "NPC_CANDLE_ZONE": 162707,
+            "NPC_VOIDFLARE": 162710,
+            "NPC_HOLY_CRYSTAL_FIGHT": 162723,
+            "NPC_SHIELD_ZONE": 162724,
+            "NPC_TORTURER": 162733,
+            "NPC_PHANTASMAL_BOUND": 162734,
+            "NPC_FREED_PRISONER": 162735,
+            "NPC_WRATHFUL_TORMENT": 162736,
+            "NPC_KOBOLD": 162737,
+            "NPC_BRUTE": 162738,
+            "NPC_SOUND_HELPER": 162745,
+            "NPC_SHADOW_PROJECTION": 162748,
+            "NPC_KOBOLD_NORMAL": 162759,
+            "NPC_CORPOREAL_SHADOW": 162761,
+            "NPC_KOBOLD_ELITE": 162762,
+            "NPC_BRUTE_ELITE": 162763,
+            "NPC_CONFESSOR_KONRAD": 162999,
+            "NPC_KOBOLD_FLAME": 163813,
+            "NPC_RP_TORTURER": 162984,
+            "NPC_RP_TORMENT": 162985,
+            "NPC_RP_PHANTASM": 162986,
+            "NPC_TRAP_CONTROLLER": 162978
+          },
+          "spellConstantsUsedInCastExpressions": [
+            {
+              "name": "SPELL_FIERCE_BLOW",
+              "id": 975011
+            },
+            {
+              "name": "SPELL_SPECTRAL_STRIKE",
+              "id": 256975
+            },
+            {
+              "name": "SPELL_SPECTRAL_DESTRUCTION",
+              "id": 256805
+            },
+            {
+              "name": "SPELL_SPECTRAL_DESTRUCTION_RP",
+              "id": 256937
+            },
+            {
+              "name": "SPELL_RP_SHADOWBOLT",
+              "id": 256936
+            },
+            {
+              "name": "SPELL_ENDLESS_AFFLICTION",
+              "id": 256891
+            },
+            {
+              "name": "SPELL_MORE_FIRE",
+              "id": 256814
+            },
+            {
+              "name": "SPELL_EARTHQUAKE",
+              "id": 256819
+            },
+            {
+              "name": "SPELL_VOID_ESCAPE",
+              "id": 256811
+            },
+            {
+              "name": "SPELL_CANDLES",
+              "id": 256813
+            },
+            {
+              "name": "SPELL_ABYSSAL_DEVOUR",
+              "id": 256820
+            },
+            {
+              "name": "SPELL_SHADOWY_RINGS",
+              "id": 256825
+            },
+            {
+              "name": "SPELL_VOID_WRATH",
+              "id": 256844
+            },
+            {
+              "name": "SPELL_VOID_CONSUMPTION",
+              "id": 257219
+            },
+            {
+              "name": "SPELL_VOIDFLARE",
+              "id": 256927
+            },
+            {
+              "name": "SPELL_CHAIN_ZONE",
+              "id": 256803
+            },
+            {
+              "name": "SPELL_VOID_ZONE",
+              "id": 256827
+            },
+            {
+              "name": "SPELL_VISUAL_CANDLE_FLAME",
+              "id": 256812
+            },
+            {
+              "name": "SPELL_SUBJUGATING_CHAINS",
+              "id": 256804
+            },
+            {
+              "name": "SPELL_CANDLE_FIREBALL",
+              "id": 256816
+            },
+            {
+              "name": "SPELL_COSMETIC_CHAINS",
+              "id": 256843
+            },
+            {
+              "name": "SPELL_CHARGE_IMPACT",
+              "id": 257186
+            }
+          ],
+          "notes": [
+            "Cast-expression detection is a lexical index, not a verified boss-to-spell mapping",
+            "Source SQL may contain variants not explicitly named in C++",
+            "Upstream only; live deployment unverified"
+          ]
+        },
+        "warning": "Constants and SQL bindings are candidates; verify exact runtime cast paths, difficulty and deployment before DBM use."
+      },
+      "source_references": [
+        "research/dbm/vaults-of-the-inquisition-three-boss-source-audit-2026-10-30.md",
+        "research/dbm/vaults-complete-mechanics-source-evidence-2026-10-30.json",
+        "research/dbm/vaults-instance-difficulty-sql-index-2026-10-30.json"
+      ],
+      "source_files": [],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    },
+    {
+      "id": "blackrock-caverns",
+      "name": "Blackrock Caverns",
+      "kind": "custom-instance",
+      "map_id_candidate": null,
+      "map_id_status": "unknown",
+      "release_status": "unverified-in-live-client",
+      "live_verified": false,
+      "source_status": "source-candidates-found",
+      "coverage": {
+        "source_files": 12,
+        "by_kind": {
+          "boss": 5,
+          "trash": 0,
+          "instance": 1,
+          "sql": 0,
+          "shared": 6,
+          "other": 0
+        },
+        "npc_ids_candidate": 4,
+        "spell_ids_candidate": 49,
+        "encounter_filename_candidates": 5,
+        "boss_ai_present": true,
+        "creature_ai_source_candidates": 6,
+        "nonboss_ai_source_candidates": 1,
+        "shared_creature_ai_source_candidates": 1,
+        "trash_ai_explicitly_identified": false,
+        "trash_coverage_note": "Nonboss creature AI may be escort, pet, quest or encounter support; not necessarily dungeon trash.",
+        "script_timers_verified": false,
+        "live_reborn_verified": false,
+        "status": "source-candidates-found"
+      },
+      "bosses": [
+        {
+          "key": "boss_ascendant_lord_obsidius",
+          "name": "Ascendant Lord Obsidius",
+          "npc_id": null,
+          "evidence": "candidate-from-filename",
+          "live_verified": false,
+          "source_paths": [
+            "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp"
+          ]
+        },
+        {
+          "key": "boss_beauty",
+          "name": "Beauty",
+          "npc_id": null,
+          "evidence": "candidate-from-filename",
+          "live_verified": false,
+          "source_paths": [
+            "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp"
+          ]
+        },
+        {
+          "key": "boss_corla",
+          "name": "Corla",
+          "npc_id": null,
+          "evidence": "candidate-from-filename",
+          "live_verified": false,
+          "source_paths": [
+            "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp"
+          ]
+        },
+        {
+          "key": "boss_karsh_steelbender",
+          "name": "Karsh Steelbender",
+          "npc_id": null,
+          "evidence": "candidate-from-filename",
+          "live_verified": false,
+          "source_paths": [
+            "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp"
+          ]
+        },
+        {
+          "key": "boss_romogg_bonecrusher",
+          "name": "Romogg Bonecrusher",
+          "npc_id": null,
+          "evidence": "candidate-from-filename",
+          "live_verified": false,
+          "source_paths": [
+            "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp"
+          ]
+        }
+      ],
+      "additional_evidence": {},
+      "source_references": [
+        "datasets/instance-scripts/priority/blackrock-caverns.json"
+      ],
+      "source_files": [
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.cpp",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.h",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp",
+          "kind": "boss",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp",
+          "kind": "boss",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp",
+          "kind": "boss",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp",
+          "kind": "boss",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp",
+          "kind": "boss",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/instance_blackrock_caverns.cpp",
+          "kind": "instance",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "uncle-bone/CoA-Research",
+          "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+          "path": "datasets/instance-scripts/blackrock-caverns-trinitycore-reference.json",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "uncle-bone/CoA-Research",
+          "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+          "path": "datasets/instance-scripts/priority/blackrock-caverns.json",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "uncle-bone/CoA-Research",
+          "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+          "path": "datasets/upstream/srhinos-coa-datamine/keystones/2045-blackrock-caverns.json",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "uncle-bone/CoA-Research",
+          "revision": "cc1a0e740eb10ecdbd3eff46fd3984bd0ed1e4d7",
+          "path": "datasets/upstream/srhinos-coa-datamine/keystones/2046-blackrock-caverns.json",
+          "kind": "shared",
+          "evidence": "source-file-read",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/blackrock_caverns.h",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp",
+          "kind": "script",
+          "live_verified": false
+        },
+        {
+          "repository": "TrinityCore/TrinityCore",
+          "revision": "fd982ce8f2eac57e34397c0996247030baed9ad0",
+          "path": "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/instance_blackrock_caverns.cpp",
+          "kind": "script",
+          "live_verified": false
+        }
+      ],
+      "spell_ids": "not normalized into verified per-boss spell links",
+      "difficulty_ids": "not independently reconciled for live Conquest Reborn",
+      "timers_verified": false,
+      "limitations": [
+        "Historical/public source is not proof of current deployment.",
+        "Do not enable predictive timers until the exact boss/spell/difficulty is corroborated by live logs or a verified deployed revision."
+      ]
+    }
+  ]
+}

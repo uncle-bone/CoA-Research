@@ -1,0 +1,334 @@
+{
+  "schema": "dbm-coa-v6-difficulty-matrix-v1",
+  "generated": "2026-11-03",
+  "policy": "difficulty IDs and variants require instance-specific evidence; generic 0-3 labels are not accepted as proof",
+  "instances": [
+    {
+      "instance": "ragefire-chasm",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "wailing-caverns",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "deadmines",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "shadowfang-keep",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "blackfathom-deeps",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "stockade",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "gnomeregan",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "razorfen-kraul",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "scarlet-monastery",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "razorfen-downs",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "uldaman",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "zulfarrak",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "maraudon",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "sunken-temple",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "blackrock-depths",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "lower-blackrock-spire",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "upper-blackrock-spire",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "dire-maul",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "scholomance",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "stratholme",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "blackrock-caverns",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "zulgurub",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "manastorm",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "shadowbone-depths",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "temple-of-embers",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "radiant-spring",
+      "map_id": null,
+      "difficulty_rows": [],
+      "status": "unresolved",
+      "live_verified": false
+    },
+    {
+      "instance": "road-to-the-other-side",
+      "map_id": 937,
+      "difficulty_rows": [
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Chimeric Embryo",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262716,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Chimeric Embryo",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362716,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Drak'math",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262715,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Drak'math",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362715,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Muzah",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262711,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "boss": "Muzah",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362711,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "difficulty_label_candidate": "normal",
+          "difficulty_id": null,
+          "evidence": "source dossiers mention mode-specific NPC/spell variants",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "evidence": "source dossiers mention mode-specific NPC/spell variants",
+          "live_verified": false
+        },
+        {
+          "instance": "road-to-the-other-side",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "evidence": "source dossiers mention mode-specific NPC/spell variants",
+          "live_verified": false
+        }
+      ],
+      "status": "source-label-candidates-only",
+      "live_verified": false
+    },
+    {
+      "instance": "vaults-of-inquisition",
+      "map_id": 936,
+      "difficulty_rows": [
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Merciless Echo",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262700,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Merciless Echo",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362700,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Darkandle",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262703,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Darkandle",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362703,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Deceiver",
+          "difficulty_label_candidate": "heroic",
+          "difficulty_id": null,
+          "npc_id_candidate": 262704,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        },
+        {
+          "instance": "vaults-of-inquisition",
+          "boss": "Deceiver",
+          "difficulty_label_candidate": "mythic",
+          "difficulty_id": null,
+          "npc_id_candidate": 362704,
+          "evidence": "historical-source-dossier",
+          "live_verified": false
+        }
+      ],
+      "status": "source-label-candidates-only",
+      "live_verified": false
+    }
+  ]
+}

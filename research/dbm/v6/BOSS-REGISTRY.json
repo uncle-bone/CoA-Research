@@ -1,0 +1,2504 @@
+{
+  "schema": "dbm-coa-v6-boss-registry-v1",
+  "generated": "2026-11-03",
+  "records": [
+    {
+      "record_id": "ragefire-chasm:boss_saviana_ragefire",
+      "instance": "ragefire-chasm",
+      "name": "boss_saviana_ragefire",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+        "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "ragefire-chasm:boss_adarogg",
+      "instance": "ragefire-chasm",
+      "name": "boss_adarogg",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_adarogg.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "ragefire-chasm:boss_dark_shaman_koranthal",
+      "instance": "ragefire-chasm",
+      "name": "boss_dark_shaman_koranthal",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_dark_shaman_koranthal.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "ragefire-chasm:boss_lava_guard_gordoth",
+      "instance": "ragefire-chasm",
+      "name": "boss_lava_guard_gordoth",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_lava_guard_gordoth.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "ragefire-chasm:boss_slagmaw",
+      "instance": "ragefire-chasm",
+      "name": "boss_slagmaw",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RagefireChasm/boss_slagmaw.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "wailing-caverns:boss_mutanus_the_devourer",
+      "instance": "wailing-caverns",
+      "name": "boss_mutanus_the_devourer",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/wailing_caverns/boss_mutanus_the_devourer.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "deadmines:boss_mr_smite",
+      "instance": "deadmines",
+      "name": "boss_mr_smite",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Deadmines/boss_mr_smite.cpp",
+        "src/server/scripts/EasternKingdoms/Deadmines/boss_mr_smite.cpp",
+        "src/server/scripts/EasternKingdoms/Deadmines/boss_mr_smite.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/deadmines/boss_mr_smite.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "shadowfang-keep:boss_apothecary_hummel",
+      "instance": "shadowfang-keep",
+      "name": "boss_apothecary_hummel",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
+        "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
+        "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
+        "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "shadowfang-keep:boss_hummel",
+      "instance": "shadowfang-keep",
+      "name": "boss_hummel",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/shadowfang_keep/boss_hummel.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackfathom-deeps:boss_aku_mai",
+      "instance": "blackfathom-deeps",
+      "name": "boss_aku_mai",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_aku_mai.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_aku_mai.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackfathom-deeps:boss_gelihast",
+      "instance": "blackfathom-deeps",
+      "name": "boss_gelihast",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_gelihast.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_gelihast.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackfathom-deeps:boss_kelris",
+      "instance": "blackfathom-deeps",
+      "name": "boss_kelris",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/BlackfathomDeeps/boss_kelris.cpp",
+        "scripts/kalimdor/blackfathom_deeps/boss_kelris.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stockade:boss_hogger",
+      "instance": "stockade",
+      "name": "boss_hogger",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/TheStockade/boss_hogger.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stockade:boss_lord_overheat",
+      "instance": "stockade",
+      "name": "boss_lord_overheat",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/TheStockade/boss_lord_overheat.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stockade:boss_randolph_moloch",
+      "instance": "stockade",
+      "name": "boss_randolph_moloch",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/TheStockade/boss_randolph_moloch.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "gnomeregan:boss_thermaplugg",
+      "instance": "gnomeregan",
+      "name": "boss_thermaplugg",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/gnomeregan/boss_thermaplugg.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "gnomeregan:boss_mekgineer_thermaplug",
+      "instance": "gnomeregan",
+      "name": "boss_mekgineer_thermaplug",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/gnomeregan/boss_mekgineer_thermaplug.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_armsmaster_harlan",
+      "instance": "scarlet-monastery",
+      "name": "boss_armsmaster_harlan",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/ScarletHalls/boss_armsmaster_harlan.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_arcanist_doan",
+      "instance": "scarlet-monastery",
+      "name": "boss_arcanist_doan",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_arcanist_doan.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_arcanist_doan.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_arcanist_doan.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_azshir_the_sleepless",
+      "instance": "scarlet-monastery",
+      "name": "boss_azshir_the_sleepless",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_azshir_the_sleepless.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_azshir_the_sleepless.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_bloodmage_thalnos",
+      "instance": "scarlet-monastery",
+      "name": "boss_bloodmage_thalnos",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_bloodmage_thalnos.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_bloodmage_thalnos.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_headless_horseman",
+      "instance": "scarlet-monastery",
+      "name": "boss_headless_horseman",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_headless_horseman.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_headless_horseman.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_herod",
+      "instance": "scarlet-monastery",
+      "name": "boss_herod",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_herod.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_herod.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_herod.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_high_inquisitor_fairbanks",
+      "instance": "scarlet-monastery",
+      "name": "boss_high_inquisitor_fairbanks",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_high_inquisitor_fairbanks.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_high_inquisitor_fairbanks.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_houndmaster_loksey",
+      "instance": "scarlet-monastery",
+      "name": "boss_houndmaster_loksey",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_houndmaster_loksey.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_houndmaster_loksey.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_interrogator_vishas",
+      "instance": "scarlet-monastery",
+      "name": "boss_interrogator_vishas",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_interrogator_vishas.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_interrogator_vishas.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_mograine_and_whitemane",
+      "instance": "scarlet-monastery",
+      "name": "boss_mograine_and_whitemane",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_mograine_and_whitemane.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scarlet_monastery/boss_mograine_and_whitemane.cpp",
+        "scripts/eastern_kingdoms/scarlet_monastery/boss_mograine_and_whitemane.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scarlet-monastery:boss_scorn",
+      "instance": "scarlet-monastery",
+      "name": "boss_scorn",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ScarletMonastery/boss_scorn.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "razorfen-downs:boss_amnennar_the_coldbringer",
+      "instance": "razorfen-downs",
+      "name": "boss_amnennar_the_coldbringer",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_amnennar_the_coldbringer.cpp",
+        "scripts/kalimdor/razorfen_downs/boss_amnennar_the_coldbringer.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "razorfen-downs:boss_glutton",
+      "instance": "razorfen-downs",
+      "name": "boss_glutton",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_glutton.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "razorfen-downs:boss_mordresh_fire_eye",
+      "instance": "razorfen-downs",
+      "name": "boss_mordresh_fire_eye",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_mordresh_fire_eye.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "razorfen-downs:boss_tuten_kash",
+      "instance": "razorfen-downs",
+      "name": "boss_tuten_kash",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/RazorfenDowns/boss_tuten_kash.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "uldaman:boss_archaedas",
+      "instance": "uldaman",
+      "name": "boss_archaedas",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Uldaman/boss_archaedas.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp",
+        "scripts/eastern_kingdoms/uldaman/boss_archaedas.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "uldaman:boss_ironaya",
+      "instance": "uldaman",
+      "name": "boss_ironaya",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Uldaman/boss_ironaya.cpp",
+        "scripts/eastern_kingdoms/uldaman/boss_ironaya.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulfarrak:boss_zum_rah",
+      "instance": "zulfarrak",
+      "name": "boss_zum_rah",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/ZulFarrak/boss_zum_rah.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulfarrak:boss_zumrah",
+      "instance": "zulfarrak",
+      "name": "boss_zumrah",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/game/AI/ScriptDevAI/scripts/kalimdor/zulfarrak/boss_zumrah.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "maraudon:boss_celebras_the_cursed",
+      "instance": "maraudon",
+      "name": "boss_celebras_the_cursed",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/Maraudon/boss_celebras_the_cursed.cpp",
+        "scripts/kalimdor/maraudon/boss_celebras_the_cursed.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "maraudon:boss_landslide",
+      "instance": "maraudon",
+      "name": "boss_landslide",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/Maraudon/boss_landslide.cpp",
+        "scripts/kalimdor/maraudon/boss_landslide.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "maraudon:boss_noxxion",
+      "instance": "maraudon",
+      "name": "boss_noxxion",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/Maraudon/boss_noxxion.cpp",
+        "src/game/AI/ScriptDevAI/scripts/kalimdor/maraudon/boss_noxxion.cpp",
+        "scripts/kalimdor/maraudon/boss_noxxion.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "maraudon:boss_princess_theradras",
+      "instance": "maraudon",
+      "name": "boss_princess_theradras",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/Maraudon/boss_princess_theradras.cpp",
+        "scripts/kalimdor/maraudon/boss_princess_theradras.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_atalai_defender",
+      "instance": "sunken-temple",
+      "name": "boss_atalai_defender",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_atalai_defender.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_atalai_dragon",
+      "instance": "sunken-temple",
+      "name": "boss_atalai_dragon",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_atalai_dragon.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_atalalarion",
+      "instance": "sunken-temple",
+      "name": "boss_atalalarion",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_atalalarion.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_avatar_of_hakkar",
+      "instance": "sunken-temple",
+      "name": "boss_avatar_of_hakkar",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_avatar_of_hakkar.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_jammalan_ogom",
+      "instance": "sunken-temple",
+      "name": "boss_jammalan_ogom",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_jammalan_ogom.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "sunken-temple:boss_shade_of_eranikus",
+      "instance": "sunken-temple",
+      "name": "boss_shade_of_eranikus",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/sunken_temple/boss_shade_of_eranikus.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_ambassador_flamelash",
+      "instance": "blackrock-depths",
+      "name": "boss_ambassador_flamelash",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_ambassador_flamelash.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_ambassador_flamelash.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_anubshiah",
+      "instance": "blackrock-depths",
+      "name": "boss_anubshiah",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_anubshiah.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_emperor_dagran_thaurissan",
+      "instance": "blackrock-depths",
+      "name": "boss_emperor_dagran_thaurissan",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_emperor_dagran_thaurissan.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_emperor_dagran_thaurissan.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_eviscerator",
+      "instance": "blackrock-depths",
+      "name": "boss_eviscerator",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_general_angerforge",
+      "instance": "blackrock-depths",
+      "name": "boss_general_angerforge",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_general_angerforge.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_general_angerforge.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_gorosh_the_dervish",
+      "instance": "blackrock-depths",
+      "name": "boss_gorosh_the_dervish",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_gorosh_the_dervish.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_grizzle",
+      "instance": "blackrock-depths",
+      "name": "boss_grizzle",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_grizzle.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_hedrum",
+      "instance": "blackrock-depths",
+      "name": "boss_hedrum",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_high_interrogator_gerstahn",
+      "instance": "blackrock-depths",
+      "name": "boss_high_interrogator_gerstahn",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_high_interrogator_gerstahn.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_high_interrogator_gerstahn.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_magmus",
+      "instance": "blackrock-depths",
+      "name": "boss_magmus",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_magmus.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_moira_bronzebeard",
+      "instance": "blackrock-depths",
+      "name": "boss_moira_bronzebeard",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_okthor",
+      "instance": "blackrock-depths",
+      "name": "boss_okthor",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_tomb_of_seven",
+      "instance": "blackrock-depths",
+      "name": "boss_tomb_of_seven",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
+        "scripts/eastern_kingdoms/blackrock_depths/boss_tomb_of_seven.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_coren_direbrew",
+      "instance": "blackrock-depths",
+      "name": "boss_coren_direbrew",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_coren_direbrew.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_depths/boss_coren_direbrew.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-depths:boss_lord_argelmarch",
+      "instance": "blackrock-depths",
+      "name": "boss_lord_argelmarch",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/blackrock_depths/boss_lord_argelmarch.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_drakkisath",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_drakkisath",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_drakkisath.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_gyth",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_gyth",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_gyth.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_gyth.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_halycon",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_halycon",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_highlord_omokk",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_highlord_omokk",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_highlord_omokk.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_lord_valthalak",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_lord_valthalak",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_lord_valthalak.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_mor_grayhoof",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_mor_grayhoof",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_mor_grayhoof.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_overlord_wyrmthalak",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_overlord_wyrmthalak",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_overlord_wyrmthalak.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_overlord_wyrmthalak.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_pyroguard_emberseer",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_pyroguard_emberseer",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_pyroguard_emberseer.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_pyroguard_emberseer.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_quartermaster_zigris",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_quartermaster_zigris",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_quartermaster_zigris.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_rend_blackhand",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_rend_blackhand",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_rend_blackhand.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_solakar_flamewreath",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_solakar_flamewreath",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_solakar_flamewreath.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_the_beast",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_the_beast",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_the_beast.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_urok_doomhowl",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_urok_doomhowl",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_urok_doomhowl.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_warmaster_voone",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_warmaster_voone",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_gizrul_the_slavener",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_gizrul_the_slavener",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gizrul_the_slavener.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_mother_smolderweb",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_mother_smolderweb",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mother_smolderweb.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_mother_smolderweb.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_shadow_hunter_voshgajin",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_shadow_hunter_voshgajin",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_shadow_hunter_voshgajin.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_shadow_hunter_voshgajin.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_halycon_gizrul",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_halycon_gizrul",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/blackrock_spire/boss_halycon_gizrul.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "lower-blackrock-spire:boss_war_master_voone",
+      "instance": "lower-blackrock-spire",
+      "name": "boss_war_master_voone",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/blackrock_spire/boss_war_master_voone.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_drakkisath",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_drakkisath",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_drakkisath.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_gyth",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_gyth",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_gyth.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_gyth.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_halycon",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_halycon",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_highlord_omokk",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_highlord_omokk",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_highlord_omokk.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_lord_valthalak",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_lord_valthalak",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_lord_valthalak.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_mor_grayhoof",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_mor_grayhoof",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_mor_grayhoof.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_overlord_wyrmthalak",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_overlord_wyrmthalak",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_overlord_wyrmthalak.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_overlord_wyrmthalak.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_pyroguard_emberseer",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_pyroguard_emberseer",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/blackrock_spire/boss_pyroguard_emberseer.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_pyroguard_emberseer.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_quartermaster_zigris",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_quartermaster_zigris",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_quartermaster_zigris.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_rend_blackhand",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_rend_blackhand",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_rend_blackhand.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_solakar_flamewreath",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_solakar_flamewreath",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_solakar_flamewreath.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_the_beast",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_the_beast",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_the_beast.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_urok_doomhowl",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_urok_doomhowl",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_urok_doomhowl.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_warmaster_voone",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_warmaster_voone",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_gizrul_the_slavener",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_gizrul_the_slavener",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gizrul_the_slavener.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_mother_smolderweb",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_mother_smolderweb",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mother_smolderweb.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_mother_smolderweb.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_shadow_hunter_voshgajin",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_shadow_hunter_voshgajin",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_shadow_hunter_voshgajin.cpp",
+        "scripts/eastern_kingdoms/blackrock_spire/boss_shadow_hunter_voshgajin.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_halycon_gizrul",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_halycon_gizrul",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/blackrock_spire/boss_halycon_gizrul.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "upper-blackrock-spire:boss_war_master_voone",
+      "instance": "upper-blackrock-spire",
+      "name": "boss_war_master_voone",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/blackrock_spire/boss_war_master_voone.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_isalien",
+      "instance": "dire-maul",
+      "name": "boss_isalien",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/DireMaul/boss_isalien.cpp",
+        "src/server/scripts/Kalimdor/DireMaul/boss_isalien.cpp",
+        "src/server/scripts/Kalimdor/DireMaul/boss_isalien.cpp",
+        "scripts/kalimdor/dire_maul/boss_isalien.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_alzzin_the_wildshaper",
+      "instance": "dire-maul",
+      "name": "boss_alzzin_the_wildshaper",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_alzzin_the_wildshaper.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_captain_kromcrush",
+      "instance": "dire-maul",
+      "name": "boss_captain_kromcrush",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_captain_kromcrush.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_chorush_the_observer",
+      "instance": "dire-maul",
+      "name": "boss_chorush_the_observer",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_chorush_the_observer.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_guard",
+      "instance": "dire-maul",
+      "name": "boss_guard",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_guard.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_hydrospawn",
+      "instance": "dire-maul",
+      "name": "boss_hydrospawn",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_hydrospawn.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_illyanna_ravenoak",
+      "instance": "dire-maul",
+      "name": "boss_illyanna_ravenoak",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_illyanna_ravenoak.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_immolthar",
+      "instance": "dire-maul",
+      "name": "boss_immolthar",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_immolthar.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_king_gordok",
+      "instance": "dire-maul",
+      "name": "boss_king_gordok",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_king_gordok.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_lethtendris",
+      "instance": "dire-maul",
+      "name": "boss_lethtendris",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_lethtendris.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_magister_kalendris",
+      "instance": "dire-maul",
+      "name": "boss_magister_kalendris",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_magister_kalendris.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_prince_tortheldrin",
+      "instance": "dire-maul",
+      "name": "boss_prince_tortheldrin",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_prince_tortheldrin.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_pusillin",
+      "instance": "dire-maul",
+      "name": "boss_pusillin",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_pusillin.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_stomper_kreeg",
+      "instance": "dire-maul",
+      "name": "boss_stomper_kreeg",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_stomper_kreeg.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_tendris_warpwood",
+      "instance": "dire-maul",
+      "name": "boss_tendris_warpwood",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_tendris_warpwood.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "dire-maul:boss_zevrim_thornhoof",
+      "instance": "dire-maul",
+      "name": "boss_zevrim_thornhoof",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/kalimdor/dire_maul/boss_zevrim_thornhoof.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_darkmaster_gandling",
+      "instance": "scholomance",
+      "name": "boss_darkmaster_gandling",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_darkmaster_gandling.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_darkmaster_gandling.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_kirtonos_the_herald",
+      "instance": "scholomance",
+      "name": "boss_kirtonos_the_herald",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_kirtonos_the_herald.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_kormok",
+      "instance": "scholomance",
+      "name": "boss_kormok",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_kormok.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_death_knight_darkreaver",
+      "instance": "scholomance",
+      "name": "boss_death_knight_darkreaver",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_death_knight_darkreaver.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_death_knight_darkreaver.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_doctor_theolen_krastinov",
+      "instance": "scholomance",
+      "name": "boss_doctor_theolen_krastinov",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_doctor_theolen_krastinov.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_doctor_theolen_krastinov.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_illucia_barov",
+      "instance": "scholomance",
+      "name": "boss_illucia_barov",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_illucia_barov.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_instructor_malicia",
+      "instance": "scholomance",
+      "name": "boss_instructor_malicia",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_instructor_malicia.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_instructor_malicia.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_jandice_barov",
+      "instance": "scholomance",
+      "name": "boss_jandice_barov",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_jandice_barov.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/scholomance/boss_jandice_barov.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_jandice_barov.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_lord_alexei_barov",
+      "instance": "scholomance",
+      "name": "boss_lord_alexei_barov",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_lord_alexei_barov.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_lord_alexei_barov.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_lorekeeper_polkelt",
+      "instance": "scholomance",
+      "name": "boss_lorekeeper_polkelt",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_lorekeeper_polkelt.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_lorekeeper_polkelt.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_ras_frostwhisper",
+      "instance": "scholomance",
+      "name": "boss_ras_frostwhisper",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_ras_frostwhisper.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_ras_frostwhisper.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_the_ravenian",
+      "instance": "scholomance",
+      "name": "boss_the_ravenian",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_the_ravenian.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_the_ravenian.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_vectus",
+      "instance": "scholomance",
+      "name": "boss_vectus",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Scholomance/boss_vectus.cpp",
+        "scripts/eastern_kingdoms/scholomance/boss_vectus.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_lady_illucia_barov",
+      "instance": "scholomance",
+      "name": "boss_lady_illucia_barov",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/scholomance/boss_lady_illucia_barov.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_marduk_blackpool",
+      "instance": "scholomance",
+      "name": "boss_marduk_blackpool",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/scholomance/boss_marduk_blackpool.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "scholomance:boss_rattlegore",
+      "instance": "scholomance",
+      "name": "boss_rattlegore",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/scholomance/boss_rattlegore.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_baroness_anastari",
+      "instance": "stratholme",
+      "name": "boss_baroness_anastari",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_baroness_anastari.cpp",
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_baroness_anastari.cpp",
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_baroness_anastari.cpp",
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_baroness_anastari.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/stratholme/boss_baroness_anastari.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_baroness_anastari.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_jarien_and_sothos",
+      "instance": "stratholme",
+      "name": "boss_jarien_and_sothos",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_jarien_and_sothos.cpp",
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_jarien_and_sothos.cpp",
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_jarien_and_sothos.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_epoch",
+      "instance": "stratholme",
+      "name": "boss_epoch",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_epoch.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_epoch.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_epoch.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_infinite",
+      "instance": "stratholme",
+      "name": "boss_infinite",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_infinite.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_infinite.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_infinite.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_mal_ganis",
+      "instance": "stratholme",
+      "name": "boss_mal_ganis",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_mal_ganis.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_mal_ganis.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_mal_ganis.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_mal_ganis.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_meathook",
+      "instance": "stratholme",
+      "name": "boss_meathook",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_meathook.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_meathook.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_meathook.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_meathook.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_salramm",
+      "instance": "stratholme",
+      "name": "boss_salramm",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_salramm.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_salramm.cpp",
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_salramm.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_baron_rivendare",
+      "instance": "stratholme",
+      "name": "boss_baron_rivendare",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_baron_rivendare.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_baron_rivendare.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_cannon_master_willey",
+      "instance": "stratholme",
+      "name": "boss_cannon_master_willey",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_cannon_master_willey.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/stratholme/boss_cannon_master_willey.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_cannon_master_willey.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_dathrohan_balnazzar",
+      "instance": "stratholme",
+      "name": "boss_dathrohan_balnazzar",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_dathrohan_balnazzar.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/stratholme/boss_dathrohan_balnazzar.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_dathrohan_balnazzar.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_magistrate_barthilas",
+      "instance": "stratholme",
+      "name": "boss_magistrate_barthilas",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_magistrate_barthilas.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_magistrate_barthilas.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_maleki_the_pallid",
+      "instance": "stratholme",
+      "name": "boss_maleki_the_pallid",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_maleki_the_pallid.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/stratholme/boss_maleki_the_pallid.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_maleki_the_pallid.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_nerubenkan",
+      "instance": "stratholme",
+      "name": "boss_nerubenkan",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_nerubenkan.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_nerubenkan.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_order_of_silver_hand",
+      "instance": "stratholme",
+      "name": "boss_order_of_silver_hand",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_order_of_silver_hand.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/stratholme/boss_order_of_silver_hand.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_postmaster_malown",
+      "instance": "stratholme",
+      "name": "boss_postmaster_malown",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_postmaster_malown.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_postmaster_malown.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_ramstein_the_gorger",
+      "instance": "stratholme",
+      "name": "boss_ramstein_the_gorger",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_ramstein_the_gorger.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_ramstein_the_gorger.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_timmy_the_cruel",
+      "instance": "stratholme",
+      "name": "boss_timmy_the_cruel",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/Stratholme/boss_timmy_the_cruel.cpp",
+        "scripts/eastern_kingdoms/stratholme/boss_timmy_the_cruel.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_chrono_lord_epoch",
+      "instance": "stratholme",
+      "name": "boss_chrono_lord_epoch",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_chrono_lord_epoch.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_infinite_corruptor",
+      "instance": "stratholme",
+      "name": "boss_infinite_corruptor",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_infinite_corruptor.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_salramm_the_fleshcrafter",
+      "instance": "stratholme",
+      "name": "boss_salramm_the_fleshcrafter",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_salramm_the_fleshcrafter.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "stratholme:boss_jarien_sothos",
+      "instance": "stratholme",
+      "name": "boss_jarien_sothos",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "scripts/eastern_kingdoms/stratholme/boss_jarien_sothos.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-caverns:boss_ascendant_lord_obsidius",
+      "instance": "blackrock-caverns",
+      "name": "boss_ascendant_lord_obsidius",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_ascendant_lord_obsidius.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-caverns:boss_beauty",
+      "instance": "blackrock-caverns",
+      "name": "boss_beauty",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_beauty.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-caverns:boss_corla",
+      "instance": "blackrock-caverns",
+      "name": "boss_corla",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_corla.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-caverns:boss_karsh_steelbender",
+      "instance": "blackrock-caverns",
+      "name": "boss_karsh_steelbender",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_karsh_steelbender.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "blackrock-caverns:boss_romogg_bonecrusher",
+      "instance": "blackrock-caverns",
+      "name": "boss_romogg_bonecrusher",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockCaverns/boss_romogg_bonecrusher.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_arlokk_coa",
+      "instance": "zulgurub",
+      "name": "boss_arlokk_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_arlokk_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_arlokk_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_grilek_coa",
+      "instance": "zulgurub",
+      "name": "boss_grilek_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_grilek_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_grilek_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_hakkar_coa",
+      "instance": "zulgurub",
+      "name": "boss_hakkar_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_hakkar_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_hakkar_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_jeklik_coa",
+      "instance": "zulgurub",
+      "name": "boss_jeklik_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_jeklik_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_jeklik_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_jindo_coa",
+      "instance": "zulgurub",
+      "name": "boss_jindo_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_jindo_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_jindo_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_mandokir_coa",
+      "instance": "zulgurub",
+      "name": "boss_mandokir_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_mandokir_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_mandokir_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_marli_coa",
+      "instance": "zulgurub",
+      "name": "boss_marli_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_marli_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_marli_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_thekal_coa",
+      "instance": "zulgurub",
+      "name": "boss_thekal_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_thekal_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_thekal_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_venoxis_coa",
+      "instance": "zulgurub",
+      "name": "boss_venoxis_coa",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "modules/mod-coa-raid-difficulty/src/boss_venoxis_coa.cpp",
+        "modules/mod-coa-raid-difficulty/src/boss_venoxis_coa.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_arlokk",
+      "instance": "zulgurub",
+      "name": "boss_arlokk",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_arlokk.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_arlokk.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_gahzranka",
+      "instance": "zulgurub",
+      "name": "boss_gahzranka",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_gahzranka.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_grilek",
+      "instance": "zulgurub",
+      "name": "boss_grilek",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_grilek.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_hakkar",
+      "instance": "zulgurub",
+      "name": "boss_hakkar",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_hakkar.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_hakkar.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_hazzarah",
+      "instance": "zulgurub",
+      "name": "boss_hazzarah",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_hazzarah.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_jeklik",
+      "instance": "zulgurub",
+      "name": "boss_jeklik",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_jeklik.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_jeklik.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_jindo",
+      "instance": "zulgurub",
+      "name": "boss_jindo",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_jindo.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_mandokir",
+      "instance": "zulgurub",
+      "name": "boss_mandokir",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_mandokir.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_mandokir.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_marli",
+      "instance": "zulgurub",
+      "name": "boss_marli",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_marli.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_marli.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_renataki",
+      "instance": "zulgurub",
+      "name": "boss_renataki",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_renataki.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_renataki.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_thekal",
+      "instance": "zulgurub",
+      "name": "boss_thekal",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_thekal.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_thekal.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_venoxis",
+      "instance": "zulgurub",
+      "name": "boss_venoxis",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
+        "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/zulgurub/boss_venoxis.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_venoxis.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_wushoolay",
+      "instance": "zulgurub",
+      "name": "boss_wushoolay",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
+        "scripts/eastern_kingdoms/zulgurub/boss_wushoolay.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_jindo_the_godbreaker",
+      "instance": "zulgurub",
+      "name": "boss_jindo_the_godbreaker",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo_the_godbreaker.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_kilnara",
+      "instance": "zulgurub",
+      "name": "boss_kilnara",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_kilnara.cpp"
+      ],
+      "live_verified": false
+    },
+    {
+      "record_id": "zulgurub:boss_zanzil",
+      "instance": "zulgurub",
+      "name": "boss_zanzil",
+      "npc_id": null,
+      "npc_ids_candidate": [],
+      "evidence": "candidate-from-filename",
+      "source_paths": [
+        "src/server/scripts/EasternKingdoms/ZulGurub/boss_zanzil.cpp"
+      ],
+      "live_verified": false
+    }
+  ]
+}
