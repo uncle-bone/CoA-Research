@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Interface/AddOns/DragonUI/modules/spellbook/book_frame.lua",
+    "lines": "223",
+    "finding": "Creates custom DragonUI spellbook frame",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/DragonUI/modules/spellbook/book_access.lua",
+    "lines": "108-110,182",
+    "finding": "Hides standard SpellBookFrame and hooks OnShow",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/DragonUI/modules/spellbook/book_catalog.lua",
+    "lines": "117,489-562",
+    "finding": "Enumerates spell tabs and builds catalog",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/ElvUI/Modules/Skins/Blizzard/Spellbook.lua",
+    "lines": "12-126",
+    "finding": "Skins AscensionSpellbookFrame",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/ElvUI/Modules/Blizzard/WindowMover.lua",
+    "lines": "16,67",
+    "finding": "Supports SpellBookFrame and AscensionSpellbookFrame repositioning",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/ElvUI/Libraries/LibSpellRange-1.0/LibSpellRange-1.0.lua",
+    "lines": "85-101",
+    "finding": "Enumerates spell tabs/names and resolves book slots",
+    "status": "static source"
+  },
+  {
+    "path": "Interface/AddOns/APIDocumentation/Documentation/SpellDocumentation.lua",
+    "lines": "103,187,246,448,642",
+    "finding": "Documents spell tabs/info/pickup/event APIs",
+    "status": "static documentation"
+  },
+  {
+    "path": "Interface/AddOns/ElvUI_AddOnSkins/Modules/SkillToast.lua",
+    "lines": "194-221,271",
+    "finding": "Scans spellbook and tracks learned spells",
+    "status": "static source"
+  }
+]

@@ -11,6 +11,8 @@ These files retain their own audit notes and provenance labels. Many datasets ar
 - `whats-training/`: spell-rank data and trainer observation helper; rank records are not verified trainer assignments.
 - `zygor-coa-research/`: Pale Reach source-derived quest records, dependency/coordinate extracts and guide draft.
 - `RetailGuildPane-CoA-Research/`: static guild API documentation index, client inventory and diagnostic addon.
+- `conquest-reborn-local-class-summon-research.zip` and its README: installed-client class, spell-rank, skill-card, and summon/entity candidate research. It preserves conflicts and ownership uncertainty; many records are also included in the Details and What's Training? bundles.
+- `spellbook-client-research/` and `spellbook-client-research.zip`: static Ascension/DragonUI/ElvUI spellbook source findings. Runtime behavior remains unverified.
 - ZIPs preserve the previously delivered bundles; CSV inventory included as well.
 
 No game installation files were changed. Large MPQ archives were not copied.
