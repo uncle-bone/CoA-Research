@@ -53,3 +53,41 @@ The migration manifest traces the character importer to `hertigservices/BindMySo
 
 ### GitHub scan assessment
 A public code-search hit for `bindmysoul.com` was found in the character importer and its tests. No authoritative BindMySoul site/backend repository was established. Generic repositories mentioning `Vol'jin` are unrelated realm-name collisions, not usable evidence.
+
+## User-supplied live site findings (2026-11-03; reported signed-in view)
+
+**Evidence category: user-observed site UI, not independently fetched by this research run.**
+
+- Build Forge lists 21 CoA classes, role filtering and target level.
+- Planner: Ability Vault and Talent Trees. Ability Vault displays name, description, active/passive, class/tree, level, essence cost; observed Venomancer listing: 46 entries across 12 pages.
+- Talent Trees show specializations, ranks, dependencies/locks, and level-bounded essence totals. The starter tree is labeled a heuristic/local theorycraft draft. Do not promote planner content to verified Vol'jin mechanics.
+- Download page offers v1.3.5 Windows installer (user-observed 28.8 MB; unsigned/Unknown Publisher) bundling addon and Soul Bridge, plus addon-only v1.3.5 ZIP. Soul Bridge is described as keeping exact checkpoints locally and syncing only to the linked account. **No installer was downloaded or executed.**
+- The signed-in user's Characters and My Builds records were not inspected; do not collect or import personal records.
+
+### Integrity distinction (user-supplied review)
+
+`BMSP1/BMSP2` SavedVariables payloads have no computed hash; `pending-companion-hash` is not a cryptographic seal. The `.bmsr.zip` importer checks internal offline hash relationships, **but does not verify the Ed25519 publisher signature against the service public key**. Therefore consistency is checked, publisher authenticity is not established.
+
+## Additional independently inspected GitHub data source (2026-11-03)
+
+- https://github.com/hertigservices/ascension-data
+- https://github.com/hertigservices/ascension-data/blob/main/README.md
+
+The public README describes separately attributed supplemental datasets:
+- `supplemental/exiles-db/`: mirrored CoA database site with parsed spell, item, NPC, quest, achievement, talent-tree records and per-file hashes.
+- `supplemental/exiles-db-export/`: SQL/CSV PostgreSQL export, **97 gameplay tables and 6.19 million rows** (repository-reported), including untruncated loot and raw spawn coordinates, icon map, and 80,721 image files.
+- `supplemental/coa-databank/`: permission-republished CoA talents, skills, community builds and MPQ spell/asset indexes.
+- `supplemental/client-dbc-snapshots/`: client DBC differences with hash and record-level reports.
+- `supplemental/worldforged/`: attributed pickup locations and upgrade ladders.
+- `supplemental/bisbeard/`: attributed planner export and catalog.
+- WDB cache downloads and SHA-256 manifests, preserving mode/source variants.
+
+These are potentially high-value independent sources for **quest/NPC/loot/spawn/DBC normalization**, but their historical realm/build alignment, licenses and exact row semantics require verification before joining the v2 graph. Do not merge the Exiles PostgreSQL data automatically with current Vol'jin or Conquest Reborn facts.
+
+### Next ingestion order
+
+1. Inspect `ascension-data` manifests, Exiles schema and source hash provenance; isolate immutable snapshots by version, realm and capture date.
+2. Generate staging tables and candidate joins for spell, talent, quest, creature, item, creature loot and spawn coordinates with source-specific primary keys.
+3. Compare against existing CoA-Research datasets, quarantine conflicts and record source-coverage metrics.
+4. Independently capture **public** planner catalog pages and source metadata where access permits, without logging in or importing personal builds.
+5. Treat live gameplay verification as a separate required evidence tier.
