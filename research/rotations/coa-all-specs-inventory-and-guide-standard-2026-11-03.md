@@ -81,7 +81,7 @@ A **rotation** requires more than a list of available abilities. For each specia
 ## Current completion
 
 - Archived roster inventory: **complete and internally verified (70/70)**.
-- Live realm verification: **pending**.
+- Published-source roster cross-check: **21 classes corroborated by user-observed Bind My Soul live planner; 70 spec IDs confirmed in archived registry**. Individual live-client spec verification: **not established by reviewed evidence**.
 - Mechanics/rotation verification: **pending**.
 - Combat-tested or optimized guides: **0 claimed**.
 
