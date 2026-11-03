@@ -1,6 +1,7 @@
 # CoA Research — Conquest Reborn Addon & Data Hub
 
-> **[Download](https://github.com/uncle-bone/CoA-Research/releases/latest)**
+> **[Download Here!](https://coa-research.unclebone.workers.dev/download/CoA-Research)**
+**Latest research release: CoA Shared Database v2.0.1 — SQL Loot Evidence (shared-database-v2.0.1).**
 
 **Maintainer:** Uncle Bone · [@uncle-bone](https://github.com/uncle-bone)
 
