@@ -1,0 +1,3532 @@
+{
+  "schemaVersion": 1,
+  "title": "CoA proposed level-60 class stats: document local-world vs migration targets",
+  "researchScope": "Conquest Reborn / CoA; research only",
+  "capturedOn": "2026-11-05",
+  "level": 60,
+  "proposedRaceCount": 10,
+  "uploadedDocument": {
+    "filename": "message(1).txt",
+    "sha256": "473086208e9873a291934163a43243396c12e32d48657dab39df867d60efc397",
+    "status": "user-provided secondary transcription of historical local coa_world and proposed migration",
+    "originalUnmodifiedFileNotPublished": true
+  },
+  "sourceCode": {
+    "repository": "Conquest-of-AzerothCore/azerothcore-wotlk-coa",
+    "pullRequest": 11062,
+    "prState": "merged",
+    "sqlPath": "data/sql/updates/pending_db_world/rev_20261105_95_coa_class_level_sixty_stats.sql",
+    "sqlBlobSHA": "63ade658315236f3038353f9849e25a7a67ba726",
+    "mergeIsNotLiveRealmActivation": true,
+    "featureFlag": "CoA.ClassLevelSixtyStats.Enable",
+    "default": 0
+  },
+  "bisbeardStatus": "Values attributed by upstream SQL and PR to coa.bisbeard.com realmDataCoa coa-text. Independent raw unscaled rows not obtained.",
+  "scaling": {
+    "baseHealthFactor": 1.2,
+    "staminaFactor": 1.2,
+    "alreadyIncludedInMigrationTargets": true,
+    "doubleScalingForbidden": true,
+    "rawBisbeardUnscaledUnknown": true
+  },
+  "valuesNote": "before values are reported from a local coa_world player_class_stats instance, not sampled from CR live realm. After values match upstream migration SQL. Race rows are PR proposed targets, not live race stats.",
+  "statistics": [
+    {
+      "classId": 12,
+      "className": "Barbarian",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1572,
+        "baseMana": 0,
+        "strength": 86,
+        "agility": 133,
+        "stamina": 78,
+        "intellect": 29,
+        "spirit": 48
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3752,
+        "baseMana": 0,
+        "strength": 99,
+        "agility": 98,
+        "stamina": 90,
+        "intellect": 51,
+        "spirit": 67
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3752,
+        "baseMana": 0,
+        "strength": 99,
+        "agility": 98,
+        "stamina": 90,
+        "intellect": 51,
+        "spirit": 67
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2180,
+        "baseMana": 0,
+        "strength": 13,
+        "agility": -35,
+        "stamina": 12,
+        "intellect": 22,
+        "spirit": 19
+      },
+      "baseHealthRatio": 2.3868
+    },
+    {
+      "classId": 13,
+      "className": "Witch Doctor",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1448,
+        "baseMana": 1497,
+        "strength": 79,
+        "agility": 57,
+        "stamina": 97,
+        "intellect": 90,
+        "spirit": 106
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3128,
+        "baseMana": 1538,
+        "strength": 54,
+        "agility": 82,
+        "stamina": 86,
+        "intellect": 79,
+        "spirit": 106
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3128,
+        "baseMana": 1538,
+        "strength": 54,
+        "agility": 82,
+        "stamina": 86,
+        "intellect": 79,
+        "spirit": 106
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1680,
+        "baseMana": 41,
+        "strength": -25,
+        "agility": 25,
+        "stamina": -11,
+        "intellect": -11,
+        "spirit": 0
+      },
+      "baseHealthRatio": 2.1602
+    },
+    {
+      "classId": 14,
+      "className": "Felsworn",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1563,
+        "baseMana": 0,
+        "strength": 82,
+        "agility": 130,
+        "stamina": 79,
+        "intellect": 34,
+        "spirit": 49
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3440,
+        "baseMana": 0,
+        "strength": 68,
+        "agility": 93,
+        "stamina": 93,
+        "intellect": 75,
+        "spirit": 78
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3440,
+        "baseMana": 0,
+        "strength": 68,
+        "agility": 93,
+        "stamina": 93,
+        "intellect": 75,
+        "spirit": 78
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1877,
+        "baseMana": 0,
+        "strength": -14,
+        "agility": -37,
+        "stamina": 14,
+        "intellect": 41,
+        "spirit": 29
+      },
+      "baseHealthRatio": 2.2009
+    },
+    {
+      "classId": 15,
+      "className": "Witch Hunter",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1486,
+        "baseMana": 1720,
+        "strength": 55,
+        "agility": 127,
+        "stamina": 93,
+        "intellect": 64,
+        "spirit": 69
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3440,
+        "baseMana": 2064,
+        "strength": 75,
+        "agility": 94,
+        "stamina": 91,
+        "intellect": 71,
+        "spirit": 75
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3440,
+        "baseMana": 2064,
+        "strength": 75,
+        "agility": 94,
+        "stamina": 91,
+        "intellect": 71,
+        "spirit": 75
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1954,
+        "baseMana": 344,
+        "strength": 20,
+        "agility": -33,
+        "stamina": -2,
+        "intellect": 7,
+        "spirit": 6
+      },
+      "baseHealthRatio": 2.3149
+    },
+    {
+      "classId": 16,
+      "className": "Stormbringer",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1448,
+        "baseMana": 1535,
+        "strength": 79,
+        "agility": 50,
+        "stamina": 93,
+        "intellect": 101,
+        "spirit": 106
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 2925,
+        "baseMana": 1456,
+        "strength": 55,
+        "agility": 57,
+        "stamina": 73,
+        "intellect": 119,
+        "spirit": 103
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 2925,
+        "baseMana": 1456,
+        "strength": 55,
+        "agility": 57,
+        "stamina": 73,
+        "intellect": 119,
+        "spirit": 103
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1477,
+        "baseMana": -79,
+        "strength": -24,
+        "agility": 7,
+        "stamina": -20,
+        "intellect": 18,
+        "spirit": -3
+      },
+      "baseHealthRatio": 2.02
+    },
+    {
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1734,
+        "baseMana": 0,
+        "strength": 128,
+        "agility": 81,
+        "stamina": 116,
+        "intellect": 28,
+        "spirit": 37
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 4220,
+        "baseMana": 0,
+        "strength": 117,
+        "agility": 69,
+        "stamina": 99,
+        "intellect": 66,
+        "spirit": 55
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 4220,
+        "baseMana": 0,
+        "strength": 117,
+        "agility": 69,
+        "stamina": 99,
+        "intellect": 66,
+        "spirit": 55
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2486,
+        "baseMana": 0,
+        "strength": -11,
+        "agility": -12,
+        "stamina": -17,
+        "intellect": 38,
+        "spirit": 18
+      },
+      "baseHealthRatio": 2.4337
+    },
+    {
+      "classId": 18,
+      "className": "Guardian",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1734,
+        "baseMana": 0,
+        "strength": 124,
+        "agility": 80,
+        "stamina": 118,
+        "intellect": 26,
+        "spirit": 41
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3752,
+        "baseMana": 0,
+        "strength": 99,
+        "agility": 76,
+        "stamina": 112,
+        "intellect": 59,
+        "spirit": 62
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3752,
+        "baseMana": 0,
+        "strength": 99,
+        "agility": 76,
+        "stamina": 112,
+        "intellect": 59,
+        "spirit": 62
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2018,
+        "baseMana": 0,
+        "strength": -25,
+        "agility": -4,
+        "stamina": -6,
+        "intellect": 33,
+        "spirit": 21
+      },
+      "baseHealthRatio": 2.1638
+    },
+    {
+      "classId": 19,
+      "className": "Templar",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1563,
+        "baseMana": 0,
+        "strength": 81,
+        "agility": 132,
+        "stamina": 79,
+        "intellect": 32,
+        "spirit": 49
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 4220,
+        "baseMana": 0,
+        "strength": 83,
+        "agility": 92,
+        "stamina": 96,
+        "intellect": 63,
+        "spirit": 72
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 4220,
+        "baseMana": 0,
+        "strength": 83,
+        "agility": 92,
+        "stamina": 96,
+        "intellect": 63,
+        "spirit": 72
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2657,
+        "baseMana": 0,
+        "strength": 2,
+        "agility": -40,
+        "stamina": 17,
+        "intellect": 31,
+        "spirit": 23
+      },
+      "baseHealthRatio": 2.6999
+    },
+    {
+      "classId": 20,
+      "className": "Bloodmage",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1504,
+        "baseMana": 0,
+        "strength": 63,
+        "agility": 60,
+        "stamina": 78,
+        "intellect": 98,
+        "spirit": 111
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3385,
+        "baseMana": 0,
+        "strength": 71,
+        "agility": 75,
+        "stamina": 102,
+        "intellect": 73,
+        "spirit": 87
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3385,
+        "baseMana": 0,
+        "strength": 71,
+        "agility": 75,
+        "stamina": 102,
+        "intellect": 73,
+        "spirit": 87
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1881,
+        "baseMana": 0,
+        "strength": 8,
+        "agility": 15,
+        "stamina": 24,
+        "intellect": -25,
+        "spirit": -24
+      },
+      "baseHealthRatio": 2.2507
+    },
+    {
+      "classId": 21,
+      "className": "Ranger",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1486,
+        "baseMana": 0,
+        "strength": 61,
+        "agility": 130,
+        "stamina": 94,
+        "intellect": 62,
+        "spirit": 64
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 2972,
+        "baseMana": 0,
+        "strength": 80,
+        "agility": 110,
+        "stamina": 91,
+        "intellect": 65,
+        "spirit": 60
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 2972,
+        "baseMana": 0,
+        "strength": 80,
+        "agility": 110,
+        "stamina": 91,
+        "intellect": 65,
+        "spirit": 60
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1486,
+        "baseMana": 0,
+        "strength": 19,
+        "agility": -20,
+        "stamina": -3,
+        "intellect": 3,
+        "spirit": -4
+      },
+      "baseHealthRatio": 2
+    },
+    {
+      "classId": 22,
+      "className": "Chronomancer",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1410,
+        "baseMana": 1376,
+        "strength": 33,
+        "agility": 35,
+        "stamina": 49,
+        "intellect": 125,
+        "spirit": 132
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3307,
+        "baseMana": 1651,
+        "strength": 54,
+        "agility": 61,
+        "stamina": 74,
+        "intellect": 105,
+        "spirit": 115
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3307,
+        "baseMana": 1651,
+        "strength": 54,
+        "agility": 61,
+        "stamina": 74,
+        "intellect": 105,
+        "spirit": 115
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1897,
+        "baseMana": 275,
+        "strength": 21,
+        "agility": 26,
+        "stamina": 25,
+        "intellect": -20,
+        "spirit": -17
+      },
+      "baseHealthRatio": 2.3454
+    },
+    {
+      "classId": 23,
+      "className": "Necromancer",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1456,
+        "baseMana": 1373,
+        "strength": 44,
+        "agility": 43,
+        "stamina": 68,
+        "intellect": 117,
+        "spirit": 117
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3463,
+        "baseMana": 1648,
+        "strength": 69,
+        "agility": 50,
+        "stamina": 91,
+        "intellect": 109,
+        "spirit": 91
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3463,
+        "baseMana": 1648,
+        "strength": 69,
+        "agility": 50,
+        "stamina": 91,
+        "intellect": 109,
+        "spirit": 91
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2007,
+        "baseMana": 275,
+        "strength": 25,
+        "agility": 7,
+        "stamina": 23,
+        "intellect": -8,
+        "spirit": -26
+      },
+      "baseHealthRatio": 2.3784
+    },
+    {
+      "classId": 24,
+      "className": "Pyromancer",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1403,
+        "baseMana": 1213,
+        "strength": 24,
+        "agility": 32,
+        "stamina": 45,
+        "intellect": 131,
+        "spirit": 127
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 2956,
+        "baseMana": 1456,
+        "strength": 51,
+        "agility": 63,
+        "stamina": 78,
+        "intellect": 109,
+        "spirit": 108
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 2956,
+        "baseMana": 1456,
+        "strength": 51,
+        "agility": 63,
+        "stamina": 78,
+        "intellect": 109,
+        "spirit": 108
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1553,
+        "baseMana": 243,
+        "strength": 27,
+        "agility": 31,
+        "stamina": 33,
+        "intellect": -22,
+        "spirit": -19
+      },
+      "baseHealthRatio": 2.1069
+    },
+    {
+      "classId": 25,
+      "className": "Cultist",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1418,
+        "baseMana": 1512,
+        "strength": 108,
+        "agility": 63,
+        "stamina": 104,
+        "intellect": 71,
+        "spirit": 73
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3502,
+        "baseMana": 1814,
+        "strength": 92,
+        "agility": 66,
+        "stamina": 99,
+        "intellect": 78,
+        "spirit": 72
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3502,
+        "baseMana": 1814,
+        "strength": 92,
+        "agility": 66,
+        "stamina": 99,
+        "intellect": 78,
+        "spirit": 72
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2084,
+        "baseMana": 302,
+        "strength": -16,
+        "agility": 3,
+        "stamina": -5,
+        "intellect": 7,
+        "spirit": -1
+      },
+      "baseHealthRatio": 2.4697
+    },
+    {
+      "classId": 26,
+      "className": "Starcaller",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1512,
+        "baseMana": 1269,
+        "strength": 71,
+        "agility": 56,
+        "stamina": 75,
+        "intellect": 105,
+        "spirit": 102
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3151,
+        "baseMana": 1824,
+        "strength": 82,
+        "agility": 71,
+        "stamina": 92,
+        "intellect": 104,
+        "spirit": 57
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3151,
+        "baseMana": 1824,
+        "strength": 82,
+        "agility": 71,
+        "stamina": 92,
+        "intellect": 104,
+        "spirit": 57
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1639,
+        "baseMana": 555,
+        "strength": 11,
+        "agility": 15,
+        "stamina": 17,
+        "intellect": -1,
+        "spirit": -45
+      },
+      "baseHealthRatio": 2.084
+    },
+    {
+      "classId": 27,
+      "className": "Sun Cleric",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1410,
+        "baseMana": 1363,
+        "strength": 40,
+        "agility": 35,
+        "stamina": 56,
+        "intellect": 119,
+        "spirit": 125
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3463,
+        "baseMana": 1814,
+        "strength": 94,
+        "agility": 55,
+        "stamina": 97,
+        "intellect": 80,
+        "spirit": 84
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3463,
+        "baseMana": 1814,
+        "strength": 94,
+        "agility": 55,
+        "stamina": 97,
+        "intellect": 80,
+        "spirit": 84
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2053,
+        "baseMana": 451,
+        "strength": 54,
+        "agility": 20,
+        "stamina": 41,
+        "intellect": -39,
+        "spirit": -41
+      },
+      "baseHealthRatio": 2.456
+    },
+    {
+      "classId": 28,
+      "className": "Tinker",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1486,
+        "baseMana": 1740,
+        "strength": 59,
+        "agility": 126,
+        "stamina": 92,
+        "intellect": 68,
+        "spirit": 64
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3229,
+        "baseMana": 1824,
+        "strength": 74,
+        "agility": 94,
+        "stamina": 87,
+        "intellect": 91,
+        "spirit": 59
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3229,
+        "baseMana": 1824,
+        "strength": 74,
+        "agility": 94,
+        "stamina": 87,
+        "intellect": 91,
+        "spirit": 59
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1743,
+        "baseMana": 84,
+        "strength": 15,
+        "agility": -32,
+        "stamina": -5,
+        "intellect": 23,
+        "spirit": -5
+      },
+      "baseHealthRatio": 2.1729
+    },
+    {
+      "classId": 29,
+      "className": "Venomancer",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1456,
+        "baseMana": 1520,
+        "strength": 85,
+        "agility": 53,
+        "stamina": 98,
+        "intellect": 93,
+        "spirit": 100
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 2995,
+        "baseMana": 1824,
+        "strength": 63,
+        "agility": 78,
+        "stamina": 86,
+        "intellect": 91,
+        "spirit": 90
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 2995,
+        "baseMana": 1824,
+        "strength": 63,
+        "agility": 78,
+        "stamina": 86,
+        "intellect": 91,
+        "spirit": 90
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1539,
+        "baseMana": 304,
+        "strength": -22,
+        "agility": 25,
+        "stamina": -12,
+        "intellect": -2,
+        "spirit": -10
+      },
+      "baseHealthRatio": 2.057
+    },
+    {
+      "classId": 30,
+      "className": "Reaper",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1554,
+        "baseMana": 0,
+        "strength": 84,
+        "agility": 126,
+        "stamina": 80,
+        "intellect": 33,
+        "spirit": 50
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 4196,
+        "baseMana": 0,
+        "strength": 95,
+        "agility": 70,
+        "stamina": 100,
+        "intellect": 67,
+        "spirit": 76
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 4196,
+        "baseMana": 0,
+        "strength": 95,
+        "agility": 70,
+        "stamina": 100,
+        "intellect": 67,
+        "spirit": 76
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2642,
+        "baseMana": 0,
+        "strength": 11,
+        "agility": -56,
+        "stamina": 20,
+        "intellect": 34,
+        "spirit": 26
+      },
+      "baseHealthRatio": 2.7001
+    },
+    {
+      "classId": 31,
+      "className": "Primalist",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1504,
+        "baseMana": 1269,
+        "strength": 73,
+        "agility": 57,
+        "stamina": 75,
+        "intellect": 100,
+        "spirit": 105
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 3697,
+        "baseMana": 1824,
+        "strength": 89,
+        "agility": 73,
+        "stamina": 90,
+        "intellect": 86,
+        "spirit": 67
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 3697,
+        "baseMana": 1824,
+        "strength": 89,
+        "agility": 73,
+        "stamina": 90,
+        "intellect": 86,
+        "spirit": 67
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 2193,
+        "baseMana": 555,
+        "strength": 16,
+        "agility": 16,
+        "stamina": 15,
+        "intellect": -14,
+        "spirit": -38
+      },
+      "baseHealthRatio": 2.4581
+    },
+    {
+      "classId": 32,
+      "className": "Runemaster",
+      "level": 60,
+      "race": "Human",
+      "raceId": 1,
+      "documentReportedLocalCoaWorldBefore": {
+        "baseHealth": 1448,
+        "baseMana": 1480,
+        "strength": 80,
+        "agility": 59,
+        "stamina": 98,
+        "intellect": 95,
+        "spirit": 98
+      },
+      "documentReportedProposedMigrationAfter": {
+        "baseHealth": 2917,
+        "baseMana": 1361,
+        "strength": 60,
+        "agility": 88,
+        "stamina": 87,
+        "intellect": 96,
+        "spirit": 75
+      },
+      "migrationSqlProposedTarget": {
+        "baseHealth": 2917,
+        "baseMana": 1361,
+        "strength": 60,
+        "agility": 88,
+        "stamina": 87,
+        "intellect": 96,
+        "spirit": 75
+      },
+      "bisbeardAttributedUnscaledLevel60": null,
+      "sourceCrosscheck": "matches-migration-SQL-exactly",
+      "delta": {
+        "baseHealth": 1469,
+        "baseMana": -119,
+        "strength": -20,
+        "agility": 29,
+        "stamina": -11,
+        "intellect": 1,
+        "spirit": -23
+      },
+      "baseHealthRatio": 2.0145
+    }
+  ],
+  "raceSpecificProposedTargets": [
+    {
+      "raceId": 1,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 99,
+        "agility": 98,
+        "stamina": 90,
+        "intellect": 51,
+        "spirit": 67
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 106,
+        "agility": 101,
+        "stamina": 98,
+        "intellect": 47,
+        "spirit": 60
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 104,
+        "agility": 94,
+        "stamina": 98,
+        "intellect": 49,
+        "spirit": 63
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 102,
+        "agility": 106,
+        "stamina": 92,
+        "intellect": 49,
+        "spirit": 61
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 94,
+        "agility": 106,
+        "stamina": 92,
+        "intellect": 50,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 109,
+        "agility": 93,
+        "stamina": 99,
+        "intellect": 47,
+        "spirit": 63
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 93,
+        "agility": 103,
+        "stamina": 87,
+        "intellect": 54,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 101,
+        "agility": 106,
+        "stamina": 93,
+        "intellect": 47,
+        "spirit": 64
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 96,
+        "agility": 102,
+        "stamina": 93,
+        "intellect": 54,
+        "spirit": 60
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 12,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 103,
+        "agility": 95,
+        "stamina": 94,
+        "intellect": 51,
+        "spirit": 63
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 54,
+        "agility": 82,
+        "stamina": 86,
+        "intellect": 79,
+        "spirit": 106
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 58,
+        "agility": 85,
+        "stamina": 94,
+        "intellect": 73,
+        "spirit": 96
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 79,
+        "stamina": 94,
+        "intellect": 76,
+        "spirit": 100
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 56,
+        "agility": 88,
+        "stamina": 88,
+        "intellect": 77,
+        "spirit": 97
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 88,
+        "stamina": 88,
+        "intellect": 79,
+        "spirit": 103
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 59,
+        "agility": 78,
+        "stamina": 96,
+        "intellect": 73,
+        "spirit": 100
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 51,
+        "agility": 87,
+        "stamina": 84,
+        "intellect": 85,
+        "spirit": 103
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 55,
+        "agility": 88,
+        "stamina": 90,
+        "intellect": 73,
+        "spirit": 102
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 53,
+        "agility": 86,
+        "stamina": 90,
+        "intellect": 84,
+        "spirit": 96
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 13,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 80,
+        "stamina": 91,
+        "intellect": 79,
+        "spirit": 100
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 68,
+        "agility": 93,
+        "stamina": 93,
+        "intellect": 75,
+        "spirit": 78
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 72,
+        "agility": 96,
+        "stamina": 102,
+        "intellect": 69,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 71,
+        "agility": 89,
+        "stamina": 102,
+        "intellect": 72,
+        "spirit": 74
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 70,
+        "agility": 100,
+        "stamina": 94,
+        "intellect": 72,
+        "spirit": 72
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 64,
+        "agility": 100,
+        "stamina": 94,
+        "intellect": 74,
+        "spirit": 76
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 74,
+        "agility": 88,
+        "stamina": 103,
+        "intellect": 69,
+        "spirit": 74
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 64,
+        "agility": 98,
+        "stamina": 90,
+        "intellect": 80,
+        "spirit": 76
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 69,
+        "agility": 100,
+        "stamina": 96,
+        "intellect": 69,
+        "spirit": 75
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 66,
+        "agility": 97,
+        "stamina": 96,
+        "intellect": 79,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 14,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 70,
+        "agility": 90,
+        "stamina": 98,
+        "intellect": 75,
+        "spirit": 74
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 75,
+        "agility": 94,
+        "stamina": 91,
+        "intellect": 71,
+        "spirit": 75
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 79,
+        "agility": 97,
+        "stamina": 99,
+        "intellect": 66,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 90,
+        "stamina": 99,
+        "intellect": 69,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 77,
+        "agility": 101,
+        "stamina": 93,
+        "intellect": 69,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 71,
+        "agility": 101,
+        "stamina": 93,
+        "intellect": 71,
+        "spirit": 73
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 81,
+        "agility": 89,
+        "stamina": 100,
+        "intellect": 66,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 70,
+        "agility": 99,
+        "stamina": 88,
+        "intellect": 76,
+        "spirit": 73
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 76,
+        "agility": 101,
+        "stamina": 93,
+        "intellect": 66,
+        "spirit": 72
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 72,
+        "agility": 98,
+        "stamina": 93,
+        "intellect": 76,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 15,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 91,
+        "stamina": 96,
+        "intellect": 71,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 55,
+        "agility": 57,
+        "stamina": 73,
+        "intellect": 119,
+        "spirit": 103
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 59,
+        "agility": 59,
+        "stamina": 80,
+        "intellect": 110,
+        "spirit": 93
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 58,
+        "agility": 55,
+        "stamina": 80,
+        "intellect": 114,
+        "spirit": 97
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 61,
+        "stamina": 74,
+        "intellect": 115,
+        "spirit": 94
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 61,
+        "stamina": 74,
+        "intellect": 118,
+        "spirit": 100
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 60,
+        "agility": 54,
+        "stamina": 80,
+        "intellect": 110,
+        "spirit": 97
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 60,
+        "stamina": 70,
+        "intellect": 127,
+        "spirit": 100
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 56,
+        "agility": 61,
+        "stamina": 75,
+        "intellect": 110,
+        "spirit": 99
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 54,
+        "agility": 59,
+        "stamina": 75,
+        "intellect": 126,
+        "spirit": 93
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 16,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 55,
+        "stamina": 76,
+        "intellect": 119,
+        "spirit": 97
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 117,
+        "agility": 69,
+        "stamina": 99,
+        "intellect": 66,
+        "spirit": 55
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 124,
+        "agility": 71,
+        "stamina": 109,
+        "intellect": 61,
+        "spirit": 50
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 122,
+        "agility": 66,
+        "stamina": 109,
+        "intellect": 63,
+        "spirit": 52
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 120,
+        "agility": 74,
+        "stamina": 102,
+        "intellect": 64,
+        "spirit": 50
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 111,
+        "agility": 74,
+        "stamina": 102,
+        "intellect": 65,
+        "spirit": 53
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 127,
+        "agility": 66,
+        "stamina": 110,
+        "intellect": 61,
+        "spirit": 52
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 110,
+        "agility": 73,
+        "stamina": 96,
+        "intellect": 70,
+        "spirit": 53
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 119,
+        "agility": 74,
+        "stamina": 102,
+        "intellect": 61,
+        "spirit": 53
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 113,
+        "agility": 72,
+        "stamina": 102,
+        "intellect": 70,
+        "spirit": 50
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 17,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 121,
+        "agility": 67,
+        "stamina": 104,
+        "intellect": 66,
+        "spirit": 52
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 99,
+        "agility": 76,
+        "stamina": 112,
+        "intellect": 59,
+        "spirit": 62
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 106,
+        "agility": 78,
+        "stamina": 123,
+        "intellect": 54,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 104,
+        "agility": 73,
+        "stamina": 123,
+        "intellect": 56,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 102,
+        "agility": 82,
+        "stamina": 115,
+        "intellect": 57,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 94,
+        "agility": 82,
+        "stamina": 115,
+        "intellect": 58,
+        "spirit": 60
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 109,
+        "agility": 72,
+        "stamina": 124,
+        "intellect": 54,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 93,
+        "agility": 80,
+        "stamina": 109,
+        "intellect": 63,
+        "spirit": 60
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 101,
+        "agility": 82,
+        "stamina": 116,
+        "intellect": 54,
+        "spirit": 59
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 96,
+        "agility": 79,
+        "stamina": 116,
+        "intellect": 62,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 18,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 103,
+        "agility": 74,
+        "stamina": 118,
+        "intellect": 59,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 83,
+        "agility": 92,
+        "stamina": 96,
+        "intellect": 63,
+        "spirit": 72
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 88,
+        "agility": 95,
+        "stamina": 104,
+        "intellect": 58,
+        "spirit": 66
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 89,
+        "stamina": 104,
+        "intellect": 61,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 86,
+        "agility": 99,
+        "stamina": 98,
+        "intellect": 62,
+        "spirit": 66
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 79,
+        "agility": 99,
+        "stamina": 98,
+        "intellect": 63,
+        "spirit": 70
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 91,
+        "agility": 88,
+        "stamina": 105,
+        "intellect": 58,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 97,
+        "stamina": 92,
+        "intellect": 68,
+        "spirit": 70
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 85,
+        "agility": 99,
+        "stamina": 98,
+        "intellect": 58,
+        "spirit": 70
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 81,
+        "agility": 96,
+        "stamina": 98,
+        "intellect": 67,
+        "spirit": 66
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 19,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 89,
+        "stamina": 100,
+        "intellect": 63,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 71,
+        "agility": 75,
+        "stamina": 102,
+        "intellect": 73,
+        "spirit": 87
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 76,
+        "agility": 78,
+        "stamina": 111,
+        "intellect": 67,
+        "spirit": 79
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 75,
+        "agility": 72,
+        "stamina": 111,
+        "intellect": 70,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 74,
+        "agility": 81,
+        "stamina": 104,
+        "intellect": 71,
+        "spirit": 80
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 68,
+        "agility": 81,
+        "stamina": 104,
+        "intellect": 72,
+        "spirit": 85
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 72,
+        "stamina": 112,
+        "intellect": 67,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 67,
+        "agility": 79,
+        "stamina": 98,
+        "intellect": 78,
+        "spirit": 85
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 73,
+        "agility": 81,
+        "stamina": 105,
+        "intellect": 67,
+        "spirit": 84
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 69,
+        "agility": 78,
+        "stamina": 105,
+        "intellect": 77,
+        "spirit": 79
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 20,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 74,
+        "agility": 73,
+        "stamina": 108,
+        "intellect": 73,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 80,
+        "agility": 110,
+        "stamina": 91,
+        "intellect": 65,
+        "spirit": 60
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 85,
+        "agility": 113,
+        "stamina": 99,
+        "intellect": 60,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 84,
+        "agility": 106,
+        "stamina": 99,
+        "intellect": 62,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 82,
+        "agility": 118,
+        "stamina": 93,
+        "intellect": 63,
+        "spirit": 55
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 76,
+        "agility": 118,
+        "stamina": 93,
+        "intellect": 64,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 104,
+        "stamina": 100,
+        "intellect": 60,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 75,
+        "agility": 116,
+        "stamina": 88,
+        "intellect": 70,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 82,
+        "agility": 118,
+        "stamina": 93,
+        "intellect": 60,
+        "spirit": 58
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 115,
+        "stamina": 93,
+        "intellect": 69,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 21,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 83,
+        "agility": 107,
+        "stamina": 96,
+        "intellect": 65,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 54,
+        "agility": 61,
+        "stamina": 74,
+        "intellect": 105,
+        "spirit": 115
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 63,
+        "stamina": 81,
+        "intellect": 96,
+        "spirit": 104
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 56,
+        "agility": 58,
+        "stamina": 81,
+        "intellect": 101,
+        "spirit": 108
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 55,
+        "agility": 65,
+        "stamina": 75,
+        "intellect": 102,
+        "spirit": 105
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 51,
+        "agility": 65,
+        "stamina": 75,
+        "intellect": 104,
+        "spirit": 112
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 58,
+        "agility": 58,
+        "stamina": 81,
+        "intellect": 96,
+        "spirit": 108
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 50,
+        "agility": 64,
+        "stamina": 72,
+        "intellect": 112,
+        "spirit": 112
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 55,
+        "agility": 65,
+        "stamina": 76,
+        "intellect": 96,
+        "spirit": 110
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 63,
+        "stamina": 76,
+        "intellect": 111,
+        "spirit": 104
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 22,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 56,
+        "agility": 59,
+        "stamina": 78,
+        "intellect": 105,
+        "spirit": 108
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 69,
+        "agility": 50,
+        "stamina": 91,
+        "intellect": 109,
+        "spirit": 91
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 73,
+        "agility": 52,
+        "stamina": 99,
+        "intellect": 100,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 73,
+        "agility": 48,
+        "stamina": 99,
+        "intellect": 104,
+        "spirit": 86
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 71,
+        "agility": 54,
+        "stamina": 93,
+        "intellect": 105,
+        "spirit": 83
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 66,
+        "agility": 54,
+        "stamina": 93,
+        "intellect": 108,
+        "spirit": 88
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 75,
+        "agility": 47,
+        "stamina": 100,
+        "intellect": 100,
+        "spirit": 86
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 65,
+        "agility": 53,
+        "stamina": 88,
+        "intellect": 116,
+        "spirit": 88
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 71,
+        "agility": 54,
+        "stamina": 93,
+        "intellect": 100,
+        "spirit": 87
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 67,
+        "agility": 52,
+        "stamina": 93,
+        "intellect": 115,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 23,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 72,
+        "agility": 48,
+        "stamina": 96,
+        "intellect": 109,
+        "spirit": 86
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 51,
+        "agility": 63,
+        "stamina": 78,
+        "intellect": 109,
+        "spirit": 108
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 54,
+        "agility": 65,
+        "stamina": 85,
+        "intellect": 100,
+        "spirit": 98
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 53,
+        "agility": 61,
+        "stamina": 85,
+        "intellect": 104,
+        "spirit": 102
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 68,
+        "stamina": 79,
+        "intellect": 105,
+        "spirit": 99
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 48,
+        "agility": 68,
+        "stamina": 79,
+        "intellect": 108,
+        "spirit": 105
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 55,
+        "agility": 60,
+        "stamina": 86,
+        "intellect": 100,
+        "spirit": 102
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 47,
+        "agility": 66,
+        "stamina": 75,
+        "intellect": 116,
+        "spirit": 105
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 52,
+        "agility": 68,
+        "stamina": 80,
+        "intellect": 100,
+        "spirit": 104
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 49,
+        "agility": 66,
+        "stamina": 80,
+        "intellect": 115,
+        "spirit": 98
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 24,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 53,
+        "agility": 61,
+        "stamina": 81,
+        "intellect": 109,
+        "spirit": 102
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 92,
+        "agility": 66,
+        "stamina": 99,
+        "intellect": 78,
+        "spirit": 72
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 98,
+        "agility": 68,
+        "stamina": 109,
+        "intellect": 72,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 97,
+        "agility": 63,
+        "stamina": 109,
+        "intellect": 75,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 95,
+        "agility": 71,
+        "stamina": 102,
+        "intellect": 76,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 88,
+        "agility": 71,
+        "stamina": 102,
+        "intellect": 78,
+        "spirit": 70
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 101,
+        "agility": 63,
+        "stamina": 110,
+        "intellect": 72,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 70,
+        "stamina": 96,
+        "intellect": 84,
+        "spirit": 70
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 94,
+        "agility": 71,
+        "stamina": 102,
+        "intellect": 72,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 90,
+        "agility": 69,
+        "stamina": 102,
+        "intellect": 83,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 25,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 96,
+        "agility": 64,
+        "stamina": 104,
+        "intellect": 78,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 82,
+        "agility": 71,
+        "stamina": 92,
+        "intellect": 104,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 73,
+        "stamina": 100,
+        "intellect": 96,
+        "spirit": 52
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 86,
+        "agility": 68,
+        "stamina": 100,
+        "intellect": 100,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 84,
+        "agility": 76,
+        "stamina": 93,
+        "intellect": 101,
+        "spirit": 53
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 77,
+        "agility": 76,
+        "stamina": 93,
+        "intellect": 103,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 89,
+        "agility": 67,
+        "stamina": 102,
+        "intellect": 96,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 77,
+        "agility": 74,
+        "stamina": 88,
+        "intellect": 111,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 83,
+        "agility": 76,
+        "stamina": 94,
+        "intellect": 96,
+        "spirit": 55
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 79,
+        "agility": 74,
+        "stamina": 94,
+        "intellect": 110,
+        "spirit": 52
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 26,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 85,
+        "agility": 69,
+        "stamina": 97,
+        "intellect": 104,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 94,
+        "agility": 55,
+        "stamina": 97,
+        "intellect": 80,
+        "spirit": 84
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 100,
+        "agility": 56,
+        "stamina": 105,
+        "intellect": 74,
+        "spirit": 76
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 99,
+        "agility": 52,
+        "stamina": 105,
+        "intellect": 77,
+        "spirit": 79
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 97,
+        "agility": 59,
+        "stamina": 98,
+        "intellect": 78,
+        "spirit": 77
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 89,
+        "agility": 59,
+        "stamina": 98,
+        "intellect": 79,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 103,
+        "agility": 52,
+        "stamina": 106,
+        "intellect": 74,
+        "spirit": 79
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 88,
+        "agility": 57,
+        "stamina": 93,
+        "intellect": 86,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 96,
+        "agility": 59,
+        "stamina": 99,
+        "intellect": 74,
+        "spirit": 81
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 91,
+        "agility": 57,
+        "stamina": 99,
+        "intellect": 85,
+        "spirit": 76
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 27,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 98,
+        "agility": 53,
+        "stamina": 102,
+        "intellect": 80,
+        "spirit": 79
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 74,
+        "agility": 94,
+        "stamina": 87,
+        "intellect": 91,
+        "spirit": 59
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 97,
+        "stamina": 96,
+        "intellect": 84,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 78,
+        "agility": 90,
+        "stamina": 96,
+        "intellect": 88,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 76,
+        "agility": 101,
+        "stamina": 90,
+        "intellect": 88,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 70,
+        "agility": 101,
+        "stamina": 90,
+        "intellect": 90,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 81,
+        "agility": 89,
+        "stamina": 97,
+        "intellect": 84,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 69,
+        "agility": 99,
+        "stamina": 85,
+        "intellect": 97,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 75,
+        "agility": 101,
+        "stamina": 90,
+        "intellect": 84,
+        "spirit": 57
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 72,
+        "agility": 98,
+        "stamina": 90,
+        "intellect": 97,
+        "spirit": 54
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 28,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 77,
+        "agility": 91,
+        "stamina": 92,
+        "intellect": 91,
+        "spirit": 56
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 63,
+        "agility": 78,
+        "stamina": 86,
+        "intellect": 91,
+        "spirit": 90
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 67,
+        "agility": 80,
+        "stamina": 94,
+        "intellect": 84,
+        "spirit": 81
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 66,
+        "agility": 75,
+        "stamina": 94,
+        "intellect": 88,
+        "spirit": 85
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 65,
+        "agility": 83,
+        "stamina": 88,
+        "intellect": 88,
+        "spirit": 82
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 60,
+        "agility": 83,
+        "stamina": 88,
+        "intellect": 90,
+        "spirit": 87
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 69,
+        "agility": 74,
+        "stamina": 96,
+        "intellect": 84,
+        "spirit": 85
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 59,
+        "agility": 82,
+        "stamina": 84,
+        "intellect": 97,
+        "spirit": 87
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 64,
+        "agility": 83,
+        "stamina": 90,
+        "intellect": 84,
+        "spirit": 86
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 61,
+        "agility": 81,
+        "stamina": 90,
+        "intellect": 97,
+        "spirit": 81
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 29,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 65,
+        "agility": 75,
+        "stamina": 91,
+        "intellect": 91,
+        "spirit": 85
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 95,
+        "agility": 70,
+        "stamina": 100,
+        "intellect": 67,
+        "spirit": 76
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 101,
+        "agility": 72,
+        "stamina": 109,
+        "intellect": 62,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 100,
+        "agility": 67,
+        "stamina": 109,
+        "intellect": 65,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 98,
+        "agility": 75,
+        "stamina": 102,
+        "intellect": 65,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 90,
+        "agility": 75,
+        "stamina": 102,
+        "intellect": 67,
+        "spirit": 74
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 103,
+        "agility": 66,
+        "stamina": 110,
+        "intellect": 62,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 89,
+        "agility": 74,
+        "stamina": 97,
+        "intellect": 72,
+        "spirit": 74
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 97,
+        "agility": 75,
+        "stamina": 103,
+        "intellect": 62,
+        "spirit": 73
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 92,
+        "agility": 73,
+        "stamina": 103,
+        "intellect": 71,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 30,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 99,
+        "agility": 68,
+        "stamina": 105,
+        "intellect": 67,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 89,
+        "agility": 73,
+        "stamina": 90,
+        "intellect": 86,
+        "spirit": 67
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 95,
+        "agility": 75,
+        "stamina": 98,
+        "intellect": 80,
+        "spirit": 61
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 94,
+        "agility": 70,
+        "stamina": 98,
+        "intellect": 83,
+        "spirit": 64
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 92,
+        "agility": 78,
+        "stamina": 92,
+        "intellect": 84,
+        "spirit": 62
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 85,
+        "agility": 78,
+        "stamina": 92,
+        "intellect": 86,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 97,
+        "agility": 69,
+        "stamina": 99,
+        "intellect": 80,
+        "spirit": 64
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 84,
+        "agility": 77,
+        "stamina": 87,
+        "intellect": 92,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 91,
+        "agility": 78,
+        "stamina": 93,
+        "intellect": 80,
+        "spirit": 65
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 87,
+        "agility": 76,
+        "stamina": 93,
+        "intellect": 92,
+        "spirit": 61
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 31,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 93,
+        "agility": 71,
+        "stamina": 94,
+        "intellect": 86,
+        "spirit": 64
+      }
+    },
+    {
+      "raceId": 1,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 60,
+        "agility": 88,
+        "stamina": 87,
+        "intellect": 96,
+        "spirit": 75
+      }
+    },
+    {
+      "raceId": 2,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 63,
+        "agility": 91,
+        "stamina": 96,
+        "intellect": 88,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 3,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 63,
+        "agility": 85,
+        "stamina": 96,
+        "intellect": 92,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 4,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 62,
+        "agility": 95,
+        "stamina": 90,
+        "intellect": 93,
+        "spirit": 69
+      }
+    },
+    {
+      "raceId": 5,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 57,
+        "agility": 95,
+        "stamina": 90,
+        "intellect": 95,
+        "spirit": 73
+      }
+    },
+    {
+      "raceId": 6,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 65,
+        "agility": 84,
+        "stamina": 97,
+        "intellect": 88,
+        "spirit": 71
+      }
+    },
+    {
+      "raceId": 7,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 56,
+        "agility": 93,
+        "stamina": 85,
+        "intellect": 103,
+        "spirit": 73
+      }
+    },
+    {
+      "raceId": 8,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 61,
+        "agility": 95,
+        "stamina": 90,
+        "intellect": 88,
+        "spirit": 72
+      }
+    },
+    {
+      "raceId": 10,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 58,
+        "agility": 92,
+        "stamina": 90,
+        "intellect": 102,
+        "spirit": 68
+      }
+    },
+    {
+      "raceId": 11,
+      "classId": 32,
+      "level": 60,
+      "migrationProposedRaceSpecificAttributes": {
+        "strength": 62,
+        "agility": 86,
+        "stamina": 92,
+        "intellect": 96,
+        "spirit": 71
+      }
+    }
+  ],
+  "validation": {
+    "sourceRows": 21,
+    "sqlClassRows": 21,
+    "sqlRaceClassRows": 210,
+    "humanRowsMatchingAllAttributes": 21,
+    "exactSourceVsSqlAfterRows": 21,
+    "archivedCoaResearchClassRosterMatched": 21,
+    "liveClientStatSamplesCompared": 0
+  }
+}
