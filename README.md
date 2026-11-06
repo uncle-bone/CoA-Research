@@ -30,6 +30,7 @@ Projects in the lineup include [DBM-CoA](https://github.com/uncle-bone/DBM-CoA),
 - Spell and talent snapshots, specialization references, spell-to-talent relationships, unresolved-spell triage, weapon proficiency checks, and source-priority notes.
 - Cross-references between preserved class spellbooks, spell tooltips, CoA talent sources, client DBC/WDB material, public SQL conversions, and the CoA server source.
 - Research on custom CoA abilities and Tinker specializations, with candidate mappings clearly marked until supported by client evidence.
+- **Level-60 stat provenance:** [21-class before/after audit](research/COA-LEVEL60-CLASS-STATS-MIGRATION-AUDIT-2026-11-05.md) and [structured 21-class + 210 race/class reference](datasets/normalized/coa-proposed-class-level60-stats-2026-11-05.json) cross-check an upstream **merged, opt-in (default off)** proposal; it does **not** confirm changes to Conquest Reborn's live realm.
 - Details-CoA now has a [local client and PTR server-source class/spec research pass](research/DETAILS-COA-CLASS-SPEC-SERVER-SOURCE-2026-11-02.md), including runtime specialization APIs, spell-alias cautions, and source-derived summon ownership leads.
 
 Start with [spell and class research](research/SPELLS-AND-CLASSES.md), the [dataset catalog](research/DATASET-CATALOG.md), and the [spell/talent graph methodology](research/SPELL-TALENT-GRAPH-METHODOLOGY.md).
